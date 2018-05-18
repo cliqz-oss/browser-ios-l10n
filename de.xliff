@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Account/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Account/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -11,22 +11,24 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Account/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Account/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="Missing error">
         <source>Missing error</source>
+        <target>Fehler nicht angegeben</target>
         <note>Error for a missing remote error number</note>
       </trans-unit>
       <trans-unit id="Missing message">
         <source>Missing message</source>
+        <target>Nachricht nicht angegeben</target>
         <note>Error for a missing remote error message</note>
       </trans-unit>
     </body>
   </file>
-  <file original="AccountTests/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="AccountTests/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -37,7 +39,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="AppiumTests/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="AppiumTests/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -48,84 +50,101 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/3DTouchActions.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/3DTouchActions.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="Add to Bookmarks">
         <source>Add to Bookmarks</source>
+        <target>Zu Lesezeichen hinzufügen</target>
         <note>Label for preview action on Tab Tray Tab to add current tab to Bookmarks</note>
       </trans-unit>
       <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
+        <target>Zur Leseliste hinzufügen</target>
         <note>Label for preview action on Tab Tray Tab to add current tab to Reading List</note>
       </trans-unit>
       <trans-unit id="Close Tab">
         <source>Close Tab</source>
+        <target>Tab schließen</target>
         <note>Label for preview action on Tab Tray Tab to close the current tab</note>
       </trans-unit>
       <trans-unit id="Copy URL">
         <source>Copy URL</source>
+        <target>Adresse kopieren</target>
         <note>Label for preview action on Tab Tray Tab to copy the URL of the current tab to clipboard</note>
       </trans-unit>
       <trans-unit id="Open Last Bookmark">
         <source>Open Last Bookmark</source>
+        <target>Letztes Lesezeichen öffnen</target>
         <note>String describing the action of opening the last added bookmark from the home screen Quick Actions via 3D Touch</note>
       </trans-unit>
       <trans-unit id="Open Last Tab">
         <source>Open Last Tab</source>
+        <target>Letzten Tab öffnen</target>
         <note>String describing the action of opening the last tab sent to Firefox from the home screen Quick Actions via 3D Touch</note>
       </trans-unit>
       <trans-unit id="Preview of %@">
         <source>Preview of %@</source>
+        <target>Vorschau von %@</target>
         <note>Accessibility label, associated to the 3D Touch action on the current tab in the tab tray, used to display a larger preview of the tab.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/AuthenticationManager.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/AuthenticationManager.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="After 1 hour">
         <source>After 1 hour</source>
+        <target>Nach 1 Stunde</target>
         <note>'After 1 hour' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="After 1 minute">
         <source>After 1 minute</source>
+        <target>Nach 1 Minute</target>
         <note>'After 1 minute' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="After 5 minutes">
         <source>After 5 minutes</source>
+        <target>Nach 5 Minuten</target>
         <note>'After 5 minutes' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="After 10 minutes">
         <source>After 10 minutes</source>
+        <target>Nach 10 Minuten</target>
         <note>'After 10 minutes' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="After 15 minutes">
         <source>After 15 minutes</source>
+        <target>Nach 15 Minuten</target>
         <note>'After 15 minutes' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="Change Passcode">
         <source>Change Passcode</source>
+        <target>Code ändern</target>
         <note>Label used as a setting item and title of the following screen to change the current passcode</note>
       </trans-unit>
       <trans-unit id="Enter Passcode">
         <source>Enter Passcode</source>
+        <target>Code eingeben</target>
         <note>Title of the dialog used to request the passcode</note>
       </trans-unit>
       <trans-unit id="Enter a new passcode">
         <source>Enter a new passcode</source>
+        <target>Neuen Code eingeben</target>
         <note>Text displayed above the input field when changing the existing passcode</note>
       </trans-unit>
       <trans-unit id="Enter a passcode">
         <source>Enter a passcode</source>
+        <target>Code eingeben</target>
         <note>Text displayed above the input field when entering a new passcode</note>
       </trans-unit>
       <trans-unit id="Enter passcode">
         <source>Enter passcode</source>
+        <target>Code eingeben</target>
         <note>Text displayed above the input field when changing the existing passcode</note>
       </trans-unit>
       <trans-unit id="Face ID &amp; Passcode">
@@ -134,26 +153,32 @@
       </trans-unit>
       <trans-unit id="Immediately">
         <source>Immediately</source>
+        <target>Sofort</target>
         <note>'Immediately' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="Incorrect passcode. Try again (Attempts remaining: %d).">
         <source>Incorrect passcode. Try again (Attempts remaining: %d).</source>
+        <target>Falscher Code. Versuchen Sie es erneut (es verbleiben %d Versuche).</target>
         <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app with attempts remaining</note>
       </trans-unit>
       <trans-unit id="Incorrect passcode. Try again.">
         <source>Incorrect passcode. Try again.</source>
+        <target>Falscher Code. Versuchen Sie es erneut.</target>
         <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app</note>
       </trans-unit>
       <trans-unit id="Maximum attempts reached. Please try again in an hour.">
         <source>Maximum attempts reached. Please try again in an hour.</source>
+        <target>Maximale Anzahl der Versuche erreicht. Bitte versuchen Sie es in einer Stunde erneut.</target>
         <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
       <trans-unit id="Maximum attempts reached. Please try again later.">
         <source>Maximum attempts reached. Please try again later.</source>
+        <target>Maximale Anzahl der Versuche erreicht. Bitte versuchen Sie es später erneut.</target>
         <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
       <trans-unit id="New passcode must be different than existing code.">
         <source>New passcode must be different than existing code.</source>
+        <target>Der neue Code muss sich vom bestehenden unterscheiden.</target>
         <note>Error message displayed when user tries to enter the same passcode as their existing code when changing it.</note>
       </trans-unit>
       <trans-unit id="Passcode For Logins">
@@ -166,38 +191,47 @@
       </trans-unit>
       <trans-unit id="Re-enter passcode">
         <source>Re-enter passcode</source>
+        <target>Code wiederholen</target>
         <note>Text displayed above the input field when confirming a passcode</note>
       </trans-unit>
       <trans-unit id="Require Passcode">
         <source>Require Passcode</source>
+        <target>Code abfragen</target>
         <note>Text displayed in the 'Interval' section, followed by the current interval setting, e.g. 'Immediately'</note>
       </trans-unit>
       <trans-unit id="Set Passcode">
         <source>Set Passcode</source>
+        <target>Code festlegen</target>
         <note>Title of the dialog used to set a passcode</note>
       </trans-unit>
       <trans-unit id="Touch ID &amp; Passcode">
         <source>Touch ID &amp; Passcode</source>
+        <target>Touch ID &amp; Code</target>
         <note>Label for the Touch ID/Passcode item in Settings</note>
       </trans-unit>
       <trans-unit id="Turn Passcode Off">
         <source>Turn Passcode Off</source>
+        <target>Code deaktivieren</target>
         <note>Label used as a setting item to turn off passcode</note>
       </trans-unit>
       <trans-unit id="Turn Passcode On">
         <source>Turn Passcode On</source>
+        <target>Code aktivieren</target>
         <note>Label used as a setting item to turn on passcode</note>
       </trans-unit>
       <trans-unit id="Turn off your passcode.">
         <source>Turn off your passcode.</source>
+        <target>Ihren Code deaktivieren</target>
         <note>Touch ID prompt subtitle when turning off passcode</note>
       </trans-unit>
       <trans-unit id="Use your fingerprint to access Logins now.">
         <source>Use your fingerprint to access Logins now.</source>
+        <target>Nutzen Sie jetzt Ihren Fingerabdruck, um auf Zugangsdaten zuzugreifen.</target>
         <note>Touch ID prompt subtitle when accessing logins</note>
       </trans-unit>
       <trans-unit id="Use your fingerprint to access Private Browsing now.">
         <source>Use your fingerprint to access Private Browsing now.</source>
+        <target>Nutzen Sie jetzt Ihren Fingerabdruck, um privates Surfen zu nutzen.</target>
         <note>Touch ID prompt subtitle when accessing private browsing</note>
       </trans-unit>
       <trans-unit id="touchid.disable.reason.label">
@@ -210,32 +244,36 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/BookmarkPanel.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="Delete">
         <source>Delete</source>
+        <target>Löschen</target>
         <note>Action button for deleting bookmarks in the bookmarks panel.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/BookmarkPanelDeleteConfirm.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/BookmarkPanelDeleteConfirm.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="Are you sure you want to delete it and its contents?">
         <source>Are you sure you want to delete it and its contents?</source>
+        <target>Sollen der Ordner und seine Inhalte wirklich gelöscht werden?</target>
         <note>Main body of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
+        <target>Abbrechen</target>
         <note>Button label to cancel deletion when the user tried to delete a non-empty folder.</note>
       </trans-unit>
       <trans-unit id="Delete">
         <source>Delete</source>
+        <target>Löschen</target>
         <note>Button label for the button that deletes a folder and all of its children.</note>
       </trans-unit>
       <trans-unit id="This folder isn’t empty.">
@@ -244,95 +282,111 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/ClearHistoryConfirm.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/ClearHistoryConfirm.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="Cancel">
         <source>Cancel</source>
+        <target>Abbrechen</target>
         <note>The cancel button when confirming clear history.</note>
       </trans-unit>
       <trans-unit id="Clear">
         <source>Clear</source>
+        <target>Löschen</target>
         <note>The button that clears history even when Sync is connected.</note>
       </trans-unit>
       <trans-unit id="History will be removed from all your connected devices. This cannot be undone.">
         <source>History will be removed from all your connected devices. This cannot be undone.</source>
+        <target>Die Chronik wird von allen Ihren verbundenen Geräten gelöscht. Dies kann nicht rückgängig gemacht werden.</target>
         <note>Description of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
       </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
+        <target>OK</target>
         <note>The confirmation button that clears history even when Sync is connected.</note>
       </trans-unit>
       <trans-unit id="Remove history from your Firefox Account?">
         <source>Remove history from your Firefox Account?</source>
+        <target>Chronik aus Ihrem Firefox-Konto entfernen?</target>
         <note>Title of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
       </trans-unit>
       <trans-unit id="This action will clear all of your private data, including history from your synced devices.">
         <source>This action will clear all of your private data, including history from your synced devices.</source>
+        <target>Diese Aktion löscht Ihre persönlichen Daten, einschließlich Chronik von Ihren synchronisierten Geräten.</target>
         <note>Description of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/ClearPrivateData.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="Browsing History">
         <source>Browsing History</source>
+        <target>Verlauf</target>
         <note>Settings item for clearing browsing history</note>
       </trans-unit>
       <trans-unit id="Cache">
         <source>Cache</source>
+        <target>Cache</target>
         <note>Settings item for clearing the cache</note>
       </trans-unit>
       <trans-unit id="Clear Private Data">
         <source>Clear Private Data</source>
+        <target>Private Daten löschen</target>
         <note>Button in settings that clears private data for the selected items.
    Navigation title in settings.</note>
       </trans-unit>
       <trans-unit id="Cookies">
         <source>Cookies</source>
+        <target>Cookies</target>
         <note>Settings item for clearing cookies</note>
       </trans-unit>
       <trans-unit id="Offline Website Data">
         <source>Offline Website Data</source>
+        <target>Offline-Website-Daten</target>
         <note>Settings item for clearing website data</note>
       </trans-unit>
       <trans-unit id="Saved Logins">
         <source>Saved Logins</source>
+        <target>Gespeicherte Zugangsdaten</target>
         <note>Settings item for clearing passwords and login data</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/ClearPrivateDataConfirm.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/ClearPrivateDataConfirm.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="Cancel">
         <source>Cancel</source>
+        <target>Abbrechen</target>
         <note>The cancel button when confirming clear private data.</note>
       </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
+        <target>OK</target>
         <note>The button that clears private data.</note>
       </trans-unit>
       <trans-unit id="This action will clear all of your private data. It cannot be undone.">
         <source>This action will clear all of your private data. It cannot be undone.</source>
+        <target>Diese Aktion löscht die ausgewählten privaten Daten aus dem Browser. Dies kann nicht rückgängig gemacht werden.</target>
         <note>Description of the confirmation dialog shown when a user tries to clear their private data.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/Cliqz.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
         <source> and select connect to scan the QR-Code</source>
+        <target> und wähle \"Connect\", um den QR-Code zu scannen.</target>
         <note>[Connect] instructions text part#2</note>
       </trans-unit>
       <trans-unit id="%d TRACKERS %d Blocked">
@@ -365,35 +419,43 @@
       </trans-unit>
       <trans-unit id="About">
         <source>About</source>
+        <target>Über uns</target>
         <note>[Settings] About
    [Settings] About section header</note>
       </trans-unit>
       <trans-unit id="About MyOffrz">
         <source>About MyOffrz</source>
+        <target>Über MyOffrz</target>
         <note>[Settings] About MyOffrz</note>
       </trans-unit>
       <trans-unit id="Activate push notification to use this feature. Go to settings to allow push notifications then retry.">
         <source>Activate push notification to use this feature. Go to settings to allow push notifications then retry.</source>
+        <target>Aktiviere Push-Benachrichtigungen, um diese Funktion zu nutzen. Gehe dazu in die Einstellungen und versuche es dann erneut.</target>
         <note>[Subscriptions] Alert message  for asking to enable push notificaiton from the system</note>
       </trans-unit>
       <trans-unit id="Add Connection">
         <source>Add Connection</source>
+        <target>Verbindung hinzufügen</target>
         <note>[Settings -&gt; Connect] Add Connection title</note>
       </trans-unit>
       <trans-unit id="Allow Camera Access">
         <source>Allow Camera Access</source>
+        <target>Kamerazugriff erlauben</target>
         <note>[Connect] Alert title for turning on Camera access when scanning QRCode</note>
       </trans-unit>
       <trans-unit id="Automatic Forget Tab">
         <source>Automatic Forget Tab</source>
+        <target>Automatische Vergessen-Tabs</target>
         <note>[Settings] Automatic Forget Tab</note>
       </trans-unit>
       <trans-unit id="Back to safe site">
         <source>Back to safe site</source>
+        <target>Zurück zu sicherer Webseite</target>
         <note>Back to safe site buttun title in antiphishing alert title</note>
       </trans-unit>
       <trans-unit id="Block Ads">
         <source>Block Ads</source>
+        <target>Werbeblocker (BETA)</target>
         <note>[Settings -&gt; Block Ads] Block Ads
    [Settings] Block Ads</note>
       </trans-unit>
@@ -403,18 +465,22 @@
       </trans-unit>
       <trans-unit id="Block Explicit Content">
         <source>Block Explicit Content</source>
+        <target>Nicht-jugendfreie Inhalte blockieren</target>
         <note>[Settings] Block explicit content</note>
       </trans-unit>
       <trans-unit id="Browsing &amp; History">
         <source>Browsing &amp; History</source>
+        <target>Browsing &amp; Verlauf</target>
         <note>[Settings] Browsing &amp; History section header</note>
       </trans-unit>
       <trans-unit id="CLIQZ has blocked access to %1$ because it has been reported as a phishing website.Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information">
         <source>CLIQZ has blocked access to %1$ because it has been reported as a phishing website.Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information</source>
+        <target>Cliqz hat den Zugriff auf %1$ blockiert, weil diese Seite als Phishing-Website gemeldet wurde.\nPhishing-Websites geben vor, vertrauenswürdig zu sein, damit du deine Anmeldedaten, dein Passwort oder andere vertrauliche Informationen preisgibst.</target>
         <note>Antiphishing alert message</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
+        <target>Abbrechen</target>
         <note>[ControlCenter - Trackers list] Cancel action title
    Cancel</note>
       </trans-unit>
@@ -424,6 +490,7 @@
       </trans-unit>
       <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
         <source>Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
+        <target>Cliqz Browser kann nicht auf die Kamera zugreifen. Um Zugriff zu erlauben, tippe auf „Einstellungen“ und aktiviere die Kamera.</target>
         <note>[Connect] Alert message for turning on Camera access when Scanning QR Code</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.">
@@ -432,6 +499,7 @@
       </trans-unit>
       <trans-unit id="Cliqz Tab">
         <source>Cliqz Tab</source>
+        <target>CliqzTab</target>
         <note>[Settings] Cliqz Tab section header</note>
       </trans-unit>
       <trans-unit id="Cliqz works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.">
@@ -440,10 +508,12 @@
       </trans-unit>
       <trans-unit id="Complementary Search">
         <source>Complementary Search</source>
+        <target>Ergänzende Suchmaschine</target>
         <note>[Settings] Complementary Search</note>
       </trans-unit>
       <trans-unit id="Connect">
         <source>Connect</source>
+        <target>Connect</target>
         <note>[Settings] Connect
    [Settings] Connect section title</note>
       </trans-unit>
@@ -457,18 +527,22 @@
       </trans-unit>
       <trans-unit id="Connecting to Desktop">
         <source>Connecting to Desktop</source>
+        <target>Verbindung zu Desktop wird hergestellt</target>
         <note>[Settings -&gt; Connect] pending connection title</note>
       </trans-unit>
       <trans-unit id="Connection Failed">
         <source>Connection Failed</source>
+        <target>Verbindung fehlgeschlagen</target>
         <note>[Connect] Connection Failed alert title</note>
       </trans-unit>
       <trans-unit id="Connection successful">
         <source>Connection successful</source>
+        <target>Verbindung erfolgreich</target>
         <note>[Connect] Connection successful alert title</note>
       </trans-unit>
       <trans-unit id="Continue despite warning">
         <source>Continue despite warning</source>
+        <target>Trotz der Warnung fortfahren</target>
         <note>Continue despite warning buttun title in antiphishing alert title</note>
       </trans-unit>
       <trans-unit id="Could not download Video.">
@@ -477,31 +551,38 @@
       </trans-unit>
       <trans-unit id="Could not subscribe to {1}.">
         <source>Could not subscribe to {1}.</source>
+        <target>{1} konnte nicht abonniert werden.</target>
         <note>[Subscriptions] Alert title for asking to enable push notificaiton from the system
    [Subscriptions] Alert title when failing to subscribe to soccer notification</note>
       </trans-unit>
       <trans-unit id="Currently, push notifications are only received if Cliqz is active.">
         <source>Currently, push notifications are only received if Cliqz is active.</source>
+        <target>Im Moment werden Push-Benachrichtigungen nur empfangen, wenn Cliqz aktiv ist.</target>
         <note>[Subscriptions] Subscribing Toast</note>
       </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
+        <target>Fertig</target>
         <note>Done button in the tabTray Toolbar</note>
       </trans-unit>
       <trans-unit id="Download videos on Wi-Fi Only">
         <source>Download videos on Wi-Fi Only</source>
+        <target>Videos nur über WLAN herunterladen</target>
         <note>[Settings -&gt; Limit Mobile Data Usage] toogle footer</note>
       </trans-unit>
       <trans-unit id="Download youtube video">
         <source>Download youtube video</source>
+        <target>Video offline ansehen</target>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
       <trans-unit id="EULA">
         <source>EULA</source>
+        <target>Endnutzer-Lizenzvertrag (EULA)</target>
         <note>[Settings -&gt; About] EULA</note>
       </trans-unit>
       <trans-unit id="Empty TopSites hint">
         <source>Empty TopSites hint</source>
+        <target>Hier werden deine meistbesuchten Seiten erscheinen</target>
         <note>Hint on Freshtab when there is no topsites</note>
       </trans-unit>
       <trans-unit id="Enhanced Ad Blocking">
@@ -510,10 +591,12 @@
       </trans-unit>
       <trans-unit id="FAQ &amp; Support">
         <source>FAQ &amp; Support</source>
+        <target>FAQ &amp; Support</target>
         <note>[Settings] FAQ &amp; Support</note>
       </trans-unit>
       <trans-unit id="Fair Mode">
         <source>Fair Mode</source>
+        <target>Fairer Modus</target>
         <note>[Settings -&gt; Block Ads] Fair Mode</note>
       </trans-unit>
       <trans-unit id="Forget">
@@ -522,7 +605,12 @@
       </trans-unit>
       <trans-unit id="Get the best out of CLIQZ">
         <source>Get the best out of CLIQZ</source>
+        <target>Hol dir das Beste aus Cliqz</target>
         <note>[Settings] Get the best out of CLIQZ</note>
+      </trans-unit>
+      <trans-unit id="Ghostery Tab">
+        <source>Ghostery Tab</source>
+        <note>[Settings] Ghostery Tab section header</note>
       </trans-unit>
       <trans-unit id="Global Trackers">
         <source>Global Trackers</source>
@@ -530,14 +618,17 @@
       </trans-unit>
       <trans-unit id="Go to ">
         <source>Go to </source>
+        <target>Gehe zu </target>
         <note>[Connect] instructions text part#1</note>
       </trans-unit>
       <trans-unit id="Help">
         <source>Help</source>
+        <target>Hilfe</target>
         <note>[Settings] Help section header</note>
       </trans-unit>
       <trans-unit id="Human Web">
         <source>Human Web</source>
+        <target>Human Web</target>
         <note>[Settings] Human Web</note>
       </trans-unit>
       <trans-unit id="LEARN MORE">
@@ -550,14 +641,17 @@
       </trans-unit>
       <trans-unit id="LessNews">
         <source>LessNews</source>
+        <target>Weniger anzeigen</target>
         <note>Title to expand news stream</note>
       </trans-unit>
       <trans-unit id="Licenses">
         <source>Licenses</source>
+        <target>Lizenzen</target>
         <note>[Settings -&gt; About] Licenses</note>
       </trans-unit>
       <trans-unit id="Limit Mobile Data Usage">
         <source>Limit Mobile Data Usage</source>
+        <target>Mobile Daten begrenzen</target>
         <note>[Settings] Limit Mobile Data Usage</note>
       </trans-unit>
       <trans-unit id="More">
@@ -566,26 +660,32 @@
       </trans-unit>
       <trans-unit id="MoreNews">
         <source>MoreNews</source>
+        <target>Mehr anzeigen</target>
         <note>Title to expand news stream</note>
       </trans-unit>
       <trans-unit id="MyOffrz Code copied">
         <source>MyOffrz Code copied</source>
+        <target>Code kopiert</target>
         <note>[MyOffrz] copy promocode done</note>
       </trans-unit>
       <trans-unit id="MyOffrz Conditions">
         <source>MyOffrz Conditions</source>
+        <target>Konditionen</target>
         <note>[MyOffrz] Conditions title</note>
       </trans-unit>
       <trans-unit id="MyOffrz Copy promocode">
         <source>MyOffrz Copy promocode</source>
+        <target>Tippe um den Code zu kopieren</target>
         <note>[MyOffrz] copy promocode action hint</note>
       </trans-unit>
       <trans-unit id="MyOffrz Empty Description">
         <source>MyOffrz Empty Description</source>
+        <target>Hier findest du jede Woche ein neues Angebot</target>
         <note>[MyOffrz] No offers label</note>
       </trans-unit>
       <trans-unit id="MyOffrz Onboarding">
         <source>MyOffrz Onboarding</source>
+        <target>Sichere dir attraktive Rabatte und Schnäppchen mit MyOffrz.</target>
         <note>[MyOffrz] MyOffrz description</note>
       </trans-unit>
       <trans-unit id="NEWS">
@@ -594,15 +694,18 @@
       </trans-unit>
       <trans-unit id="No Wi-Fi Connection message">
         <source>No Wi-Fi Connection message</source>
+        <target>Du bist nicht mit dem WLAN verbunden. Video-Downloads sind bei mobiler Datennutzung derzeit eingeschränkt. \nGehe zu \"Einstellungen\" &gt; \"Download-Optionen\", um dies zu ändern.\n</target>
         <note>[VidoeDownloader] No Wi-Fi connection alert message</note>
       </trans-unit>
       <trans-unit id="Not Now">
         <source>Not Now</source>
+        <target>Nicht Jetzt</target>
         <note>Not now option for turning on Camera access
    Not now option for turning on location service</note>
       </trans-unit>
       <trans-unit id="Off">
         <source>Off</source>
+        <target>Aus</target>
         <note>[Settings] Off status</note>
       </trans-unit>
       <trans-unit id="Offline">
@@ -615,6 +718,7 @@
       </trans-unit>
       <trans-unit id="On">
         <source>On</source>
+        <target>Ein</target>
         <note>[Settings] On status</note>
       </trans-unit>
       <trans-unit id="On all sites">
@@ -635,6 +739,7 @@
       </trans-unit>
       <trans-unit id="Overview">
         <source>Overview</source>
+        <target>Übersicht</target>
         <note>[ControlCenter] Overview panel title</note>
       </trans-unit>
       <trans-unit id="Pause Ghostery">
@@ -643,6 +748,7 @@
       </trans-unit>
       <trans-unit id="Please select video quality">
         <source>Please select video quality</source>
+        <target>Bitte wähle die gewünschte Videoqualität aus</target>
         <note>[VidoeDownloader] Youtube downloader action sheet message</note>
       </trans-unit>
       <trans-unit id="Privacy">
@@ -651,26 +757,32 @@
       </trans-unit>
       <trans-unit id="Privacy Policy">
         <source>Privacy Policy</source>
+        <target>Datenschutzerklärung</target>
         <note>[Settings -&gt; About] Privacy Policy</note>
       </trans-unit>
       <trans-unit id="Prompt description">
         <source>Prompt description</source>
+        <target>Gib einen neuen Namen für die Verbindung ein:</target>
         <note>[Settings -&gt; Connect] rename connection alert message</note>
       </trans-unit>
       <trans-unit id="Rate Us">
         <source>Rate Us</source>
+        <target>Bewerte uns</target>
         <note>[Settings] Rate Us</note>
       </trans-unit>
       <trans-unit id="Remove Connection">
         <source>Remove Connection</source>
+        <target>Verbindung entfernen</target>
         <note>[Settings -&gt; Connect] remove connection</note>
       </trans-unit>
       <trans-unit id="Rename Connection">
         <source>Rename Connection</source>
+        <target>Verbindung umbenennen</target>
         <note>[Settings -&gt; Connect] rename connection</note>
       </trans-unit>
       <trans-unit id="Report Website">
         <source>Report Website</source>
+        <target>Webseite melden</target>
         <note>[Settings] Report Website</note>
       </trans-unit>
       <trans-unit id="Restrict All">
@@ -687,35 +799,43 @@
       </trans-unit>
       <trans-unit id="Retrieving video information">
         <source>Retrieving video information</source>
+        <target>Lade Videoinformationen</target>
         <note>[VidoeDownloader] HUD message displayed while youtube downloader grabing the download URLs of the video</note>
       </trans-unit>
       <trans-unit id="Retry">
         <source>Retry</source>
+        <target>Erneut versuchen</target>
         <note>[Connect] Retry button for Connection Failed alert
    [Subscriptions] Retry alert button</note>
       </trans-unit>
       <trans-unit id="Scan QR-Code">
         <source>Scan QR-Code</source>
+        <target>QR-Code scannen</target>
         <note>[Settings -&gt; Connect] Scan QR-Code</note>
       </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
+        <target>Suche</target>
         <note>[Settings] Search section title</note>
       </trans-unit>
       <trans-unit id="Search Query Suggestions">
         <source>Search Query Suggestions</source>
+        <target>Suchwort-Vorschläge</target>
         <note>[Settings] Search Query Suggestions</note>
       </trans-unit>
       <trans-unit id="Search Results for">
         <source>Search Results for</source>
+        <target>Suchergebnisse für</target>
         <note>[Settings] Search Results for</note>
       </trans-unit>
       <trans-unit id="Send Crash Reports">
         <source>Send Crash Reports</source>
+        <target>Fehlerberichte senden</target>
         <note>[Settings] Send Crash Reports</note>
       </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
+        <target>Einstellungen</target>
         <note>[Subscriptions] Subscribe alert button
    Settings option for turning on Camera access
    Settings option for turning on location service
@@ -723,26 +843,32 @@
       </trans-unit>
       <trans-unit id="Show News">
         <source>Show News</source>
+        <target>News anzeigen</target>
         <note>[Settings] Show News</note>
       </trans-unit>
       <trans-unit id="Show most visited websites">
         <source>Show most visited websites</source>
+        <target>Meistbesuchte Seiten anzeigen</target>
         <note>[Settings] Show most visited websites</note>
       </trans-unit>
       <trans-unit id="Sorry but devices could not be connected. Please try again.">
         <source>Sorry but devices could not be connected. Please try again.</source>
+        <target>Leider konnte keine Verbindung hergestellt werden. Bitte versuche es erneut.</target>
         <note>[Connect] Connection Failed alert message</note>
       </trans-unit>
       <trans-unit id="Sorry, we encountered some technical difficulties. Please try again">
         <source>Sorry, we encountered some technical difficulties. Please try again</source>
+        <target>Entschuldigung, leider gab es technische Probleme beim Abonnieren. Versuche es noch einmal.</target>
         <note>[Subscriptions] Alert message when failing to subscribe to soccer notification</note>
       </trans-unit>
       <trans-unit id="Subscribe">
         <source>Subscribe</source>
+        <target>Abonnieren</target>
         <note>[Subscriptions] Subscribe alert button</note>
       </trans-unit>
       <trans-unit id="Subscribing to {1}.">
         <source>Subscribing to {1}.</source>
+        <target>{1} wird abonniert...</target>
         <note>[Subscriptions] Subscribing HUD</note>
       </trans-unit>
       <trans-unit id="The download is complete.">
@@ -751,10 +877,12 @@
       </trans-unit>
       <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
         <source>To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'</source>
+        <target>Um deinen Standort zu teilen, gehe in die Einstellungen für die Cliqz-App:\n\n1. Wähle Standort\n2. Aktiviere 'Beim Verwenden der App'</target>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="To share your location, go to the settings of your smartphone:\n1.Turn on Location Services\n2.Select the CLIQZ App\n3.Enable 'While Using'">
         <source>To share your location, go to the settings of your smartphone:\n1.Turn on Location Services\n2.Select the CLIQZ App\n3.Enable 'While Using'</source>
+        <target>Um deinen Standort zu teilen, gehe in die Einstellungen deines Smartphones:\n\n1. Aktiviere Ortungsdienste\n2. Wähle die Cliqz-App\n3. Aktiviere 'Beim Verwenden der App'</target>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="Trackers">
@@ -771,6 +899,7 @@
       </trans-unit>
       <trans-unit id="Turn on Location Services">
         <source>Turn on Location Services</source>
+        <target>Ortungsdienste aktivieren</target>
         <note>Alert title for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="Unblock All">
@@ -779,10 +908,12 @@
       </trans-unit>
       <trans-unit id="Video quality">
         <source>Video quality</source>
+        <target>Videoqualität</target>
         <note>[VidoeDownloader] Youtube downloader action sheet title</note>
       </trans-unit>
       <trans-unit id="Warning: deceptive website!">
         <source>Warning: deceptive website!</source>
+        <target>Warnung: betrügerische Website!</target>
         <note>Antiphishing alert title</note>
       </trans-unit>
       <trans-unit id="We use opensource software Sentry (http://sentry.io) for our crash reports. these reports do not contain any personal data.">
@@ -791,18 +922,22 @@
       </trans-unit>
       <trans-unit id="Websites which are known to contain explicit content are automatically opened in Forget Tabs. Visits to such websites are therefore not saved to your history.">
         <source>Websites which are known to contain explicit content are automatically opened in Forget Tabs. Visits to such websites are therefore not saved to your history.</source>
+        <target>Websites, die bekannt sind für nicht-jugendfreie Inhalte, werden automatisch in einem Vergessen-Tab geöffnet. Das heißt, Besuche dieser Seiten werden nicht im Verlauf gespeichert.</target>
         <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
       </trans-unit>
       <trans-unit id="Would you like to subscribe to the {1}?">
         <source>Would you like to subscribe to the {1}?</source>
+        <target>Möchtest du {1} abonnieren?</target>
         <note>[Subscriptions] Alert title for asking to subscribe for soccer notificaiton</note>
       </trans-unit>
       <trans-unit id="You connected your first device!\n\nNow you are ready to send websites and YouTube videos from your computer to your mobile device.">
         <source>You connected your first device!\n\nNow you are ready to send websites and YouTube videos from your computer to your mobile device.</source>
+        <target>Du hast dein erstes Gerät verbunden!\n\nJetzt kannst du Websites und YouTube Videos von deinem Computer an dein mobiles Gerät senden.</target>
         <note>[Connect] Connection Successful alert message</note>
       </trans-unit>
       <trans-unit id="You will be notified about games, goals and important happenings of the {1}.">
         <source>You will be notified about games, goals and important happenings of the {1}.</source>
+        <target>Du wirst über wichtige Spielereignisse oder Vereinsereignisse benachrichtigt.</target>
         <note>[Subscriptions] Alert message for asking to subscribe for soccer notificaiton</note>
       </trans-unit>
       <trans-unit id="Your video is being downloaded.">
@@ -811,57 +946,66 @@
       </trans-unit>
       <trans-unit id="region-DE">
         <source>Germany</source>
+        <target>Deutschland</target>
         <note>Localized String for German region</note>
       </trans-unit>
       <trans-unit id="region-FR">
         <source>France</source>
+        <target>Frankreich</target>
         <note>Localized String for France region</note>
       </trans-unit>
       <trans-unit id="region-US">
         <source>United States</source>
+        <target>USA</target>
         <note>Localized String for United States region</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/ErrorPages.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/ErrorPages.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="Open in Safari">
         <source>Open in Safari</source>
+        <target>In Safari öffnen</target>
         <note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
       </trans-unit>
       <trans-unit id="Try again">
         <source>Try again</source>
+        <target>Nochmals versuchen</target>
         <note>Shown in error pages on a button that will try to load the page again</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/FindInPage.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/FindInPage.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="Done">
         <source>Done</source>
+        <target>Fertig</target>
         <note>Done button in Find in Page Toolbar.</note>
       </trans-unit>
       <trans-unit id="Find in Page">
         <source>Find in Page</source>
+        <target>Seite durchsuchen</target>
         <note>Text selection menu item</note>
       </trans-unit>
       <trans-unit id="Next in-page result">
         <source>Next in-page result</source>
+        <target>Nächstes Suchergebnis auf dieser Seite</target>
         <note>Accessibility label for next result button in Find in Page Toolbar.</note>
       </trans-unit>
       <trans-unit id="Previous in-page result">
         <source>Previous in-page result</source>
+        <target>Vorheriges Suchergebnis auf dieser Seite</target>
         <note>Accessibility label for previous result button in Find in Page Toolbar.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/HistoryPanel.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/HistoryPanel.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -887,7 +1031,7 @@
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
-        <target>This lets you take and upload photos.</target>
+        <target>Damit kannst du Fotos/Videos scannen, aufnehmen oder hochladen.</target>
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
@@ -896,175 +1040,201 @@
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
-        <target>Websites you visit may request your location.</target>
+        <target>Dein Standort wird verwendet, um bessere Suchergebnisse anzuzeigen.</target>
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
         <source>This lets you take and upload videos.</source>
-        <target>This lets you take and upload videos.</target>
+        <target>Cliqz greif nur auf dein Mikrofon zu, wenn du Videos innerhalb des Browsers aufnimmst.</target>
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
         <source>This lets you save photos.</source>
-        <target>This lets you save photos.</target>
+        <target>Cliqz wird diesen Zugriff nur nutzen um Videos und Bilder auf dein Gerät herunterzuladen.</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
         <source>This lets you save and upload photos.</source>
-        <target>This lets you save and upload photos.</target>
+        <target>Cliqz wird diesen Zugriff nur nutzen um Videos und Bilder auf dein Gerät herunterzuladen.</target>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Private Tab</source>
-        <target>New Private Tab</target>
         <note/>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
-        <target>New Tab</target>
         <note/>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleQRCode">
         <source>Scan QR Code</source>
-        <target>Scan QR Code</target>
         <note/>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Intro.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/Intro.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="Browse multiple Web pages at the same time with tabs.">
         <source>Browse multiple Web pages at the same time with tabs.</source>
+        <target>Surfen Sie mit Tabs auf mehreren Webseiten gleichzeitig.</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Connect Firefox everywhere you use it.">
         <source>Connect Firefox everywhere you use it.</source>
+        <target>Verbinden Sie Firefox, wo immer Sie ihn verwenden.</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Personalize your Firefox just the way you like in Settings.">
         <source>Personalize your Firefox just the way you like in Settings.</source>
+        <target>Passen Sie Ihren Firefox über die Einstellungen an Ihre persönlichen Wünsche an.</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/LightweightThemes.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/LightweightThemes.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="Allow Firefox to use my Photos">
         <source>Allow Firefox to use my Photos</source>
+        <target>Firefox erlauben auf meine Fotos zuzugreifen</target>
         <note>Pending feature; currently unused string! Button shown when user wishes to view photos for theme but has not given Firefox permission to do so yet.</note>
       </trans-unit>
       <trans-unit id="Back to Themes">
         <source>Back to Themes</source>
+        <target>Zurück zu Themes</target>
         <note>Pending feature; currently unused string! Accessibility label for back button to theme chooser</note>
       </trans-unit>
       <trans-unit id="Choose">
         <source>Choose</source>
+        <target>Auswählen</target>
         <note>Pending feature; currently unused string! Back button shown to return back to theme settings from photo picker</note>
       </trans-unit>
       <trans-unit id="Choose Theme">
         <source>Choose Theme</source>
+        <target>Theme auswählen</target>
         <note>Pending feature; currently unused string! Accessibility label for settings row to enter theme settings</note>
       </trans-unit>
       <trans-unit id="Default Themes">
         <source>Default Themes</source>
+        <target>Standard-Themes</target>
         <note>Pending feature; currently unused string! Accessibility label for themes subheader</note>
       </trans-unit>
       <trans-unit id="My Photos">
         <source>My Photos</source>
+        <target>Meine Fotos</target>
         <note>Pending feature; currently unused string! Accessibility label for photo viewer</note>
       </trans-unit>
       <trans-unit id="Photos">
         <source>Photos</source>
+        <target>Fotos</target>
         <note>Pending feature; currently unused string! Sub header for photo options in theme chooser</note>
       </trans-unit>
       <trans-unit id="Preview">
         <source>Preview</source>
+        <target>Vorschau anzeigen</target>
         <note>Pending feature; currently unused string! Button to show preview of selected theme</note>
       </trans-unit>
       <trans-unit id="Preview Theme">
         <source>Preview Theme</source>
+        <target>Vorschau für Theme anzeigen</target>
         <note>Pending feature; currently unused string! Accessibility label for theme preview button</note>
       </trans-unit>
       <trans-unit id="Set">
         <source>Set</source>
+        <target>Übernehmen</target>
         <note>Pending feature; currently unused string! Button to set selected theme as current theme</note>
       </trans-unit>
       <trans-unit id="Set Theme">
         <source>Set Theme</source>
+        <target>Theme übernehmen</target>
         <note>Pending feature; currently unused string! Accessibility label for set theme button</note>
       </trans-unit>
       <trans-unit id="Theme">
         <source>Theme</source>
+        <target>Theme</target>
         <note>Pending feature; currently unused string! Settings row to enter theme settings</note>
       </trans-unit>
       <trans-unit id="Themes">
         <source>Themes</source>
+        <target>Themes</target>
         <note>Pending feature; currently unused string! sub header for theme options in theme chooser</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="+">
         <source>+</source>
+        <target>+</target>
         <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
       <trans-unit id="-">
         <source>-</source>
+        <target>-</target>
         <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
       <trans-unit id="A username and password are being requested by %@.">
         <source>A username and password are being requested by %@.</source>
+        <target>%@ verlangt einen Benutzernamen und ein Passwort.</target>
         <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
       </trans-unit>
       <trans-unit id="A username and password are being requested by %@. The site says: %@">
         <source>A username and password are being requested by %1$@. The site says: %2$@</source>
+        <target>%1$@ verlangt einen Benutzernamen und ein Passwort. Ausgabe der Website: %2$@</target>
         <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
       </trans-unit>
       <trans-unit id="Aa">
         <source>Aa</source>
+        <target>Aa</target>
         <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
       <trans-unit id="About">
         <source>About</source>
+        <target>Über</target>
         <note>About settings section title</note>
       </trans-unit>
       <trans-unit id="Add Tab">
         <source>Add Tab</source>
+        <target>Tab hinzufügen</target>
         <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
       </trans-unit>
       <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
+        <target>Zur Leseliste hinzufügen</target>
         <note>Accessibility label for action adding current page to reading list.
    Name for button adding current article to reading list in reader mode</note>
       </trans-unit>
       <trans-unit id="Added page to Reading List">
         <source>Added page to Reading List</source>
+        <target>Seite zur Leseliste hinzugefügt</target>
         <note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
       </trans-unit>
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
+        <target>Adresse und Suche</target>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
       </trans-unit>
       <trans-unit id="Always Send">
         <source>Always Send</source>
+        <target>Immer senden</target>
         <note>Used as a button label for crash dialog prompt</note>
       </trans-unit>
       <trans-unit id="Authentication required">
         <source>Authentication required</source>
+        <target>Authentifizierung erforderlich</target>
         <note>Authentication prompt title</note>
       </trans-unit>
       <trans-unit id="Back">
         <source>Back</source>
+        <target>Zurück</target>
         <note>Accessibility label for the Back button in the tab toolbar.</note>
       </trans-unit>
       <trans-unit id="Block Pop-up Windows">
@@ -1073,47 +1243,58 @@
       </trans-unit>
       <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
+        <target>Lesezeichen</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Bookmarks you save will show up here.">
         <source>Bookmarks you save will show up here.</source>
+        <target>Gespeicherte Lesezeichen erscheinen hier.</target>
         <note>Status label for the empty Bookmarks state.</note>
       </trans-unit>
       <trans-unit id="Brightness">
         <source>Brightness</source>
+        <target>Helligkeit</target>
         <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
+        <target>Abbrechen</target>
         <note>Label for Cancel button
    The cancel button.</note>
       </trans-unit>
       <trans-unit id="Changes color theme.">
         <source>Changes color theme.</source>
+        <target>Ändert Farbeinstellung.</target>
         <note>Accessibility hint for the color theme setting buttons in reader mode display settings</note>
       </trans-unit>
       <trans-unit id="Changes font type.">
         <source>Changes font type.</source>
+        <target>Ändert Schriftart.</target>
         <note>Accessibility hint for the font type buttons in reader mode display settings</note>
       </trans-unit>
       <trans-unit id="Clear Private Data">
         <source>Clear Private Data</source>
+        <target>Private Daten löschen</target>
         <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
       <trans-unit id="Close">
         <source>Close</source>
+        <target>Schließen</target>
         <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
       </trans-unit>
       <trans-unit id="Closing tab">
         <source>Closing tab</source>
+        <target>Tab wird geschlossen</target>
         <note>Accessibility label (used by assistive technology) notifying the user that the tab is being closed.</note>
       </trans-unit>
       <trans-unit id="Copy Image">
         <source>Copy Image</source>
+        <target>Grafik kopieren</target>
         <note>Context menu item for copying an image to the clipboard</note>
       </trans-unit>
       <trans-unit id="Copy Link">
         <source>Copy Link</source>
+        <target>Link kopieren</target>
         <note>Context menu item for copying a link URL to the clipboard</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading List. Maybe it’s already there?">
@@ -1122,30 +1303,37 @@
       </trans-unit>
       <trans-unit id="Could not add page to Reading list">
         <source>Could not add page to Reading list</source>
+        <target>Seite konnte nicht zur Leseliste hinzugefügt werden</target>
         <note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
       </trans-unit>
       <trans-unit id="Could not load page.">
         <source>Could not load page.</source>
+        <target>Seite konnte nicht geladen werden.</target>
         <note>Error message that is shown in settings when there was a problem loading</note>
       </trans-unit>
       <trans-unit id="Create an account">
         <source>Create an account</source>
+        <target>Konto erstellen</target>
         <note>See http://mzl.la/1Qtkf0j</note>
       </trans-unit>
       <trans-unit id="Dark">
         <source>Dark</source>
+        <target>Dunkel</target>
         <note>Dark theme setting in Reading View settings</note>
       </trans-unit>
       <trans-unit id="Debug: forget Sync auth state">
         <source>Debug: forget Sync auth state</source>
+        <target>Fehlerdiagnose: Sync-Authentifizierungsstatus vergessen</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Debug: require password">
         <source>Debug: require password</source>
+        <target>Fehlerdiagnose: Passwort anfordern</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Debug: require upgrade">
         <source>Debug: require upgrade</source>
+        <target>Fehlerdiagnose: Upgrade anfordern</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Debug: use stage servers">
@@ -1154,40 +1342,49 @@
       </trans-unit>
       <trans-unit id="Decrease text size">
         <source>Decrease text size</source>
+        <target>Text verkleinern</target>
         <note>Accessibility label for button decreasing font size in display settings of reader mode</note>
       </trans-unit>
       <trans-unit id="Default Search Engine">
         <source>Default Search Engine</source>
+        <target>Standardsuchmaschine</target>
         <note>Accessibility label for default search engine setting.
    Title for default search engine picker.
    Title for default search engine settings section.</note>
       </trans-unit>
       <trans-unit id="Disable additional page dialogs">
         <source>Disable additional page dialogs</source>
+        <target>Diese Seite daran hindern, weitere Dialoge zu öffnen</target>
         <note>Pending feature; currently unused string! Checkbox label shown after multiple alerts are shown</note>
       </trans-unit>
       <trans-unit id="Display Settings">
         <source>Display Settings</source>
+        <target>Anzeigeeinstellungen</target>
         <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
       </trans-unit>
       <trans-unit id="Do you want to save the password for %@ on %@?">
         <source>Do you want to save the password for %1$@ on %2$@?</source>
+        <target>Soll das Passwort für %1$@ auf %2$@ gespeichert werden?</target>
         <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Do you want to save the password on %@?">
         <source>Do you want to save the password on %@?</source>
+        <target>Soll das Passwort auf %@ gespeichert werden?</target>
         <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Do you want to update the password for %@ on %@?">
         <source>Do you want to update the password for %1$@ on %2$@?</source>
+        <target>Soll das Passwort für %1$@ auf %2$@ aktualisiert werden?</target>
         <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Do you want to update the password on %@?">
         <source>Do you want to update the password on %@?</source>
+        <target>Soll das Passwort auf %@ aktualisiert werden?</target>
         <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
+        <target>Fertig</target>
         <note>Done button on left side of the Settings view controller title bar</note>
       </trans-unit>
       <trans-unit id="Don’t Send">
@@ -1200,78 +1397,97 @@
       </trans-unit>
       <trans-unit id="Enter your password to connect.">
         <source>Enter your password to connect.</source>
+        <target>Geben Sie Ihr Passwort ein, um eine Verbindung herzustellen.</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Firefox would like to access your Photos">
         <source>Firefox would like to access your Photos</source>
+        <target>Firefox möchte auf Ihre Fotos zugreifen</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Forward">
         <source>Forward</source>
+        <target>Vorwärts</target>
         <note>Accessibility Label for the tab toolbar Forward button</note>
       </trans-unit>
       <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices.">
         <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
+        <target>Holen Sie sich Ihre offenen Tabs, Lesezeichen und Passwörter von Ihren anderen Geräten.</target>
         <note>A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing.</note>
       </trans-unit>
       <trans-unit id="Go">
         <source>Go</source>
+        <target>Los</target>
         <note>Pending feature; currently unused string! Button to browse to URL on the clipboard when browser is opened</note>
       </trans-unit>
       <trans-unit id="Go to copied URL?">
         <source>Go to copied URL?</source>
+        <target>Kopierte URL aufrufen?</target>
         <note>Pending feature; currently unused string! Prompt message shown when browser is opened with URL on the clipboard</note>
       </trans-unit>
       <trans-unit id="Help">
         <source>Help</source>
+        <target>Hilfe</target>
         <note>Show the SUMO support page from the Support section in the settings. see http://mzl.la/1dmM8tZ</note>
       </trans-unit>
       <trans-unit id="History">
         <source>History</source>
+        <target>Chronik</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Increase text size">
         <source>Increase text size</source>
+        <target>Text vergrößern</target>
         <note>Accessibility label for button increasing font size in display settings of reader mode</note>
       </trans-unit>
       <trans-unit id="Intro Tour Carousel">
         <source>Intro Tour Carousel</source>
+        <target>Rundgang zur Einführung</target>
         <note>Accessibility label for the introduction tour carousel</note>
       </trans-unit>
       <trans-unit id="Last month">
         <source>Last month</source>
+        <target>Letzter Monat</target>
         <note>History tableview section header</note>
       </trans-unit>
       <trans-unit id="Last synced: %@">
         <source>Last synced: %@</source>
+        <target>Letzte Synchronisation: %@</target>
         <note>Remote tabs last synced time. Argument is the relative date string.</note>
       </trans-unit>
       <trans-unit id="Last week">
         <source>Last week</source>
+        <target>Letzte Woche</target>
         <note>History tableview section header</note>
       </trans-unit>
       <trans-unit id="Licenses">
         <source>Licenses</source>
+        <target>Lizenzen</target>
         <note>Settings item that opens a tab containing the licenses. See http://mzl.la/1NSAWCG</note>
       </trans-unit>
       <trans-unit id="Light">
         <source>Light</source>
+        <target>Hell</target>
         <note>Light theme setting in Reading View settings</note>
       </trans-unit>
       <trans-unit id="Load original page">
         <source>Load original page</source>
+        <target>Ursprungsseite laden</target>
         <note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
       <trans-unit id="Loading content…">
         <source>Loading content…</source>
+        <target>Inhalt wird geladen…</target>
         <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
       <trans-unit id="Log in">
         <source>Log in</source>
+        <target>Anmelden</target>
         <note>Authentication prompt log in button</note>
       </trans-unit>
       <trans-unit id="Logins">
         <source>Logins</source>
+        <target>Zugangsdaten</target>
         <note>Label used as an item in Settings. When touched, the user will be navigated to the Logins/Password manager.</note>
       </trans-unit>
       <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
@@ -1280,16 +1496,19 @@
       </trans-unit>
       <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
+        <target>Als gelesen markieren</target>
         <note>Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read</note>
       </trans-unit>
       <trans-unit id="Mark as Unread">
         <source>Mark as Unread</source>
+        <target>Als ungelesen markieren</target>
         <note>Name for Mark as unread button in reader mode
    Title for the button that marks a reading list item as unread</note>
       </trans-unit>
       <trans-unit id="Navigation Toolbar">
         <source>Navigation Toolbar</source>
+        <target>Navigations-Symbolleiste</target>
         <note>Accessibility label for the navigation toolbar displayed at the bottom of the screen.</note>
       </trans-unit>
       <trans-unit id="New Tab">
@@ -1298,30 +1517,37 @@
       </trans-unit>
       <trans-unit id="No">
         <source>No</source>
+        <target>Nein</target>
         <note>Restore Tabs Negative Action</note>
       </trans-unit>
       <trans-unit id="No tabs">
         <source>No tabs</source>
+        <target>Keine Tabs</target>
         <note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note>
       </trans-unit>
       <trans-unit id="Not now">
         <source>Not now</source>
+        <target>Nicht jetzt</target>
         <note>Button to not save the user's password</note>
       </trans-unit>
       <trans-unit id="Okay">
         <source>Okay</source>
+        <target>OK</target>
         <note>Restore Tabs Affirmative Action</note>
       </trans-unit>
       <trans-unit id="Oops! Firefox crashed">
         <source>Oops! Firefox crashed</source>
+        <target>Hoppla! Firefox ist abgestürzt</target>
         <note>Title for prompt displayed to user after the app crashes</note>
       </trans-unit>
       <trans-unit id="Open Settings">
         <source>Open Settings</source>
+        <target>Einstellungen öffnen</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Open articles in Reader View by tapping the book icon when it appears in the title bar.">
         <source>Open articles in Reader View by tapping the book icon when it appears in the title bar.</source>
+        <target>Öffnen Sie Artikel in der Leseansicht, indem Sie auf das Buch-Symbol tippen, wenn es in der Titelleiste angezeigt wird.</target>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
       <trans-unit id="Open in New Tab">
@@ -1330,10 +1556,12 @@
       </trans-unit>
       <trans-unit id="Open in…">
         <source>Open in…</source>
+        <target>Öffnen in…</target>
         <note>String indicating that the file can be opened in another application on the device</note>
       </trans-unit>
       <trans-unit id="Opening %@">
         <source>Opening %@</source>
+        <target>%@ wird geöffnet</target>
         <note>Opening an external URL</note>
       </trans-unit>
       <trans-unit id="Page Options Menu">
@@ -1342,18 +1570,22 @@
       </trans-unit>
       <trans-unit id="Panel Chooser">
         <source>Panel Chooser</source>
+        <target>Ansichten-Auswahl</target>
         <note>Accessibility label for the Home panel's top toolbar containing list of the home panels (top sites, bookmarsk, history, remote tabs, reading list).</note>
       </trans-unit>
       <trans-unit id="Password">
         <source>Password</source>
+        <target>Passwort</target>
         <note>Password textbox in Authentication prompt</note>
       </trans-unit>
       <trans-unit id="Privacy">
         <source>Privacy</source>
+        <target>Datenschutz</target>
         <note>Privacy section title</note>
       </trans-unit>
       <trans-unit id="Privacy Policy">
         <source>Privacy Policy</source>
+        <target>Datenschutzerklärung</target>
         <note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
       </trans-unit>
       <trans-unit id="Quick-Search Engines">
@@ -1362,208 +1594,259 @@
       </trans-unit>
       <trans-unit id="Reader View">
         <source>Reader View</source>
+        <target>Leseansicht</target>
         <note>Accessibility label for the Reader View button</note>
       </trans-unit>
       <trans-unit id="Reading list">
         <source>Reading list</source>
+        <target>Leseliste</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Reload">
         <source>Reload</source>
+        <target>Neu laden</target>
         <note>Accessibility Label for the tab toolbar Reload button</note>
       </trans-unit>
       <trans-unit id="Remove">
         <source>Remove</source>
+        <target>Entfernen</target>
         <note>Title for the button that removes a reading list item</note>
       </trans-unit>
       <trans-unit id="Remove from Reading List">
         <source>Remove from Reading List</source>
+        <target>Aus Leseliste entfernen</target>
         <note>Name for button removing current article from reading list in reader mode</note>
       </trans-unit>
       <trans-unit id="Sans-serif">
         <source>Sans-serif</source>
+        <target>Sans Serif</target>
         <note>Font type setting in the reading view settings</note>
       </trans-unit>
       <trans-unit id="Save Image">
         <source>Save Image</source>
+        <target>Grafik speichern</target>
         <note>Context menu item for saving an image</note>
       </trans-unit>
       <trans-unit id="Save Logins">
         <source>Save Logins</source>
+        <target>Zugangsdaten speichern</target>
         <note>Setting to enable the built-in password manager</note>
       </trans-unit>
       <trans-unit id="Save pages to your Reading List by tapping the book plus icon in the Reader View controls.">
         <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
+        <target>Speichern Sie Seiten in Ihrer Leseliste, indem Sie auf das Buch-Plus-Symbol in der Steuerung der Leseansicht tippen.</target>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
+        <target>Suche</target>
         <note>Navigation title for search settings.
    Open search section of settings</note>
       </trans-unit>
       <trans-unit id="Search or enter address">
         <source>Search or enter address</source>
+        <target>Suchen oder Adresse eingeben</target>
         <note>The text shown in the URL bar on about:home</note>
       </trans-unit>
       <trans-unit id="Searches for the suggestion">
         <source>Searches for the suggestion</source>
+        <target>Nach Suchvorschlag suchen</target>
         <note>Accessibility hint describing the action performed when a search suggestion is clicked</note>
       </trans-unit>
       <trans-unit id="Secure connection">
         <source>Secure connection</source>
+        <target>Sichere Verbindung</target>
         <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
       </trans-unit>
       <trans-unit id="Send Feedback">
         <source>Send Feedback</source>
+        <target>Feedback senden</target>
         <note>Menu item in settings used to open input.mozilla.org where people can submit feedback</note>
       </trans-unit>
       <trans-unit id="Send Report">
         <source>Send Report</source>
+        <target>Bericht senden</target>
         <note>Used as a button label for crash dialog prompt</note>
       </trans-unit>
       <trans-unit id="Send a crash report so Mozilla can fix the problem?">
         <source>Send a crash report so Mozilla can fix the problem?</source>
+        <target>Einen Absturzbericht senden, damit Mozilla das Problem beheben kann?</target>
         <note>Message displayed in the crash dialog above the buttons used to select when sending reports</note>
       </trans-unit>
       <trans-unit id="Sepia">
         <source>Sepia</source>
+        <target>Sepia</target>
         <note>Sepia theme setting in Reading View settings</note>
       </trans-unit>
       <trans-unit id="Serif">
         <source>Serif</source>
+        <target>Serif</target>
         <note>Font type setting in the reading view settings</note>
       </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
+        <target>Einstellungen</target>
         <note>Title in the settings view controller title bar</note>
       </trans-unit>
       <trans-unit id="Share Link">
         <source>Share Link</source>
+        <target>Link teilen</target>
         <note>Context menu item for sharing a link URL</note>
       </trans-unit>
       <trans-unit id="Show Search Suggestions">
         <source>Show Search Suggestions</source>
+        <target>Suchvorschläge anzeigen</target>
         <note>Label for show search suggestions setting.</note>
       </trans-unit>
       <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
+        <target>Tabs anzeigen</target>
         <note>Accessibility label for the tabs button in the (top) tab toolbar
    Accessibility Label for the tabs button in the tab toolbar</note>
       </trans-unit>
       <trans-unit id="Show Tour">
         <source>Show Tour</source>
+        <target>Tipps anzeigen</target>
         <note>Show the on-boarding screen again from the settings</note>
       </trans-unit>
       <trans-unit id="Show search suggestions">
         <source>Show search suggestions</source>
+        <target>Suchvorschläge anzeigen</target>
         <note>Label for show search suggestions setting.</note>
       </trans-unit>
       <trans-unit id="Sign in">
         <source>Sign in</source>
+        <target>Anmelden</target>
         <note>Text message / button in the settings table view</note>
       </trans-unit>
       <trans-unit id="Stop">
         <source>Stop</source>
+        <target>Stopp</target>
         <note>Accessibility Label for the tab toolbar Stop button</note>
       </trans-unit>
       <trans-unit id="Support">
         <source>Support</source>
+        <target>Hilfe</target>
         <note>Support section title</note>
       </trans-unit>
       <trans-unit id="Swipe right or left with three fingers to close the tab.">
         <source>Swipe right or left with three fingers to close the tab.</source>
+        <target>Wischen Sie mit drei Fingern nach rechts oder links, um den Tab zu schließen.</target>
         <note>Accessibility hint for tab tray's displayed tab.</note>
       </trans-unit>
       <trans-unit id="Sync Now">
         <source>Sync Now</source>
+        <target>Jetzt synchronisieren</target>
         <note>Sync Firefox Account</note>
       </trans-unit>
       <trans-unit id="Sync your tabs, bookmarks, passwords and more.">
         <source>Sync your tabs, bookmarks, passwords and more.</source>
+        <target>Synchronisieren Sie Ihre Tabs, Lesezeichen, Passwörter und mehr.</target>
         <note>Text displayed when the Sync home panel is empty, describing the features provided by Sync to invite the user to log in.</note>
       </trans-unit>
       <trans-unit id="Sync your tabs, passwords and more.">
         <source>Sync your tabs, passwords and more.</source>
+        <target>Synchronisieren Sie Ihre Tabs, Passwörter und mehr.</target>
         <note>Text displayed when the Sync home panel is empty, describing the features provided by Sync to invite the user to log in.</note>
       </trans-unit>
       <trans-unit id="Tab %@ of %@">
         <source>Tab %1$@ of %2$@</source>
+        <target>Tab %1$@ von %2$@</target>
         <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
       </trans-unit>
       <trans-unit id="Tabs %@ to %@ of %@">
         <source>Tabs %1$@ to %2$@ of %3$@</source>
+        <target>Tabs %1$@ bis %2$@ von insgesamt %3$@</target>
         <note>Message spoken by VoiceOver saying the range of tabs that are currently visible in Tabs Tray, along with the total number of tabs. E.g. \"Tabs 8 to 10 of 15\" says tabs 8, 9 and 10 are visible, out of 15 tabs total.</note>
       </trans-unit>
       <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
+        <target>Tab-Ablage</target>
         <note>Accessibility label for the Tabs Tray view.</note>
       </trans-unit>
       <trans-unit id="The page could not be displayed in Reader View.">
         <source>The page could not be displayed in Reader View.</source>
+        <target>Die Seite konnte nicht in der Leseansicht dargestellt werden.</target>
         <note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
       <trans-unit id="There was a problem accessing tabs from your other devices. Try again in a few moments.">
         <source>There was a problem accessing tabs from your other devices. Try again in a few moments.</source>
+        <target>Fehler beim Zugriff auf Ihre Tabs von anderen Geräten. Bitte versuchen Sie es in Kürze erneut.</target>
         <note>Error message in the remote tabs panel</note>
       </trans-unit>
       <trans-unit id="There was an error converting the page">
         <source>There was an error converting the page</source>
+        <target>Fehler beim Umwandeln der Seite</target>
         <note>Error displayed when reader mode cannot be enabled</note>
       </trans-unit>
       <trans-unit id="This allows you to save the image to your Camera Roll.">
         <source>This allows you to save the image to your Camera Roll.</source>
+        <target>Hiermit können Sie die Grafik in Ihren Aufnahmen speichern.</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="This will open in another application">
         <source>This will open in another application</source>
+        <target>Dies wird in einer anderen Anwendung geöffnet</target>
         <note>Opening an external app</note>
       </trans-unit>
       <trans-unit id="Today">
         <source>Today</source>
+        <target>Heute</target>
         <note>History tableview section header</note>
       </trans-unit>
       <trans-unit id="Top sites">
         <source>Top sites</source>
+        <target>Meistbesuchte Seiten</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Update">
         <source>Update</source>
+        <target>Aktualisieren</target>
         <note>Button to update the user's password</note>
       </trans-unit>
       <trans-unit id="Upgrade Firefox to connect.">
         <source>Upgrade Firefox to connect.</source>
+        <target>Aktualisieren Sie Firefox, um eine Verbindung herzustellen.</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Username">
         <source>Username</source>
+        <target>Benutzername</target>
         <note>Username textbox in Authentication prompt</note>
       </trans-unit>
       <trans-unit id="Verify your email address.">
         <source>Verify your email address.</source>
+        <target>Bestätigen Sie Ihre E-Mail-Adresse.</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Version %@ (%@)">
         <source>Version %1$@ (%2$@)</source>
+        <target>Version %1$@ (%2$@)</target>
         <note>Version number of Firefox shown in settings</note>
       </trans-unit>
       <trans-unit id="Web content">
         <source>Web content</source>
+        <target>Web-Inhalt</target>
         <note>Accessibility label for the main web content view</note>
       </trans-unit>
       <trans-unit id="Welcome to your Reading List">
         <source>Welcome to your Reading List</source>
+        <target>Willkommen in Ihrer Leseliste</target>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
       <trans-unit id="Well, this is embarrassing.">
         <source>Well, this is embarrassing.</source>
+        <target>Entschuldigung, das hätte nicht passieren dürfen.</target>
         <note>Restore Tabs Prompt Title</note>
       </trans-unit>
       <trans-unit id="Yes">
         <source>Yes</source>
+        <target>Ja</target>
         <note>Button to save the user's password</note>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
+        <target>Gestern</target>
         <note>History tableview section header</note>
       </trans-unit>
       <trans-unit id="You don’t have any tabs open in Firefox on your other devices.">
@@ -1572,124 +1855,151 @@
       </trans-unit>
       <trans-unit id="Your Rights">
         <source>Your Rights</source>
+        <target>Ihre Rechte</target>
         <note>Your Rights settings section title</note>
       </trans-unit>
       <trans-unit id="computer">
         <source>computer</source>
+        <target>Computer</target>
         <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
       </trans-unit>
       <trans-unit id="mobile device">
         <source>mobile device</source>
+        <target>Mobilgerät</target>
         <note>Accessibility label for Mobile Device image in remote tabs list</note>
       </trans-unit>
       <trans-unit id="read">
         <source>read</source>
+        <target>gelesen</target>
         <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
       </trans-unit>
       <trans-unit id="unread">
         <source>unread</source>
+        <target>ungelesen</target>
         <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/LoginManager.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/LoginManager.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="Are you sure?">
         <source>Are you sure?</source>
+        <target>Sind Sie sicher?</target>
         <note>Prompt title when deleting logins</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
+        <target>Abbrechen</target>
         <note>Prompt option for cancelling out of deletion</note>
       </trans-unit>
       <trans-unit id="Clear Search">
         <source>Clear Search</source>
+        <target>Suchfeld löschen</target>
         <note>Accessibility message e.g. spoken by VoiceOver after the user taps the close button in the search field to clear the search and exit search mode</note>
       </trans-unit>
       <trans-unit id="Copy">
         <source>Copy</source>
+        <target>Kopieren</target>
         <note>Copy password text selection menu item</note>
       </trans-unit>
       <trans-unit id="Delete">
         <source>Delete</source>
+        <target>Löschen</target>
         <note>Label for the button used to delete the current login.</note>
       </trans-unit>
       <trans-unit id="Deselect All">
         <source>Deselect All</source>
+        <target>Auswahl aufheben</target>
         <note>Label for the button used to deselect all logins.</note>
       </trans-unit>
       <trans-unit id="Enter Search Mode">
         <source>Enter Search Mode</source>
+        <target>Suchmodus aktivieren</target>
         <note>Accessibility label for entering search mode for logins</note>
       </trans-unit>
       <trans-unit id="Hide">
         <source>Hide</source>
+        <target>Ausblenden</target>
         <note>Hide password text selection menu item</note>
       </trans-unit>
       <trans-unit id="Last modified %@">
         <source>Last modified %@</source>
+        <target>Zuletzt verändert: %@</target>
         <note>Footer label describing when the current login was last modified with the timestamp as the parameter.</note>
       </trans-unit>
       <trans-unit id="Logins">
         <source>Logins</source>
+        <target>Zugangsdaten</target>
         <note>Title for Logins List View screen.</note>
       </trans-unit>
       <trans-unit id="Logins will be permanently removed.">
         <source>Logins will be permanently removed.</source>
+        <target>Zugangsdaten werden dauerhaft entfernt.</target>
         <note>Prompt message warning the user that deleting non-synced logins will permanently remove them</note>
       </trans-unit>
       <trans-unit id="Logins will be removed from all connected devices.">
         <source>Logins will be removed from all connected devices.</source>
+        <target>Zugangsdaten werden von allen verbundenen Geräten entfernt.</target>
         <note>Prompt message warning the user that deleted logins will remove logins from all connected devices</note>
       </trans-unit>
       <trans-unit id="No logins found">
         <source>No logins found</source>
+        <target>Keine Zugangsdaten gefunden</target>
         <note>Label displayed when no logins are found after searching.</note>
       </trans-unit>
       <trans-unit id="Open &amp; Fill">
         <source>Open &amp; Fill</source>
+        <target>Öffnen &amp; ausfüllen</target>
         <note>Open and Fill website text selection menu item</note>
       </trans-unit>
       <trans-unit id="Reveal">
         <source>Reveal</source>
+        <target>Anzeigen</target>
         <note>Reveal password text selection menu item</note>
       </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
+        <target>Suchen</target>
         <note>Title for the search field at the top of the Logins list screen</note>
       </trans-unit>
       <trans-unit id="Search Input Field">
         <source>Search Input Field</source>
+        <target>Sucheingabefeld</target>
         <note>Accessibility label for the search input field in the Logins list</note>
       </trans-unit>
       <trans-unit id="Select All">
         <source>Select All</source>
+        <target>Alle auswählen</target>
         <note>Label for the button used to select all logins.</note>
       </trans-unit>
       <trans-unit id="password">
         <source>password</source>
+        <target>Passwort</target>
         <note>Label displayed above the password row in Login Detail View.</note>
       </trans-unit>
       <trans-unit id="username">
         <source>username</source>
+        <target>Benutzername</target>
         <note>Label displayed above the username row in Login Detail View.</note>
       </trans-unit>
       <trans-unit id="website">
         <source>website</source>
+        <target>Website</target>
         <note>Label displayed above the website row in Login Detail View.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/PrivateBrowsing.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/PrivateBrowsing.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="Close Private Tabs">
         <source>Close Private Tabs</source>
+        <target>Private Tabs schließen</target>
         <note>Setting for closing private tabs</note>
       </trans-unit>
       <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.">
@@ -1698,14 +2008,17 @@
       </trans-unit>
       <trans-unit id="Learn More">
         <source>Learn More</source>
+        <target>Mehr erfahren</target>
         <note>Text button displayed when there are no tabs open while in private mode</note>
       </trans-unit>
       <trans-unit id="Off">
         <source>Off</source>
+        <target>Aus</target>
         <note>Toggled OFF accessibility value</note>
       </trans-unit>
       <trans-unit id="On">
         <source>On</source>
+        <target>An</target>
         <note>Toggled ON accessibility value</note>
       </trans-unit>
       <trans-unit id="Open in New Private Tab">
@@ -1714,42 +2027,49 @@
       </trans-unit>
       <trans-unit id="Private Browsing">
         <source>Private Browsing</source>
+        <target>Privates Surfen</target>
         <note>Title displayed for when there are no open tabs while in private mode</note>
       </trans-unit>
       <trans-unit id="Private Mode">
         <source>Private Mode</source>
+        <target>Privater Modus</target>
         <note>Accessibility label for toggling on/off private mode</note>
       </trans-unit>
       <trans-unit id="Turns private mode on or off">
         <source>Turns private mode on or off</source>
+        <target>Schaltet den privaten Modus an oder aus</target>
         <note>Accessiblity hint for toggling on/off private mode</note>
       </trans-unit>
       <trans-unit id="When Leaving Private Browsing">
         <source>When Leaving Private Browsing</source>
+        <target>Beim Verlassen des privaten Modus</target>
         <note>Will be displayed in Settings under 'Close Private Tabs'</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Search.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/Search.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="%@ search">
         <source>%@ search</source>
+        <target>%@-Suche</target>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
       </trans-unit>
       <trans-unit id="Search Settings">
         <source>Search Settings</source>
+        <target>Sucheinstellungen</target>
         <note>Label for search settings button.</note>
       </trans-unit>
       <trans-unit id="Search suggestions from %@">
         <source>Search suggestions from %@</source>
+        <target>Suchvorschläge von %@</target>
         <note>Accessibility label for image of default search engine displayed left to the actual search suggestions from the engine. The parameter substituted for \"%@\" is the name of the search engine. E.g.: Search suggestions from Google</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/SendAnonymousUsageData.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/SendAnonymousUsageData.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -1760,7 +2080,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/SendTo.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Client/en.lproj/SendTo.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -1795,7 +2115,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="ClientTests/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="ClientTests/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -1806,7 +2126,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/NotificationService/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Extensions/NotificationService/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -1837,7 +2157,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/SendTo/en.lproj/SendTo.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Extensions/SendTo/en.lproj/SendTo.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -1872,7 +2192,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Extensions/ShareTo/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -1887,7 +2207,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/en.lproj/ShareTo.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Extensions/ShareTo/en.lproj/ShareTo.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -1906,7 +2226,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/Today/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Extensions/Today/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -1921,7 +2241,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/Today/en.lproj/Today.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Extensions/Today/en.lproj/Today.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -1956,7 +2276,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="ReadingList/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="ReadingList/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -1967,7 +2287,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="ReadingListTests/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="ReadingListTests/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -1978,7 +2298,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/3DTouchActions.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Shared/Supporting Files/en.lproj/3DTouchActions.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -1989,7 +2309,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/AuthenticationManager.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Shared/Supporting Files/en.lproj/AuthenticationManager.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -2004,7 +2324,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Shared/Supporting Files/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -2015,7 +2335,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/Intro.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Shared/Supporting Files/en.lproj/Intro.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -2070,7 +2390,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Shared/Supporting Files/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -2137,6 +2457,7 @@
       </trans-unit>
       <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
+        <target>Lesezeichen</target>
         <note>Toggle bookmarks syncing setting</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Folder.Label">
@@ -2165,6 +2486,7 @@
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
+        <target>Abbrechen</target>
         <note>Label for Cancel button</note>
       </trans-unit>
       <trans-unit id="ClipboardToast.GoToCopiedLink.Button">
@@ -2213,30 +2535,37 @@
       </trans-unit>
       <trans-unit id="ErrorPages.Advanced.Button">
         <source>Advanced</source>
+        <target>Erweitert</target>
         <note>Label for button to perform advanced actions on the error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.AdvancedWarning1.Text">
         <source>Warning: we can’t confirm your connection to this website is secure.</source>
+        <target>Warnung: Cliqz kann nicht sicherstellen, dass die Verbindung zu dieser Webseite sicher ist.</target>
         <note>Warning text when clicking the Advanced button on error pages</note>
       </trans-unit>
       <trans-unit id="ErrorPages.AdvancedWarning2.Text">
         <source>It may be a misconfiguration or tampering by an attacker. Proceed if you accept the potential risk.</source>
+        <target>Der Grund kann eine Fehlkonfiguration der Webseite oder die Manipulation eines Angreifers sein. Fahre nur fort, wenn du das potentielle Risikos akzeptierst.</target>
         <note>Additional warning text when clicking the Advanced button on error pages</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Description">
         <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
+        <target>Der Inhaber von %@ hat die Webseite nicht richtig konfiguriert. Cliqz hat keine Verbindung mit dieser Webseite aufgebaut um deine Informationen vor Diebstahl zu schützen.</target>
         <note>Warning text on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Title">
         <source>This Connection is Untrusted</source>
+        <target>Diese Verbindung ist nicht sicher</target>
         <note>Title on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.GoBack.Button">
         <source>Go Back</source>
+        <target>Zurück</target>
         <note>Label for button to go back from the error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.VisitOnce.Button">
         <source>Visit site anyway</source>
+        <target>Webseite trotzdem besuchen</target>
         <note>Button label to temporarily continue to the site from the certificate error page</note>
       </trans-unit>
       <trans-unit id="ExternalLink.AppStore.ConfirmationTitle">
@@ -2329,6 +2658,7 @@
       </trans-unit>
       <trans-unit id="History">
         <source>History</source>
+        <target>Verlauf</target>
         <note>Toggle history syncing setting</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptyState.Title">
@@ -2461,15 +2791,18 @@
       </trans-unit>
       <trans-unit id="Log Out">
         <source>Log Out</source>
+        <target>Abmelden</target>
         <note>Button in settings screen to disconnect from your account
    Disconnect button in the 'log out firefox account' alert</note>
       </trans-unit>
       <trans-unit id="Log Out?">
         <source>Log Out?</source>
+        <target>Abmelden?</target>
         <note>Title of the 'log out firefox account' alert</note>
       </trans-unit>
       <trans-unit id="Logins">
         <source>Logins</source>
+        <target>Zugangsdaten</target>
         <note>Toggle logins syncing setting</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.DontSave.Button">
@@ -2606,6 +2939,7 @@
       </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
+        <target>OK</target>
         <note>OK button</note>
       </trans-unit>
       <trans-unit id="Open Tabs">
@@ -3122,31 +3456,37 @@
       </trans-unit>
       <trans-unit id="just now">
         <source>just now</source>
+        <target>gerade eben</target>
         <note>Relative time for a tab that was visited within the last few moments.</note>
       </trans-unit>
       <trans-unit id="more than a month ago">
         <source>more than a month ago</source>
+        <target>vor mehr als einem Monat</target>
         <note>Relative date for dates older than a month and less than two months.</note>
       </trans-unit>
       <trans-unit id="more than a week ago">
         <source>more than a week ago</source>
+        <target>vor mehr als einer Woche</target>
         <note>Description for a date more than a week ago, but less than a month ago.</note>
       </trans-unit>
       <trans-unit id="this week">
         <source>this week</source>
+        <target>diese Woche</target>
         <note>Relative date for date in past week.</note>
       </trans-unit>
       <trans-unit id="today at %@">
         <source>today at %@</source>
+        <target>heute um %@</target>
         <note>Relative date for date older than a minute.</note>
       </trans-unit>
       <trans-unit id="yesterday">
         <source>yesterday</source>
+        <target>gestern</target>
         <note>Relative date for yesterday.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/Menu.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Shared/Supporting Files/en.lproj/Menu.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -3229,7 +3569,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/Shared.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Shared/Supporting Files/en.lproj/Shared.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -3240,7 +3580,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="SharedTests/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="SharedTests/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -3251,7 +3591,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Storage/en.lproj/BookmarkPanel.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Storage/en.lproj/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -3262,7 +3602,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Storage/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Storage/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -3273,7 +3613,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Storage/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Storage/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -3300,7 +3640,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Storage/en.lproj/Storage.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Storage/en.lproj/Storage.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -3328,7 +3668,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="StoragePerfTests/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="StoragePerfTests/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -3339,7 +3679,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="StorageTests/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="StorageTests/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -3350,7 +3690,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="StorageTests/en.lproj/Storage.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="StorageTests/en.lproj/Storage.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -3373,7 +3713,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Sync/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="Sync/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -3384,7 +3724,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="SyncTelemetry/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="SyncTelemetry/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -3395,7 +3735,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="SyncTelemetryTests/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="SyncTelemetryTests/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -3406,7 +3746,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="SyncTests/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="SyncTests/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -3417,7 +3757,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="UITests/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="UITests/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
@@ -3428,7 +3768,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="XCUITests/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+  <file original="XCUITests/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>

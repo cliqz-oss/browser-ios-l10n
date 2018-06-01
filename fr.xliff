@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="fr">
     <header>
@@ -384,317 +384,395 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
-      <trans-unit id=" and select connect to scan the QR-Code" approved="yes">
+      <trans-unit id=" and select connect to scan the QR-Code">
         <source> and select connect to scan the QR-Code</source>
-        <target state="translated">et sélectionnez «Connect» pour lire le code QR</target>
+        <target>et sélectionnez «Connect» pour lire le code QR</target>
         <note>[Connect] instructions text part#2</note>
       </trans-unit>
-      <trans-unit id="%d TRACKERS %d Blocked" approved="yes">
+      <trans-unit id="%d TRACKERS %d Blocked">
         <source>%1$d TRACKERS %2$d Blocked</source>
-        <target state="translated">%1$d MOUCHARDS %2$d Bloqués</target><note>[ControlCenter -&gt; Trackers] Detected and Blocked trackers count</note>
+        <target>%1$d MOUCHARDS %2$d Bloqués</target>
+        <note>[ControlCenter -&gt; Trackers] Detected and Blocked trackers count</note>
       </trans-unit>
-      <trans-unit id="%d Trackers Blocked" approved="yes">
-        <source>%d Trackers Blocked</source>
-        <target state="translated">%d Mouchards Bloqués</target><note>[ControlCenter -&gt; Overview] Blocked trackers count</note>
+      <trans-unit id="%d Tracker(s) Blocked">
+        <source>%d Tracker(s) Blocked</source>
+        <target>%d Mouchard(s) Bloqués</target>
+        <note>[ControlCenter -&gt; Overview] Blocked trackers count</note>
       </trans-unit>
-      <trans-unit id="%d Trackers found" approved="yes">
+      <trans-unit id="%d Trackers found">
         <source>%d Trackers found</source>
-        <target state="translated">%d Mouchards trouvés</target><note>[ControlCenter -&gt; Overview] Detected trackers count</note>
+        <target>%d Mouchards trouvés</target>
+        <note>[ControlCenter -&gt; Overview] Detected trackers count</note>
       </trans-unit>
-      <trans-unit id="1 hour" approved="yes">
+      <trans-unit id="**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. \n\n**Mobile Safari has performance issues with the PAC config, so it is recommended you use Chrome or Ghostery or another Browser instead.">
+        <source>**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. \n\n**Mobile Safari has performance issues with the PAC config, so it is recommended you use Chrome or Ghostery or another Browser instead.</source>
+        <note>[Wifi Protection] Notes</note>
+      </trans-unit>
+      <trans-unit id="1 hour">
         <source>1 hour</source>
-        <target state="translated">1 heure</target><note>[ControlCenter - Overview] Pause Ghostery for one hour title</note>
+        <target>1 heure</target>
+        <note>[ControlCenter - Overview] Pause Ghostery for one hour title</note>
       </trans-unit>
-      <trans-unit id="24 hours" approved="yes">
+      <trans-unit id="24 hours">
         <source>24 hours</source>
-        <target state="translated">24 heures</target><note>[ControlCenter - Overview] Pause Ghostery for twentyfour hours title</note>
+        <target>24 heures</target>
+        <note>[ControlCenter - Overview] Pause Ghostery for twentyfour hours title</note>
       </trans-unit>
-      <trans-unit id="30 minutes" approved="yes">
+      <trans-unit id="30 minutes">
         <source>30 minutes</source>
-        <target state="translated">30 minutes</target><note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
+        <target>30 minutes</target>
+        <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
-      <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon." approved="yes">
+      <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.">
         <source>A \"fair\" mode that shows ads in clearly defined cases only will be added soon.</source>
-        <target state="translated">Un mode \"équitable\" qui montre des publicités seulement dans certains cas sera ajouté bientôt.</target><note>[Settings -&gt; Block Ads] Fair Mode footer</note>
+        <target>Un mode \"équitable\" qui montre des publicités seulement dans certains cas sera ajouté bientôt.</target>
+        <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
-      <trans-unit id="About" approved="yes">
+      <trans-unit id="About">
         <source>About</source>
-        <target state="translated">À propos de nous</target>
+        <target>À propos de nous</target>
         <note>[Settings] About
    [Settings] About section header</note>
       </trans-unit>
-      <trans-unit id="About MyOffrz" approved="yes">
+      <trans-unit id="About MyOffrz">
         <source>About MyOffrz</source>
-        <target state="translated">Sur MyOffrz</target>
+        <target>Sur MyOffrz</target>
         <note>[Settings] About MyOffrz</note>
       </trans-unit>
-      <trans-unit id="Activate push notification to use this feature. Go to settings to allow push notifications then retry." approved="yes">
+      <trans-unit id="Activate push notification to use this feature. Go to settings to allow push notifications then retry.">
         <source>Activate push notification to use this feature. Go to settings to allow push notifications then retry.</source>
-        <target state="translated">Il faut activer les notifications push pour utiliser cette fonction. Cliquez sur Préférences pour les activer, puis réessayez.</target>
+        <target>Il faut activer les notifications push pour utiliser cette fonction. Cliquez sur Préférences pour les activer, puis réessayez.</target>
         <note>[Subscriptions] Alert message  for asking to enable push notificaiton from the system</note>
       </trans-unit>
-      <trans-unit id="Add Connection" approved="yes">
+      <trans-unit id="Ad &amp; Tracker Blocking">
+        <source>Ad &amp; Tracker Blocking</source>
+        <note>[Onboarding] Adblocker Title</note>
+      </trans-unit>
+      <trans-unit id="Add Connection">
         <source>Add Connection</source>
-        <target state="translated">Ajouter une connexion</target>
+        <target>Ajouter une connexion</target>
         <note>[Settings -&gt; Connect] Add Connection title</note>
       </trans-unit>
-      <trans-unit id="Allow Camera Access" approved="yes">
+      <trans-unit id="Ads">
+        <source>Ads</source>
+        <note>[Wifi Protection] Option 2 for blocking trackers</note>
+      </trans-unit>
+      <trans-unit id="All">
+        <source>All</source>
+        <note>[Wifi Protection] Option 1 for blocking trackers</note>
+      </trans-unit>
+      <trans-unit id="Allow Camera Access">
         <source>Allow Camera Access</source>
-        <target state="translated">Permettre l’accès à l’appareil photo</target>
+        <target>Permettre l’accès à l’appareil photo</target>
         <note>[Connect] Alert title for turning on Camera access when scanning QRCode</note>
       </trans-unit>
-      <trans-unit id="Automatic Forget Tab" approved="yes">
+      <trans-unit id="Analytics">
+        <source>Analytics</source>
+        <note>[Wifi Protection] Option 3 for blocking trackers</note>
+      </trans-unit>
+      <trans-unit id="Automatic Forget Tab">
         <source>Automatic Forget Tab</source>
-        <target state="translated">Mode Oubli Automatique</target>
+        <target>Mode Oubli Automatique</target>
         <note>[Settings] Automatic Forget Tab</note>
       </trans-unit>
-      <trans-unit id="Back to safe site" approved="yes">
+      <trans-unit id="Back to safe site">
         <source>Back to safe site</source>
-        <target state="translated">Retourner à la page sûre</target>
+        <target>Retourner à la page sûre</target>
         <note>Back to safe site buttun title in antiphishing alert title</note>
       </trans-unit>
-      <trans-unit id="Block Ads" approved="yes">
+      <trans-unit id="Beacons">
+        <source>Beacons</source>
+        <note>[Wifi Protection] Option 4 for blocking trackers</note>
+      </trans-unit>
+      <trans-unit id="Block Ads">
         <source>Block Ads</source>
-        <target state="translated">Bloqueur de Publicités</target>
+        <target>Bloqueur de Publicités</target>
         <note>[Settings -&gt; Block Ads] Block Ads
    [Settings] Block Ads</note>
       </trans-unit>
-      <trans-unit id="Block All" approved="yes">
+      <trans-unit id="Block All">
         <source>Block All</source>
-        <target state="translated">Bloquer tout</target><note>[ControlCenter - Trackers list] Block All trackers action title</note>
+        <target>Bloquer tout</target>
+        <note>[ControlCenter - Trackers list] Block All trackers action title</note>
       </trans-unit>
-      <trans-unit id="Block Explicit Content" approved="yes">
+      <trans-unit id="Block Explicit Content">
         <source>Block Explicit Content</source>
-        <target state="translated">Bloquer le contenu explicit</target>
+        <target>Bloquer le contenu explicit</target>
         <note>[Settings] Block explicit content</note>
       </trans-unit>
-      <trans-unit id="Browsing &amp; History" approved="yes">
+      <trans-unit id="Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.">
+        <source>Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.</source>
+        <note>[Onboarding] Adblocker Text</note>
+      </trans-unit>
+      <trans-unit id="Browsing &amp; History">
         <source>Browsing &amp; History</source>
-        <target state="translated">Navigation &amp; Historique</target>
+        <target>Navigation &amp; Historique</target>
         <note>[Settings] Browsing &amp; History section header</note>
       </trans-unit>
-      <trans-unit id="CLIQZ has blocked access to %1$ because it has been reported as a phishing website.Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information" approved="yes">
+      <trans-unit id="CLIQZ has blocked access to %1$ because it has been reported as a phishing website.Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information">
         <source>CLIQZ has blocked access to %1$ because it has been reported as a phishing website.Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information</source>
-        <target state="translated">Cliqz a bloqué l'accès à %1$ car il a été reporté comme un site malveillant. \nLes pages malveillantes se déguisent des pages sûres afin de subtiliser vos identifiants, vos mots de passe ou toutes autres données sensibles.</target>
+        <target>Cliqz a bloqué l'accès à %1$ car il a été reporté comme un site malveillant. \nLes pages malveillantes se déguisent des pages sûres afin de subtiliser vos identifiants, vos mots de passe ou toutes autres données sensibles.</target>
         <note>Antiphishing alert message</note>
       </trans-unit>
-      <trans-unit id="Cancel" approved="yes">
+      <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target state="translated">Annuler</target>
+        <target>Annuler</target>
         <note>[ControlCenter - Trackers list] Cancel action title
    Cancel</note>
       </trans-unit>
-      <trans-unit id="Categories" approved="yes">
+      <trans-unit id="Categories">
         <source>Categories</source>
-        <target state="translated">Catégories</target><note>[Trackers -&gt; ControlCenter] Trackers Title</note>
+        <target>Catégories</target>
+        <note>[Trackers -&gt; ControlCenter] Trackers Title</note>
       </trans-unit>
-      <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera." approved="yes">
+      <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
         <source>Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
-        <target state="translated">Le navigateur Cliqz ne peut pas accéder à l’appareil photo. Pour permettre l’accès, cliquez sur Paramètres et activez l’appareil photo.</target>
+        <target>Le navigateur Cliqz ne peut pas accéder à l’appareil photo. Pour permettre l’accès, cliquez sur Paramètres et activez l’appareil photo.</target>
         <note>[Connect] Alert message for turning on Camera access when Scanning QR Code</note>
       </trans-unit>
-      <trans-unit id="Cliqz Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi." approved="yes">
+      <trans-unit id="Cliqz Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.">
         <source>Cliqz Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.</source>
-        <target state="translated">Le navigateur Cliqz doit tout d'abord télécharger des données afin d'initialiser le Bloqueur de Pubs fonctionne. Pour cela, le dispositif doit être connecté au Wi-Fi.</target><note>[Settings -&gt; Block Ads] Block Ads footer</note>
+        <target>Le navigateur Cliqz doit tout d'abord télécharger des données afin d'initialiser le Bloqueur de Pubs fonctionne. Pour cela, le dispositif doit être connecté au Wi-Fi.</target>
+        <note>[Settings -&gt; Block Ads] Block Ads footer</note>
       </trans-unit>
-      <trans-unit id="Cliqz Tab" approved="yes">
+      <trans-unit id="Cliqz Search">
+        <source>Cliqz Search</source>
+        <note>[Settings] Cliqz Search</note>
+      </trans-unit>
+      <trans-unit id="Cliqz Tab">
         <source>Cliqz Tab</source>
-        <target state="translated">CliqzTab</target>
+        <target>CliqzTab</target>
         <note>[Settings] Cliqz Tab section header</note>
       </trans-unit>
-      <trans-unit id="Cliqz works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web." approved="yes">
+      <trans-unit id="Cliqz works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.">
         <source>Cliqz works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.</source>
-        <target state="translated">Cliqz utilise des données anonymisées sur les requêtes qui ont été produites par notre communauté d'utilisateurs. Nous appelons cette téchnologie qui collecte les données pour contruire l'index « Human Web ».</target><note>[Settings -&gt; Human Web]Footer text for Fair Blocking section</note>
+        <target>Cliqz utilise des données anonymisées sur les requêtes qui ont été produites par notre communauté d'utilisateurs. Nous appelons cette téchnologie qui collecte les données pour contruire l'index « Human Web ».</target>
+        <note>[Settings -&gt; Human Web]Footer text for Fair Blocking section</note>
       </trans-unit>
-      <trans-unit id="Complementary Search" approved="yes">
+      <trans-unit id="Close Tab">
+        <source>Close Tab</source>
+        <note>Label for Close Tab</note>
+      </trans-unit>
+      <trans-unit id="Code copied">
+        <source>Code copied</source>
+        <target>Code copié</target>
+        <note>[MyOffrz] copy promocode done</note>
+      </trans-unit>
+      <trans-unit id="Complementary Search">
         <source>Complementary Search</source>
-        <target state="translated">Recherche complémentaire</target>
+        <target>Recherche complémentaire</target>
         <note>[Settings] Complementary Search</note>
       </trans-unit>
-      <trans-unit id="Connect" approved="yes">
+      <trans-unit id="Configured Settings">
+        <source>Configured Settings</source>
+        <note>[Wifi Protection] Configured Settings</note>
+      </trans-unit>
+      <trans-unit id="Connect">
         <source>Connect</source>
-        <target state="translated">Connect</target>
+        <target>Connect</target>
         <note>[Settings] Connect
    [Settings] Connect section title</note>
       </trans-unit>
-      <trans-unit id="Connect Cliqz on your computer with Cliqz on your iOS device. This will allow you to send tabs from your desktop to your mobile device. You can also directly download videos from your desktop browser to your mobile device." approved="yes">
+      <trans-unit id="Connect Cliqz on your computer with Cliqz on your iOS device. This will allow you to send tabs from your desktop to your mobile device. You can also directly download videos from your desktop browser to your mobile device.">
         <source>Connect Cliqz on your computer with Cliqz on your iOS device. This will allow you to send tabs from your desktop to your mobile device. You can also directly download videos from your desktop browser to your mobile device.</source>
-        <target state="translated">Connectez Cliqz entre votre dispositif iOS et votre ordinateur. Vous pourrez ainsi partager des onglets entre votre ordinateur et vostre dispositif mobile, ainsi que télécharger des vidéos depuis votre ordinateur vers votre téléphone.</target><note>[Settings] Connect section footer</note>
+        <target>Connectez Cliqz entre votre dispositif iOS et votre ordinateur. Vous pourrez ainsi partager des onglets entre votre ordinateur et vostre dispositif mobile, ainsi que télécharger des vidéos depuis votre ordinateur vers votre téléphone.</target>
+        <note>[Settings] Connect section footer</note>
       </trans-unit>
-      <trans-unit id="Connecting ..." approved="yes">
+      <trans-unit id="Connected to WiFi">
+        <source>Connected to WiFi</source>
+        <note>[Wifi Protection] Connected to WiFi status</note>
+      </trans-unit>
+      <trans-unit id="Connecting ...">
         <source>Connecting ...</source>
-        <target state="translated">Connexion en cours ...</target><note>[Settings -&gt; Connect] Connecting status</note>
+        <target>Connexion en cours ...</target>
+        <note>[Settings -&gt; Connect] Connecting status</note>
       </trans-unit>
-      <trans-unit id="Connecting to Desktop" approved="yes">
+      <trans-unit id="Connecting to Desktop">
         <source>Connecting to Desktop</source>
-        <target state="translated">Connexion vers ordinateur en cours</target>
+        <target>Connexion vers ordinateur en cours</target>
         <note>[Settings -&gt; Connect] pending connection title</note>
       </trans-unit>
-      <trans-unit id="Connection Failed" approved="yes">
+      <trans-unit id="Connection Failed">
         <source>Connection Failed</source>
-        <target state="translated">La connexion a échouée</target>
+        <target>La connexion a échouée</target>
         <note>[Connect] Connection Failed alert title</note>
       </trans-unit>
-      <trans-unit id="Connection successful" approved="yes">
+      <trans-unit id="Connection successful">
         <source>Connection successful</source>
-        <target state="translated">La connexion a réussi</target>
+        <target>La connexion a réussi</target>
         <note>[Connect] Connection successful alert title</note>
       </trans-unit>
-      <trans-unit id="Continue despite warning" approved="yes">
+      <trans-unit id="Continue despite warning">
         <source>Continue despite warning</source>
-        <target state="translated">Continuer malgré l'avertissement</target>
+        <target>Continuer malgré l'avertissement</target>
         <note>Continue despite warning buttun title in antiphishing alert title</note>
       </trans-unit>
-      <trans-unit id="Could not download Video." approved="yes">
+      <trans-unit id="Could not download Video.">
         <source>Could not download Video.</source>
-        <target state="translated">Le téléchargement a échoué.</target><note>[VidoeDownloader] Toast message shown when youtube video download faild</note>
+        <target>Le téléchargement a échoué.</target>
+        <note>[VidoeDownloader] Toast message shown when youtube video download faild</note>
       </trans-unit>
-      <trans-unit id="Could not subscribe to {1}." approved="yes">
+      <trans-unit id="Could not subscribe to {1}.">
         <source>Could not subscribe to {1}.</source>
-        <target state="translated">L'abonnement à {1} a échoué.</target>
+        <target>L'abonnement à {1} a échoué.</target>
         <note>[Subscriptions] Alert title for asking to enable push notificaiton from the system
    [Subscriptions] Alert title when failing to subscribe to soccer notification</note>
       </trans-unit>
-      <trans-unit id="Currently, push notifications are only received if Cliqz is active." approved="yes">
+      <trans-unit id="Currently, push notifications are only received if Cliqz is active.">
         <source>Currently, push notifications are only received if Cliqz is active.</source>
-        <target state="translated">Actuellement, Cliqz doit être active pour recevoir les notifications push.</target>
+        <target>Actuellement, Cliqz doit être active pour recevoir les notifications push.</target>
         <note>[Subscriptions] Subscribing Toast</note>
       </trans-unit>
-      <trans-unit id="Done" approved="yes">
+      <trans-unit id="Done">
         <source>Done</source>
-        <target state="translated">Terminé</target>
+        <target>Terminé</target>
         <note>Done button in the tabTray Toolbar</note>
       </trans-unit>
-      <trans-unit id="Download videos on Wi-Fi Only" approved="yes">
+      <trans-unit id="Download videos on Wi-Fi Only">
         <source>Download videos on Wi-Fi Only</source>
-        <target state="translated">Télécharger les vidéos seulement sur Wi-Fi</target>
+        <target>Télécharger les vidéos seulement sur Wi-Fi</target>
         <note>[Settings -&gt; Limit Mobile Data Usage] toogle footer</note>
       </trans-unit>
-      <trans-unit id="Download youtube video" approved="yes">
+      <trans-unit id="Download youtube video">
         <source>Download youtube video</source>
-        <target state="translated">Télécharger une vidéo de Youtube</target>
+        <target>Télécharger une vidéo de Youtube</target>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
-      <trans-unit id="EULA" approved="yes">
+      <trans-unit id="EULA">
         <source>EULA</source>
-        <target state="translated">CGU</target>
+        <target>CGU</target>
         <note>[Settings -&gt; About] EULA</note>
       </trans-unit>
-      <trans-unit id="Empty TopSites hint" approved="yes">
+      <trans-unit id="Empty TopSites hint">
         <source>Empty TopSites hint</source>
-        <target state="translated">Vous accéderez à vos sites les plus visités ici</target>
+        <target>Vous accéderez à vos sites les plus visités ici</target>
         <note>Hint on Freshtab when there is no topsites</note>
       </trans-unit>
-      <trans-unit id="Enhanced Ad Blocking" approved="yes">
+      <trans-unit id="Enhanced Ad Blocking">
         <source>Enhanced Ad Blocking</source>
-        <target state="translated">Ad Blocking amélioré</target><note>[ControlCenter -&gt; Overview] Ad blocking switch title</note>
+        <target>Ad Blocking amélioré</target>
+        <note>[ControlCenter -&gt; Overview] Ad blocking switch title</note>
+      </trans-unit>
+      <trans-unit id="Every new Tab comes with top sites, news and background image. Customize it to your needs.">
+        <source>Every new Tab comes with top sites, news and background image. Customize it to your needs.</source>
+        <note>[Onboarding] Tab Text</note>
       </trans-unit>
       <trans-unit id="FAQ &amp; Support">
         <source>FAQ &amp; Support</source>
         <target>FAQ &amp; Support</target>
         <note>[Settings] FAQ &amp; Support</note>
       </trans-unit>
-      <trans-unit id="Fair Mode" approved="yes">
+      <trans-unit id="Fair Mode">
         <source>Fair Mode</source>
-        <target state="translated">Équitable</target>
+        <target>Équitable</target>
         <note>[Settings -&gt; Block Ads] Fair Mode</note>
       </trans-unit>
-      <trans-unit id="Forget" approved="yes">
+      <trans-unit id="Forget">
         <source>Forget</source>
-        <target state="translated">Oublier</target><note>Forget toogle button in tab overview</note>
+        <target>Oublier</target>
+        <note>Forget toogle button in tab overview</note>
       </trans-unit>
-      <trans-unit id="Get the best out of CLIQZ" approved="yes">
+      <trans-unit id="Get the best out of CLIQZ">
         <source>Get the best out of CLIQZ</source>
-        <target state="translated">Obtenir le meilleur de Cliqz</target>
+        <target>Obtenir le meilleur de Cliqz</target>
         <note>[Settings] Get the best out of CLIQZ</note>
       </trans-unit>
-      <trans-unit id="Ghostery Tab" approved="yes">
+      <trans-unit id="Ghostery Tab">
         <source>Ghostery Tab</source>
-        <target state="translated">Ghostery Tab</target><note>[Settings] Ghostery Tab section header</note>
+        <target>Ghostery Tab</target>
+        <note>[Onboarding] Tab Title
+   [Settings] Ghostery Tab section header</note>
       </trans-unit>
-      <trans-unit id="Global Trackers" approved="yes">
+      <trans-unit id="Ghostery for iOS now lets you protect your WiFI connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). ">
+        <source>Ghostery for iOS now lets you protect your WiFI connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). </source>
+        <note>[Wifi Protection] Description</note>
+      </trans-unit>
+      <trans-unit id="Global Trackers">
         <source>Global Trackers</source>
-        <target state="translated">Mouchards globales</target><note>[ControlCenter] Global Trackers panel title</note>
+        <target>Mouchards globales</target>
+        <note>[ControlCenter] Global Trackers panel title</note>
       </trans-unit>
       <trans-unit id="Go to ">
         <source>Go to </source>
         <target>Aller </target>
         <note>[Connect] instructions text part#1</note>
       </trans-unit>
+      <trans-unit id="Go to Settings &gt; WiFi settings">
+        <source>Go to Settings &gt; WiFi settings</source>
+        <note>[Wifi Protection] First step description</note>
+      </trans-unit>
       <trans-unit id="Help">
         <source>Help</source>
         <target>Aide</target>
         <note>[Settings] Help section header</note>
       </trans-unit>
-      <trans-unit id="Human Web" approved="yes">
-        <source>Human Web</source>
-        <target state="translated">Human Web</target>
-        <note>[Settings] Human Web</note>
+      <trans-unit id="Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any PII collected. Learn more at http://cliqz.com/en/privacy-browser.">
+        <source>Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any PII collected. Learn more at http://cliqz.com/en/privacy-browser.</source>
+        <note>[Settings -&gt; Send Telemetry] Footer text</note>
       </trans-unit>
-      <trans-unit id="LEARN MORE" approved="yes">
-        <source>LEARN MORE</source>
-        <target state="translated">EN SAVOIR PLUS</target><note>[MyOffrz] Learn more button title</note>
-      </trans-unit>
-      <trans-unit id="Less" approved="yes">
-        <source>Less</source>
-        <target state="translated">Moins</target><note>Text for less button</note>
-      </trans-unit>
-      <trans-unit id="LessNews" approved="yes">
-        <source>LessNews</source>
-        <target state="translated">En afficher moins</target>
-        <note>Title to expand news stream</note>
-      </trans-unit>
-      <trans-unit id="Licenses" approved="yes">
-        <source>Licenses</source>
-        <target state="translated">Licenses</target>
-        <note>[Settings -&gt; About] Licenses</note>
-      </trans-unit>
-      <trans-unit id="Limit Mobile Data Usage" approved="yes">
-        <source>Limit Mobile Data Usage</source>
-        <target state="translated">Limiter la consommation des données mobiles</target>
-        <note>[Settings] Limit Mobile Data Usage</note>
-      </trans-unit>
-      <trans-unit id="More" approved="yes">
-        <source>More</source>
-        <target state="translated">Plus</target><note>Text for more button</note>
-      </trans-unit>
-      <trans-unit id="MoreNews" approved="yes">
-        <source>MoreNews</source>
-        <target state="translated">En afficher plus</target>
-        <note>Title to expand news stream</note>
-      </trans-unit>
-      <trans-unit id="MyOffrz Code copied" approved="yes">
-        <source>MyOffrz Code copied</source>
-        <target state="translated">Code copié</target>
-        <note>[MyOffrz] copy promocode done</note>
-      </trans-unit>
-      <trans-unit id="MyOffrz Conditions" approved="yes">
-        <source>MyOffrz Conditions</source>
-        <target state="translated">Termes et conditions de MyOffrz</target>
-        <note>[MyOffrz] Conditions title</note>
-      </trans-unit>
-      <trans-unit id="MyOffrz Copy promocode" approved="yes">
-        <source>MyOffrz Copy promocode</source>
-        <target state="translated">Tapez pour copier le code</target>
-        <note>[MyOffrz] copy promocode action hint</note>
-      </trans-unit>
-      <trans-unit id="MyOffrz Empty Description" approved="yes">
-        <source>MyOffrz Empty Description</source>
-        <target state="translated">Ici vous trouverez chaque semaine une nouvelle promotion</target>
+      <trans-unit id="Here you'll find a new offer every week">
+        <source>Here you'll find a new offer every week</source>
+        <target>Ici vous trouverez chaque semaine une nouvelle promotion</target>
         <note>[MyOffrz] No offers label</note>
       </trans-unit>
-      <trans-unit id="MyOffrz Onboarding" approved="yes">
-        <source>MyOffrz Onboarding</source>
-        <target state="translated">Découvrez des réductions et offres exclusives avec MyOffrz</target>
-        <note>[MyOffrz] MyOffrz description</note>
+      <trans-unit id="Human Web">
+        <source>Human Web</source>
+        <target>Human Web</target>
+        <note>[Settings] Human Web</note>
       </trans-unit>
-      <trans-unit id="NEWS" approved="yes">
+      <trans-unit id="Important Notes:">
+        <source>Important Notes:</source>
+        <note>[Wifi Protection] Notes Title</note>
+      </trans-unit>
+      <trans-unit id="Introducing Ghostery">
+        <source>Introducing Ghostery</source>
+        <note>[Onboarding] Intro Title</note>
+      </trans-unit>
+      <trans-unit id="Keep your browsing cleaner, faster, and safer. By using this app you agree to the Privacy Policy.">
+        <source>Keep your browsing cleaner, faster, and safer. By using this app you agree to the Privacy Policy.</source>
+        <note>[Onboarding] Intro Text</note>
+      </trans-unit>
+      <trans-unit id="LEARN MORE">
+        <source>LEARN MORE</source>
+        <target>EN SAVOIR PLUS</target>
+        <note>[MyOffrz] Learn more button title</note>
+      </trans-unit>
+      <trans-unit id="LessNews">
+        <source>LessNews</source>
+        <target>En afficher moins</target>
+        <note>Title to expand news stream</note>
+      </trans-unit>
+      <trans-unit id="Licenses">
+        <source>Licenses</source>
+        <target>Licenses</target>
+        <note>[Settings -&gt; About] Licenses</note>
+      </trans-unit>
+      <trans-unit id="Limit Mobile Data Usage">
+        <source>Limit Mobile Data Usage</source>
+        <target>Limiter la consommation des données mobiles</target>
+        <note>[Settings] Limit Mobile Data Usage</note>
+      </trans-unit>
+      <trans-unit id="MoreNews">
+        <source>MoreNews</source>
+        <target>En afficher plus</target>
+        <note>Title to expand news stream</note>
+      </trans-unit>
+      <trans-unit id="NEWS">
         <source>NEWS</source>
-        <target state="translated">News</target><note>Title to expand news stream</note>
+        <target>News</target>
+        <note>Title to expand news stream</note>
       </trans-unit>
-      <trans-unit id="No Wi-Fi Connection message" approved="yes">
+      <trans-unit id="New Private Tab">
+        <source>New Private Tab</source>
+        <note>Label for New Private Tab</note>
+      </trans-unit>
+      <trans-unit id="New Tab">
+        <source>New Tab</source>
+        <note>Label for New Tab</note>
+      </trans-unit>
+      <trans-unit id="No Wi-Fi Connection message">
         <source>No Wi-Fi Connection message</source>
-        <target state="translated">Vous n'êtes pas connecté·e au wi-fi et le téléchargement des vidéos avec les réseaux mobiles n'est pas permis. \nVeuillez changer cela dans Paramètres &gt; Limiter la consommation des données mobiles.\n</target>
+        <target>Vous n'êtes pas connecté·e au wi-fi et le téléchargement des vidéos avec les réseaux mobiles n'est pas permis. \nVeuillez changer cela dans Paramètres &gt; Limiter la consommation des données mobiles.\n</target>
         <note>[VidoeDownloader] No Wi-Fi connection alert message</note>
       </trans-unit>
       <trans-unit id="Not Now">
@@ -708,109 +786,141 @@
         <target>Désactivé</target>
         <note>[Settings] Off status</note>
       </trans-unit>
-      <trans-unit id="Offline" approved="yes">
+      <trans-unit id="Offline">
         <source>Offline</source>
-        <target state="translated">Hors ligne</target><note>[Settings -&gt; Connect] Offline status</note>
+        <target>Hors ligne</target>
+        <note>[Settings -&gt; Connect] Offline status</note>
       </trans-unit>
-      <trans-unit id="Ok" approved="yes">
+      <trans-unit id="Ok">
         <source>Ok</source>
-        <target state="translated">Ok</target><note>Ok</note>
+        <target>Ok</target>
+        <note>Ok</note>
       </trans-unit>
-      <trans-unit id="On" approved="yes">
+      <trans-unit id="On">
         <source>On</source>
-        <target state="translated">Activé</target>
+        <target>Activé</target>
         <note>[Settings] On status</note>
       </trans-unit>
-      <trans-unit id="On all sites" approved="yes">
+      <trans-unit id="On all sites">
         <source>On all sites</source>
-        <target state="translated">Sur tous les sites</target><note>[ControlCenter -&gt; Global Trackers] category status fo all sites</note>
+        <target>Sur tous les sites</target>
+        <note>[ControlCenter -&gt; Global Trackers] category status fo all sites</note>
       </trans-unit>
-      <trans-unit id="On this site" approved="yes">
+      <trans-unit id="On this site">
         <source>On this site</source>
-        <target state="translated">Sur ce site</target><note>[ControlCenter -&gt; Trackers] category status for the current site</note>
+        <target>Sur ce site</target>
+        <note>[ControlCenter -&gt; Trackers] category status for the current site</note>
       </trans-unit>
-      <trans-unit id="Online" approved="yes">
+      <trans-unit id="Online">
         <source>Online</source>
-        <target state="translated">En ligne</target><note>[Settings -&gt; Connect] Online status</note>
+        <target>En ligne</target>
+        <note>[Settings -&gt; Connect] Online status</note>
       </trans-unit>
-      <trans-unit id="Open the Photos" approved="yes">
+      <trans-unit id="Open the Photos">
         <source>Open the Photos</source>
-        <target state="translated">Ouvrir les photos</target><note>[VidoeDownloader] Toast button text shown when youtube video is Successfully downloaded</note>
+        <target>Ouvrir les photos</target>
+        <note>[VidoeDownloader] Toast button text shown when youtube video is Successfully downloaded</note>
       </trans-unit>
-      <trans-unit id="Overview" approved="yes">
+      <trans-unit id="Overview">
         <source>Overview</source>
-        <target state="translated">Aperçu</target>
+        <target>Aperçu</target>
         <note>[ControlCenter] Overview panel title</note>
       </trans-unit>
-      <trans-unit id="Pause Ghostery" approved="yes">
-        <source>Pause Ghostery</source>
-        <target state="translated">Mettre Ghostery en pause</target><note>[ControlCenter -&gt; Overview] Pause Ghostery button title</note>
+      <trans-unit id="Paste copied URL into textfield">
+        <source>Paste copied URL into textfield</source>
+        <note>[Wifi Protection] Fourth step description</note>
       </trans-unit>
-      <trans-unit id="Please select video quality" approved="yes">
+      <trans-unit id="Pause Ghostery">
+        <source>Pause Ghostery</source>
+        <target>Mettre Ghostery en pause</target>
+        <note>[ControlCenter -&gt; Overview] Pause Ghostery button title</note>
+      </trans-unit>
+      <trans-unit id="Please select video quality">
         <source>Please select video quality</source>
-        <target state="translated">Veuillez sélectionner la qualité de la vidéo</target>
+        <target>Veuillez sélectionner la qualité de la vidéo</target>
         <note>[VidoeDownloader] Youtube downloader action sheet message</note>
       </trans-unit>
-      <trans-unit id="Privacy" approved="yes">
+      <trans-unit id="Privacy">
         <source>Privacy</source>
-        <target state="translated">Vie privée</target><note>[Settings] Privacy section header</note>
+        <target>Vie privée</target>
+        <note>[Settings] Privacy section header</note>
       </trans-unit>
-      <trans-unit id="Privacy Policy" approved="yes">
+      <trans-unit id="Privacy Policy">
         <source>Privacy Policy</source>
-        <target state="translated">Politique de confidentialité</target>
+        <target>Politique de confidentialité</target>
         <note>[Settings -&gt; About] Privacy Policy</note>
       </trans-unit>
-      <trans-unit id="Prompt description" approved="yes">
+      <trans-unit id="Prompt description">
         <source>Prompt description</source>
-        <target state="translated">Veuillez entrer un nouveau nom pour la connexion :</target>
+        <target>Veuillez entrer un nouveau nom pour la connexion :</target>
         <note>[Settings -&gt; Connect] rename connection alert message</note>
       </trans-unit>
-      <trans-unit id="Rate Us" approved="yes">
+      <trans-unit id="Quick Search">
+        <source>Quick Search</source>
+        <note>[Onboarding] QuickSearch Title</note>
+      </trans-unit>
+      <trans-unit id="Rate Us">
         <source>Rate Us</source>
-        <target state="translated">Noter Cliqz</target>
+        <target>Noter Cliqz</target>
         <note>[Settings] Rate Us</note>
       </trans-unit>
-      <trans-unit id="Remove Connection" approved="yes">
+      <trans-unit id="Receive attractive discounts and bargains with MyOffrz.">
+        <source>Receive attractive discounts and bargains with MyOffrz.</source>
+        <target>Découvrez des réductions et offres exclusives avec MyOffrz</target>
+        <note>[MyOffrz] MyOffrz description</note>
+      </trans-unit>
+      <trans-unit id="Remove Connection">
         <source>Remove Connection</source>
-        <target state="translated">Annuler la connexion</target>
+        <target>Annuler la connexion</target>
         <note>[Settings -&gt; Connect] remove connection</note>
       </trans-unit>
-      <trans-unit id="Rename Connection" approved="yes">
+      <trans-unit id="Rename Connection">
         <source>Rename Connection</source>
-        <target state="translated">Renommer la connexion</target>
+        <target>Renommer la connexion</target>
         <note>[Settings -&gt; Connect] rename connection</note>
       </trans-unit>
-      <trans-unit id="Report Website" approved="yes">
+      <trans-unit id="Report Website">
         <source>Report Website</source>
-        <target state="translated">Signaler le site web</target>
+        <target>Signaler le site web</target>
         <note>[Settings] Report Website</note>
       </trans-unit>
-      <trans-unit id="Restrict All" approved="yes">
+      <trans-unit id="Restrict All">
         <source>Restrict All</source>
-        <target state="translated">Limiter tous</target><note>[ControlCenter - Trackers list] Restrict All trackers action title</note>
+        <target>Limiter tous</target>
+        <note>[ControlCenter - Trackers list] Restrict All trackers action title</note>
       </trans-unit>
-      <trans-unit id="Restrict Site" approved="yes">
+      <trans-unit id="Restrict Site">
         <source>Restrict Site</source>
-        <target state="translated">Resteindre ce site</target><note>[ControlCenter -&gt; Overview] Restrict button title</note>
+        <target>Resteindre ce site</target>
+        <note>[ControlCenter -&gt; Overview] Restrict button title</note>
       </trans-unit>
-      <trans-unit id="Resume" approved="yes">
+      <trans-unit id="Resume">
         <source>Resume</source>
-        <target state="translated">Reprendre</target><note>[ControlCenter -&gt; Overview] Resume Ghostery button title</note>
+        <target>Reprendre</target>
+        <note>[ControlCenter -&gt; Overview] Resume Ghostery button title</note>
       </trans-unit>
-      <trans-unit id="Retrieving video information" approved="yes">
+      <trans-unit id="Retrieving video information">
         <source>Retrieving video information</source>
-        <target state="translated">Récupérer les informations de la vidéo</target>
+        <target>Récupérer les informations de la vidéo</target>
         <note>[VidoeDownloader] HUD message displayed while youtube downloader grabing the download URLs of the video</note>
       </trans-unit>
-      <trans-unit id="Retry" approved="yes">
+      <trans-unit id="Retry">
         <source>Retry</source>
-        <target state="translated">Veuillez réessayer</target>
+        <target>Veuillez réessayer</target>
         <note>[Connect] Retry button for Connection Failed alert
    [Subscriptions] Retry alert button</note>
       </trans-unit>
-      <trans-unit id="Scan QR-Code" approved="yes">
+      <trans-unit id="Revert">
+        <source>Revert</source>
+        <note>[ControlCenter - Trackers list] Revert trackers action title</note>
+      </trans-unit>
+      <trans-unit id="Save time and data volume: Quick Search instantly shows relevant results while typing.">
+        <source>Save time and data volume: Quick Search instantly shows relevant results while typing.</source>
+        <note>[Onboarding] QuickSearch Text</note>
+      </trans-unit>
+      <trans-unit id="Scan QR-Code">
         <source>Scan QR-Code</source>
-        <target state="translated">Lire le code QR</target>
+        <target>Lire le code QR</target>
         <note>[Settings -&gt; Connect] Scan QR-Code</note>
       </trans-unit>
       <trans-unit id="Search">
@@ -818,145 +928,194 @@
         <target>Recherche</target>
         <note>[Settings] Search section title</note>
       </trans-unit>
-      <trans-unit id="Search Query Suggestions" approved="yes">
+      <trans-unit id="Search Query Suggestions">
         <source>Search Query Suggestions</source>
-        <target state="translated">Suggestions de recherche</target>
+        <target>Suggestions de recherche</target>
         <note>[Settings] Search Query Suggestions</note>
       </trans-unit>
-      <trans-unit id="Search Results for" approved="yes">
+      <trans-unit id="Search Results for">
         <source>Search Results for</source>
-        <target state="translated">Résultats pour</target>
+        <target>Résultats pour</target>
         <note>[Settings] Search Results for</note>
       </trans-unit>
-      <trans-unit id="Send Crash Reports" approved="yes">
+      <trans-unit id="Select trackers to block">
+        <source>Select trackers to block</source>
+        <note>[Wifi Protection] Trackers control title</note>
+      </trans-unit>
+      <trans-unit id="Send Crash Reports">
         <source>Send Crash Reports</source>
-        <target state="translated">Envoyer les rapports d’erreur</target>
+        <target>Envoyer les rapports d’erreur</target>
         <note>[Settings] Send Crash Reports</note>
       </trans-unit>
-      <trans-unit id="Settings" approved="yes">
+      <trans-unit id="Send usage data">
+        <source>Send usage data</source>
+        <note>[Settings] Send usage data</note>
+      </trans-unit>
+      <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
+        <source>Set \"HTTP PROXY\" to \"Auto\"</source>
+        <note>[Wifi Protection] Third step description</note>
+      </trans-unit>
+      <trans-unit id="Settings">
         <source>Settings</source>
-        <target state="translated">Paramètres</target>
+        <target>Paramètres</target>
         <note>[Subscriptions] Subscribe alert button
    Settings option for turning on Camera access
    Settings option for turning on location service
    Sharing activity for opening Settings</note>
       </trans-unit>
-      <trans-unit id="Show News" approved="yes">
+      <trans-unit id="Show News">
         <source>Show News</source>
-        <target state="translated">Afficher les actualités</target>
+        <target>Afficher les actualités</target>
         <note>[Settings] Show News</note>
       </trans-unit>
-      <trans-unit id="Show most visited websites" approved="yes">
+      <trans-unit id="Show most visited websites">
         <source>Show most visited websites</source>
-        <target state="translated">Afficher les sites les plus visités</target>
+        <target>Afficher les sites les plus visités</target>
         <note>[Settings] Show most visited websites</note>
       </trans-unit>
-      <trans-unit id="Sorry but devices could not be connected. Please try again." approved="yes">
+      <trans-unit id="Sorry but devices could not be connected. Please try again.">
         <source>Sorry but devices could not be connected. Please try again.</source>
-        <target state="translated">Désolé, mais la connexion a échouée. Veuillez essayer à nouveau.</target>
+        <target>Désolé, mais la connexion a échouée. Veuillez essayer à nouveau.</target>
         <note>[Connect] Connection Failed alert message</note>
       </trans-unit>
-      <trans-unit id="Sorry, we encountered some technical difficulties. Please try again" approved="yes">
+      <trans-unit id="Sorry, we encountered some technical difficulties. Please try again">
         <source>Sorry, we encountered some technical difficulties. Please try again</source>
-        <target state="translated">Désolé, il y a eu des problèmes techniques. Veuillez réessayer</target>
+        <target>Désolé, il y a eu des problèmes techniques. Veuillez réessayer</target>
         <note>[Subscriptions] Alert message when failing to subscribe to soccer notification</note>
       </trans-unit>
-      <trans-unit id="Subscribe" approved="yes">
+      <trans-unit id="Subscribe">
         <source>Subscribe</source>
-        <target state="translated">S'abonner</target>
+        <target>S'abonner</target>
         <note>[Subscriptions] Subscribe alert button</note>
       </trans-unit>
-      <trans-unit id="Subscribing to {1}." approved="yes">
+      <trans-unit id="Subscribing to {1}.">
         <source>Subscribing to {1}.</source>
-        <target state="translated">Abonnement en cours ...</target>
+        <target>Abonnement en cours ...</target>
         <note>[Subscriptions] Subscribing HUD</note>
       </trans-unit>
-      <trans-unit id="The download is complete." approved="yes">
+      <trans-unit id="Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.">
+        <source>Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.</source>
+        <note>[Onboarding] Telemetry</note>
+      </trans-unit>
+      <trans-unit id="Tap        next to your connection">
+        <source>Tap        next to your connection</source>
+        <note>[Wifi Protection] Second step description</note>
+      </trans-unit>
+      <trans-unit id="Tap box below to copy">
+        <source>Tap box below to copy</source>
+        <note>[Wifi Protection] Copy URL action description</note>
+      </trans-unit>
+      <trans-unit id="Tap to copy the code">
+        <source>Tap to copy the code</source>
+        <target>Tapez pour copier le code</target>
+        <note>[MyOffrz] copy promocode action hint</note>
+      </trans-unit>
+      <trans-unit id="Terms">
+        <source>Terms</source>
+        <target>Termes et conditions de MyOffrz</target>
+        <note>[MyOffrz] Conditions title</note>
+      </trans-unit>
+      <trans-unit id="The download is complete.">
         <source>The download is complete.</source>
-        <target state="translated">Le téléchargement a terminé.</target><note>[VidoeDownloader] Toast message shown when youtube video is Successfully downloaded</note>
+        <target>Le téléchargement a terminé.</target>
+        <note>[VidoeDownloader] Toast message shown when youtube video is Successfully downloaded</note>
       </trans-unit>
-      <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'" approved="yes">
+      <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
         <source>To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'</source>
-        <target state="translated">Pour partager votre position, rendez-vous dans les Réglages de l'application Cliqz :\n\n1. Cliquez sur 'Service de localisation'\n2. Saisissez 'Lorsque l'app est active'</target>
+        <target>Pour partager votre position, rendez-vous dans les Réglages de l'application Cliqz :\n\n1. Cliquez sur 'Service de localisation'\n2. Saisissez 'Lorsque l'app est active'</target>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
-      <trans-unit id="To share your location, go to the settings of your smartphone:\n1.Turn on Location Services\n2.Select the CLIQZ App\n3.Enable 'While Using'" approved="yes">
+      <trans-unit id="To share your location, go to the settings of your smartphone:\n1.Turn on Location Services\n2.Select the CLIQZ App\n3.Enable 'While Using'">
         <source>To share your location, go to the settings of your smartphone:\n1.Turn on Location Services\n2.Select the CLIQZ App\n3.Enable 'While Using'</source>
-        <target state="translated">Pour partager votre position, rendez-vous dans les réglages du téléphone:\n\n1. Activez le service de localisation\n2. Sélectionnez Cliqz\n3. Sélectionnez \"Lorsque l'app est active\"</target>
+        <target>Pour partager votre position, rendez-vous dans les réglages du téléphone:\n\n1. Activez le service de localisation\n2. Sélectionnez Cliqz\n3. Sélectionnez \"Lorsque l'app est active\"</target>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
-      <trans-unit id="Trackers" approved="yes">
+      <trans-unit id="Trackers">
         <source>Trackers</source>
-        <target state="translated">Mouchards</target><note>[ControlCenter] Trackers panel title</note>
+        <target>Mouchards</target>
+        <note>[ControlCenter] Trackers panel title</note>
       </trans-unit>
-      <trans-unit id="Trust All" approved="yes">
+      <trans-unit id="Trust All">
         <source>Trust All</source>
-        <target state="translated">Se fier à tous</target><note>[ControlCenter - Trackers list] Trust All trackers action title</note>
+        <target>Se fier à tous</target>
+        <note>[ControlCenter - Trackers list] Trust All trackers action title</note>
       </trans-unit>
-      <trans-unit id="Trust Site" approved="yes">
+      <trans-unit id="Trust Site">
         <source>Trust Site</source>
-        <target state="translated">Se fier à ce site</target><note>[ControlCenter -&gt; Overview] Trust button title</note>
+        <target>Se fier à ce site</target>
+        <note>[ControlCenter -&gt; Overview] Trust button title</note>
       </trans-unit>
-      <trans-unit id="Turn on Location Services" approved="yes">
+      <trans-unit id="Turn on Location Services">
         <source>Turn on Location Services</source>
-        <target state="translated">Activer le service de localisation</target>
+        <target>Activer le service de localisation</target>
         <note>Alert title for turning on location service when clicking share location on local card</note>
       </trans-unit>
-      <trans-unit id="Unblock All" approved="yes">
-        <source>Unblock All</source>
-        <target state="translated">Tout débloquer</target><note>[ControlCenter - Trackers list] Unblock All trackers action title</note>
-      </trans-unit>
-      <trans-unit id="Video quality" approved="yes">
+      <trans-unit id="Video quality">
         <source>Video quality</source>
-        <target state="translated">Qualité de la vidéo</target>
+        <target>Qualité de la vidéo</target>
         <note>[VidoeDownloader] Youtube downloader action sheet title</note>
       </trans-unit>
-      <trans-unit id="Warning: deceptive website!" approved="yes">
+      <trans-unit id="Warning: deceptive website!">
         <source>Warning: deceptive website!</source>
-        <target state="translated">Attention : site malveillant !</target>
+        <target>Attention : site malveillant !</target>
         <note>Antiphishing alert title</note>
       </trans-unit>
-      <trans-unit id="We use opensource software Sentry (http://sentry.io) for our crash reports. these reports do not contain any personal data." approved="yes">
+      <trans-unit id="We use opensource software Sentry (http://sentry.io) for our crash reports. these reports do not contain any personal data.">
         <source>We use opensource software Sentry (http://sentry.io) for our crash reports. these reports do not contain any personal data.</source>
-        <target state="translated">Nous utilisons le logiciel opensource Sentry (http://sentry.io) pour les rapports des crash. Ces rapports ne contiennent aucune donnée personelle.</target><note>[Settings -&gt; Send Crash Reports] Footer text</note>
+        <target>Nous utilisons le logiciel opensource Sentry (http://sentry.io) pour les rapports des crash. Ces rapports ne contiennent aucune donnée personelle.</target>
+        <note>[Settings -&gt; Send Crash Reports] Footer text</note>
       </trans-unit>
-      <trans-unit id="Websites which are known to contain explicit content are automatically opened in Forget Tabs. Visits to such websites are therefore not saved to your history." approved="yes">
+      <trans-unit id="Websites which are known to contain explicit content are automatically opened in Forget Tabs. Visits to such websites are therefore not saved to your history.">
         <source>Websites which are known to contain explicit content are automatically opened in Forget Tabs. Visits to such websites are therefore not saved to your history.</source>
-        <target state="translated">Les sites web avec du contenu explicite seront ouvert en Mode Ghost de façon automatique et ils ne seront pas sauvegardés dans vostre historique.</target>
+        <target>Les sites web avec du contenu explicite seront ouvert en Mode Ghost de façon automatique et ils ne seront pas sauvegardés dans vostre historique.</target>
         <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
+      </trans-unit>
+      <trans-unit id="WiFi connection protection">
+        <source>WiFi connection protection</source>
+        <note>[Wifi Protection] Navigation Title
+   [Wifi Protection] WiFi connection protection status</note>
+      </trans-unit>
+      <trans-unit id="Wifi Protection">
+        <source>Wifi Protection</source>
+        <note>Sharing activity for opening Settings</note>
       </trans-unit>
       <trans-unit id="Would you like to subscribe to the {1}?">
         <source>Would you like to subscribe to the {1}?</source>
         <target>{1} : voulez-vous vous abonner ?</target>
         <note>[Subscriptions] Alert title for asking to subscribe for soccer notificaiton</note>
       </trans-unit>
-      <trans-unit id="You connected your first device!\n\nNow you are ready to send websites and YouTube videos from your computer to your mobile device." approved="yes">
+      <trans-unit id="You connected your first device!\n\nNow you are ready to send websites and YouTube videos from your computer to your mobile device.">
         <source>You connected your first device!\n\nNow you are ready to send websites and YouTube videos from your computer to your mobile device.</source>
-        <target state="translated">Vous avez connecté votre premier appareil !\n\nVous pouvez dès maintenant envoyer des onglets et des vidéos YouTube depuis Cliqz pour ordinateur à votre appareil mobile.</target>
+        <target>Vous avez connecté votre premier appareil !\n\nVous pouvez dès maintenant envoyer des onglets et des vidéos YouTube depuis Cliqz pour ordinateur à votre appareil mobile.</target>
         <note>[Connect] Connection Successful alert message</note>
       </trans-unit>
-      <trans-unit id="You will be notified about games, goals and important happenings of the {1}." approved="yes">
+      <trans-unit id="You will be notified about games, goals and important happenings of the {1}.">
         <source>You will be notified about games, goals and important happenings of the {1}.</source>
-        <target state="translated">{1}: vous recevirez des alertes sur les matchs, les buts et les info importantes.</target>
+        <target>{1}: vous recevirez des alertes sur les matchs, les buts et les info importantes.</target>
         <note>[Subscriptions] Alert message for asking to subscribe for soccer notificaiton</note>
       </trans-unit>
-      <trans-unit id="Your video is being downloaded." approved="yes">
+      <trans-unit id="Your video is being downloaded.">
         <source>Your video is being downloaded.</source>
-        <target state="translated">Téléchargement de la vidéo en cours.</target><note>[VidoeDownloader] Toast message shown when youtube video download started</note>
+        <target>Téléchargement de la vidéo en cours.</target>
+        <note>[VidoeDownloader] Toast message shown when youtube video download started</note>
       </trans-unit>
-      <trans-unit id="region-DE" approved="yes">
+      <trans-unit id="copied!">
+        <source>copied!</source>
+        <note>[Wifi Protection] WiFi connection protection status</note>
+      </trans-unit>
+      <trans-unit id="region-DE">
         <source>Germany</source>
-        <target state="translated">Allemagne</target>
+        <target>Allemagne</target>
         <note>Localized String for German region</note>
       </trans-unit>
-      <trans-unit id="region-FR" approved="yes">
+      <trans-unit id="region-FR">
         <source>France</source>
-        <target state="translated">France</target>
+        <target>France</target>
         <note>Localized String for France region</note>
       </trans-unit>
-      <trans-unit id="region-US" approved="yes">
+      <trans-unit id="region-US">
         <source>United States</source>
-        <target state="translated">États-Unis</target>
+        <target>États-Unis</target>
         <note>Localized String for United States region</note>
       </trans-unit>
     </body>
@@ -971,9 +1130,9 @@
         <target>Ouvrir avec Safari</target>
         <note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
       </trans-unit>
-      <trans-unit id="Try again" approved="yes">
+      <trans-unit id="Try again">
         <source>Try again</source>
-        <target state="translated">Réessayer</target>
+        <target>Réessayer</target>
         <note>Shown in error pages on a button that will try to load the page again</note>
       </trans-unit>
     </body>
@@ -1058,17 +1217,19 @@
         <target>Cliqz n'utilisera cet accès qu'afin de télécharger des vidéos et des photos sur votre appareil.</target>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
-      <trans-unit id="ShortcutItemTitleNewPrivateTab" approved="yes">
+      <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Private Tab</source>
-        <target state="translated">Nouveau Ghost Tab</target><note/>
+        <target>Nouveau Ghost Tab</target>
+        <note/>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
         <note/>
       </trans-unit>
-      <trans-unit id="ShortcutItemTitleQRCode" approved="yes">
+      <trans-unit id="ShortcutItemTitleQRCode">
         <source>Scan QR Code</source>
-        <target state="translated">Lire le code QR</target><note/>
+        <target>Lire le code QR</target>
+        <note/>
       </trans-unit>
     </body>
   </file>
@@ -1257,9 +1418,9 @@
         <target>Changer le type de police.</target>
         <note>Accessibility hint for the font type buttons in reader mode display settings</note>
       </trans-unit>
-      <trans-unit id="Clear Private Data" approved="yes">
+      <trans-unit id="Clear Private Data">
         <source>Clear Private Data</source>
-        <target state="translated">Effacer les données personnelles</target>
+        <target>Effacer les données personnelles</target>
         <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
       <trans-unit id="Close">
@@ -1271,6 +1432,10 @@
         <source>Closing tab</source>
         <target>Fermeture de l'onglet</target>
         <note>Accessibility label (used by assistive technology) notifying the user that the tab is being closed.</note>
+      </trans-unit>
+      <trans-unit id="Complementary Search Engine">
+        <source>Complementary Search Engine</source>
+        <note>Title for complementary search engine picker.</note>
       </trans-unit>
       <trans-unit id="Copy Image">
         <source>Copy Image</source>
@@ -1291,9 +1456,9 @@
         <target>Impossible d'ajouter la page à la liste de lecture</target>
         <note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
       </trans-unit>
-      <trans-unit id="Could not load page." approved="yes">
+      <trans-unit id="Could not load page.">
         <source>Could not load page.</source>
-        <target state="translated">Impossible de charger la page.</target>
+        <target>Impossible de charger la page.</target>
         <note>Error message that is shown in settings when there was a problem loading</note>
       </trans-unit>
       <trans-unit id="Create an account">
@@ -1982,14 +2147,23 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
-      <trans-unit id="Close Private Tabs" approved="yes">
+      <trans-unit id="Cliqz won’t remember any of your history or cookies, but new bookmarks will be saved.">
+        <source>Cliqz won’t remember any of your history or cookies, but new bookmarks will be saved.</source>
+        <note>Description text displayed when there are no open tabs while in private mode</note>
+      </trans-unit>
+      <trans-unit id="Close Private Tabs">
         <source>Close Private Tabs</source>
-        <target state="translated">Fermer tous les Ghost Tab</target>
+        <target>Fermer tous les Ghost Tab</target>
         <note>Setting for closing private tabs</note>
       </trans-unit>
-      <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved." approved="yes">
+      <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.">
         <source>Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.</source>
-        <target state="translated">Ghostery ne se souviendra pas de votre historique ou des cookies, mais les favoris seront sauvegardés.</target><note>Description text displayed when there are no open tabs while in private mode</note>
+        <target>Ghostery ne se souviendra pas de votre historique ou des cookies, mais les favoris seront sauvegardés.</target>
+        <note>Description text displayed when there are no open tabs while in private mode</note>
+      </trans-unit>
+      <trans-unit id="Ghostery won’t remember any of your history or cookies, but new bookmarks will be saved.">
+        <source>Ghostery won’t remember any of your history or cookies, but new bookmarks will be saved.</source>
+        <note>Description text displayed when there are no open tabs while in private mode</note>
       </trans-unit>
       <trans-unit id="Learn More">
         <source>Learn More</source>
@@ -2006,9 +2180,10 @@
         <target>Activé</target>
         <note>Toggled ON accessibility value</note>
       </trans-unit>
-      <trans-unit id="Open in New Private Tab" approved="yes">
+      <trans-unit id="Open in New Private Tab">
         <source>Open in New Private Tab</source>
-        <target state="translated">Ouvrir dans un nouveau Ghost Tab</target><note>Context menu option for opening a link in a new private tab</note>
+        <target>Ouvrir dans un nouveau Ghost Tab</target>
+        <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="Private Browsing">
         <source>Private Browsing</source>
@@ -2074,9 +2249,10 @@
         <source>Available devices:</source>
         <note>Header for the list of devices table</note>
       </trans-unit>
-      <trans-unit id="Close" approved="yes">
+      <trans-unit id="Close">
         <source>Close</source>
-        <target state="translated">Fermer</target><note>Close button in top navigation bar</note>
+        <target>Fermer</target>
+        <note>Close button in top navigation bar</note>
       </trans-unit>
       <trans-unit id="Please open Firefox, go to Settings and sign in to continue.">
         <source>Please open Firefox, go to Settings and sign in to continue.</source>
@@ -2108,6 +2284,33 @@
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
         <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en" datatype="plaintext" target-language="fr">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
+    </header>
+    <body>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
+        <source>%#@trackers@</source>
+        <target>%#@trackers@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/one:dict/:string">
+        <source>%d Tracker Blocked</source>
+        <target>%d Mouchard Bloqué</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/other:dict/:string">
+        <source>%d Trackers Blocked</source>
+        <target>%d Mouchards Bloqués</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/zero:dict/:string">
+        <source>%d Trackers Blocked</source>
+        <target>%d Mouchards Bloqués</target>
+        <note/>
       </trans-unit>
     </body>
   </file>
@@ -2235,9 +2438,10 @@
         <source>Go to copied link</source>
         <note>Go to link on clipboard</note>
       </trans-unit>
-      <trans-unit id="TodayWidget.NewPrivateTabButtonLabel" approved="yes">
+      <trans-unit id="TodayWidget.NewPrivateTabButtonLabel">
         <source>New Private Tab</source>
-        <target state="translated">Nouveau Ghost Tab</target><note>New Private Tab button label</note>
+        <target>Nouveau Ghost Tab</target>
+        <note>New Private Tab button label</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewTabButtonLabel">
         <source>New Tab</source>
@@ -2385,9 +2589,10 @@
         <source>Pin to Top Sites</source>
         <note>The title for the pinning a topsite action</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.RemovePinTopsite" approved="yes">
+      <trans-unit id="ActivityStream.ContextMenu.RemovePinTopsite">
         <source>Remove Pinned Site</source>
-        <target state="translated">Enlever le site</target><note>The title for removing a pinned topsite action</note>
+        <target>Enlever le site</target>
+        <note>The title for removing a pinned topsite action</note>
       </trans-unit>
       <trans-unit id="ActivityStream.HighlightIntro.Description">
         <source>Firefox will place things here that you’ve discovered on the web so you can find your way back to the great articles, videos, bookmarks and other pages</source>
@@ -2483,29 +2688,35 @@
         <source>Go to copied link?</source>
         <note>Message displayed when the user has a copied link on the clipboard</note>
       </trans-unit>
-      <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.ButtonText" approved="yes">
+      <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.ButtonText">
         <source>Switch</source>
-        <target state="translated">Changer</target><note>The button text in the Button Toast for switching to a fresh New Private Tab.</note>
+        <target>Changer</target>
+        <note>The button text in the Button Toast for switching to a fresh New Private Tab.</note>
       </trans-unit>
-      <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.LabelText" approved="yes">
+      <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.LabelText">
         <source>New Private Tab opened</source>
-        <target state="translated">Nouveau Ghost Tab ouvert</target><note>The label text in the Button Toast for switching to a fresh New Private Tab.</note>
+        <target>Nouveau Ghost Tab ouvert</target>
+        <note>The label text in the Button Toast for switching to a fresh New Private Tab.</note>
       </trans-unit>
-      <trans-unit id="ContextMenu.ButtonToast.NewTabOpened.ButtonText" approved="yes">
+      <trans-unit id="ContextMenu.ButtonToast.NewTabOpened.ButtonText">
         <source>Switch</source>
-        <target state="translated">Changer</target><note>The button text in the Button Toast for switching to a fresh New Tab.</note>
+        <target>Changer</target>
+        <note>The button text in the Button Toast for switching to a fresh New Tab.</note>
       </trans-unit>
-      <trans-unit id="ContextMenu.ButtonToast.NewTabOpened.LabelText" approved="yes">
+      <trans-unit id="ContextMenu.ButtonToast.NewTabOpened.LabelText">
         <source>New Tab opened</source>
-        <target state="translated">Nouvel Onglet ouvert</target><note>The label text in the Button Toast for switching to a fresh New Tab.</note>
+        <target>Nouvel Onglet ouvert</target>
+        <note>The label text in the Button Toast for switching to a fresh New Tab.</note>
       </trans-unit>
-      <trans-unit id="Downloads.Alert.Cancel" approved="yes">
+      <trans-unit id="Downloads.Alert.Cancel">
         <source>No</source>
-        <target state="translated">Non</target><note>The label of the button the user will press to reject the option to open a file in another application</note>
+        <target>Non</target>
+        <note>The label of the button the user will press to reject the option to open a file in another application</note>
       </trans-unit>
-      <trans-unit id="Downloads.Alert.Confirm" approved="yes">
+      <trans-unit id="Downloads.Alert.Confirm">
         <source>Yes</source>
-        <target state="translated">Oui</target><note>The label of the button the user will press to be presented with a list of other apps to open a file in</note>
+        <target>Oui</target>
+        <note>The label of the button the user will press to be presented with a list of other apps to open a file in</note>
       </trans-unit>
       <trans-unit id="Downloads.Alert.Message">
         <source>Firefox is unable to download or display this file. Would you like to open it in another app?</source>
@@ -2715,9 +2926,10 @@
         <source>Delete from History</source>
         <note>The title for the Delete from History context menu action for sites in Home Panels</note>
       </trans-unit>
-      <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab" approved="yes">
+      <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab">
         <source>Open in New Private Tab</source>
-        <target state="translated">Ouvrir dans un nouveau Ghost Tab</target><note>The title for the Open in New Private Tab context menu action for sites in Home Panels</note>
+        <target>Ouvrir dans un nouveau Ghost Tab</target>
+        <note>The title for the Open in New Private Tab context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewTab">
         <source>Open in New Tab</source>
@@ -2743,17 +2955,19 @@
         <source>Close Tab</source>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
-      <trans-unit id="Hotkeys.Find.DiscoveryTitle" approved="yes">
+      <trans-unit id="Hotkeys.Find.DiscoveryTitle">
         <source>Find</source>
-        <target state="translated">Trouver</target><note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <target>Trouver</target>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Forward.DiscoveryTitle">
         <source>Forward</source>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
-      <trans-unit id="Hotkeys.NewPrivateTab.DiscoveryTitle" approved="yes">
+      <trans-unit id="Hotkeys.NewPrivateTab.DiscoveryTitle">
         <source>New Private Tab</source>
-        <target state="translated">Nouveau Ghost Tab</target><note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <target>Nouveau Ghost Tab</target>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NewTab.DiscoveryTitle">
         <source>New Tab</source>
@@ -2815,21 +3029,24 @@
         <source>Update</source>
         <note>Button to update the user's password</note>
       </trans-unit>
-      <trans-unit id="Menu.AddBookmark.Confirm" approved="yes">
+      <trans-unit id="Menu.AddBookmark.Confirm">
         <source>Bookmark Added</source>
-        <target state="translated">Favori ajouté</target><note>Toast displayed to the user after a bookmark has been added.</note>
+        <target>Favori ajouté</target>
+        <note>Toast displayed to the user after a bookmark has been added.</note>
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Confirm">
         <source>Added To Reading List</source>
         <note>Toast displayed to the user after adding the item to their reading list.</note>
       </trans-unit>
-      <trans-unit id="Menu.Copy.Title" approved="yes">
+      <trans-unit id="Menu.Copy.Title">
         <source>Copy Address</source>
-        <target state="translated">Copier l'adresse</target><note>The title for the button that lets you copy the url from the location bar.</note>
+        <target>Copier l'adresse</target>
+        <note>The title for the button that lets you copy the url from the location bar.</note>
       </trans-unit>
-      <trans-unit id="Menu.CopyURL.Confirm" approved="yes">
+      <trans-unit id="Menu.CopyURL.Confirm">
         <source>URL Copied To Clipboard</source>
-        <target state="translated">URL copiée sur le clipboard</target><note>Toast displayed to user after copy url pressed.</note>
+        <target>URL copiée sur le clipboard</target>
+        <note>Toast displayed to user after copy url pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.NightModeTurnOn.Label">
         <source>Enable Night Mode</source>
@@ -2839,13 +3056,15 @@
         <source>Hide Images</source>
         <note>Label for the button, displayed in the menu, hides images on the webpage when pressed.</note>
       </trans-unit>
-      <trans-unit id="Menu.Paste.Title" approved="yes">
+      <trans-unit id="Menu.Paste.Title">
         <source>Paste</source>
-        <target state="translated">Coller</target><note>The title for the button that lets you paste into the location bar</note>
+        <target>Coller</target>
+        <note>The title for the button that lets you paste into the location bar</note>
       </trans-unit>
-      <trans-unit id="Menu.PasteAndGo.Title" approved="yes">
+      <trans-unit id="Menu.PasteAndGo.Title">
         <source>Paste &amp; Go</source>
-        <target state="translated">Coller et aller</target><note>The title for the button that lets you paste and go to a URL</note>
+        <target>Coller et aller</target>
+        <note>The title for the button that lets you paste and go to a URL</note>
       </trans-unit>
       <trans-unit id="Menu.ReloadWithTrackingProtection.Title">
         <source>Reload With Tracking Protection</source>
@@ -2855,9 +3074,10 @@
         <source>Reload Without Tracking Protection</source>
         <note>Label for the button, displayed in the menu, used to reload the current website without Tracking Protection</note>
       </trans-unit>
-      <trans-unit id="Menu.RemoveBookmark.Confirm" approved="yes">
+      <trans-unit id="Menu.RemoveBookmark.Confirm">
         <source>Bookmark Removed</source>
-        <target state="translated">Favori supprimé</target><note>Toast displayed to the user after a bookmark has been removed.</note>
+        <target>Favori supprimé</target>
+        <note>Toast displayed to the user after a bookmark has been removed.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.Title">
         <source>Tracking Protection</source>
@@ -2936,13 +3156,15 @@
         <source>Firefox cannot open the page because it has an invalid address.</source>
         <note>The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app.</note>
       </trans-unit>
-      <trans-unit id="OpenURL.Error.Title" approved="yes">
+      <trans-unit id="OpenURL.Error.Title">
         <source>Cannot Open Page</source>
-        <target state="translated">La page ne peut pas être ouverte</target><note>Title of the message shown when the user attempts to navigate to an invalid link.</note>
+        <target>La page ne peut pas être ouverte</target>
+        <note>Title of the message shown when the user attempts to navigate to an invalid link.</note>
       </trans-unit>
-      <trans-unit id="PhotonMenu.close" approved="yes">
+      <trans-unit id="PhotonMenu.close">
         <source>Close</source>
-        <target state="translated">Fermer</target><note>Button for closing the menu action sheet</note>
+        <target>Fermer</target>
+        <note>Button for closing the menu action sheet</note>
       </trans-unit>
       <trans-unit id="ReaderMode.Available.VoiceOverAnnouncement">
         <source>Reader Mode available</source>
@@ -2964,21 +3186,24 @@
         <source>OK</source>
         <note>OK button to dismiss the error prompt.</note>
       </trans-unit>
-      <trans-unit id="ScanQRCode.Instructions.Label" approved="yes">
+      <trans-unit id="ScanQRCode.Instructions.Label">
         <source>Align QR code within frame to scan</source>
-        <target state="translated">Veuillez aligner le code QR à l'intérieur du cadre</target><note>Text for the instructions label, displayed in the QR scanner view</note>
+        <target>Veuillez aligner le code QR à l'intérieur du cadre</target>
+        <note>Text for the instructions label, displayed in the QR scanner view</note>
       </trans-unit>
-      <trans-unit id="ScanQRCode.InvalidDataError.Message" approved="yes">
+      <trans-unit id="ScanQRCode.InvalidDataError.Message">
         <source>The data is invalid</source>
-        <target state="translated">Les données sont erronées</target><note>Text of the prompt that is shown to the user when the data is invalid</note>
+        <target>Les données sont erronées</target>
+        <note>Text of the prompt that is shown to the user when the data is invalid</note>
       </trans-unit>
       <trans-unit id="ScanQRCode.PermissionError.Message">
         <source>Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.</source>
         <note>Text of the prompt user to setup the camera authorization.</note>
       </trans-unit>
-      <trans-unit id="ScanQRCode.View.Title" approved="yes">
+      <trans-unit id="ScanQRCode.View.Title">
         <source>Scan QR Code</source>
-        <target state="translated">Lire le code QR</target><note>Title for the QR code scanner view.</note>
+        <target>Lire le code QR</target>
+        <note>Title for the QR code scanner view.</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddMessage">
         <source>The new search engine will appear in the quick search bar.</source>
@@ -3104,17 +3329,20 @@
         <source>URL (Replace Query with %s)</source>
         <note>The placeholder for URL Field when saving a custom search engine</note>
       </trans-unit>
-      <trans-unit id="Settings.ClearPrivateData.Clear.Button" approved="yes">
+      <trans-unit id="Settings.ClearPrivateData.Clear.Button">
         <source>Clear Private Data</source>
-        <target state="translated">Effacer les données personnelles</target><note>Button in settings that clears private data for the selected items.</note>
+        <target>Effacer les données personnelles</target>
+        <note>Button in settings that clears private data for the selected items.</note>
       </trans-unit>
-      <trans-unit id="Settings.ClearPrivateData.SectionName" approved="yes">
+      <trans-unit id="Settings.ClearPrivateData.SectionName">
         <source>Clear Private Data</source>
-        <target state="translated">Effacer les données personnelles</target><note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
+        <target>Effacer les données personnelles</target>
+        <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
-      <trans-unit id="Settings.ClearPrivateData.Title" approved="yes">
+      <trans-unit id="Settings.ClearPrivateData.Title">
         <source>Clear Private Data</source>
-        <target state="translated">Effacer les données personnelles</target><note>Title displayed in header of the setting panel.</note>
+        <target>Effacer les données personnelles</target>
+        <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
       <trans-unit id="Settings.DNT.OptionAlwaysOn">
         <source>Always</source>
@@ -3396,9 +3624,10 @@
         <source>Show All Tabs</source>
         <note>Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
-      <trans-unit id="TabTray.CloseAllTabs.KeyCodeTitle" approved="yes">
+      <trans-unit id="TabTray.CloseAllTabs.KeyCodeTitle">
         <source>Close All Tabs</source>
-        <target state="translated">Fermer tous les onglets</target><note>Hardware shortcut to close all tabs from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
+        <target>Fermer tous les onglets</target>
+        <note>Hardware shortcut to close all tabs from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="TabTray.CloseTab.KeyCodeTitle">
         <source>Close Selected Tab</source>
@@ -3424,9 +3653,10 @@
         <source>Menu</source>
         <note>Accessibility label for the Menu button.</note>
       </trans-unit>
-      <trans-unit id="Toolbar.Menu.CloseAllTabs" approved="yes">
+      <trans-unit id="Toolbar.Menu.CloseAllTabs">
         <source>Close All Tabs</source>
-        <target state="translated">Fermer tous les onglets</target><note>Accessibility label for the Close All Tabs menu button.</note>
+        <target>Fermer tous les onglets</target>
+        <note>Accessibility label for the Close All Tabs menu button.</note>
       </trans-unit>
       <trans-unit id="TopSites.EmptyState.Description">
         <source>Your most visited sites will show up here.</source>
@@ -3477,33 +3707,39 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
-      <trans-unit id="Menu.AddBookmarkAction.Title" approved="yes">
+      <trans-unit id="Menu.AddBookmarkAction.Title">
         <source>Bookmark This Page</source>
-        <target state="translated">Ajouter cette page aux Favoris</target><note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
+        <target>Ajouter cette page aux Favoris</target>
+        <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Title">
         <source>Add to Reading List</source>
         <note>Label for the button, displayed in the menu, used to add a page to the reading list.</note>
       </trans-unit>
-      <trans-unit id="Menu.CloseAllTabsAction.Title" approved="yes">
+      <trans-unit id="Menu.CloseAllTabsAction.Title">
         <source>Close All Tabs</source>
-        <target state="translated">Fermer tous les onglets</target><note>Label for the button, displayed in the menu, used to close all tabs currently open.</note>
+        <target>Fermer tous les onglets</target>
+        <note>Label for the button, displayed in the menu, used to close all tabs currently open.</note>
       </trans-unit>
-      <trans-unit id="Menu.CopyAddress.Title" approved="yes">
+      <trans-unit id="Menu.CopyAddress.Title">
         <source>Copy Address</source>
-        <target state="translated">Copier l'adresse</target><note>Label for the button, displayed in the menu, used to copy the page url to the clipboard.</note>
+        <target>Copier l'adresse</target>
+        <note>Label for the button, displayed in the menu, used to copy the page url to the clipboard.</note>
       </trans-unit>
-      <trans-unit id="Menu.FindInPageAction.Title" approved="yes">
+      <trans-unit id="Menu.FindInPageAction.Title">
         <source>Find in Page</source>
-        <target state="translated">Trouver sur cette page</target><note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
+        <target>Trouver sur cette page</target>
+        <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
       </trans-unit>
-      <trans-unit id="Menu.NewPrivateTabAction.Title" approved="yes">
+      <trans-unit id="Menu.NewPrivateTabAction.Title">
         <source>Open New Private Tab</source>
-        <target state="translated">Ouvrir un nouveau Ghost Tab</target><note>Label for the button, displayed in the menu, used to open a new private tab.</note>
+        <target>Ouvrir un nouveau Ghost Tab</target>
+        <note>Label for the button, displayed in the menu, used to open a new private tab.</note>
       </trans-unit>
-      <trans-unit id="Menu.NewTabAction.Title" approved="yes">
+      <trans-unit id="Menu.NewTabAction.Title">
         <source>Open New Tab</source>
-        <target state="translated">Ouvrir un nouvel onglet</target><note>Label for the button, displayed in the menu, used to open a new tab</note>
+        <target>Ouvrir un nouvel onglet</target>
+        <note>Label for the button, displayed in the menu, used to open a new tab</note>
       </trans-unit>
       <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel">
         <source>Bookmarks</source>
@@ -3537,9 +3773,10 @@
         <source>Scan QR Code</source>
         <note>Label for the button, displayed in the menu, used to open the QR code scanner.</note>
       </trans-unit>
-      <trans-unit id="Menu.SharePageAction.Title" approved="yes">
+      <trans-unit id="Menu.SharePageAction.Title">
         <source>Share Page With…</source>
-        <target state="translated">Partager cette page avec…</target><note>Label for the button, displayed in the menu, used to open the share dialog.</note>
+        <target>Partager cette page avec…</target>
+        <note>Label for the button, displayed in the menu, used to open the share dialog.</note>
       </trans-unit>
       <trans-unit id="Menu.ShowTabs.Title">
         <source>Show Tabs</source>

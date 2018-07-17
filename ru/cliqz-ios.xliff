@@ -1,0 +1,1042 @@
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+   <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en-US" target-language="ru">
+    <header>
+      <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(MOZ_PRODUCT_NAME)</source>
+        <target>$(MOZ_PRODUCT_NAME)</target>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSCameraUsageDescription">
+        <source>This lets you take and upload photos.</source>
+        <target>Это позволяет вам снимать и загружать фото.</target>
+        <note>Privacy - Camera Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSFaceIDUsageDescription">
+        <source>Firefox requires Face ID to access your saved logins.</source>
+        <target>Firefox необходимо разрешение на использование Face ID, чтобы получить доступ к сохраненным логинам.</target>
+        <note>Privacy - Face ID Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>Websites you visit may request your location.</source>
+        <target>Посещаемые веб-сайты могут запрашивать информацию о вашем расположении.</target>
+        <note>Privacy - Location When In Use Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSMicrophoneUsageDescription">
+        <source>This lets you take and upload videos.</source>
+        <target>Это позволяет вам снимать и загружать видео.</target>
+        <note>Privacy - Microphone Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryAddUsageDescription">
+        <source>This lets you save photos.</source>
+        <target>Это позволяет вам сохранять фото.</target>
+        <note>Privacy - Photo Library Additions Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryUsageDescription">
+        <source>This lets you save and upload photos.</source>
+        <target>Это позволяет вам сохранять и загружать фото.</target>
+        <note>Privacy - Photo Library Usage Description</note>
+      </trans-unit>
+      <trans-unit id="ShortcutItemTitleNewPrivateTab">
+        <source>New Ghost Tab</source>
+        <target>Новая вкладка Ghost</target>
+        <note>(No Comment)</note>
+      </trans-unit>
+      <trans-unit id="ShortcutItemTitleNewTab">
+        <source>New Tab</source>
+        <target>Новая вкладка</target>
+        <note>(No Comment)</note>
+      </trans-unit>
+      <trans-unit id="ShortcutItemTitleQRCode">
+        <source>Scan QR-Code</source>
+        <target>Сканировать QR-код</target>
+        <note>(No Comment)</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en-US" target-language="ru">
+    <header>
+      <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
+    </header>
+    <body>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
+        <source>%1$#@trackers@ %2$#@blocked@</source>
+        <target>%1$#@трекеров@ %2$#@заблокировано@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/one:dict/:string">
+        <source>%d Blocked</source>
+        <target>%d заблокировано</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/other:dict/:string">
+        <source>%d Blocked</source>
+        <target>%d заблокировано</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/zero:dict/:string">
+        <source>%d Blocked</source>
+        <target>%d заблокировано</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/one:dict/:string">
+        <source>%d TRACKER</source>
+        <target>ТРЕКЕР %d</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/other:dict/:string">
+        <source>%d TRACKERS</source>
+        <target>%d ТРЕКЕРОВ</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/zero:dict/:string">
+        <source>%d TRACKERS</source>
+        <target>%d ТРЕКЕРОВ</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
+        <source>%#@trackers@</source>
+        <target>%#@трекеры@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/one:dict/:string">
+        <source>%d Tracker Blocked</source>
+        <target>Заблокирован трекер %d</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/other:dict/:string">
+        <source>%d Trackers Blocked</source>
+        <target>Заблокированно трекеров %d</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/zero:dict/:string">
+        <source>%d Trackers Blocked</source>
+        <target>Заблокированно трекеров %d</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) found:dict/NSStringLocalizedFormatKey:dict/:string">
+        <source>%#@trackers@</source>
+        <target>%#@трекеры@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/one:dict/:string">
+        <source>%d Tracker found</source>
+        <target>Найден %d трекер</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/other:dict/:string">
+        <source>%d Trackers found</source>
+        <target>Найдено %d трекеров</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/zero:dict/:string">
+        <source>%d Trackers found</source>
+        <target>Найдено %d трекеров</target>
+        <note/>
+      </trans-unit>
+    </body>
+  </file>
+  <file datatype="plaintext" original="Client/en.lproj/Cliqz.strings" source-language="en-US" target-language="ru">
+    <header>
+      <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
+    </header>
+    <body>
+      <trans-unit id=" and select connect to scan the QR-Code">
+        <source> and select 'Connect' to scan the QR Code.</source>
+        <target> и выберите &quot;Подключиться&quot; для сканирования QR-кода.</target>
+        <note>[Connect] instructions text part#2</note>
+      </trans-unit>
+      <trans-unit id="%d Tracker(s) %d Blocked">
+        <source>%1$d Tracker(s) %2$d Blocked</source>
+        <target>%1$d трекер(-ов) %2$d заблокирован(-о)</target>
+        <note>[ControlCenter -&gt; Trackers] Detected and Blocked trackers count</note>
+      </trans-unit>
+      <trans-unit id="%d Tracker(s) Blocked">
+        <source>%d Tracker(s) Blocked</source>
+        <target>%d трекер(-ов) заблокирован(-о)</target>
+        <note>[ControlCenter -&gt; Overview] Blocked trackers count</note>
+      </trans-unit>
+      <trans-unit id="%d Tracker(s) found">
+        <source>%d Tracker(s) found</source>
+        <target>Найден(-о) %d трекер(-ов)</target>
+        <note>[ControlCenter -&gt; Overview] Detected trackers count</note>
+      </trans-unit>
+      <trans-unit id="**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. \n\n**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.">
+        <source>**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. \n\n**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.</source>
+        <target>**Это ЭКСПЕРИМЕНТАЛЬНАЯ функция, поэтому в некоторых случаях она может работать не так, как ожидается. \n\n**У Mobile Safari возникают проблемы с производительностью с конфигурацией PAC, поэтому рекомендуется использовать Cliqz, Ghostery или другой браузер.</target>
+        <note>[WiFi Protection] Notes</note>
+      </trans-unit>
+      <trans-unit id="1 hour">
+        <source>1 hour</source>
+        <target>1 час</target>
+        <note>[ControlCenter - Overview] Pause Ghostery for one hour title</note>
+      </trans-unit>
+      <trans-unit id="24 hours">
+        <source>24 hours</source>
+        <target>24 часа</target>
+        <note>[ControlCenter - Overview] Pause Ghostery for twentyfour hours title</note>
+      </trans-unit>
+      <trans-unit id="30 minutes">
+        <source>30 minutes</source>
+        <target>30 минут</target>
+        <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
+      </trans-unit>
+      <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.">
+        <source>A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
+        <target>Скоро будет добавлен &quot;честный&quot; режим, в котором реклама отображается только в четко определенных случаях.</target>
+        <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
+      </trans-unit>
+      <trans-unit id="About">
+        <source>About</source>
+        <target>О программе</target>
+        <note>[Settings] About
+   [Settings] About section header</note>
+      </trans-unit>
+      <trans-unit id="About MyOffrz">
+        <source>About MyOffrz</source>
+        <target>О программе MyOffrz</target>
+        <note>[Settings] About MyOffrz</note>
+      </trans-unit>
+      <trans-unit id="Activate push notification to use this feature. Go to settings to allow push notifications then retry.">
+        <source>Activate push notification to use this feature. Go to settings to allow push notifications then retry.</source>
+        <target>Активируйте push-уведомления, чтобы использовать эту функцию. Перейдите в настройки, чтобы разрешить push-уведомления, а затем повторите попытку.</target>
+        <note>[Subscriptions] Alert message  for asking to enable push notificaiton from the system</note>
+      </trans-unit>
+      <trans-unit id="Ad &amp; Tracker Blocking">
+        <source>Ad &amp; Tracker Blocking</source>
+        <target>Блокировка рекламы и трекеров</target>
+        <note>[Onboarding] Adblocker Title</note>
+      </trans-unit>
+      <trans-unit id="Add Connection">
+        <source>Add Connection</source>
+        <target>Добавить подключение</target>
+        <note>[Settings -&gt; Connect] Add Connection title</note>
+      </trans-unit>
+      <trans-unit id="Add to Bookmarks">
+        <source>Add to Favorites</source>
+        <target>Добавить в избранное</target>
+        <note>Label for preview action on Tab Tray Tab to add current tab to Bookmarks</note>
+      </trans-unit>
+      <trans-unit id="Ads">
+        <source>Ads</source>
+        <target>Реклама</target>
+        <note>[WiFi Protection] Option 2 for blocking trackers</note>
+      </trans-unit>
+      <trans-unit id="Ads Removed">
+        <source>Ads Removed</source>
+        <target>Реклама удалена</target>
+        <note>[ControlCenter -&gt; Overview] Removed Ads indicator</note>
+      </trans-unit>
+      <trans-unit id="All">
+        <source>All</source>
+        <target>Все трекеры</target>
+        <note>[WiFi Protection] Option 1 for blocking trackers</note>
+      </trans-unit>
+      <trans-unit id="Allow Camera Access">
+        <source>Allow Camera Access</source>
+        <target>Разрешить доступ к камере</target>
+        <note>[Connect] Alert title for turning on Camera access when scanning QRCode</note>
+      </trans-unit>
+      <trans-unit id="Analytics">
+        <source>Analytics</source>
+        <target>Аналитика</target>
+        <note>[WiFi Protection] Option 3 for blocking trackers</note>
+      </trans-unit>
+      <trans-unit id="Automatic Forget Tab">
+        <source>Automatic Ghost Tab</source>
+        <target>Автоматическая вкладка Ghost</target>
+        <note>[Settings] Automatic Forget Tab</note>
+      </trans-unit>
+      <trans-unit id="Back to safe site">
+        <source>Back to safe site</source>
+        <target>Вернуться к безопасному сайту</target>
+        <note>Back to safe site buttun title in antiphishing alert title</note>
+      </trans-unit>
+      <trans-unit id="Beacons">
+        <source>Beacons</source>
+        <target>Маяки</target>
+        <note>[WiFi Protection] Option 4 for blocking trackers</note>
+      </trans-unit>
+      <trans-unit id="Block">
+        <source>Block</source>
+        <target>Заблокировать</target>
+        <note>[Trackers -&gt; ControlCenter] Block Action Title</note>
+      </trans-unit>
+      <trans-unit id="Block Ads">
+        <source>Ad Blocking (Beta)</source>
+        <target>Блокировка рекламы (Бета)</target>
+        <note>[Settings -&gt; Block Ads] Block Ads
+   [Settings] Block Ads</note>
+      </trans-unit>
+      <trans-unit id="Block All">
+        <source>Block All</source>
+        <target>Заблокировать все</target>
+        <note>[ControlCenter - Trackers list] Block All trackers action title</note>
+      </trans-unit>
+      <trans-unit id="Block Explicit Content">
+        <source>Block Explicit Content</source>
+        <target>Блокировать нецензурное содержимое</target>
+        <note>[Settings] Block explicit content</note>
+      </trans-unit>
+      <trans-unit id="Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.">
+        <source>Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.</source>
+        <target>Работайте в Интернете быстрее, безопаснее и эффективнее благодаря блокировке рекламы и трекеров. Вы можете изменить настройки в центре управления Ghostery.</target>
+        <note>[Onboarding] Adblocker Text</note>
+      </trans-unit>
+      <trans-unit id="Browsing &amp; History">
+        <source>Browsing &amp; History</source>
+        <target>Навигация в Интернете и история</target>
+        <note>[Settings] Browsing &amp; History section header</note>
+      </trans-unit>
+      <trans-unit id="CLIQZ has blocked access to %1$ because it has been reported as a phishing website.Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information">
+        <source>Ghostery has blocked access to %1$ because it has been reported as a phishing website.\nPhishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information.</source>
+        <target>Ghostery заблокировала доступ к %1$, поскольку сообщалось, что это фишинговый веб-сайт.\nФишинговые сайты маскируются под другие сайты, которым вы можете доверять, чтобы заставить вас раскрыть свой логин, пароль или другую конфиденциальную информацию.</target>
+        <note>Antiphishing alert message</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <target>Отмена</target>
+        <note>[ControlCenter - Trackers list] Cancel action title
+   Cancel</note>
+      </trans-unit>
+      <trans-unit id="Categories">
+        <source>Categories</source>
+        <target>Категории</target>
+        <note>[Trackers -&gt; ControlCenter] Trackers Title</note>
+      </trans-unit>
+      <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
+        <source>Ghostery Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
+        <target>У браузера Ghostery нет доступа к вашей камере. Для предоставления доступа нажмите &quot;Настройки&quot; и включите камеру.</target>
+        <note>[Connect] Alert message for turning on Camera access when Scanning QR Code</note>
+      </trans-unit>
+      <trans-unit id="Cliqz Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.">
+        <source>Ghostery Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.</source>
+        <target>Чтобы блокировщик рекламы начал работать эффективно, браузер Ghostery должен сначала загрузить некоторые пакеты данных. Для этого приложение должно быть подключено к Wi-Fi.</target>
+        <note>[Settings -&gt; Block Ads] Block Ads footer</note>
+      </trans-unit>
+      <trans-unit id="Cliqz works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.">
+        <source>Ghostery works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.</source>
+        <target>Ghostery работает с анонимизированными данными поисковых запросов и посещений веб-сайтов, которые были созданы нашим сообществом пользователей. Технология, которая собирает эти данные, чтобы создать индекс веб-страниц, называется Human Web.</target>
+        <note>[Settings -&gt; Human Web]Footer text for Fair Blocking section</note>
+      </trans-unit>
+      <trans-unit id="Cliqz would like to access your Photos">
+        <source>Cliqz would like to access your Photos</source>
+        <target>Cliqz хотел бы получить доступ к вашим фотографиям</target>
+        <note>See http://mzl.la/1G7uHo7</note>
+      </trans-unit>
+      <trans-unit id="Close Forget Tabs">
+        <source>Close Ghost Tabs</source>
+        <target>Закрыть вкладки Ghost</target>
+        <note>Setting for closing forget tabs</note>
+      </trans-unit>
+      <trans-unit id="Close Tab">
+        <source>Close Tab</source>
+        <target>Закрыть вкладку</target>
+        <note>Label for Close Tab</note>
+      </trans-unit>
+      <trans-unit id="Code copied">
+        <source>Code copied</source>
+        <target>Код скопирован</target>
+        <note>[MyOffrz] copy promocode done</note>
+      </trans-unit>
+      <trans-unit id="Complementary Search">
+        <source>Complementary Search</source>
+        <target>Complementary Search</target>
+        <note>[Settings] Complementary Search</note>
+      </trans-unit>
+      <trans-unit id="Configured Settings">
+        <source>Configured Settings</source>
+        <target>Нстроенные параметры</target>
+        <note>[WiFi Protection] Configured Settings</note>
+      </trans-unit>
+      <trans-unit id="Connect">
+        <source>Connect</source>
+        <target>Подключиться</target>
+        <note>[Settings] Connect
+   [Settings] Connect section title</note>
+      </trans-unit>
+      <trans-unit id="Connect Cliqz on your computer with Cliqz on your iOS device. This will allow you to send tabs from your desktop to your mobile device. You can also directly download videos from your desktop browser to your mobile device.">
+        <source>Connect Cliqz on your computer with Cliqz on your iOS device. This will allow you to send tabs from your desktop to your mobile device. You can also directly download videos from your desktop browser to your mobile device.</source>
+        <target>Подключите Cliqz на вашем компьютере к Cliqz  на вашем устройстве iOS. Это позволит вам отправлять вкладки с вашего стационарного компьютера на мобильное устройство. Вы также можете напрямую загружать видео из вашего браузера на стационарном компьютере на свое мобильное устройство.</target>
+        <note>[Settings] Connect section footer</note>
+      </trans-unit>
+      <trans-unit id="Connected to WiFi">
+        <source>Connected to WiFi</source>
+        <target>Подключено к WiFi</target>
+        <note>[WiFi Protection] Connected to WiFi status</note>
+      </trans-unit>
+      <trans-unit id="Connecting ...">
+        <source>Connecting ...</source>
+        <target>Подключение ...</target>
+        <note>[Settings -&gt; Connect] Connecting status</note>
+      </trans-unit>
+      <trans-unit id="Connecting to Desktop">
+        <source>Connecting to Desktop</source>
+        <target>Подколючение к стационарному компьютеру</target>
+        <note>[Settings -&gt; Connect] pending connection title</note>
+      </trans-unit>
+      <trans-unit id="Connection Failed">
+        <source>Connection Failed</source>
+        <target>Ошибка подключения</target>
+        <note>[Connect] Connection Failed alert title</note>
+      </trans-unit>
+      <trans-unit id="Connection successful">
+        <source>Connection successful</source>
+        <target>Соединение установлено успешно</target>
+        <note>[Connect] Connection successful alert title</note>
+      </trans-unit>
+      <trans-unit id="Continue despite warning">
+        <source>Continue despite warning</source>
+        <target>Продолжить, несмотря на предупреждение</target>
+        <note>Continue despite warning buttun title in antiphishing alert title</note>
+      </trans-unit>
+      <trans-unit id="Could not download Video.">
+        <source>Video download failed.</source>
+        <target>Не удалось загрузить видео.</target>
+        <note>[VidoeDownloader] Toast message shown when youtube video download faild</note>
+      </trans-unit>
+      <trans-unit id="Could not subscribe to {1}.">
+        <source>Could not subscribe to {1}.</source>
+        <target>Не удалось подписаться на {1}.</target>
+        <note>[Subscriptions] Alert title for asking to enable push notificaiton from the system
+   [Subscriptions] Alert title when failing to subscribe to soccer notification</note>
+      </trans-unit>
+      <trans-unit id="Currently, push notifications are only received if Cliqz is active.">
+        <source>Currently, push notifications are only received when your browser is active.</source>
+        <target>В настоящее время осуществляется прием push-уведомлений только в том случае, если ваш браузер активен.</target>
+        <note>[Subscriptions] Subscribing Toast</note>
+      </trans-unit>
+      <trans-unit id="Done">
+        <source>Done</source>
+        <target>Готово</target>
+        <note>Done button in the tabTray Toolbar</note>
+      </trans-unit>
+      <trans-unit id="Download videos on Wi-Fi Only">
+        <source>Only download video on Wi-Fi</source>
+        <target>Загружать видео только по Wi-Fi</target>
+        <note>[Settings -&gt; Limit Mobile Data Usage] toogle footer</note>
+      </trans-unit>
+      <trans-unit id="Download youtube video">
+        <source>Download Video Link</source>
+        <target>Загрузить ссылку на видео</target>
+        <note>Context menu item for opening a link in a new tab</note>
+      </trans-unit>
+      <trans-unit id="EULA">
+        <source>End-User License Agreement</source>
+        <target>Лицензионное соглашение с конечным пользователем</target>
+        <note>[Settings -&gt; About] EULA</note>
+      </trans-unit>
+      <trans-unit id="Empty TopSites hint">
+        <source>Your most visited sites will show up here</source>
+        <target>Здесь будут отображаться самые посещаемые сайты</target>
+        <note>Hint on Freshtab when there is no topsites</note>
+      </trans-unit>
+      <trans-unit id="Enhanced Ad Blocking">
+        <source>Enhanced Ad Blocking</source>
+        <target>Усовершенствованная блокировка рекламы</target>
+        <note>[ControlCenter -&gt; Overview] Ad blocking switch title</note>
+      </trans-unit>
+      <trans-unit id="Enhanced Ad Blocking anonymizes unblocked and unknown trackers for greater browsing protection.">
+        <source>Enhanced Ad Blocking anonymizes unblocked and unknown trackers for greater browsing protection.</source>
+        <target>Усовершенствованная блокировка рекламы анонимизирует разблокированные и неизвестные трекеры для обеспечения большей защиты браузера.</target>
+        <note>[ControlCenter -&gt; Overview] Ad Blocking description</note>
+      </trans-unit>
+      <trans-unit id="Every new Tab comes with top sites, news and background image. Customize it to your needs.">
+        <source>Every new Tab comes with top sites, news and background image. Customize it to your needs.</source>
+        <target>Каждая новая вкладка содержит главные сайты, новости и фоновое изображение. Настраивайте ее в соответствии со своими потребностями.</target>
+        <note>[Onboarding] Tab Text</note>
+      </trans-unit>
+      <trans-unit id="FAQ &amp; Support">
+        <source>FAQ &amp; Support</source>
+        <target>FAQ и поддержка</target>
+        <note>[Settings] FAQ &amp; Support</note>
+      </trans-unit>
+      <trans-unit id="Fair Mode">
+        <source>Fair Mode</source>
+        <target>&quot;Честный&quot; режим</target>
+        <note>[Settings -&gt; Block Ads] Fair Mode</note>
+      </trans-unit>
+      <trans-unit id="Favorites you save will show up here.">
+        <source>Favorites you save will show up here.</source>
+        <target>Сохраненное избранное будет отображаться здесь.</target>
+        <note>Status label for the empty Favorites state.</note>
+      </trans-unit>
+      <trans-unit id="Forget">
+        <source>Ghost Tabs</source>
+        <target>Вкладки Ghost</target>
+        <note>Forget toogle button in tab overview</note>
+      </trans-unit>
+      <trans-unit id="Forget Mode">
+        <source>Ghost Mode</source>
+        <target>Режим Ghost</target>
+        <note>Title displayed for when there are no open tabs while in forget mode</note>
+      </trans-unit>
+      <trans-unit id="Forget Tab">
+        <source>Ghost tab</source>
+        <target>Вкладка Ghost</target>
+        <note>Title of Forget Tab on iPad</note>
+      </trans-unit>
+      <trans-unit id="Fresh Tab">
+        <source>Start Tab</source>
+        <target>Начальная вкладка</target>
+        <note>[Onboarding] Freshtab Title
+   [Settings] Freshtab section header</note>
+      </trans-unit>
+      <trans-unit id="Get the best out of CLIQZ">
+        <source>Get the best out of Ghostery</source>
+        <target>Максимально эффективно используйте Ghostery</target>
+        <note>[Settings] Get the best out of CLIQZ</note>
+      </trans-unit>
+      <trans-unit id="Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). ">
+        <source>Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). </source>
+        <target>Теперь Ghostery для iOS позволяет защитить ваше соединение WiFi. Он может блокировать трекеры в ДРУГИХ приложениях, пока вы подключены к этой сети WiFi. Его необходимо настраивать каждый раз для каждой отдельной сети (дома, работы, школы и т. д.). </target>
+        <note>[WiFi Protection] Description</note>
+      </trans-unit>
+      <trans-unit id="Global Trackers">
+        <source>All Trackers</source>
+        <target>Все трекеры</target>
+        <note>[ControlCenter] Global Trackers panel title</note>
+      </trans-unit>
+      <trans-unit id="Go to ">
+        <source>Go to </source>
+        <target>Перейти </target>
+        <note>[Connect] instructions text part#1</note>
+      </trans-unit>
+      <trans-unit id="Go to Settings &gt; WiFi settings">
+        <source>Go to Settings &gt; WiFi settings</source>
+        <target>Перейдите в Настройки -&gt; Настройки WiFi</target>
+        <note>[WiFi Protection] First step description</note>
+      </trans-unit>
+      <trans-unit id="Help">
+        <source>Help</source>
+        <target>Помощь</target>
+        <note>[Settings] Help section header</note>
+      </trans-unit>
+      <trans-unit id="Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any PII collected. Learn more at http://cliqz.com/en/privacy-browser.">
+        <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any PII collected.</source>
+        <target>Помогите нам улучшить ваш опыт работы в Интернете. Ghostery собирает только анонимные данные об использовании. Ни в коем случае не собираются какие-либо личные данные.</target>
+        <note>[Settings -&gt; Send Telemetry] Footer text</note>
+      </trans-unit>
+      <trans-unit id="Here you'll find a new offer every week">
+        <source>Every week a new offer will show up here</source>
+        <target>Каждую неделю здесь будет отображаться новое предложение</target>
+        <note>[MyOffrz] No offers label</note>
+      </trans-unit>
+      <trans-unit id="Hey, I would like to invite you to try the Cliqz Browser.">
+        <source>Hey, I would like to invite you to try the Cliqz Browser.</source>
+        <target>Я хотел бы предложить вам попробовать браузер Cliqz.</target>
+        <note>Sharing FreshTab message</note>
+      </trans-unit>
+      <trans-unit id="Human Web">
+        <source>Human Web</source>
+        <target>Human Web</target>
+        <note>[Settings] Human Web</note>
+      </trans-unit>
+      <trans-unit id="Important Notes:">
+        <source>Important Notes:</source>
+        <target>Важные заметки:</target>
+        <note>[WiFi Protection] Notes Title</note>
+      </trans-unit>
+      <trans-unit id="Introducing Ghostery">
+        <source>Introducing Ghostery</source>
+        <target>Представляем Ghostery</target>
+        <note>[Onboarding] Intro Title</note>
+      </trans-unit>
+      <trans-unit id="Introducing New Ghostery">
+        <source>Introducing New Ghostery</source>
+        <target>Представляем новый Ghostery</target>
+        <note>[Onboarding] Intro Title Old Users</note>
+      </trans-unit>
+      <trans-unit id="Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.">
+        <source>Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.</source>
+        <target>Поддерживайте чистоту, скорость работы и безопасность работы в Интернете. Не волнуйтесь, все ваши данные будут импортированы.</target>
+        <note>[Onboarding] Intro Text Old Users</note>
+      </trans-unit>
+      <trans-unit id="Keep your browsing cleaner, faster, and safer.">
+        <source>Keep your browsing cleaner, faster, and safer.</source>
+        <target>Поддерживайте чистоту, скорость работы и безопасность работы в Интернете.</target>
+        <note>[Onboarding] Intro Text</note>
+      </trans-unit>
+      <trans-unit id="LEARN MORE">
+        <source>LEARN MORE</source>
+        <target>ПОДРОБНЕЕ</target>
+        <note>[MyOffrz] Learn more button title</note>
+      </trans-unit>
+      <trans-unit id="LessNews">
+        <source>Show less</source>
+        <target>Скрыть</target>
+        <note>Title to expand news stream</note>
+      </trans-unit>
+      <trans-unit id="Licenses">
+        <source>Licenses</source>
+        <target>Лицензии</target>
+        <note>[Settings -&gt; About] Licenses</note>
+      </trans-unit>
+      <trans-unit id="Limit Mobile Data Usage">
+        <source>Limit Mobile Data Usage</source>
+        <target>Ограничение использования мобильных данных</target>
+        <note>[Settings] Limit Mobile Data Usage</note>
+      </trans-unit>
+      <trans-unit id="Looks like Cliqz crashed previously. Would you like to restore your tabs?">
+        <source>Looks like Cliqz crashed previously. Would you like to restore your tabs?</source>
+        <target>Похоже, в Cliqz ранее случился сбой. Желаете восстановить вкладки?</target>
+        <note>Restore Tabs Prompt Description</note>
+      </trans-unit>
+      <trans-unit id="MoreNews">
+        <source>Show more</source>
+        <target>Показать больше</target>
+        <note>Title to expand news stream</note>
+      </trans-unit>
+      <trans-unit id="NEWS">
+        <source>News</source>
+        <target>Новости</target>
+        <note>Title to expand news stream</note>
+      </trans-unit>
+      <trans-unit id="New Forget Tab">
+        <source>New Ghost Tab</source>
+        <target>Новая вкладка Ghost</target>
+        <note>Label for New Forget Tab</note>
+      </trans-unit>
+      <trans-unit id="New Tab">
+        <source>New Tab</source>
+        <target>Новая вкладка</target>
+        <note>Label for New Tab
+   Title of New Tab on iPad</note>
+      </trans-unit>
+      <trans-unit id="No Wi-Fi Connection message">
+        <source>You are not connected to a Wi-Fi network and video downloads with mobile data is restricted. \nTo change this, go to Settings &gt; Limit Mobile Data Usage.\n</source>
+        <target>Вы не подключены к сети Wi-Fi, а загрузка видео через мобильные данные ограничена. \nДля изменения перейдите в Настройки -&gt; Ограничение использования мобильных данных.\n</target>
+        <note>[VidoeDownloader] No Wi-Fi connection alert message</note>
+      </trans-unit>
+      <trans-unit id="Not Now">
+        <source>Not Now</source>
+        <target>Не сейчас</target>
+        <note>Not now option for turning on Camera access
+   Not now option for turning on location service</note>
+      </trans-unit>
+      <trans-unit id="Off">
+        <source>Off</source>
+        <target>Выкл</target>
+        <note>[Settings] Off status</note>
+      </trans-unit>
+      <trans-unit id="Offline">
+        <source>Offline</source>
+        <target>Офлайн</target>
+        <note>[Settings -&gt; Connect] Offline status</note>
+      </trans-unit>
+      <trans-unit id="Ok">
+        <source>Ok</source>
+        <target>Ok</target>
+        <note>Ok</note>
+      </trans-unit>
+      <trans-unit id="On">
+        <source>On</source>
+        <target>Вкл</target>
+        <note>[Settings] On status</note>
+      </trans-unit>
+      <trans-unit id="On all sites">
+        <source>On all sites</source>
+        <target>На всех сайтах</target>
+        <note>[ControlCenter -&gt; Global Trackers] category status fo all sites</note>
+      </trans-unit>
+      <trans-unit id="On this site">
+        <source>On this site</source>
+        <target>На этом сайте</target>
+        <note>[ControlCenter -&gt; Trackers] category status for the current site</note>
+      </trans-unit>
+      <trans-unit id="Online">
+        <source>Online</source>
+        <target>Онлайн</target>
+        <note>[Settings -&gt; Connect] Online status</note>
+      </trans-unit>
+      <trans-unit id="Open in New Forget Tab">
+        <source>Open in New Forget Tab</source>
+        <target>Открыть в новой вкладке Forget</target>
+        <note>Context menu option for opening a link in a new forget tab</note>
+      </trans-unit>
+      <trans-unit id="Open the Photos">
+        <source>Open</source>
+        <target>Открыть</target>
+        <note>[VidoeDownloader] Toast button text shown when youtube video is Successfully downloaded</note>
+      </trans-unit>
+      <trans-unit id="Overview">
+        <source>Overview</source>
+        <target>Обзор</target>
+        <note>[ControlCenter] Overview panel title</note>
+      </trans-unit>
+      <trans-unit id="Paste copied URL into textfield">
+        <source>Paste copied URL into textfield</source>
+        <target>Вставить скопированный URL в текстовое поле</target>
+        <note>[WiFi Protection] Fourth step description</note>
+      </trans-unit>
+      <trans-unit id="Pause Ghostery">
+        <source>Pause Ghostery</source>
+        <target>Приостановить Ghostery</target>
+        <note>[ControlCenter -&gt; Overview] Pause Ghostery button title</note>
+      </trans-unit>
+      <trans-unit id="Please select video quality">
+        <source>Please select video quality</source>
+        <target>Выберите качество видео</target>
+        <note>[VidoeDownloader] Youtube downloader action sheet message</note>
+      </trans-unit>
+      <trans-unit id="Privacy">
+        <source>Privacy</source>
+        <target>Конфиденциальность</target>
+        <note>[Settings] Privacy section header</note>
+      </trans-unit>
+      <trans-unit id="Privacy Policy">
+        <source>Privacy Policy</source>
+        <target>Политика конфиденциальности</target>
+        <note>[Settings -&gt; About] Privacy Policy</note>
+      </trans-unit>
+      <trans-unit id="Prompt description">
+        <source>Enter a new name for the connection:</source>
+        <target>Введите новое название для подключения:</target>
+        <note>[Settings -&gt; Connect] rename connection alert message</note>
+      </trans-unit>
+      <trans-unit id="Quick Search">
+        <source>Quick Search</source>
+        <target>Быстрый поиск</target>
+        <note>[Onboarding] QuickSearch Title
+   [Settings] Quick Search</note>
+      </trans-unit>
+      <trans-unit id="Rate Us">
+        <source>Rate Us</source>
+        <target>Оцените нас</target>
+        <note>[Settings] Rate Us</note>
+      </trans-unit>
+      <trans-unit id="Receive attractive discounts and bargains with MyOffrz.">
+        <source>Receive attractive discounts and bargains with MyOffrz.</source>
+        <target>Получайте привлекательные скидки и предложения MyOffrz.</target>
+        <note>[MyOffrz] MyOffrz description</note>
+      </trans-unit>
+      <trans-unit id="Remove Connection">
+        <source>Remove Connection</source>
+        <target>Удалить подключение</target>
+        <note>[Settings -&gt; Connect] remove connection</note>
+      </trans-unit>
+      <trans-unit id="Rename Connection">
+        <source>Rename Connection</source>
+        <target>Переименовать подключение</target>
+        <note>[Settings -&gt; Connect] rename connection</note>
+      </trans-unit>
+      <trans-unit id="Report Website">
+        <source>Report Website</source>
+        <target>Сообщить о веб-сайте</target>
+        <note>[Settings] Report Website</note>
+      </trans-unit>
+      <trans-unit id="Restore Default Settings">
+        <source>Restore Default Settings</source>
+        <target>Восстановить настройки по умолчанию</target>
+        <note>[ControlCenter - Trackers list] Restore Default Settings trackers action title</note>
+      </trans-unit>
+      <trans-unit id="Restrict">
+        <source>Restrict</source>
+        <target>Ограничить</target>
+        <note>[Trackers -&gt; ControlCenter] Restrict Action Title</note>
+      </trans-unit>
+      <trans-unit id="Restrict Site">
+        <source>Restrict Site</source>
+        <target>Ограничить сайт</target>
+        <note>[ControlCenter -&gt; Overview] Restrict button title</note>
+      </trans-unit>
+      <trans-unit id="Resume">
+        <source>Resume</source>
+        <target>Возобновить</target>
+        <note>[ControlCenter -&gt; Overview] Resume Ghostery button title</note>
+      </trans-unit>
+      <trans-unit id="Retrieving video information">
+        <source>Retrieving video information</source>
+        <target>Получение информации о видео</target>
+        <note>[VidoeDownloader] HUD message displayed while youtube downloader grabing the download URLs of the video</note>
+      </trans-unit>
+      <trans-unit id="Retry">
+        <source>Retry</source>
+        <target>Возобновить</target>
+        <note>[Connect] Retry button for Connection Failed alert
+   [Subscriptions] Retry alert button</note>
+      </trans-unit>
+      <trans-unit id="Save time and data volume: Quick Search instantly shows relevant results while typing.">
+        <source>Save time and data volume: Quick Search instantly shows relevant results while typing.</source>
+        <target>Экономьте время и объем данных: Quick Search моментально отображает соответствующие результаты при наборе текста.</target>
+        <note>[Onboarding] QuickSearch Text</note>
+      </trans-unit>
+      <trans-unit id="Scan QR-Code">
+        <source>Scan QR Code</source>
+        <target>Сканировать QR-код</target>
+        <note>[Settings -&gt; Connect] Scan QR-Code</note>
+      </trans-unit>
+      <trans-unit id="Search">
+        <source>Search</source>
+        <target>Поиск</target>
+        <note>[Settings] Search section title</note>
+      </trans-unit>
+      <trans-unit id="Search Query Suggestions">
+        <source>Search Query Suggestions</source>
+        <target>Предложения по поисковым запросам</target>
+        <note>[Settings] Search Query Suggestions</note>
+      </trans-unit>
+      <trans-unit id="Search Results for">
+        <source>Search Results for</source>
+        <target>Результаты поиска</target>
+        <note>[Settings] Search Results for</note>
+      </trans-unit>
+      <trans-unit id="Select trackers to block">
+        <source>Select trackers to block</source>
+        <target>Выберите трекеры для блокировки</target>
+        <note>[WiFi Protection] Trackers control title</note>
+      </trans-unit>
+      <trans-unit id="Send Crash Reports">
+        <source>Send Crash Reports</source>
+        <target>Отправить отчеты о сбоях</target>
+        <note>[Settings] Send Crash Reports</note>
+      </trans-unit>
+      <trans-unit id="Send usage data">
+        <source>Send usage data</source>
+        <target>Отправить данные об использовании</target>
+        <note>[Settings] Send usage data</note>
+      </trans-unit>
+      <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
+        <source>Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;</source>
+        <target>Установить \&quot;ПРОКСИ HTTP\&quot; на \&quot;Авто\&quot;</target>
+        <note>[WiFi Protection] Third step description</note>
+      </trans-unit>
+      <trans-unit id="Settings">
+        <source>Settings</source>
+        <target>Настройки</target>
+        <note>[Subscriptions] Subscribe alert button
+   Settings option for turning on Camera access
+   Settings option for turning on location service
+   Sharing activity for opening Settings</note>
+      </trans-unit>
+      <trans-unit id="Show News">
+        <source>Show News</source>
+        <target>Показать новости</target>
+        <note>[Settings] Show News</note>
+      </trans-unit>
+      <trans-unit id="Show most visited websites">
+        <source>Show most visited websites</source>
+        <target>Показать самые посещаемые веб-сайты</target>
+        <note>[Settings] Show most visited websites</note>
+      </trans-unit>
+      <trans-unit id="Sorry but devices could not be connected. Please try again.">
+        <source>Sorry, but the devices could not be connected. Please try again.</source>
+        <target>Извините, но устройства не могут быть подключены. Повторите попытку.</target>
+        <note>[Connect] Connection Failed alert message</note>
+      </trans-unit>
+      <trans-unit id="Sorry, we encountered some technical difficulties. Please try again">
+        <source>Sorry, we encountered some technical difficulties. Please try again</source>
+        <target>К сожалению, у нас возникли некоторые технические трудности. Повторите попытку</target>
+        <note>[Subscriptions] Alert message when failing to subscribe to soccer notification</note>
+      </trans-unit>
+      <trans-unit id="Subscribe">
+        <source>Subscribe</source>
+        <target>Подписаться</target>
+        <note>[Subscriptions] Subscribe alert button</note>
+      </trans-unit>
+      <trans-unit id="Subscribing to {1}.">
+        <source>Subscribing to {1}...</source>
+        <target>Подписка на {1}...</target>
+        <note>[Subscriptions] Subscribing HUD</note>
+      </trans-unit>
+      <trans-unit id="Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.">
+        <source>Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.</source>
+        <target>Поддержите Ghostery, поделившись анонимной аналитикой и данными Human Web, чтобы улучшить производительность Ghostery.</target>
+        <note>[Onboarding] Telemetry</note>
+      </trans-unit>
+      <trans-unit id="Tap        next to your connection">
+        <source>Tap        next to your connection</source>
+        <target>Нажмите рядом с вашим подключением</target>
+        <note>[WiFi Protection] Second step description</note>
+      </trans-unit>
+      <trans-unit id="Tap box below to copy">
+        <source>Tap box below to copy</source>
+        <target>Нажмите на поле ниже, чтобы скопировать</target>
+        <note>[WiFi Protection] Copy URL action description</note>
+      </trans-unit>
+      <trans-unit id="Tap to copy the code">
+        <source>Tap to copy the code</source>
+        <target>Нажмите, чтобы скопировать код</target>
+        <note>[MyOffrz] copy promocode action hint</note>
+      </trans-unit>
+      <trans-unit id="Terms">
+        <source>Terms</source>
+        <target>Положения</target>
+        <note>[MyOffrz] Conditions title</note>
+      </trans-unit>
+      <trans-unit id="The download is complete.">
+        <source>The download is complete.</source>
+        <target>Загрузка завершена.</target>
+        <note>[VidoeDownloader] Toast message shown when youtube video is Successfully downloaded</note>
+      </trans-unit>
+      <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
+        <source>To share your location, go to the settings for the Ghostery app:\n\n1. Tap Location\n2. Enable 'While Using'</source>
+        <target>Чтобы поделиться своим местоположением, перейдите в настройки приложения Ghostery:\n\n1. Нажмите Геопозиция\n2. Включите &quot;Во время использования&quot;</target>
+        <note>Alert message for turning on location service when clicking share location on local card</note>
+      </trans-unit>
+      <trans-unit id="To share your location, go to the settings of your smartphone:\n1.Turn on Location Services\n2.Select the CLIQZ App\n3.Enable 'While Using'">
+        <source>To share your location, go to the settings of your smartphone:\n\n1. Turn on Location Services\n2. Select the Ghostery App\n3. Enable 'While Using'</source>
+        <target>Чтобы поделиться своим местоположением, перейдите в настройки вашего смартфона:\n\n1. Включить службы определения местоположения\n2. Выберите Ghostery App\n3. Включите &quot;Во время использования&quot;</target>
+        <note>Alert message for turning on location service when clicking share location on local card</note>
+      </trans-unit>
+      <trans-unit id="Trackers">
+        <source>Trackers</source>
+        <target>Трекеры</target>
+        <note>[ControlCenter] Trackers panel title</note>
+      </trans-unit>
+      <trans-unit id="Trust">
+        <source>Trust</source>
+        <target>Доверять</target>
+        <note>[Trackers -&gt; ControlCenter] Trust Action Title</note>
+      </trans-unit>
+      <trans-unit id="Trust Site">
+        <source>Trust Site</source>
+        <target>Доверять сайту</target>
+        <note>[ControlCenter -&gt; Overview] Trust button title</note>
+      </trans-unit>
+      <trans-unit id="Turn on Location Services">
+        <source>Turn on Location Services</source>
+        <target>Включить службы определения местоположения</target>
+        <note>Alert title for turning on location service when clicking share location on local card</note>
+      </trans-unit>
+      <trans-unit id="Unblock">
+        <source>Unblock</source>
+        <target>Разблокировать</target>
+        <note>[Trackers -&gt; ControlCenter] Unblock Action Title</note>
+      </trans-unit>
+      <trans-unit id="Unblock All">
+        <source>Unblock All</source>
+        <target>Разблокировать все</target>
+        <note>[ControlCenter - Trackers list] Unblock All trackers action title</note>
+      </trans-unit>
+      <trans-unit id="Undo">
+        <source>Undo</source>
+        <target>Вернуть</target>
+        <note>[ControlCenter - Trackers list] Undo trackers action title</note>
+      </trans-unit>
+      <trans-unit id="Unrestrict">
+        <source>Unrestrict</source>
+        <target>Разрешить</target>
+        <note>[Trackers -&gt; ControlCenter] Unrestrict Action Title</note>
+      </trans-unit>
+      <trans-unit id="Untrust">
+        <source>Untrust</source>
+        <target>Перестать доверять</target>
+        <note>[Trackers -&gt; ControlCenter] Untrust Action Title</note>
+      </trans-unit>
+      <trans-unit id="Video quality">
+        <source>Video quality</source>
+        <target>Качество видео</target>
+        <note>[VidoeDownloader] Youtube downloader action sheet title</note>
+      </trans-unit>
+      <trans-unit id="Warning: deceptive website!">
+        <source>Warning: deceptive website!</source>
+        <target>Предупреждение: ложный веб-сайт!</target>
+        <note>Antiphishing alert title</note>
+      </trans-unit>
+      <trans-unit id="We use opensource software Sentry (http://sentry.io) for our crash reports. these reports do not contain any personal data.">
+        <source>We use opensource software Sentry (http://sentry.io) for our crash reports. these reports do not contain any personal data.</source>
+        <target>Мы используем программное обеспечение Sentry (http://sentry.io) с открытым исходным кодом для наших отчетов о сбоях. в этих отчетах не содержатся никакие личные данные.</target>
+        <note>[Settings -&gt; Send Crash Reports] Footer text</note>
+      </trans-unit>
+      <trans-unit id="Websites which are known to contain explicit content are automatically opened in Forget Tabs. Visits to such websites are therefore not saved to your history.">
+        <source>Websites which are known to contain explicit content are automatically opened in Ghost Tabs. Visits to such websites are therefore not saved to your history.</source>
+        <target>Веб-сайты, которые, как известно, содержат нецензурное содержимое, автоматически открываются во вкладках Ghost. Поэтому посещение таких веб-сайтов не сохраняется в вашей истории.</target>
+        <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
+      </trans-unit>
+      <trans-unit id="Well, this is embarrassing.">
+        <source>Well, this is embarrassing.</source>
+        <target>Ну, это неловко.</target>
+        <note>Restore Tabs Prompt Title</note>
+      </trans-unit>
+      <trans-unit id="When Leaving Forget Browsing">
+        <source>When Leaving Forget Browsing</source>
+        <target>При завершении работы в режиме Forget</target>
+        <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
+      </trans-unit>
+      <trans-unit id="When Leaving Forget Mode">
+        <source>When Leaving Ghost Mode</source>
+        <target>При выходе из режима Ghost</target>
+        <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
+      </trans-unit>
+      <trans-unit id="When Opening Cliqz">
+        <source>When Opening Cliqz</source>
+        <target>При открытии Cliqz</target>
+        <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
+      </trans-unit>
+      <trans-unit id="WiFi Protection">
+        <source>WiFi Protection</source>
+        <target>Защита WiFi</target>
+        <note>Sharing activity for opening Settings</note>
+      </trans-unit>
+      <trans-unit id="WiFi connection protection">
+        <source>WiFi connection protection</source>
+        <target>Защита подключения WiFi</target>
+        <note>[WiFi Protection] Navigation Title
+   [Wifi Protection] WiFi connection protection status</note>
+      </trans-unit>
+      <trans-unit id="Would you like to subscribe to the {1}?">
+        <source>Would you like to subscribe to the {1}?</source>
+        <target>Желаете подписаться на {1}?</target>
+        <note>[Subscriptions] Alert title for asking to subscribe for soccer notificaiton</note>
+      </trans-unit>
+      <trans-unit id="You are browsing in Forget Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.">
+        <source>You are browsing in Ghost Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
+        <target>Вы работаете в режиме Ghost: веб-сайты, которые вы посещаете в этом режиме, не будут сохраняться в вашей истории, а также не будут сохранены локальные данные, включая файлы cookie.</target>
+        <note>Description text displayed when there are no open tabs while in private mode</note>
+      </trans-unit>
+      <trans-unit id="You connected your first device!\n\nNow you are ready to send websites and YouTube videos from your computer to your mobile device.">
+        <source>You connected your first device!\n\nNow you are ready to send websites and YouTube videos from your computer to your mobile device.</source>
+        <target>Вы подключились к своему первому устройству!\n\nТеперь вы можете отправлять веб-сайты и видеоролики YouTube с компьютера на мобильное устройство.</target>
+        <note>[Connect] Connection Successful alert message</note>
+      </trans-unit>
+      <trans-unit id="You have restricted this site">
+        <source>You have restricted this site</source>
+        <target>Вы запретили этот сайт</target>
+        <note>[ControlCenter -&gt; Overview] Blocked trackers count</note>
+      </trans-unit>
+      <trans-unit id="You have trusted this site">
+        <source>You have trusted this site</source>
+        <target>Вы доверяете этому сайту</target>
+        <note>[ControlCenter -&gt; Overview] Blocked trackers count</note>
+      </trans-unit>
+      <trans-unit id="You will be notified about games, goals and important happenings of the {1}.">
+        <source>You will be notified about games, goals and important happenings of the {1}.</source>
+        <target>Вас уведомят об играх, целях и важных событиях {1}.</target>
+        <note>[Subscriptions] Alert message for asking to subscribe for soccer notificaiton</note>
+      </trans-unit>
+      <trans-unit id="Your video is being downloaded.">
+        <source>Your video is being downloaded.</source>
+        <target>Ваше видео загружается.</target>
+        <note>[VidoeDownloader] Toast message shown when youtube video download started</note>
+      </trans-unit>
+      <trans-unit id="copied!">
+        <source>copied!</source>
+        <target>скопировано!</target>
+        <note>[WiFi Protection] WiFi connection protection status</note>
+      </trans-unit>
+      <trans-unit id="region-DE">
+        <source>Germany</source>
+        <target>Германия</target>
+        <note>Localized String for German region</note>
+      </trans-unit>
+      <trans-unit id="region-FR">
+        <source>France</source>
+        <target>Франция</target>
+        <note>Localized String for France region</note>
+      </trans-unit>
+      <trans-unit id="region-US">
+        <source>United States</source>
+        <target>Соединенные Штаты</target>
+        <note>Localized String for United States region</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

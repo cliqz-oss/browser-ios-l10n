@@ -1,67 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="fr">
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+   <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en-US" target-language="ja">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
+      <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
+        <target>$(MOZ_PRODUCT_NAME)</target>
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
-        <target>Voici comment scanner des codes, prendre ou uploader des vidéos ou des photos.</target>
+        <target>これにより、写真を撮ってアップロードすることができます。</target>
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
         <source>Firefox requires Face ID to access your saved logins.</source>
+        <target>Firefoxでは、保存されたログイン情報にアクセスするには、顔IDが必要です。</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
-        <target>Votre localisation nous permet de vous fournir de meilleurs résultats de recherche.</target>
+        <target>ユーザーがアクセスするウェブサイトはユーザーの位置を要求する場合があります。</target>
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
         <source>This lets you take and upload videos.</source>
-        <target/>
+        <target>これにより、ビデオを撮ってアップロードすることができます。</target>
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
         <source>This lets you save photos.</source>
-        <target/>
+        <target>これにより、写真を保存することができます。</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
         <source>This lets you save and upload photos.</source>
-        <target/>
+        <target>これにより、写真を保存してアップロードすることができます。</target>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Ghost Tab</source>
-        <target>Nouveau Ghost Tab</target>
+        <target>新しいGhostタブ</target>
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
-        <target>Nouveau Tab</target>
+        <target>新しいタブ</target>
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleQRCode">
         <source>Scan QR-Code</source>
-        <target>Lire le code QR</target>
+        <target>QRコードをスキャン</target>
         <note>(No Comment)</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en" datatype="plaintext" target-language="fr">
+  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en-US" target-language="ja">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
+      <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
     </header>
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
@@ -71,32 +73,32 @@
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/one:dict/:string">
         <source>%d Blocked</source>
-        <target>%d Blocked</target>
+        <target>%dつがブロックされました</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/other:dict/:string">
         <source>%d Blocked</source>
-        <target>%d Blocked</target>
+        <target>%dつがブロックされました</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/zero:dict/:string">
         <source>%d Blocked</source>
-        <target>%d Blocked</target>
+        <target>%dつがブロックされました</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/one:dict/:string">
         <source>%d TRACKER</source>
-        <target>%d TRACKER</target>
+        <target>%dつのトラッカー</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/other:dict/:string">
         <source>%d TRACKERS</source>
-        <target>%d TRACKERS</target>
+        <target>%dつのトラッカー</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/zero:dict/:string">
         <source>%d TRACKERS</source>
-        <target>%d TRACKERS</target>
+        <target>%dつのトラッカー</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
@@ -106,17 +108,17 @@
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/one:dict/:string">
         <source>%d Tracker Blocked</source>
-        <target>%d Mouchard Bloqué</target>
+        <target>%dつのトラッカーがブロックされました</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/other:dict/:string">
         <source>%d Trackers Blocked</source>
-        <target>%d Mouchards Bloqués</target>
+        <target>%dつのトラッカーがブロックされました</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/zero:dict/:string">
         <source>%d Trackers Blocked</source>
-        <target>%d Mouchards Bloqués</target>
+        <target>%dつのトラッカーがブロックされました</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/NSStringLocalizedFormatKey:dict/:string">
@@ -126,635 +128,689 @@
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/one:dict/:string">
         <source>%d Tracker found</source>
-        <target>%d Tracker found</target>
+        <target>%dつのトラッカーが見つかりました</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/other:dict/:string">
         <source>%d Trackers found</source>
-        <target>%d Trackers found</target>
+        <target>%dつのトラッカーが見つかりました</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/zero:dict/:string">
         <source>%d Trackers found</source>
-        <target>%d Trackers found</target>
+        <target>%dつのトラッカーが見つかりました</target>
         <note/>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Cliqz.strings" source-language="en" datatype="plaintext" target-language="fr">
+  <file datatype="plaintext" original="Client/en.lproj/Cliqz.strings" source-language="en-US" target-language="ja">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
+      <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
     </header>
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
         <source> and select 'Connect' to scan the QR Code.</source>
-        <target>et sélectionnez «Connect» pour lire le code QR</target>
+        <target> 「接続」を選択してQRコードをスキャンします。</target>
         <note>[Connect] instructions text part#2</note>
       </trans-unit>
       <trans-unit id="%d Tracker(s) %d Blocked">
         <source>%1$d Tracker(s) %2$d Blocked</source>
+        <target>%1$dつのトラッカーのうち、%2$dつがブロックされました</target>
         <note>[ControlCenter -&gt; Trackers] Detected and Blocked trackers count</note>
       </trans-unit>
       <trans-unit id="%d Tracker(s) Blocked">
         <source>%d Tracker(s) Blocked</source>
-        <target>%d Mouchard(s) Bloqués</target>
+        <target>%dつのトラッカーがブロックされました</target>
         <note>[ControlCenter -&gt; Overview] Blocked trackers count</note>
       </trans-unit>
       <trans-unit id="%d Tracker(s) found">
         <source>%d Tracker(s) found</source>
+        <target>%dつのトラッカーが見つかりました</target>
         <note>[ControlCenter -&gt; Overview] Detected trackers count</note>
       </trans-unit>
       <trans-unit id="**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. \n\n**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.">
         <source>**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. \n\n**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.</source>
+        <target>**この機能は実験的なものであるため、期待どおりに動作しない場合があります。\n\n**モバイルSafariにはPAC設定に関するパフォーマンスの問題があるため、代わりにCliqz、Ghosteryまたは別のブラウザを使用することをお勧めします。</target>
         <note>[WiFi Protection] Notes</note>
       </trans-unit>
       <trans-unit id="1 hour">
         <source>1 hour</source>
-        <target>1 heure</target>
+        <target>1時間</target>
         <note>[ControlCenter - Overview] Pause Ghostery for one hour title</note>
       </trans-unit>
       <trans-unit id="24 hours">
         <source>24 hours</source>
-        <target>24 heures</target>
+        <target>24時間</target>
         <note>[ControlCenter - Overview] Pause Ghostery for twentyfour hours title</note>
       </trans-unit>
       <trans-unit id="30 minutes">
         <source>30 minutes</source>
-        <target>30 minutes</target>
+        <target>30分</target>
         <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
       <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.">
-        <source>A \"fair\" mode that shows ads in clearly defined cases only will be added soon.</source>
-        <target>Un mode \"équitable\" qui montre des publicités seulement dans certains cas sera ajouté bientôt.</target>
+        <source>A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
+        <target>明確に定義された場合にのみ広告を表示する\&quot;フェア\&quot;モードがすぐに追加されます。</target>
         <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
       <trans-unit id="About">
         <source>About</source>
-        <target>À propos de nous</target>
+        <target>バージョン情報</target>
         <note>[Settings] About
    [Settings] About section header</note>
       </trans-unit>
       <trans-unit id="About MyOffrz">
         <source>About MyOffrz</source>
-        <target>Sur MyOffrz</target>
+        <target>MyOffrzについて</target>
         <note>[Settings] About MyOffrz</note>
       </trans-unit>
       <trans-unit id="Activate push notification to use this feature. Go to settings to allow push notifications then retry.">
         <source>Activate push notification to use this feature. Go to settings to allow push notifications then retry.</source>
-        <target>Il faut activer les notifications push pour utiliser cette fonction. Cliquez sur Préférences pour les activer, puis réessayez.</target>
+        <target>この機能を使用するには、プッシュ通知を有効にします。設定でプッシュ通知を有効にして再試行します。</target>
         <note>[Subscriptions] Alert message  for asking to enable push notificaiton from the system</note>
       </trans-unit>
       <trans-unit id="Ad &amp; Tracker Blocking">
         <source>Ad &amp; Tracker Blocking</source>
+        <target>広告＆トラッカー・ブロッキング</target>
         <note>[Onboarding] Adblocker Title</note>
       </trans-unit>
       <trans-unit id="Add Connection">
         <source>Add Connection</source>
-        <target>Ajouter une connexion</target>
+        <target>接続を追加</target>
         <note>[Settings -&gt; Connect] Add Connection title</note>
       </trans-unit>
       <trans-unit id="Add to Bookmarks">
         <source>Add to Favorites</source>
+        <target>お気に入りに追加</target>
         <note>Label for preview action on Tab Tray Tab to add current tab to Bookmarks</note>
       </trans-unit>
       <trans-unit id="Ads">
         <source>Ads</source>
+        <target>広告</target>
         <note>[WiFi Protection] Option 2 for blocking trackers</note>
       </trans-unit>
       <trans-unit id="Ads Removed">
         <source>Ads Removed</source>
+        <target>広告が削除されました</target>
         <note>[ControlCenter -&gt; Overview] Removed Ads indicator</note>
       </trans-unit>
       <trans-unit id="All">
         <source>All</source>
+        <target>すべて</target>
         <note>[WiFi Protection] Option 1 for blocking trackers</note>
       </trans-unit>
       <trans-unit id="Allow Camera Access">
         <source>Allow Camera Access</source>
-        <target>Permettre l’accès à l’appareil photo</target>
+        <target>カメラへのアクセスを許可</target>
         <note>[Connect] Alert title for turning on Camera access when scanning QRCode</note>
       </trans-unit>
       <trans-unit id="Analytics">
         <source>Analytics</source>
+        <target>分析</target>
         <note>[WiFi Protection] Option 3 for blocking trackers</note>
       </trans-unit>
       <trans-unit id="Automatic Forget Tab">
         <source>Automatic Ghost Tab</source>
+        <target>自動Ghostタブ</target>
         <note>[Settings] Automatic Forget Tab</note>
       </trans-unit>
       <trans-unit id="Back to safe site">
         <source>Back to safe site</source>
-        <target>Retourner à la page sûre</target>
+        <target>安全なサイトに戻る</target>
         <note>Back to safe site buttun title in antiphishing alert title</note>
       </trans-unit>
       <trans-unit id="Beacons">
         <source>Beacons</source>
+        <target>ビーコン</target>
         <note>[WiFi Protection] Option 4 for blocking trackers</note>
       </trans-unit>
       <trans-unit id="Block">
         <source>Block</source>
+        <target>すべてをブロック</target>
         <note>[Trackers -&gt; ControlCenter] Block Action Title</note>
       </trans-unit>
       <trans-unit id="Block Ads">
         <source>Ad Blocking (Beta)</source>
-        <target>Bloqueur de Publicités</target>
+        <target>広告ブロッキング（ベータ）</target>
         <note>[Settings -&gt; Block Ads] Block Ads
    [Settings] Block Ads</note>
       </trans-unit>
       <trans-unit id="Block All">
         <source>Block All</source>
-        <target>Bloquer tout</target>
+        <target>すべてをブロック</target>
         <note>[ControlCenter - Trackers list] Block All trackers action title</note>
       </trans-unit>
       <trans-unit id="Block Explicit Content">
         <source>Block Explicit Content</source>
-        <target>Bloquer le contenu explicit</target>
+        <target>露骨なコンテンツをブロック</target>
         <note>[Settings] Block explicit content</note>
       </trans-unit>
       <trans-unit id="Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.">
         <source>Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.</source>
+        <target>広告＆トラッカー・ブロッキングを使用すると、より速く、より安全かつ効果的に閲覧できます。Ghosteryコントロール・センターで設定をカスタマイズできます。</target>
         <note>[Onboarding] Adblocker Text</note>
       </trans-unit>
       <trans-unit id="Browsing &amp; History">
         <source>Browsing &amp; History</source>
-        <target>Navigation &amp; Historique</target>
+        <target>閲覧＆履歴</target>
         <note>[Settings] Browsing &amp; History section header</note>
       </trans-unit>
       <trans-unit id="CLIQZ has blocked access to %1$ because it has been reported as a phishing website.Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information">
         <source>Ghostery has blocked access to %1$ because it has been reported as a phishing website.\nPhishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information.</source>
+        <target>Ghosteryは、フィッシング・サイトとして報告されている%1$へのアクセスをブロックしました。\nフィッシング・サイトは、ユーザーのログイン、パスワード、またはその他の機密情報を盗み取るために信頼できる他のサイトをを装います。</target>
         <note>Antiphishing alert message</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target>Annuler</target>
+        <target>キャンセル</target>
         <note>[ControlCenter - Trackers list] Cancel action title
    Cancel</note>
       </trans-unit>
       <trans-unit id="Categories">
         <source>Categories</source>
-        <target>Catégories</target>
+        <target>カテゴリ</target>
         <note>[Trackers -&gt; ControlCenter] Trackers Title</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
         <source>Ghostery Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
+        <target>Ghosteryブラウザはカメラにアクセスできません。アクセスを可能にするには、「設定」をタップし、カメラをオンにします。</target>
         <note>[Connect] Alert message for turning on Camera access when Scanning QR Code</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.">
         <source>Ghostery Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.</source>
+        <target>Ghosteryブラウザは、広告ブロッカーが効率的に動作する前に、まずいくつかのデータ・パッケージをダウンロードする必要があります。このためには、アプリをWi-Fiに接続する必要があります。</target>
         <note>[Settings -&gt; Block Ads] Block Ads footer</note>
       </trans-unit>
       <trans-unit id="Cliqz works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.">
         <source>Ghostery works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.</source>
+        <target>Ghosteryは匿名の検索クエリーと、ユーザーのコミュニティによって生成されたウェブサイト訪問データを使用しています。このデータを収集してウェブ・インデックスを構築する技術は、Human Webと呼ばれます。</target>
         <note>[Settings -&gt; Human Web]Footer text for Fair Blocking section</note>
       </trans-unit>
       <trans-unit id="Cliqz would like to access your Photos">
         <source>Cliqz would like to access your Photos</source>
+        <target>Cliqzがお客様の写真にアクセスしようとしています</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Close Forget Tabs">
         <source>Close Ghost Tabs</source>
+        <target>Ghostタブを閉じる</target>
         <note>Setting for closing forget tabs</note>
       </trans-unit>
       <trans-unit id="Close Tab">
         <source>Close Tab</source>
+        <target>タブを閉じる</target>
         <note>Label for Close Tab</note>
       </trans-unit>
       <trans-unit id="Code copied">
         <source>Code copied</source>
-        <target>Code copié</target>
+        <target>コードがコピーされました</target>
         <note>[MyOffrz] copy promocode done</note>
       </trans-unit>
       <trans-unit id="Complementary Search">
         <source>Complementary Search</source>
-        <target>Recherche complémentaire</target>
+        <target>詳細検索</target>
         <note>[Settings] Complementary Search</note>
       </trans-unit>
       <trans-unit id="Configured Settings">
         <source>Configured Settings</source>
+        <target>設定</target>
         <note>[WiFi Protection] Configured Settings</note>
       </trans-unit>
       <trans-unit id="Connect">
         <source>Connect</source>
-        <target>Connect</target>
+        <target>接続</target>
         <note>[Settings] Connect
    [Settings] Connect section title</note>
       </trans-unit>
       <trans-unit id="Connect Cliqz on your computer with Cliqz on your iOS device. This will allow you to send tabs from your desktop to your mobile device. You can also directly download videos from your desktop browser to your mobile device.">
         <source>Connect Cliqz on your computer with Cliqz on your iOS device. This will allow you to send tabs from your desktop to your mobile device. You can also directly download videos from your desktop browser to your mobile device.</source>
+        <target>iOSデバイスのCliqzとコンピュータのCliqzを接続します。これにより、デスクトップからモバイル・デバイスにタブを送信することができます。またデスクトップ・ブラウザからモバイル・デバイスに直接ビデオをダウンロードすることもできます。</target>
         <note>[Settings] Connect section footer</note>
       </trans-unit>
       <trans-unit id="Connected to WiFi">
         <source>Connected to WiFi</source>
+        <target>Wifiに接続されました</target>
         <note>[WiFi Protection] Connected to WiFi status</note>
       </trans-unit>
       <trans-unit id="Connecting ...">
         <source>Connecting ...</source>
-        <target>Connexion en cours ...</target>
+        <target>接続中…</target>
         <note>[Settings -&gt; Connect] Connecting status</note>
       </trans-unit>
       <trans-unit id="Connecting to Desktop">
         <source>Connecting to Desktop</source>
-        <target>Connexion vers ordinateur en cours</target>
+        <target>デスクトップに接続中</target>
         <note>[Settings -&gt; Connect] pending connection title</note>
       </trans-unit>
       <trans-unit id="Connection Failed">
         <source>Connection Failed</source>
-        <target>La connexion a échouée</target>
+        <target>接続に失敗しました</target>
         <note>[Connect] Connection Failed alert title</note>
       </trans-unit>
       <trans-unit id="Connection successful">
         <source>Connection successful</source>
-        <target>La connexion a réussi</target>
+        <target>接続成功</target>
         <note>[Connect] Connection successful alert title</note>
       </trans-unit>
       <trans-unit id="Continue despite warning">
         <source>Continue despite warning</source>
-        <target>Continuer malgré l'avertissement</target>
+        <target>警告を無視して続行</target>
         <note>Continue despite warning buttun title in antiphishing alert title</note>
       </trans-unit>
       <trans-unit id="Could not download Video.">
         <source>Video download failed.</source>
-        <target>Le téléchargement a échoué.</target>
+        <target>ビデオのダウンロードに失敗しました。</target>
         <note>[VidoeDownloader] Toast message shown when youtube video download faild</note>
       </trans-unit>
       <trans-unit id="Could not subscribe to {1}.">
         <source>Could not subscribe to {1}.</source>
-        <target>L'abonnement à {1} a échoué.</target>
+        <target>{1}に登録できませんでした。</target>
         <note>[Subscriptions] Alert title for asking to enable push notificaiton from the system
    [Subscriptions] Alert title when failing to subscribe to soccer notification</note>
       </trans-unit>
       <trans-unit id="Currently, push notifications are only received if Cliqz is active.">
         <source>Currently, push notifications are only received when your browser is active.</source>
+        <target>現在、プッシュ通知は、ブラウザがアクティブな場合にのみ受信されます。</target>
         <note>[Subscriptions] Subscribing Toast</note>
       </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
-        <target>Terminé</target>
+        <target>完了</target>
         <note>Done button in the tabTray Toolbar</note>
       </trans-unit>
       <trans-unit id="Download videos on Wi-Fi Only">
         <source>Only download video on Wi-Fi</source>
-        <target>Télécharger les vidéos seulement sur Wi-Fi</target>
+        <target>Wi-Fiのみを利用してビデオをダウンロード</target>
         <note>[Settings -&gt; Limit Mobile Data Usage] toogle footer</note>
       </trans-unit>
       <trans-unit id="Download youtube video">
         <source>Download Video Link</source>
-        <target>Télécharger une vidéo de Youtube</target>
+        <target>「ビデオをダウンロード」リンク</target>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
       <trans-unit id="EULA">
         <source>End-User License Agreement</source>
-        <target>CGU</target>
+        <target>エンドユーザー向けライセンス契約書</target>
         <note>[Settings -&gt; About] EULA</note>
       </trans-unit>
       <trans-unit id="Empty TopSites hint">
         <source>Your most visited sites will show up here</source>
-        <target>Vous accéderez à vos sites les plus visités ici</target>
+        <target>最も多くアクセスしたサイトがここに表示されます</target>
         <note>Hint on Freshtab when there is no topsites</note>
       </trans-unit>
       <trans-unit id="Enhanced Ad Blocking">
         <source>Enhanced Ad Blocking</source>
-        <target>Ad Blocking amélioré</target>
+        <target>強化された広告ブロッキング</target>
         <note>[ControlCenter -&gt; Overview] Ad blocking switch title</note>
       </trans-unit>
       <trans-unit id="Enhanced Ad Blocking anonymizes unblocked and unknown trackers for greater browsing protection.">
         <source>Enhanced Ad Blocking anonymizes unblocked and unknown trackers for greater browsing protection.</source>
+        <target>強化された広告ブロッキングは、閲覧保護を強化するために、ブロックされていないトラッカーと未知のトラッカーを匿名化します。</target>
         <note>[ControlCenter -&gt; Overview] Ad Blocking description</note>
       </trans-unit>
       <trans-unit id="Every new Tab comes with top sites, news and background image. Customize it to your needs.">
         <source>Every new Tab comes with top sites, news and background image. Customize it to your needs.</source>
+        <target>すべての新しいタブにはトップ・サイト、ニュース、背景画像が表示されます。お客様のニーズに合わせてカスタマイズします。</target>
         <note>[Onboarding] Tab Text</note>
       </trans-unit>
       <trans-unit id="FAQ &amp; Support">
         <source>FAQ &amp; Support</source>
-        <target>FAQ &amp; Support</target>
+        <target>よくある質問とサポート</target>
         <note>[Settings] FAQ &amp; Support</note>
       </trans-unit>
       <trans-unit id="Fair Mode">
         <source>Fair Mode</source>
-        <target>Équitable</target>
+        <target>フェア・モード</target>
         <note>[Settings -&gt; Block Ads] Fair Mode</note>
       </trans-unit>
       <trans-unit id="Favorites you save will show up here.">
         <source>Favorites you save will show up here.</source>
+        <target>ユーザーが保存するお気に入りはここに表示されます。</target>
         <note>Status label for the empty Favorites state.</note>
       </trans-unit>
       <trans-unit id="Forget">
         <source>Ghost Tabs</source>
+        <target>Ghostタブ</target>
         <note>Forget toogle button in tab overview</note>
       </trans-unit>
       <trans-unit id="Forget Mode">
         <source>Ghost Mode</source>
+        <target>Ghostモード</target>
         <note>Title displayed for when there are no open tabs while in forget mode</note>
       </trans-unit>
       <trans-unit id="Forget Tab">
         <source>Ghost tab</source>
+        <target>Ghostタブ</target>
         <note>Title of Forget Tab on iPad</note>
       </trans-unit>
       <trans-unit id="Fresh Tab">
         <source>Start Tab</source>
+        <target>「スタート」タブ</target>
         <note>[Onboarding] Freshtab Title
    [Settings] Freshtab section header</note>
       </trans-unit>
       <trans-unit id="Get the best out of CLIQZ">
         <source>Get the best out of Ghostery</source>
+        <target>Ghosteryを最大限に活用してください</target>
         <note>[Settings] Get the best out of CLIQZ</note>
       </trans-unit>
       <trans-unit id="Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). ">
         <source>Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). </source>
+        <target>iOS用Ghosteryは、ユーザーのWiFi接続を保護できるようになりました。このWiFiネットワークに接続している限り、他のアプリケーションのトラッカーをブロックすることができます。毎回各ネットワーク（家庭、職場、学校など）ごとに設定する必要があります。 </target>
         <note>[WiFi Protection] Description</note>
       </trans-unit>
       <trans-unit id="Global Trackers">
         <source>All Trackers</source>
-        <target>Mouchards globales</target>
+        <target>すべてのトラッカー</target>
         <note>[ControlCenter] Global Trackers panel title</note>
       </trans-unit>
       <trans-unit id="Go to ">
         <source>Go to </source>
-        <target>Aller </target>
+        <target>に移動 </target>
         <note>[Connect] instructions text part#1</note>
       </trans-unit>
       <trans-unit id="Go to Settings &gt; WiFi settings">
         <source>Go to Settings &gt; WiFi settings</source>
+        <target>「設定」 &gt; 「WiFi設定」に移動します</target>
         <note>[WiFi Protection] First step description</note>
       </trans-unit>
       <trans-unit id="Help">
         <source>Help</source>
-        <target>Aide</target>
+        <target>ヘルプ</target>
         <note>[Settings] Help section header</note>
       </trans-unit>
       <trans-unit id="Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any PII collected. Learn more at http://cliqz.com/en/privacy-browser.">
         <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any PII collected.</source>
+        <target>閲覧の体験を向上させるのに役立つご意見をお聞かせください。Ghosteryは匿名の使用データだけを収集します。いかなる場合でも個人情報を収集することはありません。</target>
         <note>[Settings -&gt; Send Telemetry] Footer text</note>
       </trans-unit>
       <trans-unit id="Here you'll find a new offer every week">
         <source>Every week a new offer will show up here</source>
-        <target>Ici vous trouverez chaque semaine une nouvelle promotion</target>
+        <target>毎週新しいオファーがここに表示されます</target>
         <note>[MyOffrz] No offers label</note>
       </trans-unit>
       <trans-unit id="Hey, I would like to invite you to try the Cliqz Browser.">
         <source>Hey, I would like to invite you to try the Cliqz Browser.</source>
+        <target>Cliqzブラウザを使用してみてください。</target>
         <note>Sharing FreshTab message</note>
       </trans-unit>
       <trans-unit id="Human Web">
         <source>Human Web</source>
-        <target>Human Web</target>
+        <target>Human Web（ヒューマン・ウェブ）</target>
         <note>[Settings] Human Web</note>
       </trans-unit>
       <trans-unit id="Important Notes:">
         <source>Important Notes:</source>
+        <target>重要事項：</target>
         <note>[WiFi Protection] Notes Title</note>
       </trans-unit>
       <trans-unit id="Introducing Ghostery">
         <source>Introducing Ghostery</source>
+        <target>Ghosteryの紹介</target>
         <note>[Onboarding] Intro Title</note>
       </trans-unit>
       <trans-unit id="Introducing New Ghostery">
         <source>Introducing New Ghostery</source>
+        <target>新しいGhosteryの紹介</target>
         <note>[Onboarding] Intro Title Old Users</note>
       </trans-unit>
       <trans-unit id="Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.">
         <source>Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.</source>
+        <target>よりクリーンで、より速く、より安全に閲覧できるようにします心配しないでください。すべてのデータがインポートされます。</target>
         <note>[Onboarding] Intro Text Old Users</note>
       </trans-unit>
       <trans-unit id="Keep your browsing cleaner, faster, and safer.">
         <source>Keep your browsing cleaner, faster, and safer.</source>
+        <target>よりクリーンで、より速く、より安全に閲覧できるようにします。</target>
         <note>[Onboarding] Intro Text</note>
       </trans-unit>
       <trans-unit id="LEARN MORE">
         <source>LEARN MORE</source>
-        <target>EN SAVOIR PLUS</target>
+        <target>詳細を知る</target>
         <note>[MyOffrz] Learn more button title</note>
       </trans-unit>
       <trans-unit id="LessNews">
         <source>Show less</source>
-        <target>En afficher moins</target>
+        <target>詳細を非表示</target>
         <note>Title to expand news stream</note>
       </trans-unit>
       <trans-unit id="Licenses">
         <source>Licenses</source>
-        <target>Licenses</target>
+        <target>ライセンス</target>
         <note>[Settings -&gt; About] Licenses</note>
       </trans-unit>
       <trans-unit id="Limit Mobile Data Usage">
         <source>Limit Mobile Data Usage</source>
-        <target>Limiter la consommation des données mobiles</target>
+        <target>モバイル・データの使用を制限</target>
         <note>[Settings] Limit Mobile Data Usage</note>
       </trans-unit>
       <trans-unit id="Looks like Cliqz crashed previously. Would you like to restore your tabs?">
         <source>Looks like Cliqz crashed previously. Would you like to restore your tabs?</source>
+        <target>Cliqzが以前にクラッシュしたそうです。タブを復元しますか？</target>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="MoreNews">
         <source>Show more</source>
-        <target>En afficher plus</target>
+        <target>詳細を表示</target>
         <note>Title to expand news stream</note>
       </trans-unit>
       <trans-unit id="NEWS">
         <source>News</source>
-        <target>News</target>
+        <target>ニュース</target>
         <note>Title to expand news stream</note>
       </trans-unit>
       <trans-unit id="New Forget Tab">
         <source>New Ghost Tab</source>
+        <target>新しいGhostタブ</target>
         <note>Label for New Forget Tab</note>
       </trans-unit>
       <trans-unit id="New Tab">
         <source>New Tab</source>
+        <target>新しいタブ</target>
         <note>Label for New Tab
    Title of New Tab on iPad</note>
       </trans-unit>
       <trans-unit id="No Wi-Fi Connection message">
         <source>You are not connected to a Wi-Fi network and video downloads with mobile data is restricted. \nTo change this, go to Settings &gt; Limit Mobile Data Usage.\n</source>
-        <target>Vous n'êtes pas connecté·e au wi-fi et le téléchargement des vidéos avec les réseaux mobiles n'est pas permis. \nVeuillez changer cela dans Paramètres &gt; Limiter la consommation des données mobiles.\n</target>
+        <target>お客様はWi-Fiネットワークに接続されておらず、モバイル・データを含むビデオ・ダウンロードは制限されています。\Nこれを変更するには、「設定」 &gt; 「モバイル・データの使用を制限」に移動します。\n</target>
         <note>[VidoeDownloader] No Wi-Fi connection alert message</note>
       </trans-unit>
       <trans-unit id="Not Now">
         <source>Not Now</source>
-        <target>Pas maintenant</target>
+        <target>後にして。</target>
         <note>Not now option for turning on Camera access
    Not now option for turning on location service</note>
       </trans-unit>
       <trans-unit id="Off">
         <source>Off</source>
-        <target>Désactivé</target>
+        <target>オフ</target>
         <note>[Settings] Off status</note>
       </trans-unit>
       <trans-unit id="Offline">
         <source>Offline</source>
-        <target>Hors ligne</target>
+        <target>オフライン</target>
         <note>[Settings -&gt; Connect] Offline status</note>
       </trans-unit>
       <trans-unit id="Ok">
         <source>Ok</source>
-        <target>Ok</target>
+        <target>OK</target>
         <note>Ok</note>
       </trans-unit>
       <trans-unit id="On">
         <source>On</source>
-        <target>Activé</target>
+        <target>オン</target>
         <note>[Settings] On status</note>
       </trans-unit>
       <trans-unit id="On all sites">
         <source>On all sites</source>
-        <target>Sur tous les sites</target>
+        <target>すべてのサイトで</target>
         <note>[ControlCenter -&gt; Global Trackers] category status fo all sites</note>
       </trans-unit>
       <trans-unit id="On this site">
         <source>On this site</source>
-        <target>Sur ce site</target>
+        <target>このサイトで</target>
         <note>[ControlCenter -&gt; Trackers] category status for the current site</note>
       </trans-unit>
       <trans-unit id="Online">
         <source>Online</source>
-        <target>En ligne</target>
+        <target>オンライン</target>
         <note>[Settings -&gt; Connect] Online status</note>
       </trans-unit>
       <trans-unit id="Open in New Forget Tab">
         <source>Open in New Forget Tab</source>
+        <target>新しいタブで開く</target>
         <note>Context menu option for opening a link in a new forget tab</note>
       </trans-unit>
       <trans-unit id="Open the Photos">
         <source>Open</source>
-        <target>Ouvrir les photos</target>
+        <target>開く</target>
         <note>[VidoeDownloader] Toast button text shown when youtube video is Successfully downloaded</note>
       </trans-unit>
       <trans-unit id="Overview">
         <source>Overview</source>
-        <target>Aperçu</target>
+        <target>概要</target>
         <note>[ControlCenter] Overview panel title</note>
       </trans-unit>
       <trans-unit id="Paste copied URL into textfield">
         <source>Paste copied URL into textfield</source>
+        <target>コピーしたURLをテキスト領域に貼り付ける</target>
         <note>[WiFi Protection] Fourth step description</note>
       </trans-unit>
       <trans-unit id="Pause Ghostery">
         <source>Pause Ghostery</source>
-        <target>Mettre Ghostery en pause</target>
+        <target>Ghosteryを一時停止</target>
         <note>[ControlCenter -&gt; Overview] Pause Ghostery button title</note>
       </trans-unit>
       <trans-unit id="Please select video quality">
         <source>Please select video quality</source>
-        <target>Veuillez sélectionner la qualité de la vidéo</target>
+        <target>ビデオ画質を選択してください</target>
         <note>[VidoeDownloader] Youtube downloader action sheet message</note>
       </trans-unit>
       <trans-unit id="Privacy">
         <source>Privacy</source>
-        <target>Vie privée</target>
+        <target>プライバシー</target>
         <note>[Settings] Privacy section header</note>
       </trans-unit>
       <trans-unit id="Privacy Policy">
         <source>Privacy Policy</source>
-        <target>Politique de confidentialité</target>
+        <target>プライバシー・ポリシー</target>
         <note>[Settings -&gt; About] Privacy Policy</note>
       </trans-unit>
       <trans-unit id="Prompt description">
         <source>Enter a new name for the connection:</source>
-        <target>Veuillez entrer un nouveau nom pour la connexion :</target>
+        <target>新しい接続名を入力してください：</target>
         <note>[Settings -&gt; Connect] rename connection alert message</note>
       </trans-unit>
       <trans-unit id="Quick Search">
         <source>Quick Search</source>
+        <target>即時検索</target>
         <note>[Onboarding] QuickSearch Title
    [Settings] Quick Search</note>
       </trans-unit>
       <trans-unit id="Rate Us">
         <source>Rate Us</source>
+        <target>評価してください</target>
         <note>[Settings] Rate Us</note>
       </trans-unit>
       <trans-unit id="Receive attractive discounts and bargains with MyOffrz.">
         <source>Receive attractive discounts and bargains with MyOffrz.</source>
-        <target>Découvrez des réductions et offres exclusives avec MyOffrz</target>
+        <target>MyOffrzを使用すると、魅力的な割引やバーゲンを受けることができます。</target>
         <note>[MyOffrz] MyOffrz description</note>
       </trans-unit>
       <trans-unit id="Remove Connection">
         <source>Remove Connection</source>
-        <target>Annuler la connexion</target>
+        <target>接続を削除</target>
         <note>[Settings -&gt; Connect] remove connection</note>
       </trans-unit>
       <trans-unit id="Rename Connection">
         <source>Rename Connection</source>
-        <target>Renommer la connexion</target>
+        <target>接続名を変更</target>
         <note>[Settings -&gt; Connect] rename connection</note>
       </trans-unit>
       <trans-unit id="Report Website">
         <source>Report Website</source>
-        <target>Signaler le site web</target>
+        <target>ウェブサイトを報告</target>
         <note>[Settings] Report Website</note>
       </trans-unit>
       <trans-unit id="Restore Default Settings">
         <source>Restore Default Settings</source>
+        <target>デフォルト設定に戻す</target>
         <note>[ControlCenter - Trackers list] Restore Default Settings trackers action title</note>
       </trans-unit>
       <trans-unit id="Restrict">
         <source>Restrict</source>
+        <target>制限</target>
         <note>[Trackers -&gt; ControlCenter] Restrict Action Title</note>
       </trans-unit>
       <trans-unit id="Restrict Site">
         <source>Restrict Site</source>
-        <target>Resteindre ce site</target>
+        <target>サイトを制限</target>
         <note>[ControlCenter -&gt; Overview] Restrict button title</note>
       </trans-unit>
       <trans-unit id="Resume">
         <source>Resume</source>
-        <target>Reprendre</target>
+        <target>再開</target>
         <note>[ControlCenter -&gt; Overview] Resume Ghostery button title</note>
       </trans-unit>
       <trans-unit id="Retrieving video information">
         <source>Retrieving video information</source>
-        <target>Récupérer les informations de la vidéo</target>
+        <target>ビデオ情報を検索</target>
         <note>[VidoeDownloader] HUD message displayed while youtube downloader grabing the download URLs of the video</note>
       </trans-unit>
       <trans-unit id="Retry">
         <source>Retry</source>
-        <target>Veuillez réessayer</target>
+        <target>再試行</target>
         <note>[Connect] Retry button for Connection Failed alert
    [Subscriptions] Retry alert button</note>
       </trans-unit>
       <trans-unit id="Save time and data volume: Quick Search instantly shows relevant results while typing.">
         <source>Save time and data volume: Quick Search instantly shows relevant results while typing.</source>
+        <target>時間とデータ量を節約：即時検索は、入力中に関連する結果を即時に表示します。</target>
         <note>[Onboarding] QuickSearch Text</note>
       </trans-unit>
       <trans-unit id="Scan QR-Code">
         <source>Scan QR Code</source>
-        <target>Lire le code QR</target>
+        <target>QRコードをスキャン</target>
         <note>[Settings -&gt; Connect] Scan QR-Code</note>
       </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
-        <target>Recherche</target>
+        <target>検索</target>
         <note>[Settings] Search section title</note>
       </trans-unit>
       <trans-unit id="Search Query Suggestions">
         <source>Search Query Suggestions</source>
-        <target>Suggestions de recherche</target>
+        <target>検索クエリーの提案</target>
         <note>[Settings] Search Query Suggestions</note>
       </trans-unit>
       <trans-unit id="Search Results for">
         <source>Search Results for</source>
-        <target>Résultats pour</target>
+        <target>の検索結果</target>
         <note>[Settings] Search Results for</note>
       </trans-unit>
       <trans-unit id="Select trackers to block">
         <source>Select trackers to block</source>
+        <target>の検索結果ブロックするトラッカーを選択</target>
         <note>[WiFi Protection] Trackers control title</note>
       </trans-unit>
       <trans-unit id="Send Crash Reports">
         <source>Send Crash Reports</source>
-        <target>Envoyer les rapports d’erreur</target>
+        <target>クラッシュ・レポートを送信</target>
         <note>[Settings] Send Crash Reports</note>
       </trans-unit>
       <trans-unit id="Send usage data">
         <source>Send usage data</source>
+        <target>使用データを送信</target>
         <note>[Settings] Send usage data</note>
       </trans-unit>
       <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
-        <source>Set \"HTTP PROXY\" to \"Auto\"</source>
+        <source>Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;</source>
+        <target>\&quot;HTTP PROXY\&quot;を\&quot;Auto\&quot;に設定します</target>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
-        <target>Paramètres</target>
+        <target>設定</target>
         <note>[Subscriptions] Subscribe alert button
    Settings option for turning on Camera access
    Settings option for turning on location service
@@ -762,200 +818,223 @@
       </trans-unit>
       <trans-unit id="Show News">
         <source>Show News</source>
-        <target>Afficher les actualités</target>
+        <target>ニュースを表示</target>
         <note>[Settings] Show News</note>
       </trans-unit>
       <trans-unit id="Show most visited websites">
         <source>Show most visited websites</source>
-        <target>Afficher les sites les plus visités</target>
+        <target>最も多くアクセスしたサイトを表示</target>
         <note>[Settings] Show most visited websites</note>
       </trans-unit>
       <trans-unit id="Sorry but devices could not be connected. Please try again.">
         <source>Sorry, but the devices could not be connected. Please try again.</source>
-        <target>Désolé, mais la connexion a échouée. Veuillez essayer à nouveau.</target>
+        <target>申し訳ありませんが、デバイスを接続できませんでした。もう一度お試しください。</target>
         <note>[Connect] Connection Failed alert message</note>
       </trans-unit>
       <trans-unit id="Sorry, we encountered some technical difficulties. Please try again">
         <source>Sorry, we encountered some technical difficulties. Please try again</source>
-        <target>Désolé, il y a eu des problèmes techniques. Veuillez réessayer</target>
+        <target>申し訳ありませんが、技術的な問題が発生しました。もう一度お試しください</target>
         <note>[Subscriptions] Alert message when failing to subscribe to soccer notification</note>
       </trans-unit>
       <trans-unit id="Subscribe">
         <source>Subscribe</source>
-        <target>S'abonner</target>
+        <target>購読</target>
         <note>[Subscriptions] Subscribe alert button</note>
       </trans-unit>
       <trans-unit id="Subscribing to {1}.">
         <source>Subscribing to {1}...</source>
-        <target>Abonnement en cours ...</target>
+        <target>{1}に登録中…</target>
         <note>[Subscriptions] Subscribing HUD</note>
       </trans-unit>
       <trans-unit id="Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.">
         <source>Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.</source>
+        <target>Ghosteryのパフォーマンスを向上させるために、匿名の分析データとHuman Webデータを共有して、Ghosteryをサポートします。</target>
         <note>[Onboarding] Telemetry</note>
       </trans-unit>
       <trans-unit id="Tap        next to your connection">
         <source>Tap        next to your connection</source>
+        <target>接続の隣をタップ</target>
         <note>[WiFi Protection] Second step description</note>
       </trans-unit>
       <trans-unit id="Tap box below to copy">
         <source>Tap box below to copy</source>
+        <target>下のボックスをタップしてコピー</target>
         <note>[WiFi Protection] Copy URL action description</note>
       </trans-unit>
       <trans-unit id="Tap to copy the code">
         <source>Tap to copy the code</source>
-        <target>Tapez pour copier le code</target>
+        <target>タップしてコードをコピー</target>
         <note>[MyOffrz] copy promocode action hint</note>
       </trans-unit>
       <trans-unit id="Terms">
         <source>Terms</source>
-        <target>Termes et conditions de MyOffrz</target>
+        <target>利用規約</target>
         <note>[MyOffrz] Conditions title</note>
       </trans-unit>
       <trans-unit id="The download is complete.">
         <source>The download is complete.</source>
-        <target>Le téléchargement a terminé.</target>
+        <target>ダウンロードが完了しました。</target>
         <note>[VidoeDownloader] Toast message shown when youtube video is Successfully downloaded</note>
       </trans-unit>
       <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
         <source>To share your location, go to the settings for the Ghostery app:\n\n1. Tap Location\n2. Enable 'While Using'</source>
+        <target>位置を共有するには、Ghosteryアプリケーションの設定に移動します:\n\n1。位置をタップします\n2。「使用中」を有効にする</target>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="To share your location, go to the settings of your smartphone:\n1.Turn on Location Services\n2.Select the CLIQZ App\n3.Enable 'While Using'">
         <source>To share your location, go to the settings of your smartphone:\n\n1. Turn on Location Services\n2. Select the Ghostery App\n3. Enable 'While Using'</source>
+        <target>位置を共有するには、スマートフォンの設定に移動します:\n\n1。位置情報サービスを有効にします\n2。Ghosteryアプリを選択します\n3。「使用中」を有効にする</target>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="Trackers">
         <source>Trackers</source>
-        <target>Mouchards</target>
+        <target>トラッカー</target>
         <note>[ControlCenter] Trackers panel title</note>
       </trans-unit>
       <trans-unit id="Trust">
         <source>Trust</source>
+        <target>信頼</target>
         <note>[Trackers -&gt; ControlCenter] Trust Action Title</note>
       </trans-unit>
       <trans-unit id="Trust Site">
         <source>Trust Site</source>
-        <target>Se fier à ce site</target>
+        <target>サイトを信頼</target>
         <note>[ControlCenter -&gt; Overview] Trust button title</note>
       </trans-unit>
       <trans-unit id="Turn on Location Services">
         <source>Turn on Location Services</source>
-        <target>Activer le service de localisation</target>
+        <target>位置情報サービスを有効にする</target>
         <note>Alert title for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="Unblock">
         <source>Unblock</source>
+        <target>ブロックを解除</target>
         <note>[Trackers -&gt; ControlCenter] Unblock Action Title</note>
       </trans-unit>
       <trans-unit id="Unblock All">
         <source>Unblock All</source>
+        <target>すべてのブロックを解除</target>
         <note>[ControlCenter - Trackers list] Unblock All trackers action title</note>
       </trans-unit>
       <trans-unit id="Undo">
         <source>Undo</source>
+        <target>元に戻す</target>
         <note>[ControlCenter - Trackers list] Undo trackers action title</note>
       </trans-unit>
       <trans-unit id="Unrestrict">
         <source>Unrestrict</source>
+        <target>制限を解除</target>
         <note>[Trackers -&gt; ControlCenter] Unrestrict Action Title</note>
       </trans-unit>
       <trans-unit id="Untrust">
         <source>Untrust</source>
+        <target>信頼しない</target>
         <note>[Trackers -&gt; ControlCenter] Untrust Action Title</note>
       </trans-unit>
       <trans-unit id="Video quality">
         <source>Video quality</source>
-        <target>Qualité de la vidéo</target>
+        <target>ビデオ画質</target>
         <note>[VidoeDownloader] Youtube downloader action sheet title</note>
       </trans-unit>
       <trans-unit id="Warning: deceptive website!">
         <source>Warning: deceptive website!</source>
-        <target>Attention : site malveillant !</target>
+        <target>警告：詐欺まがいウェブサイト！</target>
         <note>Antiphishing alert title</note>
       </trans-unit>
       <trans-unit id="We use opensource software Sentry (http://sentry.io) for our crash reports. these reports do not contain any personal data.">
         <source>We use opensource software Sentry (http://sentry.io) for our crash reports. these reports do not contain any personal data.</source>
-        <target>Nous utilisons le logiciel opensource Sentry (http://sentry.io) pour les rapports des crash. Ces rapports ne contiennent aucune donnée personelle.</target>
+        <target>当社は、クラッシュ・レポートのためにオープンソース・ソフトウェアSentry（http://sentry.io）を使用しています。これらのレポートには個人データは含まれていません。</target>
         <note>[Settings -&gt; Send Crash Reports] Footer text</note>
       </trans-unit>
       <trans-unit id="Websites which are known to contain explicit content are automatically opened in Forget Tabs. Visits to such websites are therefore not saved to your history.">
         <source>Websites which are known to contain explicit content are automatically opened in Ghost Tabs. Visits to such websites are therefore not saved to your history.</source>
+        <target>露骨なコンテンツを含んでいることが知られているウェブサイトは、Ghostタブで自動的に開かれます。したがって、そのようなウェブサイトへのアクセスはユーザーの履歴に保存されません。</target>
         <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
       </trans-unit>
       <trans-unit id="Well, this is embarrassing.">
         <source>Well, this is embarrassing.</source>
+        <target>まあ、これは恥ずかしいです。</target>
         <note>Restore Tabs Prompt Title</note>
       </trans-unit>
       <trans-unit id="When Leaving Forget Browsing">
         <source>When Leaving Forget Browsing</source>
+        <target>「閲覧したことが思い出せない」を終了するとき</target>
         <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
       </trans-unit>
       <trans-unit id="When Leaving Forget Mode">
         <source>When Leaving Ghost Mode</source>
+        <target>Ghostモードを終了するとき。</target>
         <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
       </trans-unit>
       <trans-unit id="When Opening Cliqz">
         <source>When Opening Cliqz</source>
+        <target>Cliqzを開くとき</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
       </trans-unit>
       <trans-unit id="WiFi Protection">
         <source>WiFi Protection</source>
+        <target>WiFi保護</target>
         <note>Sharing activity for opening Settings</note>
       </trans-unit>
       <trans-unit id="WiFi connection protection">
         <source>WiFi connection protection</source>
+        <target>WiFi接続保護</target>
         <note>[WiFi Protection] Navigation Title
    [Wifi Protection] WiFi connection protection status</note>
       </trans-unit>
       <trans-unit id="Would you like to subscribe to the {1}?">
         <source>Would you like to subscribe to the {1}?</source>
-        <target>{1} : voulez-vous vous abonner ?</target>
+        <target>{1}に登録しますか？</target>
         <note>[Subscriptions] Alert title for asking to subscribe for soccer notificaiton</note>
       </trans-unit>
       <trans-unit id="You are browsing in Forget Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.">
         <source>You are browsing in Ghost Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
+        <target>Ghostモードで閲覧しています：このモードでアクセスしたウェブサイトは履歴に保存されず、クッキーを含むローカル・データは保存されません。</target>
         <note>Description text displayed when there are no open tabs while in private mode</note>
       </trans-unit>
       <trans-unit id="You connected your first device!\n\nNow you are ready to send websites and YouTube videos from your computer to your mobile device.">
         <source>You connected your first device!\n\nNow you are ready to send websites and YouTube videos from your computer to your mobile device.</source>
+        <target>最初のデバイスを接続しました！\n\nコンピュータからモバイル・デバイスにウェブサイトとYouTubeのビデオを送信することができます。</target>
         <note>[Connect] Connection Successful alert message</note>
       </trans-unit>
       <trans-unit id="You have restricted this site">
         <source>You have restricted this site</source>
+        <target>このサイトは制限されています</target>
         <note>[ControlCenter -&gt; Overview] Blocked trackers count</note>
       </trans-unit>
       <trans-unit id="You have trusted this site">
         <source>You have trusted this site</source>
+        <target>このサイトは信頼されています</target>
         <note>[ControlCenter -&gt; Overview] Blocked trackers count</note>
       </trans-unit>
       <trans-unit id="You will be notified about games, goals and important happenings of the {1}.">
         <source>You will be notified about games, goals and important happenings of the {1}.</source>
-        <target>{1}: vous recevirez des alertes sur les matchs, les buts et les info importantes.</target>
+        <target>{1}のゲーム、目標、重要なイベントについてユーザーに通知します。</target>
         <note>[Subscriptions] Alert message for asking to subscribe for soccer notificaiton</note>
       </trans-unit>
       <trans-unit id="Your video is being downloaded.">
         <source>Your video is being downloaded.</source>
-        <target>Téléchargement de la vidéo en cours.</target>
+        <target>ビデオをダウンロードしています。</target>
         <note>[VidoeDownloader] Toast message shown when youtube video download started</note>
       </trans-unit>
       <trans-unit id="copied!">
         <source>copied!</source>
+        <target>コピーされました！</target>
         <note>[WiFi Protection] WiFi connection protection status</note>
       </trans-unit>
       <trans-unit id="region-DE">
         <source>Germany</source>
-        <target>Allemagne</target>
+        <target>ドイツ</target>
         <note>Localized String for German region</note>
       </trans-unit>
       <trans-unit id="region-FR">
         <source>France</source>
-        <target>France</target>
+        <target>フランス</target>
         <note>Localized String for France region</note>
       </trans-unit>
       <trans-unit id="region-US">
         <source>United States</source>
-        <target>États-Unis</target>
+        <target>米国</target>
         <note>Localized String for United States region</note>
       </trans-unit>
     </body>

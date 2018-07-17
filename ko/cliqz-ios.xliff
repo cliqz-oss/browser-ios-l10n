@@ -1,0 +1,1042 @@
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+   <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en-US" target-language="ko">
+    <header>
+      <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(MOZ_PRODUCT_NAME)</source>
+        <target>$(MOZ_PRODUCT_NAME)</target>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSCameraUsageDescription">
+        <source>This lets you take and upload photos.</source>
+        <target>이것은 귀하가 사진을 받고 업로드하게 해줍니다.</target>
+        <note>Privacy - Camera Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSFaceIDUsageDescription">
+        <source>Firefox requires Face ID to access your saved logins.</source>
+        <target>Firefox가 귀하의 저장된 로그인에 액세스하려면 Face ID가 필요합니다.</target>
+        <note>Privacy - Face ID Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>Websites you visit may request your location.</source>
+        <target>방문하는 웹사이트에서 귀하의 위치를 요청할 수 있습니다.</target>
+        <note>Privacy - Location When In Use Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSMicrophoneUsageDescription">
+        <source>This lets you take and upload videos.</source>
+        <target>이것은 귀하가 동영상을 받고 업로드하게 해줍니다.</target>
+        <note>Privacy - Microphone Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryAddUsageDescription">
+        <source>This lets you save photos.</source>
+        <target>이것은 귀하가 사진을 저장하게 해줍니다.</target>
+        <note>Privacy - Photo Library Additions Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryUsageDescription">
+        <source>This lets you save and upload photos.</source>
+        <target>이것은 귀하가 사진을 저장 및 업로드하게 해줍니다.</target>
+        <note>Privacy - Photo Library Usage Description</note>
+      </trans-unit>
+      <trans-unit id="ShortcutItemTitleNewPrivateTab">
+        <source>New Ghost Tab</source>
+        <target>새 고스트 탭</target>
+        <note>(No Comment)</note>
+      </trans-unit>
+      <trans-unit id="ShortcutItemTitleNewTab">
+        <source>New Tab</source>
+        <target>새 탭</target>
+        <note>(No Comment)</note>
+      </trans-unit>
+      <trans-unit id="ShortcutItemTitleQRCode">
+        <source>Scan QR-Code</source>
+        <target>QR 코드 스캔</target>
+        <note>(No Comment)</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en-US" target-language="ko">
+    <header>
+      <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
+    </header>
+    <body>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
+        <source>%1$#@trackers@ %2$#@blocked@</source>
+        <target>%1$#@trackers@ %2$#@blocked@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/one:dict/:string">
+        <source>%d Blocked</source>
+        <target>%d 차단됨</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/other:dict/:string">
+        <source>%d Blocked</source>
+        <target>%d 차단됨</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/zero:dict/:string">
+        <source>%d Blocked</source>
+        <target>%d 차단됨</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/one:dict/:string">
+        <source>%d TRACKER</source>
+        <target>%d 트래커</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/other:dict/:string">
+        <source>%d TRACKERS</source>
+        <target>%d 트래커</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/zero:dict/:string">
+        <source>%d TRACKERS</source>
+        <target>%d 트래커</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
+        <source>%#@trackers@</source>
+        <target>%#@trackers@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/one:dict/:string">
+        <source>%d Tracker Blocked</source>
+        <target>%d 트래커 차단됨</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/other:dict/:string">
+        <source>%d Trackers Blocked</source>
+        <target>%d 트래커 차단됨</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/zero:dict/:string">
+        <source>%d Trackers Blocked</source>
+        <target>%d 트래커 차단됨</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) found:dict/NSStringLocalizedFormatKey:dict/:string">
+        <source>%#@trackers@</source>
+        <target>%#@trackers@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/one:dict/:string">
+        <source>%d Tracker found</source>
+        <target>%d 트래커 발견됨</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/other:dict/:string">
+        <source>%d Trackers found</source>
+        <target>%d 트래커 발견됨</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/zero:dict/:string">
+        <source>%d Trackers found</source>
+        <target>%d 트래커 발견됨</target>
+        <note/>
+      </trans-unit>
+    </body>
+  </file>
+  <file datatype="plaintext" original="Client/en.lproj/Cliqz.strings" source-language="en-US" target-language="ko">
+    <header>
+      <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
+    </header>
+    <body>
+      <trans-unit id=" and select connect to scan the QR-Code">
+        <source> and select 'Connect' to scan the QR Code.</source>
+        <target> 그리고, '연결'을 선택해서 QR 코드를 스캔하세요.</target>
+        <note>[Connect] instructions text part#2</note>
+      </trans-unit>
+      <trans-unit id="%d Tracker(s) %d Blocked">
+        <source>%1$d Tracker(s) %2$d Blocked</source>
+        <target>%1$d 트래커 %2$d 차단됨</target>
+        <note>[ControlCenter -&gt; Trackers] Detected and Blocked trackers count</note>
+      </trans-unit>
+      <trans-unit id="%d Tracker(s) Blocked">
+        <source>%d Tracker(s) Blocked</source>
+        <target>%d 트래커 차단됨</target>
+        <note>[ControlCenter -&gt; Overview] Blocked trackers count</note>
+      </trans-unit>
+      <trans-unit id="%d Tracker(s) found">
+        <source>%d Tracker(s) found</source>
+        <target>%d 트래커 발견됨</target>
+        <note>[ControlCenter -&gt; Overview] Detected trackers count</note>
+      </trans-unit>
+      <trans-unit id="**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. \n\n**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.">
+        <source>**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. \n\n**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.</source>
+        <target>**이 기능은 시험 중이므로, 일정한 경우에는 기대한 대로 작동하지 않을 수도 있습니다. \n\n**Mobile Safari는 PAC config와 성능 문제가 있으므로, 그 대신 Cliqz, Ghostery 또는 다른 브라우저를 사용할 것을 권고합니다.</target>
+        <note>[WiFi Protection] Notes</note>
+      </trans-unit>
+      <trans-unit id="1 hour">
+        <source>1 hour</source>
+        <target>1시간</target>
+        <note>[ControlCenter - Overview] Pause Ghostery for one hour title</note>
+      </trans-unit>
+      <trans-unit id="24 hours">
+        <source>24 hours</source>
+        <target>24시간</target>
+        <note>[ControlCenter - Overview] Pause Ghostery for twentyfour hours title</note>
+      </trans-unit>
+      <trans-unit id="30 minutes">
+        <source>30 minutes</source>
+        <target>30분</target>
+        <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
+      </trans-unit>
+      <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.">
+        <source>A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
+        <target>명확히 정해진 경우에 광고를 보여주는 \&quot;페어\&quot; 모드가 곧 추가될 것입니다.</target>
+        <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
+      </trans-unit>
+      <trans-unit id="About">
+        <source>About</source>
+        <target>소개</target>
+        <note>[Settings] About
+   [Settings] About section header</note>
+      </trans-unit>
+      <trans-unit id="About MyOffrz">
+        <source>About MyOffrz</source>
+        <target>MyOffrz 소개</target>
+        <note>[Settings] About MyOffrz</note>
+      </trans-unit>
+      <trans-unit id="Activate push notification to use this feature. Go to settings to allow push notifications then retry.">
+        <source>Activate push notification to use this feature. Go to settings to allow push notifications then retry.</source>
+        <target>이 기능을 사용하려면 푸시 알림을 활성화하세요. 설정으로 이동해서 푸시 알림을 허용한 다음 다시 시도하세요.</target>
+        <note>[Subscriptions] Alert message  for asking to enable push notificaiton from the system</note>
+      </trans-unit>
+      <trans-unit id="Ad &amp; Tracker Blocking">
+        <source>Ad &amp; Tracker Blocking</source>
+        <target>광고 및 트래커 차단</target>
+        <note>[Onboarding] Adblocker Title</note>
+      </trans-unit>
+      <trans-unit id="Add Connection">
+        <source>Add Connection</source>
+        <target>연결 추가</target>
+        <note>[Settings -&gt; Connect] Add Connection title</note>
+      </trans-unit>
+      <trans-unit id="Add to Bookmarks">
+        <source>Add to Favorites</source>
+        <target>즐겨찾기에 추가</target>
+        <note>Label for preview action on Tab Tray Tab to add current tab to Bookmarks</note>
+      </trans-unit>
+      <trans-unit id="Ads">
+        <source>Ads</source>
+        <target>광고</target>
+        <note>[WiFi Protection] Option 2 for blocking trackers</note>
+      </trans-unit>
+      <trans-unit id="Ads Removed">
+        <source>Ads Removed</source>
+        <target>삭제된 광고</target>
+        <note>[ControlCenter -&gt; Overview] Removed Ads indicator</note>
+      </trans-unit>
+      <trans-unit id="All">
+        <source>All</source>
+        <target>모두</target>
+        <note>[WiFi Protection] Option 1 for blocking trackers</note>
+      </trans-unit>
+      <trans-unit id="Allow Camera Access">
+        <source>Allow Camera Access</source>
+        <target>카메라 액세스 허용</target>
+        <note>[Connect] Alert title for turning on Camera access when scanning QRCode</note>
+      </trans-unit>
+      <trans-unit id="Analytics">
+        <source>Analytics</source>
+        <target>Analytics</target>
+        <note>[WiFi Protection] Option 3 for blocking trackers</note>
+      </trans-unit>
+      <trans-unit id="Automatic Forget Tab">
+        <source>Automatic Ghost Tab</source>
+        <target>자동 고스트 탭</target>
+        <note>[Settings] Automatic Forget Tab</note>
+      </trans-unit>
+      <trans-unit id="Back to safe site">
+        <source>Back to safe site</source>
+        <target>안전한 사이트로 돌아가기</target>
+        <note>Back to safe site buttun title in antiphishing alert title</note>
+      </trans-unit>
+      <trans-unit id="Beacons">
+        <source>Beacons</source>
+        <target>비콘</target>
+        <note>[WiFi Protection] Option 4 for blocking trackers</note>
+      </trans-unit>
+      <trans-unit id="Block">
+        <source>Block</source>
+        <target>차단</target>
+        <note>[Trackers -&gt; ControlCenter] Block Action Title</note>
+      </trans-unit>
+      <trans-unit id="Block Ads">
+        <source>Ad Blocking (Beta)</source>
+        <target>광고 차단 (베타)</target>
+        <note>[Settings -&gt; Block Ads] Block Ads
+   [Settings] Block Ads</note>
+      </trans-unit>
+      <trans-unit id="Block All">
+        <source>Block All</source>
+        <target>모두 차단</target>
+        <note>[ControlCenter - Trackers list] Block All trackers action title</note>
+      </trans-unit>
+      <trans-unit id="Block Explicit Content">
+        <source>Block Explicit Content</source>
+        <target>노골적 콘텐츠 차단</target>
+        <note>[Settings] Block explicit content</note>
+      </trans-unit>
+      <trans-unit id="Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.">
+        <source>Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.</source>
+        <target>광고 및 트래커 차단으로 더 빠르고, 안전하며, 효율적으로 브라우징하세요. Ghostery 컨트롤 센터에서 귀하에 맞는 맞춤 설정을 할 수 있습니다.</target>
+        <note>[Onboarding] Adblocker Text</note>
+      </trans-unit>
+      <trans-unit id="Browsing &amp; History">
+        <source>Browsing &amp; History</source>
+        <target>브라우징 및 방문 이력</target>
+        <note>[Settings] Browsing &amp; History section header</note>
+      </trans-unit>
+      <trans-unit id="CLIQZ has blocked access to %1$ because it has been reported as a phishing website.Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information">
+        <source>Ghostery has blocked access to %1$ because it has been reported as a phishing website.\nPhishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information.</source>
+        <target>Ghostery는 %1$가 피싱 웹사이트로 보고되었기 때문에 액세스를 차단했습니다.\n피싱 웹사이트는 귀하를 속여서 로그인, 암호 또는 그 밖의 민감한 정보를 입수하기 위해서 귀하가 신뢰하는 다른 사이트인 것처럼 가장합니다.</target>
+        <note>Antiphishing alert message</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <target>취소</target>
+        <note>[ControlCenter - Trackers list] Cancel action title
+   Cancel</note>
+      </trans-unit>
+      <trans-unit id="Categories">
+        <source>Categories</source>
+        <target>카테고리</target>
+        <note>[Trackers -&gt; ControlCenter] Trackers Title</note>
+      </trans-unit>
+      <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
+        <source>Ghostery Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
+        <target>Ghostery 브라우저가 귀하의 카메라에 액세스할 수 없습니다. 액세스를 허용하려면, '설정'을 탭한 다음 카메라를 켜세요.</target>
+        <note>[Connect] Alert message for turning on Camera access when Scanning QR Code</note>
+      </trans-unit>
+      <trans-unit id="Cliqz Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.">
+        <source>Ghostery Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.</source>
+        <target>광고 차단기가 효율적으로 작동하려면 Ghostery 브라우저가 먼저 일정한 데이터 패키지를 다운로드해야 합니다. 이를 위해서는 앱이 반드시 Wi-Fi에 연결되어야 합니다.</target>
+        <note>[Settings -&gt; Block Ads] Block Ads footer</note>
+      </trans-unit>
+      <trans-unit id="Cliqz works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.">
+        <source>Ghostery works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.</source>
+        <target>Ghostery는 당사 커뮤니티 사용자들에 의해 생성된 검색 쿼리 및 웹사이트 방문에 관한 익명 데이터로 작동됩니다. 웹 인덱스를 구축하기 위해서 이 데이터를 수집하는 기술은 휴먼 웹이라 불립니다.</target>
+        <note>[Settings -&gt; Human Web]Footer text for Fair Blocking section</note>
+      </trans-unit>
+      <trans-unit id="Cliqz would like to access your Photos">
+        <source>Cliqz would like to access your Photos</source>
+        <target>Cliqz가 귀하의 사진에 액세스하려고 합니다</target>
+        <note>See http://mzl.la/1G7uHo7</note>
+      </trans-unit>
+      <trans-unit id="Close Forget Tabs">
+        <source>Close Ghost Tabs</source>
+        <target>고스트 탭 닫기</target>
+        <note>Setting for closing forget tabs</note>
+      </trans-unit>
+      <trans-unit id="Close Tab">
+        <source>Close Tab</source>
+        <target>탭 닫기</target>
+        <note>Label for Close Tab</note>
+      </trans-unit>
+      <trans-unit id="Code copied">
+        <source>Code copied</source>
+        <target>코드 복사됨</target>
+        <note>[MyOffrz] copy promocode done</note>
+      </trans-unit>
+      <trans-unit id="Complementary Search">
+        <source>Complementary Search</source>
+        <target>보충 검색</target>
+        <note>[Settings] Complementary Search</note>
+      </trans-unit>
+      <trans-unit id="Configured Settings">
+        <source>Configured Settings</source>
+        <target>구성된 설정</target>
+        <note>[WiFi Protection] Configured Settings</note>
+      </trans-unit>
+      <trans-unit id="Connect">
+        <source>Connect</source>
+        <target>연결</target>
+        <note>[Settings] Connect
+   [Settings] Connect section title</note>
+      </trans-unit>
+      <trans-unit id="Connect Cliqz on your computer with Cliqz on your iOS device. This will allow you to send tabs from your desktop to your mobile device. You can also directly download videos from your desktop browser to your mobile device.">
+        <source>Connect Cliqz on your computer with Cliqz on your iOS device. This will allow you to send tabs from your desktop to your mobile device. You can also directly download videos from your desktop browser to your mobile device.</source>
+        <target>귀하의 컴퓨터에 있는 Cliqz를 iOS 기기에 있는 Cliqz와 연결하세요. 이것은 데스트톱에서 모바일 기기로 탭을 전송할 수 있게 해줍니다. 귀하는 데스크톱 브라우저로부터 모바일 기기로 직접 동영상을 다운로드할 수 있습니다.</target>
+        <note>[Settings] Connect section footer</note>
+      </trans-unit>
+      <trans-unit id="Connected to WiFi">
+        <source>Connected to WiFi</source>
+        <target>WiFi에 연결됨</target>
+        <note>[WiFi Protection] Connected to WiFi status</note>
+      </trans-unit>
+      <trans-unit id="Connecting ...">
+        <source>Connecting ...</source>
+        <target>연결 중...</target>
+        <note>[Settings -&gt; Connect] Connecting status</note>
+      </trans-unit>
+      <trans-unit id="Connecting to Desktop">
+        <source>Connecting to Desktop</source>
+        <target>데스크톱에 연결 중</target>
+        <note>[Settings -&gt; Connect] pending connection title</note>
+      </trans-unit>
+      <trans-unit id="Connection Failed">
+        <source>Connection Failed</source>
+        <target>연결 실패</target>
+        <note>[Connect] Connection Failed alert title</note>
+      </trans-unit>
+      <trans-unit id="Connection successful">
+        <source>Connection successful</source>
+        <target>연결 성공</target>
+        <note>[Connect] Connection successful alert title</note>
+      </trans-unit>
+      <trans-unit id="Continue despite warning">
+        <source>Continue despite warning</source>
+        <target>경고에도 불구하고 계속하기</target>
+        <note>Continue despite warning buttun title in antiphishing alert title</note>
+      </trans-unit>
+      <trans-unit id="Could not download Video.">
+        <source>Video download failed.</source>
+        <target>동영상 다운로드 실패함.</target>
+        <note>[VidoeDownloader] Toast message shown when youtube video download faild</note>
+      </trans-unit>
+      <trans-unit id="Could not subscribe to {1}.">
+        <source>Could not subscribe to {1}.</source>
+        <target>{1}을(를) 구독할 수 없음.</target>
+        <note>[Subscriptions] Alert title for asking to enable push notificaiton from the system
+   [Subscriptions] Alert title when failing to subscribe to soccer notification</note>
+      </trans-unit>
+      <trans-unit id="Currently, push notifications are only received if Cliqz is active.">
+        <source>Currently, push notifications are only received when your browser is active.</source>
+        <target>현재, 푸시 알림은 귀하의 브라우저가 액티브 상태인 경우에만 수신됩니다.</target>
+        <note>[Subscriptions] Subscribing Toast</note>
+      </trans-unit>
+      <trans-unit id="Done">
+        <source>Done</source>
+        <target>완료 </target>
+        <note>Done button in the tabTray Toolbar</note>
+      </trans-unit>
+      <trans-unit id="Download videos on Wi-Fi Only">
+        <source>Only download video on Wi-Fi</source>
+        <target>오로지 Wi-Fi에서만 동영상 다운로드하기</target>
+        <note>[Settings -&gt; Limit Mobile Data Usage] toogle footer</note>
+      </trans-unit>
+      <trans-unit id="Download youtube video">
+        <source>Download Video Link</source>
+        <target>동영상 링크 다운로드</target>
+        <note>Context menu item for opening a link in a new tab</note>
+      </trans-unit>
+      <trans-unit id="EULA">
+        <source>End-User License Agreement</source>
+        <target>최종 사용자 라이선스 계약</target>
+        <note>[Settings -&gt; About] EULA</note>
+      </trans-unit>
+      <trans-unit id="Empty TopSites hint">
+        <source>Your most visited sites will show up here</source>
+        <target>가장 많이 방문한 사이트들이 여기에 표시됩니다</target>
+        <note>Hint on Freshtab when there is no topsites</note>
+      </trans-unit>
+      <trans-unit id="Enhanced Ad Blocking">
+        <source>Enhanced Ad Blocking</source>
+        <target>강화된 광고 차단</target>
+        <note>[ControlCenter -&gt; Overview] Ad blocking switch title</note>
+      </trans-unit>
+      <trans-unit id="Enhanced Ad Blocking anonymizes unblocked and unknown trackers for greater browsing protection.">
+        <source>Enhanced Ad Blocking anonymizes unblocked and unknown trackers for greater browsing protection.</source>
+        <target>강화된 광고 차단은 더 큰 브라우징 보호를 위해서 미차단되고 알려지지 않은 트래커를 익명화합니다.</target>
+        <note>[ControlCenter -&gt; Overview] Ad Blocking description</note>
+      </trans-unit>
+      <trans-unit id="Every new Tab comes with top sites, news and background image. Customize it to your needs.">
+        <source>Every new Tab comes with top sites, news and background image. Customize it to your needs.</source>
+        <target>모든 새 탭에는 톱 사이트, 뉴스 및 배경 이미지가 포함됩니다. 그것을 귀하의 필요에 따라 맞춤 설정하세요.</target>
+        <note>[Onboarding] Tab Text</note>
+      </trans-unit>
+      <trans-unit id="FAQ &amp; Support">
+        <source>FAQ &amp; Support</source>
+        <target>FAQ 및 지원</target>
+        <note>[Settings] FAQ &amp; Support</note>
+      </trans-unit>
+      <trans-unit id="Fair Mode">
+        <source>Fair Mode</source>
+        <target>페어 모드</target>
+        <note>[Settings -&gt; Block Ads] Fair Mode</note>
+      </trans-unit>
+      <trans-unit id="Favorites you save will show up here.">
+        <source>Favorites you save will show up here.</source>
+        <target>귀하가 저장하는 즐겨찾기가 여기에 표시됩니다.</target>
+        <note>Status label for the empty Favorites state.</note>
+      </trans-unit>
+      <trans-unit id="Forget">
+        <source>Ghost Tabs</source>
+        <target>고스트 탭</target>
+        <note>Forget toogle button in tab overview</note>
+      </trans-unit>
+      <trans-unit id="Forget Mode">
+        <source>Ghost Mode</source>
+        <target>고스트 모드</target>
+        <note>Title displayed for when there are no open tabs while in forget mode</note>
+      </trans-unit>
+      <trans-unit id="Forget Tab">
+        <source>Ghost tab</source>
+        <target>고스트 탭</target>
+        <note>Title of Forget Tab on iPad</note>
+      </trans-unit>
+      <trans-unit id="Fresh Tab">
+        <source>Start Tab</source>
+        <target>시작 탭</target>
+        <note>[Onboarding] Freshtab Title
+   [Settings] Freshtab section header</note>
+      </trans-unit>
+      <trans-unit id="Get the best out of CLIQZ">
+        <source>Get the best out of Ghostery</source>
+        <target>Ghostery를 최대한 활용하세요</target>
+        <note>[Settings] Get the best out of CLIQZ</note>
+      </trans-unit>
+      <trans-unit id="Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). ">
+        <source>Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). </source>
+        <target>Ghostery for iOS는 이제 귀하의 WiFi 연결을 보호할 수 있게 해줍니다. 그것은 귀하가 이 WiFi 네트워크에 연결되어 있는 동안은 다른 애플리케이션들에서 트래커를 차단할 수 있습니다. 그것은 각각의 서로 다른 네트워크(집, 직장, 학교 등)에 대해 매번 설정되어야 합니다. </target>
+        <note>[WiFi Protection] Description</note>
+      </trans-unit>
+      <trans-unit id="Global Trackers">
+        <source>All Trackers</source>
+        <target>모든 트래커</target>
+        <note>[ControlCenter] Global Trackers panel title</note>
+      </trans-unit>
+      <trans-unit id="Go to ">
+        <source>Go to </source>
+        <target>이동하기 </target>
+        <note>[Connect] instructions text part#1</note>
+      </trans-unit>
+      <trans-unit id="Go to Settings &gt; WiFi settings">
+        <source>Go to Settings &gt; WiFi settings</source>
+        <target>설정 &gt; WiFi 설정으로 이동</target>
+        <note>[WiFi Protection] First step description</note>
+      </trans-unit>
+      <trans-unit id="Help">
+        <source>Help</source>
+        <target>도움말</target>
+        <note>[Settings] Help section header</note>
+      </trans-unit>
+      <trans-unit id="Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any PII collected. Learn more at http://cliqz.com/en/privacy-browser.">
+        <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any PII collected.</source>
+        <target>저희가 귀하의 브라우징 경험을 향상시키도록 도와주세요. Ghostery는 엄격히 익명화된 사용 데이터를 수집합니다. 어떤 경우에도 개인식별정보는 수집되지 않습니다.</target>
+        <note>[Settings -&gt; Send Telemetry] Footer text</note>
+      </trans-unit>
+      <trans-unit id="Here you'll find a new offer every week">
+        <source>Every week a new offer will show up here</source>
+        <target>매주 새로운 제공사항이 여기에 표시됩니다</target>
+        <note>[MyOffrz] No offers label</note>
+      </trans-unit>
+      <trans-unit id="Hey, I would like to invite you to try the Cliqz Browser.">
+        <source>Hey, I would like to invite you to try the Cliqz Browser.</source>
+        <target>Cliqz 브라우저를 체험하시도록 귀하를 초대합니다.</target>
+        <note>Sharing FreshTab message</note>
+      </trans-unit>
+      <trans-unit id="Human Web">
+        <source>Human Web</source>
+        <target>휴먼 웹</target>
+        <note>[Settings] Human Web</note>
+      </trans-unit>
+      <trans-unit id="Important Notes:">
+        <source>Important Notes:</source>
+        <target>중요 유의 사항:</target>
+        <note>[WiFi Protection] Notes Title</note>
+      </trans-unit>
+      <trans-unit id="Introducing Ghostery">
+        <source>Introducing Ghostery</source>
+        <target>Ghostery 소개</target>
+        <note>[Onboarding] Intro Title</note>
+      </trans-unit>
+      <trans-unit id="Introducing New Ghostery">
+        <source>Introducing New Ghostery</source>
+        <target>새로운 Ghostery 소개</target>
+        <note>[Onboarding] Intro Title Old Users</note>
+      </trans-unit>
+      <trans-unit id="Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.">
+        <source>Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.</source>
+        <target>브라우징을 더 클린하고, 빠르며, 안전하게 유지하세요. 걱정하지 마세요. 귀하의 모든 데이터가 가져오기됩니다.</target>
+        <note>[Onboarding] Intro Text Old Users</note>
+      </trans-unit>
+      <trans-unit id="Keep your browsing cleaner, faster, and safer.">
+        <source>Keep your browsing cleaner, faster, and safer.</source>
+        <target>브라우징을 더 클린하고, 빠르며, 안전하게 유지하세요.</target>
+        <note>[Onboarding] Intro Text</note>
+      </trans-unit>
+      <trans-unit id="LEARN MORE">
+        <source>LEARN MORE</source>
+        <target>자세히 알아보기</target>
+        <note>[MyOffrz] Learn more button title</note>
+      </trans-unit>
+      <trans-unit id="LessNews">
+        <source>Show less</source>
+        <target>덜 보기</target>
+        <note>Title to expand news stream</note>
+      </trans-unit>
+      <trans-unit id="Licenses">
+        <source>Licenses</source>
+        <target>라이선스</target>
+        <note>[Settings -&gt; About] Licenses</note>
+      </trans-unit>
+      <trans-unit id="Limit Mobile Data Usage">
+        <source>Limit Mobile Data Usage</source>
+        <target>모바일 데이터 사용 제한</target>
+        <note>[Settings] Limit Mobile Data Usage</note>
+      </trans-unit>
+      <trans-unit id="Looks like Cliqz crashed previously. Would you like to restore your tabs?">
+        <source>Looks like Cliqz crashed previously. Would you like to restore your tabs?</source>
+        <target>Cliqz가 이전에 충돌되었던 것처럼 보입니다. 귀하의 탭을 복구하시겠습니까?</target>
+        <note>Restore Tabs Prompt Description</note>
+      </trans-unit>
+      <trans-unit id="MoreNews">
+        <source>Show more</source>
+        <target>더 보기</target>
+        <note>Title to expand news stream</note>
+      </trans-unit>
+      <trans-unit id="NEWS">
+        <source>News</source>
+        <target>뉴스</target>
+        <note>Title to expand news stream</note>
+      </trans-unit>
+      <trans-unit id="New Forget Tab">
+        <source>New Ghost Tab</source>
+        <target>새 고스트 탭</target>
+        <note>Label for New Forget Tab</note>
+      </trans-unit>
+      <trans-unit id="New Tab">
+        <source>New Tab</source>
+        <target>새 탭</target>
+        <note>Label for New Tab
+   Title of New Tab on iPad</note>
+      </trans-unit>
+      <trans-unit id="No Wi-Fi Connection message">
+        <source>You are not connected to a Wi-Fi network and video downloads with mobile data is restricted. \nTo change this, go to Settings &gt; Limit Mobile Data Usage.\n</source>
+        <target>Wi-Fi에 연결되어 있지 않으므로, 모바일 데이터를 통한 동영상 다운로드가 제한됩니다. \n이것을 변경하려면, 설정 &gt; 모바일 데이터 사용 제한으로 이동하세요.\n</target>
+        <note>[VidoeDownloader] No Wi-Fi connection alert message</note>
+      </trans-unit>
+      <trans-unit id="Not Now">
+        <source>Not Now</source>
+        <target>지금은 아님</target>
+        <note>Not now option for turning on Camera access
+   Not now option for turning on location service</note>
+      </trans-unit>
+      <trans-unit id="Off">
+        <source>Off</source>
+        <target>끄기</target>
+        <note>[Settings] Off status</note>
+      </trans-unit>
+      <trans-unit id="Offline">
+        <source>Offline</source>
+        <target>오프라인</target>
+        <note>[Settings -&gt; Connect] Offline status</note>
+      </trans-unit>
+      <trans-unit id="Ok">
+        <source>Ok</source>
+        <target>확인</target>
+        <note>Ok</note>
+      </trans-unit>
+      <trans-unit id="On">
+        <source>On</source>
+        <target>켜기</target>
+        <note>[Settings] On status</note>
+      </trans-unit>
+      <trans-unit id="On all sites">
+        <source>On all sites</source>
+        <target>모든 사이트에서</target>
+        <note>[ControlCenter -&gt; Global Trackers] category status fo all sites</note>
+      </trans-unit>
+      <trans-unit id="On this site">
+        <source>On this site</source>
+        <target>이 사이트에서</target>
+        <note>[ControlCenter -&gt; Trackers] category status for the current site</note>
+      </trans-unit>
+      <trans-unit id="Online">
+        <source>Online</source>
+        <target>온라인</target>
+        <note>[Settings -&gt; Connect] Online status</note>
+      </trans-unit>
+      <trans-unit id="Open in New Forget Tab">
+        <source>Open in New Forget Tab</source>
+        <target>새 Forget 탭에서 열기</target>
+        <note>Context menu option for opening a link in a new forget tab</note>
+      </trans-unit>
+      <trans-unit id="Open the Photos">
+        <source>Open</source>
+        <target>열기</target>
+        <note>[VidoeDownloader] Toast button text shown when youtube video is Successfully downloaded</note>
+      </trans-unit>
+      <trans-unit id="Overview">
+        <source>Overview</source>
+        <target>개관</target>
+        <note>[ControlCenter] Overview panel title</note>
+      </trans-unit>
+      <trans-unit id="Paste copied URL into textfield">
+        <source>Paste copied URL into textfield</source>
+        <target>복사된 URL을 텍스트 항목에 붙여넣기</target>
+        <note>[WiFi Protection] Fourth step description</note>
+      </trans-unit>
+      <trans-unit id="Pause Ghostery">
+        <source>Pause Ghostery</source>
+        <target>Ghostery 일시 중지</target>
+        <note>[ControlCenter -&gt; Overview] Pause Ghostery button title</note>
+      </trans-unit>
+      <trans-unit id="Please select video quality">
+        <source>Please select video quality</source>
+        <target>동영상 품질을 선택하세요</target>
+        <note>[VidoeDownloader] Youtube downloader action sheet message</note>
+      </trans-unit>
+      <trans-unit id="Privacy">
+        <source>Privacy</source>
+        <target>개인정보</target>
+        <note>[Settings] Privacy section header</note>
+      </trans-unit>
+      <trans-unit id="Privacy Policy">
+        <source>Privacy Policy</source>
+        <target>개인정보 처리방침</target>
+        <note>[Settings -&gt; About] Privacy Policy</note>
+      </trans-unit>
+      <trans-unit id="Prompt description">
+        <source>Enter a new name for the connection:</source>
+        <target>연결을 위한 새 이름을 입력하세요:</target>
+        <note>[Settings -&gt; Connect] rename connection alert message</note>
+      </trans-unit>
+      <trans-unit id="Quick Search">
+        <source>Quick Search</source>
+        <target>빠른 검색</target>
+        <note>[Onboarding] QuickSearch Title
+   [Settings] Quick Search</note>
+      </trans-unit>
+      <trans-unit id="Rate Us">
+        <source>Rate Us</source>
+        <target>평가하기</target>
+        <note>[Settings] Rate Us</note>
+      </trans-unit>
+      <trans-unit id="Receive attractive discounts and bargains with MyOffrz.">
+        <source>Receive attractive discounts and bargains with MyOffrz.</source>
+        <target>MyOffrz로 매력적인 할인 및 특가를 제공받으세요.</target>
+        <note>[MyOffrz] MyOffrz description</note>
+      </trans-unit>
+      <trans-unit id="Remove Connection">
+        <source>Remove Connection</source>
+        <target>연결 제거</target>
+        <note>[Settings -&gt; Connect] remove connection</note>
+      </trans-unit>
+      <trans-unit id="Rename Connection">
+        <source>Rename Connection</source>
+        <target>연결 이름 바꾸기</target>
+        <note>[Settings -&gt; Connect] rename connection</note>
+      </trans-unit>
+      <trans-unit id="Report Website">
+        <source>Report Website</source>
+        <target>웹사이트 보고</target>
+        <note>[Settings] Report Website</note>
+      </trans-unit>
+      <trans-unit id="Restore Default Settings">
+        <source>Restore Default Settings</source>
+        <target>초기 설정치 복원</target>
+        <note>[ControlCenter - Trackers list] Restore Default Settings trackers action title</note>
+      </trans-unit>
+      <trans-unit id="Restrict">
+        <source>Restrict</source>
+        <target>제한하기</target>
+        <note>[Trackers -&gt; ControlCenter] Restrict Action Title</note>
+      </trans-unit>
+      <trans-unit id="Restrict Site">
+        <source>Restrict Site</source>
+        <target>사이트 제한</target>
+        <note>[ControlCenter -&gt; Overview] Restrict button title</note>
+      </trans-unit>
+      <trans-unit id="Resume">
+        <source>Resume</source>
+        <target>다시 시작</target>
+        <note>[ControlCenter -&gt; Overview] Resume Ghostery button title</note>
+      </trans-unit>
+      <trans-unit id="Retrieving video information">
+        <source>Retrieving video information</source>
+        <target>동영상 정보 가져오기</target>
+        <note>[VidoeDownloader] HUD message displayed while youtube downloader grabing the download URLs of the video</note>
+      </trans-unit>
+      <trans-unit id="Retry">
+        <source>Retry</source>
+        <target>다시 시도</target>
+        <note>[Connect] Retry button for Connection Failed alert
+   [Subscriptions] Retry alert button</note>
+      </trans-unit>
+      <trans-unit id="Save time and data volume: Quick Search instantly shows relevant results while typing.">
+        <source>Save time and data volume: Quick Search instantly shows relevant results while typing.</source>
+        <target>시간과 데이터량을 절감하세요: 빠른 검색은 타이핑하는 동안 관련 결과를 바로 보여줍니다.</target>
+        <note>[Onboarding] QuickSearch Text</note>
+      </trans-unit>
+      <trans-unit id="Scan QR-Code">
+        <source>Scan QR Code</source>
+        <target>QR 코드 스캔</target>
+        <note>[Settings -&gt; Connect] Scan QR-Code</note>
+      </trans-unit>
+      <trans-unit id="Search">
+        <source>Search</source>
+        <target>검색</target>
+        <note>[Settings] Search section title</note>
+      </trans-unit>
+      <trans-unit id="Search Query Suggestions">
+        <source>Search Query Suggestions</source>
+        <target>검색 쿼리 제안</target>
+        <note>[Settings] Search Query Suggestions</note>
+      </trans-unit>
+      <trans-unit id="Search Results for">
+        <source>Search Results for</source>
+        <target>다음에 대한 검색 결과</target>
+        <note>[Settings] Search Results for</note>
+      </trans-unit>
+      <trans-unit id="Select trackers to block">
+        <source>Select trackers to block</source>
+        <target>차단할 트래커 선택</target>
+        <note>[WiFi Protection] Trackers control title</note>
+      </trans-unit>
+      <trans-unit id="Send Crash Reports">
+        <source>Send Crash Reports</source>
+        <target>충돌 보고서 보내기</target>
+        <note>[Settings] Send Crash Reports</note>
+      </trans-unit>
+      <trans-unit id="Send usage data">
+        <source>Send usage data</source>
+        <target>사용 데이터 보내기</target>
+        <note>[Settings] Send usage data</note>
+      </trans-unit>
+      <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
+        <source>Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;</source>
+        <target>\&quot;HTTP 프록시\&quot;를 \&quot;자동\&quot;으로 설정</target>
+        <note>[WiFi Protection] Third step description</note>
+      </trans-unit>
+      <trans-unit id="Settings">
+        <source>Settings</source>
+        <target>설정</target>
+        <note>[Subscriptions] Subscribe alert button
+   Settings option for turning on Camera access
+   Settings option for turning on location service
+   Sharing activity for opening Settings</note>
+      </trans-unit>
+      <trans-unit id="Show News">
+        <source>Show News</source>
+        <target>뉴스 보기</target>
+        <note>[Settings] Show News</note>
+      </trans-unit>
+      <trans-unit id="Show most visited websites">
+        <source>Show most visited websites</source>
+        <target>가장 많이 방문한 사이트 보기</target>
+        <note>[Settings] Show most visited websites</note>
+      </trans-unit>
+      <trans-unit id="Sorry but devices could not be connected. Please try again.">
+        <source>Sorry, but the devices could not be connected. Please try again.</source>
+        <target>죄송하지만, 기기가 연결될 수 없습니다. 다시 시도해 주세요.</target>
+        <note>[Connect] Connection Failed alert message</note>
+      </trans-unit>
+      <trans-unit id="Sorry, we encountered some technical difficulties. Please try again">
+        <source>Sorry, we encountered some technical difficulties. Please try again</source>
+        <target>죄송하지만, 일부 기술적인 문제가 발생했습니다. 다시 시도해 주세요</target>
+        <note>[Subscriptions] Alert message when failing to subscribe to soccer notification</note>
+      </trans-unit>
+      <trans-unit id="Subscribe">
+        <source>Subscribe</source>
+        <target>구독</target>
+        <note>[Subscriptions] Subscribe alert button</note>
+      </trans-unit>
+      <trans-unit id="Subscribing to {1}.">
+        <source>Subscribing to {1}...</source>
+        <target>{1} 구독 중...</target>
+        <note>[Subscriptions] Subscribing HUD</note>
+      </trans-unit>
+      <trans-unit id="Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.">
+        <source>Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.</source>
+        <target>Ghostery의 성능을 개선할 수 있도록 익명화된 분석 데이터와 휴먼 웹 데이터를 공유함으로써 Ghostery를 도와주세요.</target>
+        <note>[Onboarding] Telemetry</note>
+      </trans-unit>
+      <trans-unit id="Tap        next to your connection">
+        <source>Tap        next to your connection</source>
+        <target>다음을 탭해서 귀하의 연결로 이동</target>
+        <note>[WiFi Protection] Second step description</note>
+      </trans-unit>
+      <trans-unit id="Tap box below to copy">
+        <source>Tap box below to copy</source>
+        <target>아래 상자를 탭해서 복사하기</target>
+        <note>[WiFi Protection] Copy URL action description</note>
+      </trans-unit>
+      <trans-unit id="Tap to copy the code">
+        <source>Tap to copy the code</source>
+        <target>탭해서 코드 복사하기</target>
+        <note>[MyOffrz] copy promocode action hint</note>
+      </trans-unit>
+      <trans-unit id="Terms">
+        <source>Terms</source>
+        <target>약관</target>
+        <note>[MyOffrz] Conditions title</note>
+      </trans-unit>
+      <trans-unit id="The download is complete.">
+        <source>The download is complete.</source>
+        <target>다운로드가 완료되었습니다.</target>
+        <note>[VidoeDownloader] Toast message shown when youtube video is Successfully downloaded</note>
+      </trans-unit>
+      <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
+        <source>To share your location, go to the settings for the Ghostery app:\n\n1. Tap Location\n2. Enable 'While Using'</source>
+        <target>귀하의 위치를 공유하려면, Ghostery 앱에 대한 설정으로 이동하세요:\n\n1. 위치 탭하기\n2. '사용하는 동안' 가능</target>
+        <note>Alert message for turning on location service when clicking share location on local card</note>
+      </trans-unit>
+      <trans-unit id="To share your location, go to the settings of your smartphone:\n1.Turn on Location Services\n2.Select the CLIQZ App\n3.Enable 'While Using'">
+        <source>To share your location, go to the settings of your smartphone:\n\n1. Turn on Location Services\n2. Select the Ghostery App\n3. Enable 'While Using'</source>
+        <target>위치를 공유하려면, 귀하의 스마트폰 설정으로 이동하세요:\n\n1. 위치 서비스 켜기\n2. Ghostery 앱 선택\n3. '사용하는 동안' 가능</target>
+        <note>Alert message for turning on location service when clicking share location on local card</note>
+      </trans-unit>
+      <trans-unit id="Trackers">
+        <source>Trackers</source>
+        <target>트래커</target>
+        <note>[ControlCenter] Trackers panel title</note>
+      </trans-unit>
+      <trans-unit id="Trust">
+        <source>Trust</source>
+        <target>신뢰</target>
+        <note>[Trackers -&gt; ControlCenter] Trust Action Title</note>
+      </trans-unit>
+      <trans-unit id="Trust Site">
+        <source>Trust Site</source>
+        <target>신뢰 사이트</target>
+        <note>[ControlCenter -&gt; Overview] Trust button title</note>
+      </trans-unit>
+      <trans-unit id="Turn on Location Services">
+        <source>Turn on Location Services</source>
+        <target>위치 서비스 켜기</target>
+        <note>Alert title for turning on location service when clicking share location on local card</note>
+      </trans-unit>
+      <trans-unit id="Unblock">
+        <source>Unblock</source>
+        <target>차단 해제</target>
+        <note>[Trackers -&gt; ControlCenter] Unblock Action Title</note>
+      </trans-unit>
+      <trans-unit id="Unblock All">
+        <source>Unblock All</source>
+        <target>모두 차단 해제</target>
+        <note>[ControlCenter - Trackers list] Unblock All trackers action title</note>
+      </trans-unit>
+      <trans-unit id="Undo">
+        <source>Undo</source>
+        <target>실행 취소</target>
+        <note>[ControlCenter - Trackers list] Undo trackers action title</note>
+      </trans-unit>
+      <trans-unit id="Unrestrict">
+        <source>Unrestrict</source>
+        <target>제한 해제</target>
+        <note>[Trackers -&gt; ControlCenter] Unrestrict Action Title</note>
+      </trans-unit>
+      <trans-unit id="Untrust">
+        <source>Untrust</source>
+        <target>신뢰하지 않음</target>
+        <note>[Trackers -&gt; ControlCenter] Untrust Action Title</note>
+      </trans-unit>
+      <trans-unit id="Video quality">
+        <source>Video quality</source>
+        <target>동영상 품질</target>
+        <note>[VidoeDownloader] Youtube downloader action sheet title</note>
+      </trans-unit>
+      <trans-unit id="Warning: deceptive website!">
+        <source>Warning: deceptive website!</source>
+        <target>경고: 기만적 웹사이트!</target>
+        <note>Antiphishing alert title</note>
+      </trans-unit>
+      <trans-unit id="We use opensource software Sentry (http://sentry.io) for our crash reports. these reports do not contain any personal data.">
+        <source>We use opensource software Sentry (http://sentry.io) for our crash reports. these reports do not contain any personal data.</source>
+        <target>충돌 보고서를 위해서 오픈소스 소프트웨어 Sentry(http://sentry.io)를 사용합니다. 이 보고서에는 개인정보가 포함되지 않습니다.</target>
+        <note>[Settings -&gt; Send Crash Reports] Footer text</note>
+      </trans-unit>
+      <trans-unit id="Websites which are known to contain explicit content are automatically opened in Forget Tabs. Visits to such websites are therefore not saved to your history.">
+        <source>Websites which are known to contain explicit content are automatically opened in Ghost Tabs. Visits to such websites are therefore not saved to your history.</source>
+        <target>노골적 콘텐츠가 포함된 것으로 알려진 웹사이트는 자동으로 고스트 탭에서 열립니다. 따라서, 이러한 웹사이트에 대한 방문은 방문 이력에 저장되지 않습니다.</target>
+        <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
+      </trans-unit>
+      <trans-unit id="Well, this is embarrassing.">
+        <source>Well, this is embarrassing.</source>
+        <target>곤란한 상황입니다.</target>
+        <note>Restore Tabs Prompt Title</note>
+      </trans-unit>
+      <trans-unit id="When Leaving Forget Browsing">
+        <source>When Leaving Forget Browsing</source>
+        <target>Forget 브라우징을 떠날 때</target>
+        <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
+      </trans-unit>
+      <trans-unit id="When Leaving Forget Mode">
+        <source>When Leaving Ghost Mode</source>
+        <target>고스트 모드를 떠날 때</target>
+        <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
+      </trans-unit>
+      <trans-unit id="When Opening Cliqz">
+        <source>When Opening Cliqz</source>
+        <target>Cliqz를 열 때</target>
+        <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
+      </trans-unit>
+      <trans-unit id="WiFi Protection">
+        <source>WiFi Protection</source>
+        <target>WiFi 보호</target>
+        <note>Sharing activity for opening Settings</note>
+      </trans-unit>
+      <trans-unit id="WiFi connection protection">
+        <source>WiFi connection protection</source>
+        <target>WiFi 연결 보호</target>
+        <note>[WiFi Protection] Navigation Title
+   [Wifi Protection] WiFi connection protection status</note>
+      </trans-unit>
+      <trans-unit id="Would you like to subscribe to the {1}?">
+        <source>Would you like to subscribe to the {1}?</source>
+        <target>{1}을(를) 구독하시겠습니까?</target>
+        <note>[Subscriptions] Alert title for asking to subscribe for soccer notificaiton</note>
+      </trans-unit>
+      <trans-unit id="You are browsing in Forget Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.">
+        <source>You are browsing in Ghost Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
+        <target>고스트 모드에서 브라우징하는 경우: 이 모드에서 귀하가 방문하는 웹사이트는 방문 이력에 저장되지 않으며, 쿠키 등 로컬 데이터가 보관되지 않습니다.</target>
+        <note>Description text displayed when there are no open tabs while in private mode</note>
+      </trans-unit>
+      <trans-unit id="You connected your first device!\n\nNow you are ready to send websites and YouTube videos from your computer to your mobile device.">
+        <source>You connected your first device!\n\nNow you are ready to send websites and YouTube videos from your computer to your mobile device.</source>
+        <target>귀하의 첫 번째 기기를 연결했습니다!\n\n이제 귀하의 컴퓨터로부터 모바일 기기로 웹사이트 및 YouTube 동영상을 전송할 준비가 되었습니다.</target>
+        <note>[Connect] Connection Successful alert message</note>
+      </trans-unit>
+      <trans-unit id="You have restricted this site">
+        <source>You have restricted this site</source>
+        <target>귀하는 이 사이트를 제한했습니다</target>
+        <note>[ControlCenter -&gt; Overview] Blocked trackers count</note>
+      </trans-unit>
+      <trans-unit id="You have trusted this site">
+        <source>You have trusted this site</source>
+        <target>귀하는 이 사이트를 신뢰했습니다</target>
+        <note>[ControlCenter -&gt; Overview] Blocked trackers count</note>
+      </trans-unit>
+      <trans-unit id="You will be notified about games, goals and important happenings of the {1}.">
+        <source>You will be notified about games, goals and important happenings of the {1}.</source>
+        <target>귀하는 {1}의 게임, 목표 및 중요 사건에 관해 고지를 받게 될 것입니다.</target>
+        <note>[Subscriptions] Alert message for asking to subscribe for soccer notificaiton</note>
+      </trans-unit>
+      <trans-unit id="Your video is being downloaded.">
+        <source>Your video is being downloaded.</source>
+        <target>귀하의 동영상이 다운로드 중입니다.</target>
+        <note>[VidoeDownloader] Toast message shown when youtube video download started</note>
+      </trans-unit>
+      <trans-unit id="copied!">
+        <source>copied!</source>
+        <target>복사됨!</target>
+        <note>[WiFi Protection] WiFi connection protection status</note>
+      </trans-unit>
+      <trans-unit id="region-DE">
+        <source>Germany</source>
+        <target>독일</target>
+        <note>Localized String for German region</note>
+      </trans-unit>
+      <trans-unit id="region-FR">
+        <source>France</source>
+        <target>프랑스</target>
+        <note>Localized String for France region</note>
+      </trans-unit>
+      <trans-unit id="region-US">
+        <source>United States</source>
+        <target>미국</target>
+        <note>Localized String for United States region</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

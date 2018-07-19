@@ -150,7 +150,7 @@
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
         <source> and select 'Connect' to scan the QR Code.</source>
-        <target> e selecione "Conectar" para escanear o Código QR.</target>
+        <target> e selecione \"Conectar\" para escanear o Código QR.</target>
         <note>[Connect] instructions text part#2</note>
       </trans-unit>
       <trans-unit id="%d Tracker(s) %d Blocked">
@@ -313,7 +313,7 @@
       </trans-unit>
       <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
         <source>Ghostery Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
-        <target>O navegador Ghostery não tem acesso à sua câmera. Para ativar o acesso, toque em "Configurações" e ligue a câmera.</target>
+        <target>O navegador Ghostery não tem acesso à sua câmera. Para ativar o acesso, toque em \"Configurações\" e ligue a câmera.</target>
         <note>[Connect] Alert message for turning on Camera access when Scanning QR Code</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.">
@@ -878,12 +878,12 @@
       </trans-unit>
       <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
         <source>To share your location, go to the settings for the Ghostery app:\n\n1. Tap Location\n2. Enable 'While Using'</source>
-        <target>Para compartilhar sua localização, vá às configurações do aplicativo Ghostery: \n\n1. Toque em Localização\n2. Ativar "Enquanto estiver usando"</target>
+        <target>Para compartilhar sua localização, vá às configurações do aplicativo Ghostery: \n\n1. Toque em Localização\n2. Ativar \"Enquanto estiver usando\"</target>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="To share your location, go to the settings of your smartphone:\n1.Turn on Location Services\n2.Select the CLIQZ App\n3.Enable 'While Using'">
         <source>To share your location, go to the settings of your smartphone:\n\n1. Turn on Location Services\n2. Select the Ghostery App\n3. Enable 'While Using'</source>
-        <target>Para compartilhar sua localização, acesse as definições de seu smartphone:\n\n1. Ative os Serviços de Localização\n2. Selecione o aplicativo Ghostery\n3. Ativar "Enquanto estiver usando"</target>
+        <target>Para compartilhar sua localização, acesse as definições de seu smartphone:\n\n1. Ative os Serviços de Localização\n2. Selecione o aplicativo Ghostery\n3. Ativar \"Enquanto estiver usando\"</target>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="Trackers">

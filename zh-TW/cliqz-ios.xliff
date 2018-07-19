@@ -806,7 +806,7 @@
       </trans-unit>
       <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
         <source>Set \"HTTP PROXY\" to \"Auto\"</source>
-        <target>把 \"HTTP PROXY\" 設定為 \自動 ("Auto\")</target>
+        <target>把 \"HTTP PROXY\" 設定為 \自動 (\"Auto\")</target>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">

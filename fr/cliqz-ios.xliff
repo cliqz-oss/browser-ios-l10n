@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version="1.0" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
    <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en-US" target-language="fr">
     <header>
       <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
@@ -189,8 +189,8 @@
         <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
       <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.">
-        <source>A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
-        <target>Un mode \&quot;équitable\&quot; qui montre des publicités seulement dans certains cas sera ajouté bientôt.</target>
+        <source>A \"fair\" mode that shows ads in clearly defined cases only will be added soon.</source>
+        <target>Un mode \"équitable\" qui montre des publicités seulement dans certains cas sera ajouté bientôt.</target>
         <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
       <trans-unit id="About">
@@ -328,7 +328,7 @@
       </trans-unit>
       <trans-unit id="Cliqz would like to access your Photos">
         <source>Cliqz would like to access your Photos</source>
-        <target>Cliqz souhaiterait accéder à vos Photos.</target>
+        <target>Ghostery souhaiterait accéder à vos Photos.</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Close Forget Tabs">
@@ -531,7 +531,7 @@
       </trans-unit>
       <trans-unit id="Hey, I would like to invite you to try the Cliqz Browser.">
         <source>Hey, I would like to invite you to try the Cliqz Browser.</source>
-        <target>Bonjour, nous aimerions vous proposer d'essayer le navigateur Cliqz.</target>
+        <target>Bonjour, nous aimerions vous proposer d'essayer le navigateur Ghostery.</target>
         <note>Sharing FreshTab message</note>
       </trans-unit>
       <trans-unit id="Human Web">
@@ -586,7 +586,7 @@
       </trans-unit>
       <trans-unit id="Looks like Cliqz crashed previously. Would you like to restore your tabs?">
         <source>Looks like Cliqz crashed previously. Would you like to restore your tabs?</source>
-        <target>Il semblerait que Cliqz ait rencontré une panne. Souhaitez-vous restaurer vos onglets ?</target>
+        <target>Il semblerait que Ghostery ait rencontré une panne. Souhaitez-vous restaurer vos onglets ?</target>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="MoreNews">
@@ -804,8 +804,8 @@
         <note>[Settings] Send usage data</note>
       </trans-unit>
       <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
-        <source>Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;</source>
-        <target>Paramétrez \&quot;HTTP PROXY\&quot; en \&quot;Auto\&quot;</target>
+        <source>Set \"HTTP PROXY\" to \"Auto\"</source>
+        <target>Paramétrez \"HTTP PROXY\" en \"Auto\"</target>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">
@@ -968,7 +968,7 @@
       </trans-unit>
       <trans-unit id="When Opening Cliqz">
         <source>When Opening Cliqz</source>
-        <target>En ouvrant Cliqz</target>
+        <target>En ouvrant Ghostery</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
       </trans-unit>
       <trans-unit id="WiFi Protection">

@@ -1,5 +1,5 @@
-<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-   <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en-US">
+<?xml version="1.0" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+   <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en-US" target-language="en-US">
     <header>
       <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
     </header>
@@ -50,7 +50,7 @@
       </trans-unit>
     </body>
   </file>
-  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en-US">
+  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en-US" target-language="en-US">
     <header>
       <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
     </header>
@@ -117,7 +117,7 @@
       </trans-unit>
     </body>
   </file>
-  <file datatype="plaintext" original="Client/en.lproj/Cliqz.strings" source-language="en-US">
+  <file datatype="plaintext" original="Client/en.lproj/Cliqz.strings" source-language="en-US" target-language="en-US">
     <header>
       <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
     </header>
@@ -155,7 +155,7 @@
         <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
       <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.">
-        <source>A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
+        <source>A \"fair\" mode that shows ads in clearly defined cases only will be added soon.</source>
         <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
       <trans-unit id="About">
@@ -267,7 +267,7 @@
       </trans-unit>
       <trans-unit id="Cliqz would like to access your Photos">
         <source>Cliqz would like to access your Photos</source>
-        <note>See http://mzl.la/1G7uHo7</note>
+        <note>See http://mzl.la/1G7uHo7</note><target>Ghostery would like to access your Photos</target>
       </trans-unit>
       <trans-unit id="Close Forget Tabs">
         <source>Close Ghost Tabs</source>
@@ -430,7 +430,7 @@
       </trans-unit>
       <trans-unit id="Hey, I would like to invite you to try the Cliqz Browser.">
         <source>Hey, I would like to invite you to try the Cliqz Browser.</source>
-        <note>Sharing FreshTab message</note>
+        <note>Sharing FreshTab message</note><target>Hey, I would like to invite you to try the Ghostery Browser.</target>
       </trans-unit>
       <trans-unit id="Human Web">
         <source>Human Web</source>
@@ -474,7 +474,7 @@
       </trans-unit>
       <trans-unit id="Looks like Cliqz crashed previously. Would you like to restore your tabs?">
         <source>Looks like Cliqz crashed previously. Would you like to restore your tabs?</source>
-        <note>Restore Tabs Prompt Description</note>
+        <note>Restore Tabs Prompt Description</note><target>Looks like Ghostery crashed previously. Would you like to restore your tabs?</target>
       </trans-unit>
       <trans-unit id="MoreNews">
         <source>Show more</source>
@@ -649,7 +649,7 @@
         <note>[Settings] Send usage data</note>
       </trans-unit>
       <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
-        <source>Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;</source>
+        <source>Set \"HTTP PROXY\" to \"Auto\"</source>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">
@@ -781,7 +781,7 @@
       </trans-unit>
       <trans-unit id="When Opening Cliqz">
         <source>When Opening Cliqz</source>
-        <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
+        <note>Description displayed under the ”Offer to Open Copied Link” option.</note><target>When Opening Ghostery</target>
       </trans-unit>
       <trans-unit id="WiFi Protection">
         <source>WiFi Protection</source>

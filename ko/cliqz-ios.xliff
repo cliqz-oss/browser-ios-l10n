@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version="1.0" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
    <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en-US" target-language="ko">
     <header>
       <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
@@ -189,8 +189,8 @@
         <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
       <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.">
-        <source>A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
-        <target>명확히 정해진 경우에 광고를 보여주는 \&quot;페어\&quot; 모드가 곧 추가될 것입니다.</target>
+        <source>A \"fair\" mode that shows ads in clearly defined cases only will be added soon.</source>
+        <target>명확히 정해진 경우에 광고를 보여주는 \"페어\" 모드가 곧 추가될 것입니다.</target>
         <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
       <trans-unit id="About">
@@ -328,7 +328,7 @@
       </trans-unit>
       <trans-unit id="Cliqz would like to access your Photos">
         <source>Cliqz would like to access your Photos</source>
-        <target>Cliqz가 귀하의 사진에 액세스하려고 합니다</target>
+        <target>Ghostery가 귀하의 사진에 액세스하려고 합니다</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Close Forget Tabs">
@@ -531,7 +531,7 @@
       </trans-unit>
       <trans-unit id="Hey, I would like to invite you to try the Cliqz Browser.">
         <source>Hey, I would like to invite you to try the Cliqz Browser.</source>
-        <target>Cliqz 브라우저를 체험하시도록 귀하를 초대합니다.</target>
+        <target>Ghostery 브라우저를 체험하시도록 귀하를 초대합니다.</target>
         <note>Sharing FreshTab message</note>
       </trans-unit>
       <trans-unit id="Human Web">
@@ -586,7 +586,7 @@
       </trans-unit>
       <trans-unit id="Looks like Cliqz crashed previously. Would you like to restore your tabs?">
         <source>Looks like Cliqz crashed previously. Would you like to restore your tabs?</source>
-        <target>Cliqz가 이전에 충돌되었던 것처럼 보입니다. 귀하의 탭을 복구하시겠습니까?</target>
+        <target>Ghostery가 이전에 충돌되었던 것처럼 보입니다. 귀하의 탭을 복구하시겠습니까?</target>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="MoreNews">
@@ -804,8 +804,8 @@
         <note>[Settings] Send usage data</note>
       </trans-unit>
       <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
-        <source>Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;</source>
-        <target>\&quot;HTTP 프록시\&quot;를 \&quot;자동\&quot;으로 설정</target>
+        <source>Set \"HTTP PROXY\" to \"Auto\"</source>
+        <target>\"HTTP 프록시\"를 \"자동\"으로 설정</target>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">
@@ -968,7 +968,7 @@
       </trans-unit>
       <trans-unit id="When Opening Cliqz">
         <source>When Opening Cliqz</source>
-        <target>Cliqz를 열 때</target>
+        <target>Ghostery를 열 때</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
       </trans-unit>
       <trans-unit id="WiFi Protection">

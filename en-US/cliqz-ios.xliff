@@ -6,11 +6,11 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <note>Bundle display name</note>
+        <note>Bundle display name</note><target>Ghostery</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
-        <note>Bundle name</note>
+        <note>Bundle name</note><target>Ghostery</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>

@@ -6,46 +6,57 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <note>Bundle display name</note><target>Ghostery</target>
+        <target>Ghostery</target>
+        <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
-        <note>Bundle name</note><target>Ghostery</target>
+        <target>Ghostery</target>
+        <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
+        <target>This lets you take and upload photos.</target>
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
         <source>Firefox requires Face ID to access your saved logins.</source>
+        <target>Firefox requires Face ID to access your saved logins.</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
+        <target>Websites you visit may request your location.</target>
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
         <source>This lets you take and upload videos.</source>
+        <target>This lets you take and upload videos.</target>
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
         <source>This lets you save photos.</source>
+        <target>This lets you save photos.</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
         <source>This lets you save and upload photos.</source>
+        <target>This lets you save and upload photos.</target>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Ghost Tab</source>
+        <target>New Ghost Tab</target>
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
+        <target>New Tab</target>
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleQRCode">
         <source>Scan QR-Code</source>
+        <target>Scan QR-Code</target>
         <note>(No Comment)</note>
       </trans-unit>
     </body>
@@ -57,62 +68,77 @@
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%1$#@trackers@ %2$#@blocked@</source>
+        <target>%1$#@trackers@ %2$#@blocked@</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/one:dict/:string">
         <source>%d Blocked</source>
+        <target>%d Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/other:dict/:string">
         <source>%d Blocked</source>
+        <target>%d Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/zero:dict/:string">
         <source>%d Blocked</source>
+        <target>%d Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/one:dict/:string">
         <source>%d TRACKER</source>
+        <target>%d TRACKER</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/other:dict/:string">
         <source>%d TRACKERS</source>
+        <target>%d TRACKERS</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/zero:dict/:string">
         <source>%d TRACKERS</source>
+        <target>%d TRACKERS</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%#@trackers@</source>
+        <target>%#@trackers@</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/one:dict/:string">
         <source>%d Tracker Blocked</source>
+        <target>%d Tracker Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/other:dict/:string">
         <source>%d Trackers Blocked</source>
+        <target>%d Trackers Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/zero:dict/:string">
         <source>%d Trackers Blocked</source>
+        <target>%d Trackers Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%#@trackers@</source>
+        <target>%#@trackers@</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/one:dict/:string">
         <source>%d Tracker found</source>
+        <target>%d Tracker found</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/other:dict/:string">
         <source>%d Trackers found</source>
+        <target>%d Trackers found</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/zero:dict/:string">
         <source>%d Trackers found</source>
+        <target>%d Trackers found</target>
         <note/>
       </trans-unit>
     </body>

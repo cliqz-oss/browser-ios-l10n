@@ -143,7 +143,7 @@
       </trans-unit>
     </body>
   </file>
-  <file datatype="plaintext" original="Client/en.lproj/Cliqz.strings" source-language="en" target-language="ru">
+  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.strings" source-language="en" target-language="ru">
     <header>
       <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
     </header>

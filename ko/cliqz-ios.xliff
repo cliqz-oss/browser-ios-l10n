@@ -20,8 +20,8 @@
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
-        <source>Firefox requires Face ID to access your saved logins.</source>
-        <target>Firefox가 귀하의 저장된 로그인에 액세스하려면 Face ID가 필요합니다.</target>
+        <source>Ghostery requires Face ID to access your saved logins.</source>
+        <target>Ghostery가 귀하의 저장된 로그인에 액세스하려면 Face ID가 필요합니다.</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">

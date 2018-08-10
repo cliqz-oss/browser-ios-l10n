@@ -1,7 +1,8 @@
-<?xml version="1.0" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-   <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="pt-BR">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en-US" target-language="pt-BR">
     <header>
-      <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -15,8 +16,7 @@
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
-        <source>This lets you take and upload photos.</source>
-        <target>Isso permite que você tire e envie fotos.</target>
+        <source>This lets you scan, take and upload videos or photos.</source>
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
@@ -25,23 +25,19 @@
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
-        <source>Websites you visit may request your location.</source>
-        <target>Os sites que você visita podem solicitar sua localização.</target>
+        <source>Your location is used to provide better search results.</source>
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
-        <source>This lets you take and upload videos.</source>
-        <target>Isso permite que você faça e envie vídeos.</target>
+        <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
-        <source>This lets you save photos.</source>
-        <target>Isso permite que você salve fotos.</target>
+        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
-        <source>This lets you save and upload photos.</source>
-        <target>Isso permite que você salve e envie fotos.</target>
+        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
@@ -61,91 +57,9 @@
       </trans-unit>
     </body>
   </file>
-  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en" target-language="pt-BR">
+  <file original="Cliqz/Resources/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en-US" target-language="pt-BR">
     <header>
-      <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
-    </header>
-    <body>
-      <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
-        <source>%1$#@trackers@ %2$#@blocked@</source>
-        <target>%1$#@trackers@ %2$#@blocked@</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/one:dict/:string">
-        <source>%d Blocked</source>
-        <target>%d Bloqueada</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/other:dict/:string">
-        <source>%d Blocked</source>
-        <target>%d Bloqueada</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/zero:dict/:string">
-        <source>%d Blocked</source>
-        <target>%d Bloqueada</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/one:dict/:string">
-        <source>%d TRACKER</source>
-        <target>%d RASTREADOR</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/other:dict/:string">
-        <source>%d TRACKERS</source>
-        <target>%d RASTREADORES</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/zero:dict/:string">
-        <source>%d TRACKERS</source>
-        <target>%d RASTREADORES</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/%d Tracker(s) Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
-        <source>%#@trackers@</source>
-        <target>%#@trackers@</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/one:dict/:string">
-        <source>%d Tracker Blocked</source>
-        <target>%d rastreador bloqueado</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/other:dict/:string">
-        <source>%d Trackers Blocked</source>
-        <target>%d rastreadores bloqueados</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/zero:dict/:string">
-        <source>%d Trackers Blocked</source>
-        <target>%d rastreadores bloqueados</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/%d Tracker(s) found:dict/NSStringLocalizedFormatKey:dict/:string">
-        <source>%#@trackers@</source>
-        <target>%#@trackers@</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/one:dict/:string">
-        <source>%d Tracker found</source>
-        <target>%d Rastreador encontrado</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/other:dict/:string">
-        <source>%d Trackers found</source>
-        <target>%d Rastreadores encontrados</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/zero:dict/:string">
-        <source>%d Trackers found</source>
-        <target>%d Rastreadores encontrados</target>
-        <note/>
-      </trans-unit>
-    </body>
-  </file>
-  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.strings" source-language="en" target-language="pt-BR">
-    <header>
-      <tool build-num="9E145" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
     </header>
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
@@ -200,8 +114,7 @@
    [Settings] About section header</note>
       </trans-unit>
       <trans-unit id="About MyOffrz">
-        <source>About MyOffrz</source>
-        <target>Sobre My Offrz</target>
+        <source>About Ghostery Rewards</source>
         <note>[Settings] About MyOffrz</note>
       </trans-unit>
       <trans-unit id="Activate push notification to use this feature. Go to settings to allow push notifications then retry.">
@@ -248,6 +161,10 @@
         <source>Analytics</source>
         <target>Analítica</target>
         <note>[WiFi Protection] Option 3 for blocking trackers</note>
+      </trans-unit>
+      <trans-unit id="Applying Changes...">
+        <source>Applying Changes...</source>
+        <note>Applying Changes Toast</note>
       </trans-unit>
       <trans-unit id="Automatic Forget Tab">
         <source>Automatic Ghost Tab</source>
@@ -304,12 +221,17 @@
         <source>Cancel</source>
         <target>Cancelar</target>
         <note>[ControlCenter - Trackers list] Cancel action title
-   Cancel</note>
+   Cancel
+   Cancel button title in the urlbar</note>
       </trans-unit>
       <trans-unit id="Categories">
         <source>Categories</source>
         <target>Categorias</target>
         <note>[Trackers -&gt; ControlCenter] Trackers Title</note>
+      </trans-unit>
+      <trans-unit id="Changes applied. Refresh page to see them.">
+        <source>Changes applied. Refresh page to see them.</source>
+        <note>Changes applied Toast</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
         <source>Ghostery Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
@@ -350,6 +272,10 @@
         <source>Complementary Search</source>
         <target>Busca complementar</target>
         <note>[Settings] Complementary Search</note>
+      </trans-unit>
+      <trans-unit id="Complementary Search Engine">
+        <source>Complementary Search Engine</source>
+        <note>Title for complementary search engine picker.</note>
       </trans-unit>
       <trans-unit id="Configured Settings">
         <source>Configured Settings</source>
@@ -400,7 +326,8 @@
       <trans-unit id="Could not download Video.">
         <source>Video download failed.</source>
         <target>%d RASTREADORES</target>
-        <note>[VidoeDownloader] Toast message shown when youtube video download faild</note>
+        <note>[VidoeDownloader] Alert title for youtube video download faild
+   [VidoeDownloader] Toast message shown when youtube video download faild</note>
       </trans-unit>
       <trans-unit id="Could not subscribe to {1}.">
         <source>Could not subscribe to {1}.</source>
@@ -412,6 +339,10 @@
         <source>Currently, push notifications are only received when your browser is active.</source>
         <target>Atualmente, as notificações por push só são recebidas quando o navegador estiver ativo.</target>
         <note>[Subscriptions] Subscribing Toast</note>
+      </trans-unit>
+      <trans-unit id="Dismiss">
+        <source>Dismiss</source>
+        <note>Dismiss No Wi-Fi connection alert</note>
       </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
@@ -452,6 +383,10 @@
         <source>Every new Tab comes with top sites, news and background image. Customize it to your needs.</source>
         <target>Cada nova aba vem com os sites principais, notícias e imagem de fundo. Personalize-o de acordo com as suas necessidades.</target>
         <note>[Onboarding] Tab Text</note>
+      </trans-unit>
+      <trans-unit id="Extension">
+        <source>Extension</source>
+        <note>Extension version number</note>
       </trans-unit>
       <trans-unit id="FAQ &amp; Support">
         <source>FAQ &amp; Support</source>
@@ -544,6 +479,10 @@
         <target>Notas importantes:</target>
         <note>[WiFi Protection] Notes Title</note>
       </trans-unit>
+      <trans-unit id="Imprint">
+        <source>Imprint</source>
+        <note>[Settings -&gt; About] Imprint</note>
+      </trans-unit>
       <trans-unit id="Introducing Ghostery">
         <source>Introducing Ghostery</source>
         <target>Apresentando o Ghostery</target>
@@ -555,13 +494,11 @@
         <note>[Onboarding] Intro Title Old Users</note>
       </trans-unit>
       <trans-unit id="Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.">
-        <source>Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.</source>
-        <target>Mantenha sua navegação mais limpa, mais rápida e mais segura. Não se preocupe, todos os seus dados serão importados.</target>
+        <source>Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.  By using this app you agree to Ghostery's Privacy Policy</source>
         <note>[Onboarding] Intro Text Old Users</note>
       </trans-unit>
       <trans-unit id="Keep your browsing cleaner, faster, and safer.">
-        <source>Keep your browsing cleaner, faster, and safer.</source>
-        <target>Mantenha sua navegação mais limpa, mais rápida e mais segura.</target>
+        <source>Keep your browsing cleaner, faster, and safer. By using this app you agree to Ghostery's Privacy Policy</source>
         <note>[Onboarding] Intro Text</note>
       </trans-unit>
       <trans-unit id="LEARN MORE">
@@ -599,21 +536,15 @@
         <target>Notícias</target>
         <note>Title to expand news stream</note>
       </trans-unit>
-      <trans-unit id="New Forget Tab">
-        <source>New Ghost Tab</source>
-        <target>Nova aba fantasma</target>
-        <note>Label for New Forget Tab</note>
-      </trans-unit>
       <trans-unit id="New Tab">
         <source>New Tab</source>
         <target>Nova aba</target>
-        <note>Label for New Tab
-   Title of New Tab on iPad</note>
+        <note>Title of New Tab on iPad</note>
       </trans-unit>
       <trans-unit id="No Wi-Fi Connection message">
         <source>You are not connected to a Wi-Fi network and video downloads with mobile data is restricted. \nTo change this, go to Settings &gt; Limit Mobile Data Usage.\n</source>
         <target>Você não está conectado a uma rede Wi-Fi e os downloads de vídeo com dados móveis estão restritos. \nPara alterar isso, vá para Configurações &gt; Limitar o uso de dados móveis.\n</target>
-        <note>[VidoeDownloader] No Wi-Fi connection alert message</note>
+        <note>[Connect] No Wi-Fi connection alert message</note>
       </trans-unit>
       <trans-unit id="Not Now">
         <source>Not Now</source>
@@ -713,9 +644,12 @@
         <note>[Settings] Rate Us</note>
       </trans-unit>
       <trans-unit id="Receive attractive discounts and bargains with MyOffrz.">
-        <source>Receive attractive discounts and bargains with MyOffrz.</source>
-        <target>Receba descontos e pechinchas atraentes com o MyOffrz.</target>
+        <source>Receive attractive discounts and bargains with Ghostery Rewards.</source>
         <note>[MyOffrz] MyOffrz description</note>
+      </trans-unit>
+      <trans-unit id="Refresh">
+        <source>Refresh</source>
+        <note>Refresh Toast Button Text</note>
       </trans-unit>
       <trans-unit id="Remove Connection">
         <source>Remove Connection</source>
@@ -812,9 +746,9 @@
         <source>Settings</source>
         <target>Configurações</target>
         <note>[Subscriptions] Subscribe alert button
+   Settings
    Settings option for turning on Camera access
-   Settings option for turning on location service
-   Sharing activity for opening Settings</note>
+   Settings option for turning on location service</note>
       </trans-unit>
       <trans-unit id="Show News">
         <source>Show News</source>
@@ -850,6 +784,10 @@
         <source>Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.</source>
         <target>Apoie o Ghostery compartilhando dados analíticos anônimos e dados da Web Humana para melhorar o desempenho do Ghostery.</target>
         <note>[Onboarding] Telemetry</note>
+      </trans-unit>
+      <trans-unit id="Swipe">
+        <source>Swipe</source>
+        <note>[Trackers -&gt; ControlCenter] Swipe Cell Title</note>
       </trans-unit>
       <trans-unit id="Tap        next to your connection">
         <source>Tap        next to your connection</source>
@@ -931,6 +869,10 @@
         <target>Não confiar</target>
         <note>[Trackers -&gt; ControlCenter] Untrust Action Title</note>
       </trans-unit>
+      <trans-unit id="Version">
+        <source>Version</source>
+        <note>Application Version number</note>
+      </trans-unit>
       <trans-unit id="Video quality">
         <source>Video quality</source>
         <target>Qualidade de vídeo</target>
@@ -941,9 +883,8 @@
         <target>Aviso: site enganador!</target>
         <note>Antiphishing alert title</note>
       </trans-unit>
-      <trans-unit id="We use opensource software Sentry (http://sentry.io) for our crash reports. these reports do not contain any personal data.">
+      <trans-unit id="We use opensource software Sentry (http://sentry.io) for our crash reports. These reports do not contain any personal data.">
         <source>We use opensource software Sentry (http://sentry.io) for our crash reports. These reports do not contain any personal data.</source>
-        <target>Usamos o software opensource Sentry (http://sentry.io) em nossos relatórios de falhas. esses relatórios não contêm dados pessoais.</target>
         <note>[Settings -&gt; Send Crash Reports] Footer text</note>
       </trans-unit>
       <trans-unit id="Websites which are known to contain explicit content are automatically opened in Forget Tabs. Visits to such websites are therefore not saved to your history.">
@@ -1039,4 +980,87 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en-US" target-language="pt-BR">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+    </header>
+    <body>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
+        <source>%1$#@trackers@ %2$#@blocked@</source>
+        <target>%1$#@trackers@ %2$#@blocked@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/one:dict/:string">
+        <source>%d Blocked</source>
+        <target>%d Bloqueada</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/other:dict/:string">
+        <source>%d Blocked</source>
+        <target>%d Bloqueada</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/zero:dict/:string">
+        <source>%d Blocked</source>
+        <target>%d Bloqueada</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/one:dict/:string">
+        <source>%d TRACKER</source>
+        <target>%d RASTREADOR</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/other:dict/:string">
+        <source>%d TRACKERS</source>
+        <target>%d RASTREADORES</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/zero:dict/:string">
+        <source>%d TRACKERS</source>
+        <target>%d RASTREADORES</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
+        <source>%#@trackers@</source>
+        <target>%#@trackers@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/one:dict/:string">
+        <source>%d Tracker Blocked</source>
+        <target>%d rastreador bloqueado</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/other:dict/:string">
+        <source>%d Trackers Blocked</source>
+        <target>%d rastreadores bloqueados</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/zero:dict/:string">
+        <source>%d Trackers Blocked</source>
+        <target>%d rastreadores bloqueados</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) found:dict/NSStringLocalizedFormatKey:dict/:string">
+        <source>%#@trackers@</source>
+        <target>%#@trackers@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/one:dict/:string">
+        <source>%d Tracker found</source>
+        <target>%d Rastreador encontrado</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/other:dict/:string">
+        <source>%d Trackers found</source>
+        <target>%d Rastreadores encontrados</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/zero:dict/:string">
+        <source>%d Trackers found</source>
+        <target>%d Rastreadores encontrados</target>
+        <note/>
+      </trans-unit>
+    </body>
+  </file>
 </xliff>
+

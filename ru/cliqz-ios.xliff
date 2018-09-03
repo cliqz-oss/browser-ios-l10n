@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version="1.0" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en_US" target-language="ru">
     <header>
       <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
@@ -77,7 +77,7 @@
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
         <source> and select 'Connect' to scan the QR Code.</source>
-        <target> и выберите &quot;Подключиться&quot; для сканирования QR-кода.</target>
+        <target> и выберите \"Подключиться\" для сканирования QR-кода.</target>
         <note>[Connect] instructions text part#2</note>
       </trans-unit>
       <trans-unit id="%d Tracker(s) %d Blocked">
@@ -116,8 +116,8 @@
         <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
       <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.">
-        <source>A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
-        <target>Скоро будет добавлен &quot;честный&quot; режим, в котором реклама отображается только в четко определенных случаях.</target>
+        <source>A \"fair\" mode that shows ads in clearly defined cases only will be added soon.</source>
+        <target>Скоро будет добавлен \"честный\" режим, в котором реклама отображается только в четко определенных случаях.</target>
         <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
       <trans-unit id="About">
@@ -251,7 +251,7 @@
       </trans-unit>
       <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
         <source>Ghostery Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
-        <target>У браузера Ghostery нет доступа к  Вашей камере. Для предоставления доступа нажмите &quot;Настройки&quot; и включите камеру.</target>
+        <target>У браузера Ghostery нет доступа к  Вашей камере. Для предоставления доступа нажмите \"Настройки\" и включите камеру.</target>
         <note>[Connect] Alert message for turning on Camera access when Scanning QR Code</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.">
@@ -414,7 +414,7 @@
       </trans-unit>
       <trans-unit id="Fair Mode">
         <source>Fair Mode</source>
-        <target>&quot;Честный&quot; режим</target>
+        <target>\"Честный\" режим</target>
         <note>[Settings -&gt; Block Ads] Fair Mode</note>
       </trans-unit>
       <trans-unit id="Favorites you save will show up here.">
@@ -762,8 +762,8 @@
         <note>[Settings] Send usage data</note>
       </trans-unit>
       <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
-        <source>Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;</source>
-        <target>Установить \&quot;ПРОКСИ HTTP\&quot; на \&quot;Авто\&quot;</target>
+        <source>Set \"HTTP PROXY\" to \"Auto\"</source>
+        <target>Установить \"ПРОКСИ HTTP\" на \"Авто\"</target>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">
@@ -841,12 +841,12 @@
       </trans-unit>
       <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
         <source>To share your location, go to the settings for the Ghostery app:\n\n1. Tap Location\n2. Enable 'While Using'</source>
-        <target>Чтобы поделиться своим местоположением, перейдите в настройки приложения Ghostery:\n\n1. Нажмите Геопозиция\n2. Включите &quot;Во время использования&quot;</target>
+        <target>Чтобы поделиться своим местоположением, перейдите в настройки приложения Ghostery:\n\n1. Нажмите Геопозиция\n2. Включите \"Во время использования\"</target>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="To share your location, go to the settings of your smartphone:\n1.Turn on Location Services\n2.Select the CLIQZ App\n3.Enable 'While Using'">
         <source>To share your location, go to the settings of your smartphone:\n\n1. Turn on Location Services\n2. Select the Ghostery App\n3. Enable 'While Using'</source>
-        <target>Чтобы поделиться своим местоположением, перейдите в настройки Вашего смартфона:\n\n1. Включить службы определения местоположения\n2. Выберите Ghostery App\n3. Включите &quot;Во время использования&quot;</target>
+        <target>Чтобы поделиться своим местоположением, перейдите в настройки Вашего смартфона:\n\n1. Включить службы определения местоположения\n2. Выберите Ghostery App\n3. Включите \"Во время использования\"</target>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="Trackers">

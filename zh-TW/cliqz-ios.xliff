@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en-US" target-language="zh-TW">
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en_US" target-language="zh-TW">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -17,49 +16,63 @@
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you scan, take and upload videos or photos.</source>
+        <target>這可讓您掃描、拍攝及上傳影片或照片。</target>
+        
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
         <source>Ghostery requires Face ID to access your saved logins.</source>
-        <target>火狐 (Ghostery) 瀏覽器要求面部識別訊息 (Face ID) 才獲取您儲存的登入訊息。</target>
+        <target>Ghostery 需要臉部辨識 (Face ID) 才能存取您儲存的登入資訊。</target>
+        
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Your location is used to provide better search results.</source>
+        <target>使用您的位置，以提供更好的搜索結果。</target>
+        
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
         <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
+        <target>當您選擇在瀏覽器中錄製影片時，Ghostery 只會使用麥克風。</target>
+        
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
+        <target>Ghostery 僅使用此存取權限將影片和圖片下載到您的裝置中。</target>
+        
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
+        <target>Ghostery 僅使用此存取權限將影片和圖片下載到您的裝置中。</target>
+        
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Ghost Tab</source>
         <target>新的 Ghost 標簽頁</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
         <target>新的標簽頁</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleQRCode">
         <source>Scan QR-Code</source>
         <target>掃描二維碼</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en-US" target-language="zh-TW">
+  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.strings" source-language="en_US" target-language="zh-TW">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
@@ -103,8 +116,8 @@
         <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
       <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.">
-        <source>A \"fair\" mode that shows ads in clearly defined cases only will be added soon.</source>
-        <target>不久將添加一個\"fair\"模式，它僅在明確界定的條件下顯示廣告。</target>
+        <source>A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
+        <target>不久將添加一個\&quot;fair\&quot;模式，它僅在明確界定的條件下顯示廣告。</target>
         <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
       <trans-unit id="About">
@@ -115,6 +128,7 @@
       </trans-unit>
       <trans-unit id="About MyOffrz">
         <source>About Ghostery Rewards</source>
+        <target>關於 Ghostery Rewards</target>
         <note>[Settings] About MyOffrz</note>
       </trans-unit>
       <trans-unit id="Activate push notification to use this feature. Go to settings to allow push notifications then retry.">
@@ -164,6 +178,7 @@
       </trans-unit>
       <trans-unit id="Applying Changes...">
         <source>Applying Changes...</source>
+        <target>套用變更......</target>
         <note>Applying Changes Toast</note>
       </trans-unit>
       <trans-unit id="Automatic Forget Tab">
@@ -231,6 +246,7 @@
       </trans-unit>
       <trans-unit id="Changes applied. Refresh page to see them.">
         <source>Changes applied. Refresh page to see them.</source>
+        <target>變更已套用。刷新頁面以查看它們。</target>
         <note>Changes applied Toast</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
@@ -250,7 +266,7 @@
       </trans-unit>
       <trans-unit id="Cliqz would like to access your Photos">
         <source>Cliqz would like to access your Photos</source>
-        <target>Ghostery 需要獲取您的照片</target>
+        <target>Cliqz 需要獲取您的照片</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Close Forget Tabs">
@@ -275,6 +291,7 @@
       </trans-unit>
       <trans-unit id="Complementary Search Engine">
         <source>Complementary Search Engine</source>
+        <target>互補搜尋引擎</target>
         <note>Title for complementary search engine picker.</note>
       </trans-unit>
       <trans-unit id="Configured Settings">
@@ -342,6 +359,7 @@
       </trans-unit>
       <trans-unit id="Dismiss">
         <source>Dismiss</source>
+        <target>撤除</target>
         <note>Dismiss No Wi-Fi connection alert</note>
       </trans-unit>
       <trans-unit id="Done">
@@ -386,6 +404,7 @@
       </trans-unit>
       <trans-unit id="Extension">
         <source>Extension</source>
+        <target>擴充</target>
         <note>Extension version number</note>
       </trans-unit>
       <trans-unit id="FAQ &amp; Support">
@@ -466,7 +485,7 @@
       </trans-unit>
       <trans-unit id="Hey, I would like to invite you to try the Cliqz Browser.">
         <source>Hey, I would like to invite you to try the Cliqz Browser.</source>
-        <target>嗨，我想邀請您試用 Ghostery 瀏覽器。</target>
+        <target>嗨，我想邀請您試用 Cliqz 瀏覽器。</target>
         <note>Sharing FreshTab message</note>
       </trans-unit>
       <trans-unit id="Human Web">
@@ -481,6 +500,7 @@
       </trans-unit>
       <trans-unit id="Imprint">
         <source>Imprint</source>
+        <target>版本說明</target>
         <note>[Settings -&gt; About] Imprint</note>
       </trans-unit>
       <trans-unit id="Introducing Ghostery">
@@ -495,10 +515,12 @@
       </trans-unit>
       <trans-unit id="Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.">
         <source>Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.  By using this app you agree to Ghostery's Privacy Policy</source>
+        <target>讓您的瀏覽變得更乾淨、更快速和更安全。別擔心，您所有的資料都將被導入。如果使用此應用程式，即表示您同意 Ghostery 的隱私權政策</target>
         <note>[Onboarding] Intro Text Old Users</note>
       </trans-unit>
       <trans-unit id="Keep your browsing cleaner, faster, and safer.">
         <source>Keep your browsing cleaner, faster, and safer. By using this app you agree to Ghostery's Privacy Policy</source>
+        <target>讓您的瀏覽變得更乾淨、更快速和更安全。如果使用此應用程式，即表示您同意 Ghostery 的隱私權政策</target>
         <note>[Onboarding] Intro Text</note>
       </trans-unit>
       <trans-unit id="LEARN MORE">
@@ -523,7 +545,7 @@
       </trans-unit>
       <trans-unit id="Looks like Cliqz crashed previously. Would you like to restore your tabs?">
         <source>Looks like Cliqz crashed previously. Would you like to restore your tabs?</source>
-        <target>Ghostery 好像先前曾崩潰過。您想恢復您的標簽頁嗎？</target>
+        <target>Cliqz 好像先前曾崩潰過。您想恢復您的標簽頁嗎？</target>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="MoreNews">
@@ -645,10 +667,12 @@
       </trans-unit>
       <trans-unit id="Receive attractive discounts and bargains with MyOffrz.">
         <source>Receive attractive discounts and bargains with Ghostery Rewards.</source>
+        <target>獲取 Ghostery Rewards 的優惠折扣及特價。</target>
         <note>[MyOffrz] MyOffrz description</note>
       </trans-unit>
       <trans-unit id="Refresh">
         <source>Refresh</source>
+        <target>刷新</target>
         <note>Refresh Toast Button Text</note>
       </trans-unit>
       <trans-unit id="Remove Connection">
@@ -739,8 +763,8 @@
         <note>[Settings] Send usage data</note>
       </trans-unit>
       <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
-        <source>Set \"HTTP PROXY\" to \"Auto\"</source>
-        <target>把 \"HTTP PROXY\" 設定為 \自動 (\"Auto\")</target>
+        <source>Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;</source>
+        <target>把 \&quot;HTTP PROXY\&quot; 設定為 \自動 (&quot;Auto\&quot;)</target>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">
@@ -788,6 +812,7 @@
       </trans-unit>
       <trans-unit id="Swipe">
         <source>Swipe</source>
+        <target>滑動</target>
         <note>[Trackers -&gt; ControlCenter] Swipe Cell Title</note>
       </trans-unit>
       <trans-unit id="Tap        next to your connection">
@@ -872,6 +897,7 @@
       </trans-unit>
       <trans-unit id="Version">
         <source>Version</source>
+        <target>版本</target>
         <note>Application Version number</note>
       </trans-unit>
       <trans-unit id="Video quality">
@@ -911,7 +937,7 @@
       </trans-unit>
       <trans-unit id="When Opening Cliqz">
         <source>When Opening Cliqz</source>
-        <target>當開啟 Ghostery</target>
+        <target>當開啟 Cliqz</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
       </trans-unit>
       <trans-unit id="WiFi Protection">
@@ -982,9 +1008,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en-US" target-language="zh-TW">
+  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en_US" target-language="zh-TW">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
@@ -1065,4 +1091,3 @@
     </body>
   </file>
 </xliff>
-

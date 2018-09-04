@@ -57,7 +57,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en-US">
+  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en-US">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
     </header>

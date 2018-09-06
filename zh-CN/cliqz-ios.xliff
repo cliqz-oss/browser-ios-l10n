@@ -91,6 +91,10 @@
         <target>已移除广告</target>
         <note>[ControlCenter -&gt; Overview] Removed Ads indicator</note>
       </trans-unit>
+      <trans-unit id="Ads, site analytics and adult advertising">
+        <source>Ads, site analytics and adult advertising trackers</source>
+        <note>[Onboarding] Block Recommended TickButton SubTitle</note>
+      </trans-unit>
       <trans-unit id="All">
         <source>All</source>
         <target>全部</target>
@@ -146,10 +150,22 @@
         <target>全部拦截</target>
         <note>[ControlCenter - Trackers list] Block All trackers action title</note>
       </trans-unit>
+      <trans-unit id="Block Everything">
+        <source>Block Everything</source>
+        <note>[Onboarding] Block Everything TickButton Title</note>
+      </trans-unit>
       <trans-unit id="Block Explicit Content">
         <source>Block Explicit Content</source>
         <target>拦截显式内容</target>
         <note>[Settings] Block explicit content</note>
+      </trans-unit>
+      <trans-unit id="Block Nothing">
+        <source>Block Nothing</source>
+        <note>[Onboarding] Block Nothing TickButton Title</note>
+      </trans-unit>
+      <trans-unit id="Block Recommended">
+        <source>Block Recommended</source>
+        <note>[Onboarding] Block Recommended TickButton Title</note>
       </trans-unit>
       <trans-unit id="Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!">
         <source>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!</source>

@@ -1,78 +1,8 @@
-<?xml version="1.0" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en-US" target-language="ru">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en-US" target-language="ru">
     <header>
-      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target>Ghostery</target>
-        <note>Bundle display name</note>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
-        <source>$(MOZ_PRODUCT_NAME)</source>
-        <target>Ghostery</target>
-        <note>Bundle name</note>
-      </trans-unit>
-      <trans-unit id="NSCameraUsageDescription">
-        <source>This lets you scan, take and upload videos or photos.</source>
-        <target>Это позволяет вам сканировать, снимать и загружать видео или фото.</target>
-        
-        <note>Privacy - Camera Usage Description</note>
-      </trans-unit>
-      <trans-unit id="NSFaceIDUsageDescription">
-        <source>Ghostery requires Face ID to access your saved logins.</source>
-        <target>Ghostery необходимо разрешение на использование Face ID, чтобы получить доступ к сохраненным логинам.</target>
-        
-        <note>Privacy - Face ID Usage Description</note>
-      </trans-unit>
-      <trans-unit id="NSLocationWhenInUseUsageDescription">
-        <source>Your location is used to provide better search results.</source>
-        <target>Ваше местоположение используется для более эффективного предоставления результатов поиска.</target>
-        
-        <note>Privacy - Location When In Use Usage Description</note>
-      </trans-unit>
-      <trans-unit id="NSMicrophoneUsageDescription">
-        <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
-        <target>Ghostery будет использовать микрофон только тогда, когда вы решите записать видео в браузере.</target>
-        
-        <note>Privacy - Microphone Usage Description</note>
-      </trans-unit>
-      <trans-unit id="NSPhotoLibraryAddUsageDescription">
-        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
-        <target>Ghostery будет использовать этот доступ для загрузки видео и фото на ваше устройство.</target>
-        
-        <note>Privacy - Photo Library Additions Usage Description</note>
-      </trans-unit>
-      <trans-unit id="NSPhotoLibraryUsageDescription">
-        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
-        <target>Ghostery будет использовать этот доступ для загрузки видео и фото на ваше устройство.</target>
-        
-        <note>Privacy - Photo Library Usage Description</note>
-      </trans-unit>
-      <trans-unit id="ShortcutItemTitleNewPrivateTab">
-        <source>New Ghost Tab</source>
-        <target>Новая вкладка Ghost</target>
-        
-        <note>(No Comment)</note>
-      </trans-unit>
-      <trans-unit id="ShortcutItemTitleNewTab">
-        <source>New Tab</source>
-        <target>Новая вкладка</target>
-        
-        <note>(No Comment)</note>
-      </trans-unit>
-      <trans-unit id="ShortcutItemTitleQRCode">
-        <source>Scan QR-Code</source>
-        <target>Сканировать QR-код</target>
-        
-        <note>(No Comment)</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file datatype="plaintext" original="Client/en.lproj/Cliqz.strings" source-language="en-US" target-language="ru">
-    <header>
-      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
     </header>
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
@@ -166,6 +96,10 @@
         <target>Все трекеры</target>
         <note>[WiFi Protection] Option 1 for blocking trackers</note>
       </trans-unit>
+      <trans-unit id="All Websites">
+        <source>All Websites</source>
+        <note>[Enhanced Adblocker] Domains Button Title</note>
+      </trans-unit>
       <trans-unit id="Allow Camera Access">
         <source>Allow Camera Access</source>
         <target>Разрешить доступ к камере</target>
@@ -217,6 +151,14 @@
         <target>Блокировать нецензурное содержимое</target>
         <note>[Settings] Block explicit content</note>
       </trans-unit>
+      <trans-unit id="Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!">
+        <source>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!</source>
+        <note>[Onboarding] Intro Text</note>
+      </trans-unit>
+      <trans-unit id="Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile! Don't worry, all your data will be imported.">
+        <source>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile! Don't worry, all your data will be imported.</source>
+        <note>[Onboarding] Intro Text Old Users</note>
+      </trans-unit>
       <trans-unit id="Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.">
         <source>Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.</source>
         <target>Работайте в Интернете быстрее, безопаснее и эффективнее благодаря блокировке рекламы и трекеров. Вы можете изменить настройки в центре управления Ghostery.</target>
@@ -226,6 +168,14 @@
         <source>Browsing &amp; History</source>
         <target>Навигация в Интернете и история</target>
         <note>[Settings] Browsing &amp; History section header</note>
+      </trans-unit>
+      <trans-unit id="But stay tuned to receive attractive discounts and bargains in the future">
+        <source>But stay tuned to receive attractive discounts and bargains in the future</source>
+        <note>[MyOffrz] No offers text label</note>
+      </trans-unit>
+      <trans-unit id="But we'll keep looking for you and add them here as soon as we have one">
+        <source>But we'll keep looking for you and add them here as soon as we have one</source>
+        <note>[MyOffrz] No offers text label for DE</note>
       </trans-unit>
       <trans-unit id="CLIQZ has blocked access to %1$ because it has been reported as a phishing website.Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information">
         <source>Ghostery has blocked access to %1$ because it has been reported as a phishing website.\nPhishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information.</source>
@@ -248,6 +198,10 @@
         <source>Changes applied. Refresh page to see them.</source>
         <target>Изменения применены. Обновите страницу для их просмотра.</target>
         <note>Changes applied Toast</note>
+      </trans-unit>
+      <trans-unit id="Choose what you want Ghostery to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.">
+        <source>Choose what you want Ghostery to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.</source>
+        <note>[Onboarding] Adblocker Text</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
         <source>Ghostery Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
@@ -382,6 +336,10 @@
         <target>Лицензионное соглашение с конечным пользователем</target>
         <note>[Settings -&gt; About] EULA</note>
       </trans-unit>
+      <trans-unit id="Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.">
+        <source>Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.</source>
+        <note>[Onboarding] Tab Text</note>
+      </trans-unit>
       <trans-unit id="Empty TopSites hint">
         <source>Your most visited sites will show up here</source>
         <target>Здесь будут отображаться самые посещаемые сайты</target>
@@ -396,6 +354,14 @@
         <source>Enhanced Ad Blocking anonymizes unblocked and unknown trackers for greater browsing protection.</source>
         <target>Усовершенствованная блокировка рекламы анонимизирует разблокированные и неизвестные трекеры для обеспечения большей защиты браузера.</target>
         <note>[ControlCenter -&gt; Overview] Ad Blocking description</note>
+      </trans-unit>
+      <trans-unit id="Enhanced Adblocking is turned off for all websites.">
+        <source>Enhanced Adblocking is turned off for all websites.</source>
+        <note>[Enhanced Adblocker] All Websites Label Title</note>
+      </trans-unit>
+      <trans-unit id="Enhanced Adblocking is turned off for this domain.">
+        <source>Enhanced Adblocking is turned off for this domain.</source>
+        <note>[Enhanced Adblocker] Domain Label Title</note>
       </trans-unit>
       <trans-unit id="Every new Tab comes with top sites, news and background image. Customize it to your needs.">
         <source>Every new Tab comes with top sites, news and background image. Customize it to your needs.</source>
@@ -440,13 +406,17 @@
       <trans-unit id="Fresh Tab">
         <source>Start Tab</source>
         <target>Начальная вкладка</target>
-        <note>[Onboarding] Freshtab Title
-   [Settings] Freshtab section header</note>
+        <note>[Settings] Freshtab section header
+   Title for Freshtab in tab history list</note>
       </trans-unit>
       <trans-unit id="Get the best out of CLIQZ">
         <source>Get the best out of Ghostery</source>
         <target>Максимально эффективно используйте Ghostery</target>
         <note>[Settings] Get the best out of CLIQZ</note>
+      </trans-unit>
+      <trans-unit id="Ghost Search">
+        <source>Ghost Search</source>
+        <note>[Onboarding] QuickSearch Title</note>
       </trans-unit>
       <trans-unit id="Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). ">
         <source>Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). </source>
@@ -487,6 +457,14 @@
         <source>Hey, I would like to invite you to try the Cliqz Browser.</source>
         <target>Я хотел бы предложить Вам попробовать браузер Cliqz.</target>
         <note>Sharing FreshTab message</note>
+      </trans-unit>
+      <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
+        <source>Open in New Ghost Tab</source>
+        <note>The title for the Open in New Forget Tab context menu action for sites in Home Panels</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.NewForgetTab.DiscoveryTitle">
+        <source>New Ghost Tab</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Human Web">
         <source>Human Web</source>
@@ -547,6 +525,22 @@
         <source>Looks like Cliqz crashed previously. Would you like to restore your tabs?</source>
         <target>Похоже, в Cliqz ранее случился сбой. Желаете восстановить вкладки?</target>
         <note>Restore Tabs Prompt Description</note>
+      </trans-unit>
+      <trans-unit id="Menu.AddFavorite.Confirm">
+        <source>Favorite Added</source>
+        <note>Toast displayed to the user after a bookmark has been added.</note>
+      </trans-unit>
+      <trans-unit id="Menu.AddFavoriteAction.Title">
+        <source>Add to Favorites</source>
+        <note>Label for the button, displayed in the menu, used to create a favorite for the current website.</note>
+      </trans-unit>
+      <trans-unit id="Menu.RemoveBookmarkAction.Title">
+        <source>Remove Favorite</source>
+        <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
+      </trans-unit>
+      <trans-unit id="Menu.RemoveFavorite.Confirm">
+        <source>Favorite Removed</source>
+        <note>Toast displayed to the user after a bookmark has been removed.</note>
       </trans-unit>
       <trans-unit id="MoreNews">
         <source>Show more</source>
@@ -609,11 +603,6 @@
         <target>Онлайн</target>
         <note>[Settings -&gt; Connect] Online status</note>
       </trans-unit>
-      <trans-unit id="Open in New Forget Tab">
-        <source>Open in New Forget Tab</source>
-        <target>Открыть в новой вкладке Forget</target>
-        <note>Context menu option for opening a link in a new forget tab</note>
-      </trans-unit>
       <trans-unit id="Open the Photos">
         <source>Open</source>
         <target>Открыть</target>
@@ -657,8 +646,7 @@
       <trans-unit id="Quick Search">
         <source>Quick Search</source>
         <target>Быстрый поиск</target>
-        <note>[Onboarding] QuickSearch Title
-   [Settings] Quick Search</note>
+        <note>[Settings] Quick Search</note>
       </trans-unit>
       <trans-unit id="Rate Us">
         <source>Rate Us</source>
@@ -685,10 +673,18 @@
         <target>Переименовать подключение</target>
         <note>[Settings -&gt; Connect] rename connection</note>
       </trans-unit>
+      <trans-unit id="Replace previous changes to site and global trackers with the recommended settings? (blocks Ads, Site Analytics, and Adult Advertising)">
+        <source>Replace previous changes to site and global trackers with the recommended settings? (blocks Ads, Site Analytics, and Adult Advertising)</source>
+        <note>[ControlCenter - Trackers list] Reset actionsheet title</note>
+      </trans-unit>
       <trans-unit id="Report Website">
         <source>Report Website</source>
         <target>Сообщить о веб-сайте</target>
         <note>[Settings] Report Website</note>
+      </trans-unit>
+      <trans-unit id="Reset">
+        <source>Reset</source>
+        <note>[ControlCenter - Trackers list] Reset action title</note>
       </trans-unit>
       <trans-unit id="Restore Default Settings">
         <source>Restore Default Settings</source>
@@ -746,6 +742,10 @@
         <target>Результаты поиска</target>
         <note>[Settings] Search Results for</note>
       </trans-unit>
+      <trans-unit id="Seems like we don't have any offers">
+        <source>Seems like we don't have any offers</source>
+        <note>[MyOffrz] No offers title label for DE</note>
+      </trans-unit>
       <trans-unit id="Select trackers to block">
         <source>Select trackers to block</source>
         <target>Выберите трекеры для блокировки</target>
@@ -774,6 +774,14 @@
    Settings option for turning on Camera access
    Settings option for turning on location service</note>
       </trans-unit>
+      <trans-unit id="ShareExtension.OpenInCliqzAction.Title">
+        <source>Open in Ghostery</source>
+        <note>Action label on share extension to immediately open page in Ghostery.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.SeachInCliqzAction.Title">
+        <source>Search in Ghostery</source>
+        <note>Action label on share extension to search for the selected text in Ghostery.</note>
+      </trans-unit>
       <trans-unit id="Show News">
         <source>Show News</source>
         <target>Показать новости</target>
@@ -793,6 +801,14 @@
         <source>Sorry, we encountered some technical difficulties. Please try again</source>
         <target>К сожалению, у нас возникли некоторые технические трудности. Повторите попытку</target>
         <note>[Subscriptions] Alert message when failing to subscribe to soccer notification</note>
+      </trans-unit>
+      <trans-unit id="Start Tab">
+        <source>Start Tab</source>
+        <note>[Onboarding] Freshtab Title</note>
+      </trans-unit>
+      <trans-unit id="Stay anonymous, reduce data usage, and save time: results appear instantly as you type in the Ghost search bar.">
+        <source>Stay anonymous, reduce data usage, and save time: results appear instantly as you type in the Ghost search bar.</source>
+        <note>[Onboarding] QuickSearch Text</note>
       </trans-unit>
       <trans-unit id="Subscribe">
         <source>Subscribe</source>
@@ -838,6 +854,10 @@
         <source>The download is complete.</source>
         <target>Загрузка завершена.</target>
         <note>[VidoeDownloader] Toast message shown when youtube video is Successfully downloaded</note>
+      </trans-unit>
+      <trans-unit id="This Domain">
+        <source>This Domain</source>
+        <note>[Enhanced Adblocker] Domains Button Title</note>
       </trans-unit>
       <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
         <source>To share your location, go to the settings for the Ghostery app:\n\n1. Tap Location\n2. Enable 'While Using'</source>
@@ -909,6 +929,10 @@
         <target>Предупреждение: ложный веб-сайт!</target>
         <note>Antiphishing alert title</note>
       </trans-unit>
+      <trans-unit id="We don't have any offers for your country yet">
+        <source>We don't have any offers for your country yet</source>
+        <note>[MyOffrz] No offers title label</note>
+      </trans-unit>
       <trans-unit id="We use opensource software Sentry (http://sentry.io) for our crash reports. These reports do not contain any personal data.">
         <source>We use opensource software Sentry (http://sentry.io) for our crash reports. These reports do not contain any personal data.</source>
         <target>Мы используем программное обеспечение Sentry (http://sentry.io) с открытым исходным кодом для наших отчетов о сбоях. В этих отчетах не содержатся никакие личные данные.</target>
@@ -923,11 +947,6 @@
         <source>Well, this is embarrassing.</source>
         <target>Ну, это неловко.</target>
         <note>Restore Tabs Prompt Title</note>
-      </trans-unit>
-      <trans-unit id="When Leaving Forget Browsing">
-        <source>When Leaving Forget Browsing</source>
-        <target>При завершении работы в режиме Forget</target>
-        <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
       </trans-unit>
       <trans-unit id="When Leaving Forget Mode">
         <source>When Leaving Ghost Mode</source>
@@ -1007,9 +1026,71 @@
       </trans-unit>
     </body>
   </file>
-  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en-US" target-language="ru">
+  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en-US" target-language="ru">
     <header>
-      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>Ghostery</target>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(MOZ_PRODUCT_NAME)</source>
+        <target>Ghostery</target>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSCameraUsageDescription">
+        <source>This lets you scan, take and upload videos or photos.</source>
+        <target>Это позволяет вам сканировать, снимать и загружать видео или фото.</target>
+        <note>Privacy - Camera Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSFaceIDUsageDescription">
+        <source>Ghostery requires Face ID to access your saved logins.</source>
+        <target>Ghostery необходимо разрешение на использование Face ID, чтобы получить доступ к сохраненным логинам.</target>
+        <note>Privacy - Face ID Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>Your location is used to provide better search results.</source>
+        <target>Ваше местоположение используется для более эффективного предоставления результатов поиска.</target>
+        <note>Privacy - Location When In Use Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSMicrophoneUsageDescription">
+        <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
+        <target>Ghostery будет использовать микрофон только тогда, когда вы решите записать видео в браузере.</target>
+        <note>Privacy - Microphone Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryAddUsageDescription">
+        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
+        <target>Ghostery будет использовать этот доступ для загрузки видео и фото на ваше устройство.</target>
+        <note>Privacy - Photo Library Additions Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryUsageDescription">
+        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
+        <target>Ghostery будет использовать этот доступ для загрузки видео и фото на ваше устройство.</target>
+        <note>Privacy - Photo Library Usage Description</note>
+      </trans-unit>
+      <trans-unit id="ShortcutItemTitleNewPrivateTab">
+        <source>New Ghost Tab</source>
+        <target>Новая вкладка Ghost</target>
+        <note>(No Comment)</note>
+      </trans-unit>
+      <trans-unit id="ShortcutItemTitleNewTab">
+        <source>New Tab</source>
+        <target>Новая вкладка</target>
+        <note>(No Comment)</note>
+      </trans-unit>
+      <trans-unit id="ShortcutItemTitleQRCode">
+        <source>Scan QR-Code</source>
+        <target>Сканировать QR-код</target>
+        <note>(No Comment)</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en-US" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
     </header>
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
@@ -1089,4 +1170,35 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en-US" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+    </header>
+    <body>
+      <trans-unit id="Menu.AddFavoriteAction.Title">
+        <source>Add to Favorites</source>
+        <note>Label for the button, displayed in the menu, used to create a favorite for the current website.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.OpenInCliqzAction.Title">
+        <source>Open in Ghostery</source>
+        <note>Action label on share extension to immediately open page in Ghostery.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.SeachInCliqzAction.Title">
+        <source>Search in Ghostery</source>
+        <note>Action label on share extension to search for the selected text in Ghostery.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en-US" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+    </header>
+    <body>
+      <trans-unit id="TodayWidget.NewForgetTabButtonLabel">
+        <source>New Ghost Tab</source>
+        <note>New Forget Tab button label</note>
+      </trans-unit>
+    </body>
+  </file>
 </xliff>
+

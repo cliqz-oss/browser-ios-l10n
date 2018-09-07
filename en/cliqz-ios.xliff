@@ -805,9 +805,8 @@
         <source>When Leaving Ghost Mode</source>
         <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
       </trans-unit>
-      <trans-unit id="When Opening Cliqz">
-        <source>When Opening Cliqz</source>
-        <target>When Opening Ghostery</target>
+      <trans-unit id="When Opening Ghostery">
+        <source>When Opening Ghostery</source>
         <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
       </trans-unit>
       <trans-unit id="WiFi Protection">

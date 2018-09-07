@@ -969,9 +969,9 @@
         <target>Ghostモードを終了するとき。</target>
         <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
       </trans-unit>
-      <trans-unit id="When Opening Cliqz">
-        <source>When Opening Cliqz</source>
-        <target>Cliqzを開くとき</target>
+      <trans-unit id="When Opening Ghostery">
+        <source>When Opening Ghostery</source>
+        <target>Ghosteryを開くとき</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
       </trans-unit>
       <trans-unit id="WiFi Protection">

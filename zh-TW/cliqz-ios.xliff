@@ -970,9 +970,9 @@
         <target>當退出 Ghost 模式</target>
         <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
       </trans-unit>
-      <trans-unit id="When Opening Cliqz">
-        <source>When Opening Cliqz</source>
-        <target>當開啟 Cliqz</target>
+      <trans-unit id="When Opening Ghostery">
+        <source>When Opening Ghostery</source>
+        <target>當開啟 Ghostery</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
       </trans-unit>
       <trans-unit id="WiFi Protection">

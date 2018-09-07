@@ -969,9 +969,9 @@
         <target>Szellem mód elhagyásakor</target>
         <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
       </trans-unit>
-      <trans-unit id="When Opening Cliqz">
-        <source>When Opening Cliqz</source>
-        <target>Cliqz megnyitásakor</target>
+      <trans-unit id="When Opening Ghostery">
+        <source>When Opening Ghostery</source>
+        <target>Ghostery megnyitásakor</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
       </trans-unit>
       <trans-unit id="WiFi Protection">

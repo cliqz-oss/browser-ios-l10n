@@ -1,13 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="pt-BR">
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file datatype="plaintext" original="Client/en.lproj/Cliqz.strings" source-language="en_US" target-language="pt-BR">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
         <source> and select 'Connect' to scan the QR Code.</source>
-        <target> e selecione \"Conectar\" para escanear o Código QR.</target>
+        <target> e selecione \&quot;Conectar\&quot; para escanear o Código QR.</target>
         <note>[Connect] instructions text part#2</note>
       </trans-unit>
       <trans-unit id="%d Tracker(s) %d Blocked">
@@ -46,8 +45,8 @@
         <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
       <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.">
-        <source>A \"fair\" mode that shows ads in clearly defined cases only will be added soon.</source>
-        <target>Um modo \"justo\" que mostra anúncios em casos claramente definidos será adicionado em breve.</target>
+        <source>A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
+        <target>Um modo \&quot;justo\&quot; que mostra anúncios em casos claramente definidos será adicionado em breve.</target>
         <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
       <trans-unit id="About">
@@ -221,7 +220,7 @@
       </trans-unit>
       <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
         <source>Ghostery Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
-        <target>O navegador Ghostery não tem acesso à sua câmera. Para ativar o acesso, toque em \"Configurações\" e ligue a câmera.</target>
+        <target>O navegador Ghostery não tem acesso à sua câmera. Para ativar o acesso, toque em \&quot;Configurações\&quot; e ligue a câmera.</target>
         <note>[Connect] Alert message for turning on Camera access when Scanning QR Code</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.">
@@ -484,6 +483,7 @@
       </trans-unit>
       <trans-unit id="Hotkeys.NewForgetTab.DiscoveryTitle">
         <source>New Ghost Tab</source>
+        <target>Nova aba fantasma</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Human Web">
@@ -552,6 +552,7 @@
       </trans-unit>
       <trans-unit id="Menu.AddFavoriteAction.Title">
         <source>Add to Favorites</source>
+        <target>Adicionar aos favoritos</target>
         <note>Label for the button, displayed in the menu, used to create a favorite for the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmarkAction.Title">
@@ -782,8 +783,8 @@
         <note>[Settings] Send usage data</note>
       </trans-unit>
       <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
-        <source>Set \"HTTP PROXY\" to \"Auto\"</source>
-        <target>Configurar \"HTTP PROXY \" para \"Auto\"</target>
+        <source>Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;</source>
+        <target>Configurar \&quot;HTTP PROXY \&quot; para \&quot;Auto\&quot;</target>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">
@@ -824,6 +825,7 @@
       </trans-unit>
       <trans-unit id="Start Tab">
         <source>Start Tab</source>
+        <target>Aba inicial</target>
         <note>[Onboarding] Freshtab Title</note>
       </trans-unit>
       <trans-unit id="Stay anonymous, reduce data usage, and save time: results appear instantly as you type in the Ghost search bar.">
@@ -885,12 +887,12 @@
       </trans-unit>
       <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
         <source>To share your location, go to the settings for the Ghostery app:\n\n1. Tap Location\n2. Enable 'While Using'</source>
-        <target>Para compartilhar sua localização, vá às configurações do aplicativo Ghostery: \n\n1. Toque em Localização\n2. Ativar \"Enquanto estiver usando\"</target>
+        <target>Para compartilhar sua localização, vá às configurações do aplicativo Ghostery: \n\n1. Toque em Localização\n2. Ativar \&quot;Enquanto estiver usando\&quot;</target>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="To share your location, go to the settings of your smartphone:\n1.Turn on Location Services\n2.Select the CLIQZ App\n3.Enable 'While Using'">
         <source>To share your location, go to the settings of your smartphone:\n\n1. Turn on Location Services\n2. Select the Ghostery App\n3. Enable 'While Using'</source>
-        <target>Para compartilhar sua localização, acesse as definições de seu smartphone:\n\n1. Ative os Serviços de Localização\n2. Selecione o aplicativo Ghostery\n3. Ativar \"Enquanto estiver usando\"</target>
+        <target>Para compartilhar sua localização, acesse as definições de seu smartphone:\n\n1. Ative os Serviços de Localização\n2. Selecione o aplicativo Ghostery\n3. Ativar \&quot;Enquanto estiver usando\&quot;</target>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="Trackers">
@@ -1050,71 +1052,80 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US" target-language="pt-BR">
+  <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en_US" target-language="pt-BR">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target>Ghostery</target>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
-        <target>Ghostery</target>
+        <target>$(MOZ_PRODUCT_NAME)</target>
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you scan, take and upload videos or photos.</source>
         <target>Isso permite que você digitalize, tire e envie vídeos ou fotos.</target>
+        
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
         <source>Ghostery requires Face ID to access your saved logins.</source>
         <target>O Ghostery requer Face ID para acessar seus logins salvos.</target>
+        
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Your location is used to provide better search results.</source>
         <target>Sua localização é usada para fornecer melhores resultados de pesquisa.</target>
+        
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
         <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
         <target>O Ghostery só usará o microfone quando você optar por gravar vídeos dentro do navegador.</target>
+        
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <target>O Ghostery usará esse acesso apenas para baixar vídeos e fotos para o seu dispositivo.</target>
+        
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <target>O Ghostery usará esse acesso apenas para baixar vídeos e fotos para o seu dispositivo.</target>
+        
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Ghost Tab</source>
         <target>Nova aba fantasma</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
         <target>Nova aba</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleQRCode">
         <source>Scan QR-Code</source>
         <target>Escanear código QR</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="pt-BR">
+  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en_US" target-language="pt-BR">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
@@ -1194,13 +1205,14 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="pt-BR">
+  <file datatype="plaintext" original="Extensions/ShareTo/en.lproj/Cliqz.strings" source-language="en_US" target-language="pt-BR">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="Menu.AddFavoriteAction.Title">
         <source>Add to Favorites</source>
+        <target>Adicionar aos favoritos</target>
         <note>Label for the button, displayed in the menu, used to create a favorite for the current website.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInCliqzAction.Title">
@@ -1213,16 +1225,16 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="pt-BR">
+  <file datatype="plaintext" original="Extensions/Today/en.lproj/Cliqz.strings" source-language="en_US" target-language="pt-BR">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="TodayWidget.NewForgetTabButtonLabel">
         <source>New Ghost Tab</source>
+        <target>Nova aba fantasma</target>
         <note>New Forget Tab button label</note>
       </trans-unit>
     </body>
   </file>
 </xliff>
-

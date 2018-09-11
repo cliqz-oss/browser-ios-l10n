@@ -74,7 +74,7 @@
         <source>Ads Removed</source>
         <note>[ControlCenter -&gt; Overview] Removed Ads indicator</note>
       </trans-unit>
-      <trans-unit id="Ads, site analytics and adult advertising">
+      <trans-unit id="Ads, site analytics and adult advertising trackers">
         <source>Ads, site analytics and adult advertising trackers</source>
         <note>[Onboarding] Block Recommended TickButton SubTitle</note>
       </trans-unit>
@@ -323,6 +323,10 @@
       <trans-unit id="Extension">
         <source>Extension</source>
         <note>Extension version number</note>
+      </trans-unit>
+      <trans-unit id="FAQ">
+        <source>FAQ</source>
+        <note>[Settings] FAQ</note>
       </trans-unit>
       <trans-unit id="FAQ &amp; Support">
         <source>FAQ &amp; Support</source>
@@ -693,6 +697,10 @@
       <trans-unit id="Subscribing to {1}.">
         <source>Subscribing to {1}...</source>
         <note>[Subscriptions] Subscribing HUD</note>
+      </trans-unit>
+      <trans-unit id="Support">
+        <source>Support</source>
+        <note>[Settings] Support</note>
       </trans-unit>
       <trans-unit id="Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.">
         <source>Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.</source>

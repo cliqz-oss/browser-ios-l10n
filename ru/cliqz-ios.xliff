@@ -1161,9 +1161,19 @@
         <target>%1$#@trackers@ %2$#@blocked@</target>
         <note/>
       </trans-unit>
-      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/one:dict/:string">
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/few:dict/:string">
         <source>%d Blocked</source>
         <target>%d заблокировано</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/many:dict/:string">
+        <source>%d Blocked</source>
+        <target>%d заблокировано</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/one:dict/:string">
+        <source>%d Blocked</source>
+        <target>%d заблокирован</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/other:dict/:string">
@@ -1176,14 +1186,24 @@
         <target>%d заблокировано</target>
         <note/>
       </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/few:dict/:string">
+        <source>%d TRACKERS</source>
+        <target>%d ТРЕКЕРA</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/many:dict/:string">
+        <source>%d TRACKERS</source>
+        <target>%d ТРЕКЕРОВ</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/one:dict/:string">
         <source>%d TRACKER</source>
-        <target>ТРЕКЕР %d</target>
+        <target>%d ТРЕКЕР</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/other:dict/:string">
         <source>%d TRACKERS</source>
-        <target>%d ТРЕКЕРОВ</target>
+        <target>%d ТРЕКЕРA</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/zero:dict/:string">
@@ -1196,24 +1216,44 @@
         <target>%#@trackers@</target>
         <note/>
       </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/few:dict/:string">
+        <source>%d Trackers Blocked</source>
+        <target>Заблокированно %d трекера</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/many:dict/:string">
+        <source>%d Trackers Blocked</source>
+        <target>Заблокированно %d трекеров</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/one:dict/:string">
         <source>%d Tracker Blocked</source>
-        <target>Заблокирован трекер %d</target>
+        <target>Заблокирован %d трекер</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/other:dict/:string">
         <source>%d Trackers Blocked</source>
-        <target>Заблокированно трекеров %d</target>
+        <target>Заблокированно %d трекера</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/zero:dict/:string">
         <source>%d Trackers Blocked</source>
-        <target>Заблокированно трекеров %d</target>
+        <target>Заблокированно %d трекеров</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%#@trackers@</source>
         <target>%#@trackers@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/few:dict/:string">
+        <source>%d Trackers found</source>
+        <target>Найдено %d трекера</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/many:dict/:string">
+        <source>%d Trackers found</source>
+        <target>Найдено %d трекеров</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/one:dict/:string">
@@ -1223,7 +1263,7 @@
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/other:dict/:string">
         <source>%d Trackers found</source>
-        <target>Найдено %d трекеров</target>
+        <target>Найдено %d трекера</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/zero:dict/:string">

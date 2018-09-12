@@ -438,7 +438,7 @@
       </trans-unit>
       <trans-unit id="Fresh Tab">
         <source>Start Tab</source>
-        <target>Новая вкладка</target>
+        <target>Start Tab</target>
         <note>[Settings] Freshtab section header
    Title for Freshtab in tab history list</note>
       </trans-unit>
@@ -849,7 +849,7 @@
       </trans-unit>
       <trans-unit id="Start Tab">
         <source>Start Tab</source>
-        <target>Новая вкладка</target>
+        <target>Start Tab</target>
         <note>[Onboarding] Freshtab Title</note>
       </trans-unit>
       <trans-unit id="Stay anonymous, reduce data usage, and save time: results appear instantly as you type in the Ghost search bar.">

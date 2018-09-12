@@ -1194,7 +1194,7 @@
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%#@trackers@</source>
-        <target>%#@mouchards@</target>
+        <target>%#@trackers@</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/one:dict/:string">
@@ -1214,7 +1214,7 @@
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%#@trackers@</source>
-        <target>%#@mouchards@</target>
+        <target>%#@trackers@</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/one:dict/:string">

@@ -95,6 +95,14 @@
         <source>Ads, site analytics and adult advertising trackers</source>
         <note>[Onboarding] Block Recommended TickButton SubTitle</note>
       </trans-unit>
+      <trans-unit id="Adult Content">
+        <source>Adult Content</source>
+        <note>Tracker category in control center</note>
+      </trans-unit>
+      <trans-unit id="Advertising">
+        <source>Advertising</source>
+        <note>Tracker category in control center</note>
+      </trans-unit>
       <trans-unit id="All">
         <source>All</source>
         <target>Mind</target>
@@ -118,6 +126,10 @@
         <source>Applying Changes...</source>
         <target>Változtatások alkalmazása</target>
         <note>Applying Changes Toast</note>
+      </trans-unit>
+      <trans-unit id="Audio/Video Player">
+        <source>Audio/Video Player</source>
+        <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Automatic Forget Tab">
         <source>Automatic Ghost Tab</source>
@@ -254,6 +266,10 @@
         <target>Kód másolva</target>
         <note>[MyOffrz] copy promocode done</note>
       </trans-unit>
+      <trans-unit id="Comments">
+        <source>Comments</source>
+        <note>Tracker category in control center</note>
+      </trans-unit>
       <trans-unit id="Complementary Search">
         <source>Complementary Search</source>
         <target>Kiegészítő keresés</target>
@@ -327,6 +343,10 @@
         <target>Jelenleg a push értesítéseket csak akkor fogadja a készülék, ha a böngészője aktív.</target>
         <note>[Subscriptions] Subscribing Toast</note>
       </trans-unit>
+      <trans-unit id="Customer Interaction">
+        <source>Customer Interaction</source>
+        <note>Tracker category in control center</note>
+      </trans-unit>
       <trans-unit id="Dismiss">
         <source>Dismiss</source>
         <target>Bezárás</target>
@@ -366,11 +386,6 @@
         <target>Fejlesztett hirdetésblokkolás</target>
         <note>[ControlCenter -&gt; Overview] Ad blocking switch title</note>
       </trans-unit>
-      <trans-unit id="Enhanced Ad Blocking anonymizes unblocked and unknown trackers for greater browsing protection.">
-        <source>Enhanced Ad Blocking anonymizes unblocked and unknown trackers for greater browsing protection.</source>
-        <target>A fejlesztett hirdetésblokkolás névtelenné teszi a feloldott és ismeretlen trackereket a fokozottabb böngészési védelem érdekében.</target>
-        <note>[ControlCenter -&gt; Overview] Ad Blocking description</note>
-      </trans-unit>
       <trans-unit id="Enhanced Adblocking is turned off for all websites.">
         <source>Enhanced Adblocking is turned off for all websites.</source>
         <note>[Enhanced Adblocker] All Websites Label Title</note>
@@ -378,6 +393,10 @@
       <trans-unit id="Enhanced Adblocking is turned off for this domain.">
         <source>Enhanced Adblocking is turned off for this domain.</source>
         <note>[Enhanced Adblocker] Domain Label Title</note>
+      </trans-unit>
+      <trans-unit id="Essential">
+        <source>Essential</source>
+        <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Every new Tab comes with top sites, news and background image. Customize it to your needs.">
         <source>Every new Tab comes with top sites, news and background image. Customize it to your needs.</source>
@@ -466,6 +485,10 @@
       <trans-unit id="Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any PII collected. Learn more at http://cliqz.com/en/privacy-browser.">
         <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any PII collected.</source>
         <target>Segítsen, hogy tovább feljeszthessük böngészési élményét. A Ghostery szigorúan csak névtelen használati adatokat gyűjt. Személyes adatok gyűjtésére semmilyen körülmények között sem kerül sor.</target>
+        <note>[Settings -&gt; Send Telemetry] Footer text</note>
+      </trans-unit>
+      <trans-unit id="Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any personal data collected. Learn more at http://cliqz.com/en/privacy-browser.">
+        <source>Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any personal data collected. Learn more at http://cliqz.com/en/privacy-browser.</source>
         <note>[Settings -&gt; Send Telemetry] Footer text</note>
       </trans-unit>
       <trans-unit id="Here you'll find a new offer every week">
@@ -812,6 +835,14 @@
         <target>Jelenítse meg a leggyakrabban látogatott weboldalakat</target>
         <note>[Settings] Show most visited websites</note>
       </trans-unit>
+      <trans-unit id="Site Analytics">
+        <source>Site Analytics</source>
+        <note>Tracker category in control center</note>
+      </trans-unit>
+      <trans-unit id="Social Media">
+        <source>Social Media</source>
+        <note>Tracker category in control center</note>
+      </trans-unit>
       <trans-unit id="Sorry but devices could not be connected. Please try again.">
         <source>Sorry, but the devices could not be connected. Please try again.</source>
         <target>Sajnáljuk, de az eszközöket nem lehetett csatlakoztatni. Kérjük, próbálja meg újra.</target>
@@ -884,6 +915,10 @@
         <source>This Domain</source>
         <note>[Enhanced Adblocker] Domains Button Title</note>
       </trans-unit>
+      <trans-unit id="This feature blocks advertisments on websites you visit.">
+        <source>This feature blocks advertisments on websites you visit.</source>
+        <note>[ControlCenter -&gt; Overview] Ad Blocking description</note>
+      </trans-unit>
       <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
         <source>To share your location, go to the settings for the Ghostery app:\n\n1. Tap Location\n2. Enable 'While Using'</source>
         <target>Helyének megosztásához navigáljon a Ghostery app beállításaihoz:\n\n1. Bökjön a Hely lehetőségre\n2. Engedélyezze a 'Használat közben' lehetőséget</target>
@@ -923,6 +958,10 @@
         <source>Unblock All</source>
         <target>Összes feloldása</target>
         <note>[ControlCenter - Trackers list] Unblock All trackers action title</note>
+      </trans-unit>
+      <trans-unit id="Uncategorized">
+        <source>Uncategorized</source>
+        <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Undo">
         <source>Undo</source>
@@ -1077,8 +1116,7 @@
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
-        <source>Your location is used to provide better search results.</source>
-        <target>Az ön helyadatait arra használjuk, hogy jobb keresési eredményeket szolgáltassunk.</target>
+        <source>Location-based features or websites you visit may request your location.</source>
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">

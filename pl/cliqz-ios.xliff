@@ -95,6 +95,14 @@
         <source>Ads, site analytics and adult advertising trackers</source>
         <note>[Onboarding] Block Recommended TickButton SubTitle</note>
       </trans-unit>
+      <trans-unit id="Adult Content">
+        <source>Adult Content</source>
+        <note>Tracker category in control center</note>
+      </trans-unit>
+      <trans-unit id="Advertising">
+        <source>Advertising</source>
+        <note>Tracker category in control center</note>
+      </trans-unit>
       <trans-unit id="All">
         <source>All</source>
         <target>Wszystkie</target>
@@ -118,6 +126,10 @@
         <source>Applying Changes...</source>
         <target>Dokonuję zmian...</target>
         <note>Applying Changes Toast</note>
+      </trans-unit>
+      <trans-unit id="Audio/Video Player">
+        <source>Audio/Video Player</source>
+        <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Automatic Forget Tab">
         <source>Automatic Ghost Tab</source>
@@ -254,6 +266,10 @@
         <target>Kod skopiowany</target>
         <note>[MyOffrz] copy promocode done</note>
       </trans-unit>
+      <trans-unit id="Comments">
+        <source>Comments</source>
+        <note>Tracker category in control center</note>
+      </trans-unit>
       <trans-unit id="Complementary Search">
         <source>Complementary Search</source>
         <target>Wyszukiwanie uzupełniające</target>
@@ -327,6 +343,10 @@
         <target>Obecnie powiadomienia push są otrzymywane tylko wówczas, gdy przeglądarka jest aktywna.</target>
         <note>[Subscriptions] Subscribing Toast</note>
       </trans-unit>
+      <trans-unit id="Customer Interaction">
+        <source>Customer Interaction</source>
+        <note>Tracker category in control center</note>
+      </trans-unit>
       <trans-unit id="Dismiss">
         <source>Dismiss</source>
         <target>Odwołaj</target>
@@ -366,11 +386,6 @@
         <target>Wzmocnione blokowanie reklam</target>
         <note>[ControlCenter -&gt; Overview] Ad blocking switch title</note>
       </trans-unit>
-      <trans-unit id="Enhanced Ad Blocking anonymizes unblocked and unknown trackers for greater browsing protection.">
-        <source>Enhanced Ad Blocking anonymizes unblocked and unknown trackers for greater browsing protection.</source>
-        <target>Wzmocnione blokowanie reklam anonimizuje odblokowane i nieznane tropiciele, aby zapewnić lepszą ochronę przeglądania treści.</target>
-        <note>[ControlCenter -&gt; Overview] Ad Blocking description</note>
-      </trans-unit>
       <trans-unit id="Enhanced Adblocking is turned off for all websites.">
         <source>Enhanced Adblocking is turned off for all websites.</source>
         <note>[Enhanced Adblocker] All Websites Label Title</note>
@@ -378,6 +393,10 @@
       <trans-unit id="Enhanced Adblocking is turned off for this domain.">
         <source>Enhanced Adblocking is turned off for this domain.</source>
         <note>[Enhanced Adblocker] Domain Label Title</note>
+      </trans-unit>
+      <trans-unit id="Essential">
+        <source>Essential</source>
+        <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Every new Tab comes with top sites, news and background image. Customize it to your needs.">
         <source>Every new Tab comes with top sites, news and background image. Customize it to your needs.</source>
@@ -466,6 +485,10 @@
       <trans-unit id="Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any PII collected. Learn more at http://cliqz.com/en/privacy-browser.">
         <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any PII collected.</source>
         <target>Pomóż nam udoskonalić sposób, w jaki korzystasz z przeglądarki. Ghostery gromadzi zupełnie anonimowe dane użycia. W żadnym wypadku nie są gromadzone dane osobowe.</target>
+        <note>[Settings -&gt; Send Telemetry] Footer text</note>
+      </trans-unit>
+      <trans-unit id="Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any personal data collected. Learn more at http://cliqz.com/en/privacy-browser.">
+        <source>Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any personal data collected. Learn more at http://cliqz.com/en/privacy-browser.</source>
         <note>[Settings -&gt; Send Telemetry] Footer text</note>
       </trans-unit>
       <trans-unit id="Here you'll find a new offer every week">
@@ -812,6 +835,14 @@
         <target>Pokaż najczęściej odwiedzane witryny</target>
         <note>[Settings] Show most visited websites</note>
       </trans-unit>
+      <trans-unit id="Site Analytics">
+        <source>Site Analytics</source>
+        <note>Tracker category in control center</note>
+      </trans-unit>
+      <trans-unit id="Social Media">
+        <source>Social Media</source>
+        <note>Tracker category in control center</note>
+      </trans-unit>
       <trans-unit id="Sorry but devices could not be connected. Please try again.">
         <source>Sorry, but the devices could not be connected. Please try again.</source>
         <target>Niestety, nie można podłączyć tych urządzeń. Proszę spróbować ponownie.</target>
@@ -884,6 +915,10 @@
         <source>This Domain</source>
         <note>[Enhanced Adblocker] Domains Button Title</note>
       </trans-unit>
+      <trans-unit id="This feature blocks advertisments on websites you visit.">
+        <source>This feature blocks advertisments on websites you visit.</source>
+        <note>[ControlCenter -&gt; Overview] Ad Blocking description</note>
+      </trans-unit>
       <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
         <source>To share your location, go to the settings for the Ghostery app:\n\n1. Tap Location\n2. Enable 'While Using'</source>
         <target>Aby udostępnić swoją lokalizację, przejdź do ustawień aplikacji Ghostery:\n\n1. Dotknij Lokalizację\n2. Aktywuj 'Podczas używania'</target>
@@ -923,6 +958,10 @@
         <source>Unblock All</source>
         <target>Odblokuj wszystkie</target>
         <note>[ControlCenter - Trackers list] Unblock All trackers action title</note>
+      </trans-unit>
+      <trans-unit id="Uncategorized">
+        <source>Uncategorized</source>
+        <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Undo">
         <source>Undo</source>
@@ -1077,8 +1116,7 @@
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
-        <source>Your location is used to provide better search results.</source>
-        <target> Wykorzystujemy Twoją lokalizację, aby zapewnić lepsze wyniki wyszukiwania.</target>
+        <source>Location-based features or websites you visit may request your location.</source>
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
@@ -1138,6 +1176,14 @@
         <target>%d zablokowanych</target>
         <note/>
       </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/few:dict/:string">
+        <source>%d Blocked</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/many:dict/:string">
+        <source>%d Blocked</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/one:dict/:string">
         <source>%d TRACKER</source>
         <target>%d TROPICIEL</target>
@@ -1151,6 +1197,14 @@
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/zero:dict/:string">
         <source>%d TRACKERS</source>
         <target>%d TROPICIELI</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/few:dict/:string">
+        <source>%d TRACKERS</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/many:dict/:string">
+        <source>%d TRACKERS</source>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
@@ -1173,6 +1227,14 @@
         <target>%d tropicieli zablokowanych</target>
         <note/>
       </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/few:dict/:string">
+        <source>%d Trackers Blocked</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/many:dict/:string">
+        <source>%d Trackers Blocked</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%#@trackers@</source>
         <target>%#@trackers@</target>
@@ -1191,6 +1253,14 @@
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/zero:dict/:string">
         <source>%d Trackers found</source>
         <target>Odnaleziono %d tropicieli</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/few:dict/:string">
+        <source>%d Trackers found</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/many:dict/:string">
+        <source>%d Trackers found</source>
         <note/>
       </trans-unit>
     </body>

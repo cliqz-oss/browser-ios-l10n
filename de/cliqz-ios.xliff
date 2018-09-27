@@ -498,13 +498,8 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
         <target>Hilfe</target>
         <note>[Settings] Help section header</note>
       </trans-unit>
-      <trans-unit id="Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any PII collected. Learn more at http://cliqz.com/en/privacy-browser.">
-        <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any PII collected.</source>
-        <target>Hilf uns, dein Browsing-Erlebnis zu verbessern. Ghostery sammelt ausschließlich anonyme Nutzungsdaten. In keinem Fall werden PII-Daten gesammelt.</target>
-        <note>[Settings -&gt; Send Telemetry] Footer text</note>
-      </trans-unit>
-      <trans-unit id="Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any personal data collected. Learn more at http://cliqz.com/en/privacy-browser.">
-        <source>Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any personal data collected. Learn more at http://cliqz.com/en/privacy-browser.</source>
+     <trans-unit id="Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.">
+        <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
         <note>[Settings -&gt; Send Telemetry] Footer text</note>
       </trans-unit>
       <trans-unit id="Here you'll find a new offer every week">

@@ -4,7 +4,7 @@ host = https://www.transifex.com
 [cliqzghostery-ios-app.cliqz-iosxliff]
 file_filter = <lang>/cliqz-ios.xliff
 minimum_perc = 0
-source_file = cliqz-ios.xliff
+source_file = en-US/cliqz-ios.xliff
 source_lang = en_US
 type = XLIFF
 

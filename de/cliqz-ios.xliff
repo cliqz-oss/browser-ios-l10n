@@ -463,6 +463,10 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
         <note>[Settings] Freshtab section header
    Title for Freshtab in tab history list</note>
       </trans-unit>
+      <trans-unit id="Get it from %@">
+        <source>Get it from %@</source>
+        <note>Get it from the %link%</note>
+      </trans-unit>
       <trans-unit id="Get the best out of CLIQZ">
         <source>Get the best out of Ghostery</source>
         <target>Holen das Beste aus Ghostery heraus</target>
@@ -498,7 +502,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
         <target>Hilfe</target>
         <note>[Settings] Help section header</note>
       </trans-unit>
-     <trans-unit id="Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.">
+      <trans-unit id="Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.">
         <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
         <note>[Settings -&gt; Send Telemetry] Footer text</note>
       </trans-unit>
@@ -507,10 +511,9 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
         <target>Hier findest du jede Woche ein neues Angebot</target>
         <note>[MyOffrz] No offers label</note>
       </trans-unit>
-      <trans-unit id="Hey, I would like to invite you to try the Cliqz Browser.">
-        <source>Hey, I would like to invite you to try the Cliqz Browser.</source>
-        <target>Hallo, ich möchte dich einladen, den Cliqz-Browser auszuprobieren.</target>
-        <note>Sharing FreshTab message</note>
+      <trans-unit id="Hey, I would like to invite you to try the %@ Browser.">
+        <source>Hey, I would like to invite you to try the %@ Browser.</source>
+        <note>Sharing StartTab message</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
         <source>Open in New Ghost Tab</source>
@@ -846,6 +849,10 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
         <source>Search in Ghostery</source>
         <target>In Ghostery suchen</target>
         <note>Action label on share extension to search for the selected text in Ghostery.</note>
+      </trans-unit>
+      <trans-unit id="Shared with %@ Browser for iOS">
+        <source>Shared with %@ Browser for iOS</source>
+        <note>Shared with [Cliqz Browser | Ghostery Browser] for iOS</note>
       </trans-unit>
       <trans-unit id="Show News">
         <source>Show News</source>

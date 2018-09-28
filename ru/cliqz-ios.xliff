@@ -462,6 +462,10 @@
         <note>[Settings] Freshtab section header
    Title for Freshtab in tab history list</note>
       </trans-unit>
+      <trans-unit id="Get it from %@">
+        <source>Get it from %@</source>
+        <note>Get it from the %link%</note>
+      </trans-unit>
       <trans-unit id="Get the best out of CLIQZ">
         <source>Get the best out of Ghostery</source>
         <target>Максимально эффективно используйте Ghostery</target>
@@ -506,10 +510,9 @@
         <target>Каждую неделю здесь будет отображаться новое предложение</target>
         <note>[MyOffrz] No offers label</note>
       </trans-unit>
-      <trans-unit id="Hey, I would like to invite you to try the Cliqz Browser.">
-        <source>Hey, I would like to invite you to try the Cliqz Browser.</source>
-        <target>Я хотел бы предложить Вам попробовать браузер Cliqz.</target>
-        <note>Sharing FreshTab message</note>
+      <trans-unit id="Hey, I would like to invite you to try the %@ Browser.">
+        <source>Hey, I would like to invite you to try the %@ Browser.</source>
+        <note>Sharing StartTab message</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
         <source>Open in New Ghost Tab</source>
@@ -845,6 +848,10 @@
         <source>Search in Ghostery</source>
         <target>Поиск в Ghostery</target>
         <note>Action label on share extension to search for the selected text in Ghostery.</note>
+      </trans-unit>
+      <trans-unit id="Shared with %@ Browser for iOS">
+        <source>Shared with %@ Browser for iOS</source>
+        <note>Shared with [Cliqz Browser | Ghostery Browser] for iOS</note>
       </trans-unit>
       <trans-unit id="Show News">
         <source>Show News</source>

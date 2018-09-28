@@ -96,8 +96,8 @@
         <target>Реклама, аналитика веб-сайтов, трекеры нецензурной рекламы</target>
         <note>[Onboarding] Block Recommended TickButton SubTitle</note>
       </trans-unit>
-      <trans-unit id="Adult Content">
-        <source>Adult Content</source>
+      <trans-unit id="Adult Advertising">
+        <source>Adult Advertising</source>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Advertising">

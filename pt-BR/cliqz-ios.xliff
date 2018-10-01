@@ -1092,6 +1092,18 @@
         <target>Estados Unidos</target>
         <note>Localized String for United States region</note>
       </trans-unit>
+      <trans-unit id="region-IT">
+        <source>Italy</source>
+        <note>Localized String for Italy region</note>
+      </trans-unit>
+      <trans-unit id="region-ES">
+        <source>Spain</source>
+        <note>Localized String for Spain region</note>
+      </trans-unit>
+      <trans-unit id="region-UK">
+        <source>United Kingdom</source>
+        <note>Localized String for United Kingdom region</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US" target-language="pt-BR">

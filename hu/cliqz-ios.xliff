@@ -562,9 +562,9 @@
         <target>Mobil adatforgalom-használat korlátozása</target>
         <note>[Settings] Limit Mobile Data Usage</note>
       </trans-unit>
-      <trans-unit id="Looks like Cliqz crashed previously. Would you like to restore your tabs?">
-        <source>Looks like Cliqz crashed previously. Would you like to restore your tabs?</source>
-        <target>Úgy tűnik a Cliqz legutóbbi alkalommal összeomlott. Szeretné visszaállítani a lapfüleit?</target>
+      <trans-unit id="Looks like Ghostery crashed previously. Would you like to restore your tabs?">
+        <source>Looks like Ghostery crashed previously. Would you like to restore your tabs?</source>
+        <target>Úgy tűnik a Ghostery legutóbbi alkalommal összeomlott. Szeretné visszaállítani a lapfüleit?</target>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="Menu.AddFavorite.Confirm">

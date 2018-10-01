@@ -562,9 +562,9 @@
         <target>Beperk Mobiel Datagebruik</target>
         <note>[Settings] Limit Mobile Data Usage</note>
       </trans-unit>
-      <trans-unit id="Looks like Cliqz crashed previously. Would you like to restore your tabs?">
-        <source>Looks like Cliqz crashed previously. Would you like to restore your tabs?</source>
-        <target>Het lijkt erop dat Cliqz eerder is gecrasht. Wil je je tabs herstellen?</target>
+      <trans-unit id="Looks like Ghostery crashed previously. Would you like to restore your tabs?">
+        <source>Looks like Ghostery crashed previously. Would you like to restore your tabs?</source>
+        <target>Het lijkt erop dat Ghostery eerder is gecrasht. Wil je je tabs herstellen?</target>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="Menu.AddFavorite.Confirm">

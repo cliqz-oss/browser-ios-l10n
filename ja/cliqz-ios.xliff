@@ -562,9 +562,9 @@
         <target>モバイル・データの使用を制限</target>
         <note>[Settings] Limit Mobile Data Usage</note>
       </trans-unit>
-      <trans-unit id="Looks like Cliqz crashed previously. Would you like to restore your tabs?">
-        <source>Looks like Cliqz crashed previously. Would you like to restore your tabs?</source>
-        <target>Cliqzが以前にクラッシュしたそうです。タブを復元しますか？</target>
+      <trans-unit id="Looks like Ghostery crashed previously. Would you like to restore your tabs?">
+        <source>Looks like Ghostery crashed previously. Would you like to restore your tabs?</source>
+        <target>Ghosteryが以前にクラッシュしたそうです。タブを復元しますか？</target>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="Menu.AddFavorite.Confirm">

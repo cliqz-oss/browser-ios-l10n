@@ -562,9 +562,9 @@
         <target>모바일 데이터 사용 제한</target>
         <note>[Settings] Limit Mobile Data Usage</note>
       </trans-unit>
-      <trans-unit id="Looks like Cliqz crashed previously. Would you like to restore your tabs?">
-        <source>Looks like Cliqz crashed previously. Would you like to restore your tabs?</source>
-        <target>Cliqz가 이전에 충돌되었던 것처럼 보입니다. 귀하의 탭을 복구하시겠습니까?</target>
+      <trans-unit id="Looks like Ghostery crashed previously. Would you like to restore your tabs?">
+        <source>Looks like Ghostery crashed previously. Would you like to restore your tabs?</source>
+        <target>Ghostery가 이전에 충돌되었던 것처럼 보입니다. 귀하의 탭을 복구하시겠습니까?</target>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="Menu.AddFavorite.Confirm">

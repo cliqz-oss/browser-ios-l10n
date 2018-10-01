@@ -563,9 +563,9 @@
         <target>限制移动数据使用</target>
         <note>[Settings] Limit Mobile Data Usage</note>
       </trans-unit>
-      <trans-unit id="Looks like Cliqz crashed previously. Would you like to restore your tabs?">
-        <source>Looks like Cliqz crashed previously. Would you like to restore your tabs?</source>
-        <target>Cliqz 之前似乎崩溃过。是否要恢复标签页？</target>
+      <trans-unit id="Looks like Ghostery crashed previously. Would you like to restore your tabs?">
+        <source>Looks like Ghostery crashed previously. Would you like to restore your tabs?</source>
+        <target>Ghostery 之前似乎崩溃过。是否要恢复标签页？</target>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="Menu.AddFavorite.Confirm">

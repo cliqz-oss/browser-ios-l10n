@@ -246,9 +246,9 @@
         <target>Ghostery는 당사 커뮤니티 사용자들에 의해 생성된 검색 쿼리 및 웹사이트 방문에 관한 익명 데이터로 작동됩니다. 웹 인덱스를 구축하기 위해서 이 데이터를 수집하는 기술은 휴먼 웹이라 불립니다.</target>
         <note>[Settings -&gt; Human Web]Footer text for Fair Blocking section</note>
       </trans-unit>
-      <trans-unit id="Cliqz would like to access your Photos">
-        <source>Cliqz would like to access your Photos</source>
-        <target>Cliqz가 귀하의 사진에 액세스하려고 합니다</target>
+      <trans-unit id="Ghostery would like to access your Photos">
+        <source>Ghostery would like to access your Photos</source>
+        <target>Ghostery가 귀하의 사진에 액세스하려고 합니다</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Close Forget Tabs">

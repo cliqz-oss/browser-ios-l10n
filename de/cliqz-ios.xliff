@@ -257,9 +257,9 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
         <target>Ghostery läuft mit anonymisierten Daten von Suchanfragen und Website-Besuchen, die von unserer Nutzergemeinschaft erzeugt wurden. Die Technologie, die diese Daten zum Aufbau des Web-Index sammelt, wird als Human Web bezeichnet.</target>
         <note>[Settings -&gt; Human Web]Footer text for Fair Blocking section</note>
       </trans-unit>
-      <trans-unit id="Cliqz would like to access your Photos">
-        <source>Cliqz would like to access your Photos</source>
-        <target>Cliqz möchte auf deine Fotos zugreifen</target>
+      <trans-unit id="Ghostery would like to access your Photos">
+        <source>Ghostery would like to access your Photos</source>
+        <target>Ghostery möchte auf deine Fotos zugreifen</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Close Forget Tabs">

@@ -246,9 +246,9 @@
         <target>Ghostery funciona con datos anónimos de consultas de búsqueda y visitas a sitios web generadas por nuestra comunidad de usuarios. La tecnología que recopila esta información para crear el índice web se denomina Web humana.</target>
         <note>[Settings -&gt; Human Web]Footer text for Fair Blocking section</note>
       </trans-unit>
-      <trans-unit id="Cliqz would like to access your Photos">
-        <source>Cliqz would like to access your Photos</source>
-        <target>Cliqz desea acceder a tus fotos</target>
+      <trans-unit id="Ghostery would like to access your Photos">
+        <source>Ghostery would like to access your Photos</source>
+        <target>Ghostery desea acceder a tus fotos</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Close Forget Tabs">

@@ -256,9 +256,9 @@
         <target>Ghostery работает с анонимизированными данными поисковых запросов и посещений веб-сайтов, которые были созданы нашим сообществом пользователей. Технология, которая собирает эти данные, чтобы создать индекс веб-страниц, называется Human Web.</target>
         <note>[Settings -&gt; Human Web]Footer text for Fair Blocking section</note>
       </trans-unit>
-      <trans-unit id="Cliqz would like to access your Photos">
-        <source>Cliqz would like to access your Photos</source>
-        <target>Cliqz хотел бы получить доступ к  Вашим фотографиям</target>
+      <trans-unit id="Ghostery would like to access your Photos">
+        <source>Ghostery would like to access your Photos</source>
+        <target>Ghostery хотел бы получить доступ к  Вашим фотографиям</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Close Forget Tabs">

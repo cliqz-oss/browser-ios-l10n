@@ -246,9 +246,9 @@
         <target>Ghosteryは匿名の検索クエリーと、ユーザーのコミュニティによって生成されたウェブサイト訪問データを使用しています。このデータを収集してウェブ・インデックスを構築する技術は、Human Webと呼ばれます。</target>
         <note>[Settings -&gt; Human Web]Footer text for Fair Blocking section</note>
       </trans-unit>
-      <trans-unit id="Cliqz would like to access your Photos">
-        <source>Cliqz would like to access your Photos</source>
-        <target>Cliqzがお客様の写真にアクセスしようとしています</target>
+      <trans-unit id="Ghostery would like to access your Photos">
+        <source>Ghostery would like to access your Photos</source>
+        <target>Ghosteryがお客様の写真にアクセスしようとしています</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Close Forget Tabs">

@@ -246,9 +246,9 @@
         <target>我們的用戶社群所生成的匿名搜索查詢和網站登訪數據，Ghostery 都能處理。蒐集這類數據去建立網絡索引的技術，稱為人文網絡。</target>
         <note>[Settings -&gt; Human Web]Footer text for Fair Blocking section</note>
       </trans-unit>
-      <trans-unit id="Cliqz would like to access your Photos">
-        <source>Cliqz would like to access your Photos</source>
-        <target>Cliqz 需要獲取您的照片</target>
+      <trans-unit id="Ghostery would like to access your Photos">
+        <source>Ghostery would like to access your Photos</source>
+        <target>Ghostery 需要獲取您的照片</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Close Forget Tabs">

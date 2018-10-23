@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="fr">
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file datatype="plaintext" original="Client/en.lproj/Cliqz.strings" source-language="en_US" target-language="fr">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
@@ -46,8 +45,8 @@
         <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
       <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.">
-        <source>A \"fair\" mode that shows ads in clearly defined cases only will be added soon.</source>
-        <target>Un mode \"équitable\" qui montre des publicités seulement dans certains cas sera ajouté bientôt.</target>
+        <source>A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
+        <target>Un mode \&quot;équitable\&quot; qui montre des publicités seulement dans certains cas sera ajouté bientôt.</target>
         <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
       <trans-unit id="About">
@@ -98,10 +97,12 @@
       </trans-unit>
       <trans-unit id="Adult Advertising">
         <source>Adult Advertising</source>
+        <target> Publicités réservées aux publics adultes</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Advertising">
         <source>Advertising</source>
+        <target>Publicité</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="All">
@@ -131,6 +132,7 @@
       </trans-unit>
       <trans-unit id="Audio/Video Player">
         <source>Audio/Video Player</source>
+        <target>Lecteur audio/vidéo</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Automatic Forget Tab">
@@ -278,6 +280,7 @@
       </trans-unit>
       <trans-unit id="Comments">
         <source>Comments</source>
+        <target>Commentaires</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Complementary Search">
@@ -355,6 +358,7 @@
       </trans-unit>
       <trans-unit id="Customer Interaction">
         <source>Customer Interaction</source>
+        <target>Interaction avec les clients</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Dismiss">
@@ -409,6 +413,7 @@
       </trans-unit>
       <trans-unit id="Essential">
         <source>Essential</source>
+        <target>Essentiels</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Every new Tab comes with top sites, news and background image. Customize it to your needs.">
@@ -464,6 +469,7 @@
       </trans-unit>
       <trans-unit id="Get it from %@">
         <source>Get it from %@</source>
+        <target>Clique ici: %@</target>
         <note>Get it from the %link%</note>
       </trans-unit>
       <trans-unit id="Get the best out of CLIQZ">
@@ -503,6 +509,7 @@
       </trans-unit>
       <trans-unit id="Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.">
         <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
+        <target>Aide-nous à améliorer ton expérience de navigation. Ghostery ne recueille que des données d'utilisation strictement confidentielles. Aucune donnée personnelle n'est collectée.</target>
         <note>[Settings -&gt; Send Telemetry] Footer text</note>
       </trans-unit>
       <trans-unit id="Here you'll find a new offer every week">
@@ -512,6 +519,7 @@
       </trans-unit>
       <trans-unit id="Hey, I would like to invite you to try the %@ Browser.">
         <source>Hey, I would like to invite you to try the %@ Browser.</source>
+        <target>Salut! J'aimerais te faire découvrir le navigateur %@.</target>
         <note>Sharing StartTab message</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
@@ -827,8 +835,8 @@
         <note>[Settings] Send usage data</note>
       </trans-unit>
       <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
-        <source>Set \"HTTP PROXY\" to \"Auto\"</source>
-        <target>Paramétrez \"HTTP PROXY\" en \"Auto\"</target>
+        <source>Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;</source>
+        <target>Paramétrez \&quot;HTTP PROXY\&quot; en \&quot;Auto\&quot;</target>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">
@@ -851,6 +859,7 @@
       </trans-unit>
       <trans-unit id="Shared with %@ Browser for iOS">
         <source>Shared with %@ Browser for iOS</source>
+        <target>Partagé avec le navigateur %@ pour iOS</target>
         <note>Shared with [Cliqz Browser | Ghostery Browser] for iOS</note>
       </trans-unit>
       <trans-unit id="Show News">
@@ -865,10 +874,12 @@
       </trans-unit>
       <trans-unit id="Site Analytics">
         <source>Site Analytics</source>
+        <target>Outils d'analyse de sites web</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Social Media">
         <source>Social Media</source>
+        <target>Réseaux sociaux</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Sorry but devices could not be connected. Please try again.">
@@ -949,6 +960,7 @@
       </trans-unit>
       <trans-unit id="This feature blocks advertisments on websites you visit.">
         <source>This feature blocks advertisments on websites you visit.</source>
+        <target>Cette fonction bloque la pub sur les sites que tu visites.</target>
         <note>[ControlCenter -&gt; Overview] Ad Blocking description</note>
       </trans-unit>
       <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
@@ -993,6 +1005,7 @@
       </trans-unit>
       <trans-unit id="Uncategorized">
         <source>Uncategorized</source>
+        <target>Non-classés</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Undo">
@@ -1123,82 +1136,97 @@
       </trans-unit>
       <trans-unit id="region-IT">
         <source>Italy</source>
+        <target>Italien</target>
         <note>Localized String for Italy region</note>
       </trans-unit>
       <trans-unit id="region-ES">
         <source>Spain</source>
+        <target>Spanien</target>
         <note>Localized String for Spain region</note>
       </trans-unit>
       <trans-unit id="region-UK">
         <source>United Kingdom</source>
+        <target>Vereinigtes Königreich</target>
         <note>Localized String for United Kingdom region</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US" target-language="fr">
+  <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en_US" target-language="fr">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
         <target>Ghostery</target>
+        
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
         <target>Ghostery</target>
+        
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you scan, take and upload videos or photos.</source>
         <target>Permet d'analyser, prendre et charger des vidéos ou des photos.</target>
+        
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
         <source>Ghostery requires Face ID to access your saved logins.</source>
         <target>Ghostery requiert l'utilisation de Face ID pour accéder à vos mots de passe sauvegardés.</target>
+        
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Location-based features or websites you visit may request your location.</source>
+        <target>Les fonctions et les sites Web géodépendants peuvent demander ta localisation.</target>
+        
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
         <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
         <target>Ghostery utilise uniquement le microphone quand vous enregistrez des vidéos dans le navigateur.</target>
+        
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <target>Ghostery utilise ceci uniquement pour charger des vidéos et des images sur votre appareil.</target>
+        
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <target>Ghostery utilise ceci uniquement pour charger des vidéos et des images sur votre appareil.</target>
+        
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Ghost Tab</source>
         <target>Nouvel onglet fantôme</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
         <target>Nouvel onglet</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleQRCode">
         <source>Scan QR-Code</source>
         <target>Lire le code QR</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="fr">
+  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en_US" target-language="fr">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
@@ -1278,9 +1306,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="fr">
+  <file datatype="plaintext" original="Extensions/ShareTo/en.lproj/Cliqz.strings" source-language="en_US" target-language="fr">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="Menu.AddFavoriteAction.Title">
@@ -1300,9 +1328,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="fr">
+  <file datatype="plaintext" original="Extensions/Today/en.lproj/Cliqz.strings" source-language="en_US" target-language="fr">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="TodayWidget.NewForgetTabButtonLabel">
@@ -1313,4 +1341,3 @@
     </body>
   </file>
 </xliff>
-

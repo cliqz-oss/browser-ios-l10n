@@ -1,13 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="ru">
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file datatype="plaintext" original="Client/en.lproj/Cliqz.strings" source-language="en_US" target-language="ru">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
         <source> and select 'Connect' to scan the QR Code.</source>
-        <target> и выберите \"Подключиться\" для сканирования QR-кода.</target>
+        <target> и выберите \&quot;Подключиться\&quot; для сканирования QR-кода.</target>
         <note>[Connect] instructions text part#2</note>
       </trans-unit>
       <trans-unit id="%d Tracker(s) %d Blocked">
@@ -46,8 +45,8 @@
         <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
       <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.">
-        <source>A \"fair\" mode that shows ads in clearly defined cases only will be added soon.</source>
-        <target>Скоро будет добавлен \"честный\" режим, в котором реклама отображается только в четко определенных случаях.</target>
+        <source>A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
+        <target>Скоро будет добавлен \&quot;честный\&quot; режим, в котором реклама отображается только в четко определенных случаях.</target>
         <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
       <trans-unit id="About">
@@ -98,10 +97,12 @@
       </trans-unit>
       <trans-unit id="Adult Advertising">
         <source>Adult Advertising</source>
+        <target>Реклама для взрослых</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Advertising">
         <source>Advertising</source>
+        <target>Реклама</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="All">
@@ -131,6 +132,7 @@
       </trans-unit>
       <trans-unit id="Audio/Video Player">
         <source>Audio/Video Player</source>
+        <target>Аудио/видео проигрыватель</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Automatic Forget Tab">
@@ -243,7 +245,7 @@
       </trans-unit>
       <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
         <source>Ghostery Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
-        <target>У браузера Ghostery нет доступа к  Вашей камере. Для предоставления доступа нажмите \"Настройки\" и включите камеру.</target>
+        <target>У браузера Ghostery нет доступа к  Вашей камере. Для предоставления доступа нажмите \&quot;Настройки\&quot; и включите камеру.</target>
         <note>[Connect] Alert message for turning on Camera access when Scanning QR Code</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.">
@@ -278,6 +280,7 @@
       </trans-unit>
       <trans-unit id="Comments">
         <source>Comments</source>
+        <target>Комментарии</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Complementary Search">
@@ -355,6 +358,7 @@
       </trans-unit>
       <trans-unit id="Customer Interaction">
         <source>Customer Interaction</source>
+        <target>Взаимодействие с клиентами</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Dismiss">
@@ -409,6 +413,7 @@
       </trans-unit>
       <trans-unit id="Essential">
         <source>Essential</source>
+        <target>Важное</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Every new Tab comes with top sites, news and background image. Customize it to your needs.">
@@ -433,7 +438,7 @@
       </trans-unit>
       <trans-unit id="Fair Mode">
         <source>Fair Mode</source>
-        <target>\"Честный\" режим</target>
+        <target>\&quot;Честный\&quot; режим</target>
         <note>[Settings -&gt; Block Ads] Fair Mode</note>
       </trans-unit>
       <trans-unit id="Favorites you save will show up here.">
@@ -464,6 +469,7 @@
       </trans-unit>
       <trans-unit id="Get it from %@">
         <source>Get it from %@</source>
+        <target>Установить: %@</target>
         <note>Get it from the %link%</note>
       </trans-unit>
       <trans-unit id="Get the best out of CLIQZ">
@@ -503,6 +509,7 @@
       </trans-unit>
       <trans-unit id="Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.">
         <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
+        <target>Помогите нам сделать Вашу работу в Интернете более эффективной. Ghostery собирает исключительно анонимные данные об использовании. Ни в коем случае не осуществляется сбор личных данных.</target>
         <note>[Settings -&gt; Send Telemetry] Footer text</note>
       </trans-unit>
       <trans-unit id="Here you'll find a new offer every week">
@@ -512,6 +519,7 @@
       </trans-unit>
       <trans-unit id="Hey, I would like to invite you to try the %@ Browser.">
         <source>Hey, I would like to invite you to try the %@ Browser.</source>
+        <target>Попробуйте %@ браузер!</target>
         <note>Sharing StartTab message</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
@@ -827,8 +835,8 @@
         <note>[Settings] Send usage data</note>
       </trans-unit>
       <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
-        <source>Set \"HTTP PROXY\" to \"Auto\"</source>
-        <target>Установить \"ПРОКСИ HTTP\" на \"Авто\"</target>
+        <source>Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;</source>
+        <target>Установить \&quot;ПРОКСИ HTTP\&quot; на \&quot;Авто\&quot;</target>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">
@@ -851,6 +859,7 @@
       </trans-unit>
       <trans-unit id="Shared with %@ Browser for iOS">
         <source>Shared with %@ Browser for iOS</source>
+        <target>Отправлено с помощью %@ браузера для iOS</target>
         <note>Shared with [Cliqz Browser | Ghostery Browser] for iOS</note>
       </trans-unit>
       <trans-unit id="Show News">
@@ -865,10 +874,12 @@
       </trans-unit>
       <trans-unit id="Site Analytics">
         <source>Site Analytics</source>
+        <target>Аналитика сайта</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Social Media">
         <source>Social Media</source>
+        <target>Социальные сети</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Sorry but devices could not be connected. Please try again.">
@@ -948,16 +959,17 @@
       </trans-unit>
       <trans-unit id="This feature blocks advertisments on websites you visit.">
         <source>This feature blocks advertisments on websites you visit.</source>
+        <target>Эта функция блокирует рекламу на сайтах, которые Вы посещаете.</target>
         <note>[ControlCenter -&gt; Overview] Ad Blocking description</note>
       </trans-unit>
       <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
         <source>To share your location, go to the settings for the Ghostery app:\n\n1. Tap Location\n2. Enable 'While Using'</source>
-        <target>Чтобы поделиться своим местоположением, перейдите в настройки приложения Ghostery:\n\n1. Нажмите Геопозиция\n2. Включите \"Во время использования\"</target>
+        <target>Чтобы поделиться своим местоположением, перейдите в настройки приложения Ghostery:\n\n1. Нажмите Геопозиция\n2. Включите \&quot;Во время использования\&quot;</target>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="To share your location, go to the settings of your smartphone:\n1.Turn on Location Services\n2.Select the CLIQZ App\n3.Enable 'While Using'">
         <source>To share your location, go to the settings of your smartphone:\n\n1. Turn on Location Services\n2. Select the Ghostery App\n3. Enable 'While Using'</source>
-        <target>Чтобы поделиться своим местоположением, перейдите в настройки Вашего смартфона:\n\n1. Включить службы определения местоположения\n2. Выберите Ghostery App\n3. Включите \"Во время использования\"</target>
+        <target>Чтобы поделиться своим местоположением, перейдите в настройки Вашего смартфона:\n\n1. Включить службы определения местоположения\n2. Выберите Ghostery App\n3. Включите \&quot;Во время использования\&quot;</target>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="Trackers">
@@ -992,6 +1004,7 @@
       </trans-unit>
       <trans-unit id="Uncategorized">
         <source>Uncategorized</source>
+        <target>Без категории</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Undo">
@@ -1122,82 +1135,97 @@
       </trans-unit>
       <trans-unit id="region-IT">
         <source>Italy</source>
+        <target>Италия</target>
         <note>Localized String for Italy region</note>
       </trans-unit>
       <trans-unit id="region-ES">
         <source>Spain</source>
+        <target>Испания</target>
         <note>Localized String for Spain region</note>
       </trans-unit>
       <trans-unit id="region-UK">
         <source>United Kingdom</source>
+        <target>Великобритания</target>
         <note>Localized String for United Kingdom region</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US" target-language="ru">
+  <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en_US" target-language="ru">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
         <target>Ghostery</target>
+        
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
         <target>Ghostery</target>
+        
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you scan, take and upload videos or photos.</source>
         <target>Это позволяет вам сканировать, снимать и загружать видео или фото.</target>
+        
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
         <source>Ghostery requires Face ID to access your saved logins.</source>
         <target>Ghostery необходимо разрешение на использование Face ID, чтобы получить доступ к сохраненным логинам.</target>
+        
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Location-based features or websites you visit may request your location.</source>
+        <target>Некоторые функции или веб-сайты, которые Вы посещаете, могут запросить Ваше местоположение.</target>
+        
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
         <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
         <target>Ghostery будет использовать микрофон только тогда, когда вы решите записать видео в браузере.</target>
+        
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <target>Ghostery будет использовать этот доступ для загрузки видео и фото на ваше устройство.</target>
+        
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <target>Ghostery будет использовать этот доступ для загрузки видео и фото на ваше устройство.</target>
+        
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Ghost Tab</source>
         <target>Новая вкладка Ghost</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
         <target>Новая вкладка</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleQRCode">
         <source>Scan QR-Code</source>
         <target>Сканировать QR-код</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="ru">
+  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en_US" target-language="ru">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
@@ -1317,9 +1345,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="ru">
+  <file datatype="plaintext" original="Extensions/ShareTo/en.lproj/Cliqz.strings" source-language="en_US" target-language="ru">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="Menu.AddFavoriteAction.Title">
@@ -1339,9 +1367,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="ru">
+  <file datatype="plaintext" original="Extensions/Today/en.lproj/Cliqz.strings" source-language="en_US" target-language="ru">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="TodayWidget.NewForgetTabButtonLabel">
@@ -1352,4 +1380,3 @@
     </body>
   </file>
 </xliff>
-

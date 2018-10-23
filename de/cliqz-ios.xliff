@@ -1,13 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="de">
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file datatype="plaintext" original="Client/en.lproj/Cliqz.strings" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
         <source> and select 'Connect' to scan the QR Code.</source>
-        <target> und wähle \"Connect\", um den QR-Code zu scannen.</target>
+        <target> und wähle \&quot;Connect\&quot;, um den QR-Code zu scannen.</target>
         <note>[Connect] instructions text part#2</note>
       </trans-unit>
       <trans-unit id="%d Tracker(s) %d Blocked">
@@ -46,8 +45,8 @@
         <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
       <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.">
-        <source>A \"fair\" mode that shows ads in clearly defined cases only will be added soon.</source>
-        <target>Ein \"fairer\" Modus, der Werbung nur in klar definierten Fällen zulässt, wird bald hinzugefügt.</target>
+        <source>A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
+        <target>Ein \&quot;fairer\&quot; Modus, der Werbung nur in klar definierten Fällen zulässt, wird bald hinzugefügt.</target>
         <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
       <trans-unit id="About">
@@ -98,10 +97,12 @@
       </trans-unit>
       <trans-unit id="Adult Advertising">
         <source>Adult Advertising</source>
+        <target>Erwachsenenwerbung</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Advertising">
         <source>Advertising</source>
+        <target>Werbung</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="All">
@@ -131,6 +132,7 @@
       </trans-unit>
       <trans-unit id="Audio/Video Player">
         <source>Audio/Video Player</source>
+        <target>Audio/Video-Player</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Automatic Forget Tab">
@@ -279,6 +281,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Comments">
         <source>Comments</source>
+        <target>Kommentare</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Complementary Search">
@@ -356,6 +359,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Customer Interaction">
         <source>Customer Interaction</source>
+        <target>Kundeninteraktion</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Dismiss">
@@ -410,6 +414,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Essential">
         <source>Essential</source>
+        <target>Essenziell</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Every new Tab comes with top sites, news and background image. Customize it to your needs.">
@@ -465,6 +470,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Get it from %@">
         <source>Get it from %@</source>
+        <target>Hol dir die App aus dem %@</target>
         <note>Get it from the %link%</note>
       </trans-unit>
       <trans-unit id="Get the best out of CLIQZ">
@@ -504,6 +510,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.">
         <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
+        <target>Hilf uns, dein Browsing-Erlebnis zu verbessern. Ghostery sammelt ausschließlich anonyme Nutzungsdaten. In keinem Fall werden persönliche Daten gesammelt.</target>
         <note>[Settings -&gt; Send Telemetry] Footer text</note>
       </trans-unit>
       <trans-unit id="Here you'll find a new offer every week">
@@ -513,6 +520,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Hey, I would like to invite you to try the %@ Browser.">
         <source>Hey, I would like to invite you to try the %@ Browser.</source>
+        <target>Hey, probier doch mal den %@ Browser aus.</target>
         <note>Sharing StartTab message</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
@@ -622,7 +630,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="No Wi-Fi Connection message">
         <source>You are not connected to a Wi-Fi network and video downloads with mobile data is restricted. \nTo change this, go to Settings &gt; Limit Mobile Data Usage.\n</source>
-        <target>Du bist nicht mit dem WLAN verbunden. Video-Downloads sind bei mobiler Datennutzung derzeit eingeschränkt. \nGehe zu \"Einstellungen\" &gt; \"Download-Optionen\", um dies zu ändern.\n</target>
+        <target>Du bist nicht mit dem WLAN verbunden. Video-Downloads sind bei mobiler Datennutzung derzeit eingeschränkt. \nGehe zu \&quot;Einstellungen\&quot; &gt; \&quot;Download-Optionen\&quot;, um dies zu ändern.\n</target>
         <note>[Connect] No Wi-Fi connection alert message</note>
       </trans-unit>
       <trans-unit id="Not Now">
@@ -828,8 +836,8 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
         <note>[Settings] Send usage data</note>
       </trans-unit>
       <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
-        <source>Set \"HTTP PROXY\" to \"Auto\"</source>
-        <target>\"HTTP PROXY\" auf \"Auto\" stellen</target>
+        <source>Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;</source>
+        <target>\&quot;HTTP PROXY\&quot; auf \&quot;Auto\&quot; stellen</target>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">
@@ -852,6 +860,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Shared with %@ Browser for iOS">
         <source>Shared with %@ Browser for iOS</source>
+        <target>Geteilt mit %@ Browser für iOS</target>
         <note>Shared with [Cliqz Browser | Ghostery Browser] for iOS</note>
       </trans-unit>
       <trans-unit id="Show News">
@@ -866,10 +875,12 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Site Analytics">
         <source>Site Analytics</source>
+        <target>Website-Analytics</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Social Media">
         <source>Social Media</source>
+        <target>Social Media</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Sorry but devices could not be connected. Please try again.">
@@ -949,6 +960,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="This feature blocks advertisments on websites you visit.">
         <source>This feature blocks advertisments on websites you visit.</source>
+        <target>Diese Funktionen blockiert Werbung auf Websites, die du besuchst.</target>
         <note>[ControlCenter -&gt; Overview] Ad Blocking description</note>
       </trans-unit>
       <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
@@ -993,6 +1005,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Uncategorized">
         <source>Uncategorized</source>
+        <target>Nicht kategorisiert</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Undo">
@@ -1123,82 +1136,97 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="region-IT">
         <source>Italy</source>
+        <target>Italien</target>
         <note>Localized String for Italy region</note>
       </trans-unit>
       <trans-unit id="region-ES">
         <source>Spain</source>
+        <target>Spanien</target>
         <note>Localized String for Spain region</note>
       </trans-unit>
       <trans-unit id="region-UK">
         <source>United Kingdom</source>
+        <target>Vereinigtes Königreich</target>
         <note>Localized String for United Kingdom region</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US" target-language="de">
+  <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
         <target>Ghostery</target>
+        
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
         <target>Ghostery</target>
+        
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you scan, take and upload videos or photos.</source>
         <target>So kannst du scannen, Fotos oder Videos machen und hochladen.</target>
+        
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
         <source>Ghostery requires Face ID to access your saved logins.</source>
         <target>Ghostery benötigt Face ID, um auf deine gespeicherten Logins zuzugreifen.</target>
+        
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Location-based features or websites you visit may request your location.</source>
+        <target>Webseiten oder Funktionen, die deinen Standort benötigen können Zugriff auf deinen Standort anfordern.</target>
+        
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
         <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
         <target>Ghostery nutzt das Mikro nur, wenn du Videos im Browser aufnimmst.</target>
+        
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <target>Ghostery wird diesen Zugang nur benutzen, um Videos und Fotos auf dein Gerät zu laden.</target>
+        
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <target>Ghostery wird diesen Zugang nur benutzen, um Videos und Fotos auf dein Gerät zu laden.</target>
+        
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Ghost Tab</source>
         <target>Neuer Ghost Tab</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
         <target>Neuer Tab</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleQRCode">
         <source>Scan QR-Code</source>
         <target>QR-Code scannen</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="de">
+  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
@@ -1208,17 +1236,17 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/one:dict/:string">
         <source>%d Blocked</source>
-        <target>%d Blocked</target>
+        <target>%d Blockiert</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/other:dict/:string">
         <source>%d Blocked</source>
-        <target>%d Blocked</target>
+        <target>%d Blockiert</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/zero:dict/:string">
         <source>%d Blocked</source>
-        <target>%d Blocked</target>
+        <target>%d Blockiert</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/one:dict/:string">
@@ -1278,9 +1306,9 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="de">
+  <file datatype="plaintext" original="Extensions/ShareTo/en.lproj/Cliqz.strings" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="Menu.AddFavoriteAction.Title">
@@ -1300,9 +1328,9 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="de">
+  <file datatype="plaintext" original="Extensions/Today/en.lproj/Cliqz.strings" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="TodayWidget.NewForgetTabButtonLabel">
@@ -1313,4 +1341,3 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
     </body>
   </file>
 </xliff>
-

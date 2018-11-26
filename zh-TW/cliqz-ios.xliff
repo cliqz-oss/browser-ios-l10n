@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="zh-TW">
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file datatype="plaintext" original="Client/en.lproj/Cliqz.strings" source-language="en_US" target-language="zh-TW">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
@@ -46,8 +45,8 @@
         <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
       <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.">
-        <source>A \"fair\" mode that shows ads in clearly defined cases only will be added soon.</source>
-        <target>不久將添加一個\"fair\"模式，它僅在明確界定的條件下顯示廣告。</target>
+        <source>A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
+        <target>不久將添加一個\&quot;fair\&quot;模式，它僅在明確界定的條件下顯示廣告。</target>
         <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
       <trans-unit id="About">
@@ -93,14 +92,17 @@
       </trans-unit>
       <trans-unit id="Ads, site analytics and adult advertising trackers">
         <source>Ads, site analytics and adult advertising trackers</source>
+        <target>廣告、網站分析和成人廣告網頁跟蹤器</target>
         <note>[Onboarding] Block Recommended TickButton SubTitle</note>
       </trans-unit>
       <trans-unit id="Adult Advertising">
         <source>Adult Advertising</source>
+        <target>成人廣告</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Advertising">
         <source>Advertising</source>
+        <target>廣告</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="All">
@@ -110,6 +112,7 @@
       </trans-unit>
       <trans-unit id="All Websites">
         <source>All Websites</source>
+        <target>所有網站</target>
         <note>[Enhanced Adblocker] Domains Button Title</note>
       </trans-unit>
       <trans-unit id="Allow Camera Access">
@@ -129,6 +132,7 @@
       </trans-unit>
       <trans-unit id="Audio/Video Player">
         <source>Audio/Video Player</source>
+        <target>音訊/視訊播放器</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Automatic Forget Tab">
@@ -164,6 +168,7 @@
       </trans-unit>
       <trans-unit id="Block Everything">
         <source>Block Everything</source>
+        <target>阻止所有內容</target>
         <note>[Onboarding] Block Everything TickButton Title</note>
       </trans-unit>
       <trans-unit id="Block Explicit Content">
@@ -173,18 +178,22 @@
       </trans-unit>
       <trans-unit id="Block Nothing">
         <source>Block Nothing</source>
+        <target>未阻止</target>
         <note>[Onboarding] Block Nothing TickButton Title</note>
       </trans-unit>
       <trans-unit id="Block Recommended">
         <source>Block Recommended</source>
+        <target>已建議阻止</target>
         <note>[Onboarding] Block Recommended TickButton Title</note>
       </trans-unit>
       <trans-unit id="Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!">
         <source>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!</source>
+        <target>有了Ghostery，瀏覽更乾淨、更快速并更安全，現在優化手機！</target>
         <note>[Onboarding] Intro Text</note>
       </trans-unit>
       <trans-unit id="Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile! Don't worry, all your data will be imported.">
         <source>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile! Don't worry, all your data will be imported.</source>
+        <target>有了Ghostery，瀏覽更乾淨、更快速并更安全，現在優化手機！不用擔心，您的所有數據將被導入。</target>
         <note>[Onboarding] Intro Text Old Users</note>
       </trans-unit>
       <trans-unit id="Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.">
@@ -199,10 +208,12 @@
       </trans-unit>
       <trans-unit id="But stay tuned to receive attractive discounts and bargains in the future">
         <source>But stay tuned to receive attractive discounts and bargains in the future</source>
+        <target>但敬請期待將來獲得具有吸引力的折扣和優惠。</target>
         <note>[MyOffrz] No offers text label</note>
       </trans-unit>
       <trans-unit id="But we'll keep looking for you and add them here as soon as we have one">
         <source>But we'll keep looking for you and add them here as soon as we have one</source>
+        <target>我們會為您查看，一旦我們發現即會將它們添加在此。</target>
         <note>[MyOffrz] No offers text label for DE</note>
       </trans-unit>
       <trans-unit id="CLIQZ has blocked access to %1$ because it has been reported as a phishing website.Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information">
@@ -229,6 +240,7 @@
       </trans-unit>
       <trans-unit id="Choose what you want Ghostery to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.">
         <source>Choose what you want Ghostery to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.</source>
+        <target>選擇您希望Ghostery 阻止的內容以獲得更乾淨、更快速和更安全的瀏覽體驗。您可在隱私控制中心隨時更改和定制這些設置。</target>
         <note>[Onboarding] Adblocker Text</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
@@ -268,6 +280,7 @@
       </trans-unit>
       <trans-unit id="Comments">
         <source>Comments</source>
+        <target>評論</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Complementary Search">
@@ -345,6 +358,7 @@
       </trans-unit>
       <trans-unit id="Customer Interaction">
         <source>Customer Interaction</source>
+        <target>客戶互動</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Dismiss">
@@ -374,6 +388,7 @@
       </trans-unit>
       <trans-unit id="Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.">
         <source>Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.</source>
+        <target>每個新起始標籤頁（Start Tab）已定制并可展示在頂尖網站上，即將有最新新聞和其他跟蹤見解。</target>
         <note>[Onboarding] Tab Text</note>
       </trans-unit>
       <trans-unit id="Empty TopSites hint">
@@ -388,14 +403,17 @@
       </trans-unit>
       <trans-unit id="Enhanced Adblocking is turned off for all websites.">
         <source>Enhanced Adblocking is turned off for all websites.</source>
+        <target>在所有網站關閉增強的廣告阻止（Adblocking）</target>
         <note>[Enhanced Adblocker] All Websites Label Title</note>
       </trans-unit>
       <trans-unit id="Enhanced Adblocking is turned off for this domain.">
         <source>Enhanced Adblocking is turned off for this domain.</source>
+        <target>本域已關閉增強的廣告阻止。</target>
         <note>[Enhanced Adblocker] Domain Label Title</note>
       </trans-unit>
       <trans-unit id="Essential">
         <source>Essential</source>
+        <target>基本內容</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Every new Tab comes with top sites, news and background image. Customize it to your needs.">
@@ -410,6 +428,7 @@
       </trans-unit>
       <trans-unit id="FAQ">
         <source>FAQ</source>
+        <target>常見問題解答</target>
         <note>[Settings] FAQ</note>
       </trans-unit>
       <trans-unit id="FAQ &amp; Support">
@@ -450,6 +469,7 @@
       </trans-unit>
       <trans-unit id="Get it from %@">
         <source>Get it from %@</source>
+        <target>從%@獲得</target>
         <note>Get it from the %link%</note>
       </trans-unit>
       <trans-unit id="Get the best out of CLIQZ">
@@ -459,6 +479,7 @@
       </trans-unit>
       <trans-unit id="Ghost Search">
         <source>Ghost Search</source>
+        <target>Ghost搜索</target>
         <note>[Onboarding] QuickSearch Title</note>
       </trans-unit>
       <trans-unit id="Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). ">
@@ -488,6 +509,7 @@
       </trans-unit>
       <trans-unit id="Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.">
         <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
+        <target>請幫助我們改善您的瀏覽體驗。Ghostery 蒐集十分隱匿的使用數據。任何情況下都不會收集任何個人數據。</target>
         <note>[Settings -&gt; Send Telemetry] Footer text</note>
       </trans-unit>
       <trans-unit id="Here you'll find a new offer every week">
@@ -497,10 +519,12 @@
       </trans-unit>
       <trans-unit id="Hey, I would like to invite you to try the %@ Browser.">
         <source>Hey, I would like to invite you to try the %@ Browser.</source>
+        <target>嗨，我想邀請您試用 %@瀏覽器。</target>
         <note>Sharing StartTab message</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
         <source>Open in New Ghost Tab</source>
+        <target>在新的 Ghost 標簽頁中打開</target>
         <note>The title for the Open in New Forget Tab context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NewForgetTab.DiscoveryTitle">
@@ -570,6 +594,7 @@
       </trans-unit>
       <trans-unit id="Menu.AddFavorite.Confirm">
         <source>Favorite Added</source>
+        <target>已添加收藏夾</target>
         <note>Toast displayed to the user after a bookmark has been added.</note>
       </trans-unit>
       <trans-unit id="Menu.AddFavoriteAction.Title">
@@ -579,10 +604,12 @@
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmarkAction.Title">
         <source>Remove Favorite</source>
+        <target>刪除收藏夾</target>
         <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveFavorite.Confirm">
         <source>Favorite Removed</source>
+        <target>已刪除收藏夾</target>
         <note>Toast displayed to the user after a bookmark has been removed.</note>
       </trans-unit>
       <trans-unit id="MoreNews">
@@ -718,6 +745,7 @@
       </trans-unit>
       <trans-unit id="Replace previous changes to site and global trackers with the recommended settings? (blocks Ads, Site Analytics, and Adult Advertising)">
         <source>Replace previous changes to site and global trackers with the recommended settings? (blocks Ads, Site Analytics, and Adult Advertising)</source>
+        <target>以建議的設定替代之前網站和通用網頁跟蹤器的更改？（阻止廣告，網站分析，以及成人廣告）</target>
         <note>[ControlCenter - Trackers list] Reset actionsheet title</note>
       </trans-unit>
       <trans-unit id="Report Website">
@@ -727,6 +755,7 @@
       </trans-unit>
       <trans-unit id="Reset">
         <source>Reset</source>
+        <target>重置</target>
         <note>[ControlCenter - Trackers list] Reset action title</note>
       </trans-unit>
       <trans-unit id="Restore Default Settings">
@@ -787,6 +816,7 @@
       </trans-unit>
       <trans-unit id="Seems like we don't have any offers">
         <source>Seems like we don't have any offers</source>
+        <target>看起來似乎我們沒有任何優惠</target>
         <note>[MyOffrz] No offers title label for DE</note>
       </trans-unit>
       <trans-unit id="Select trackers to block">
@@ -806,8 +836,8 @@
         <note>[Settings] Send usage data</note>
       </trans-unit>
       <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
-        <source>Set \"HTTP PROXY\" to \"Auto\"</source>
-        <target>把 \"HTTP PROXY\" 設定為 \自動 (\"Auto\")</target>
+        <source>Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;</source>
+        <target>把 \&quot;HTTP PROXY\&quot; 設定為 \自動 (\&quot;Auto\&quot;)</target>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">
@@ -820,14 +850,17 @@
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInCliqzAction.Title">
         <source>Open in Ghostery</source>
+        <target>在Ghostery中打開</target>
         <note>Action label on share extension to immediately open page in Ghostery.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInCliqzAction.Title">
         <source>Search in Ghostery</source>
+        <target>在Ghostery中搜索</target>
         <note>Action label on share extension to search for the selected text in Ghostery.</note>
       </trans-unit>
       <trans-unit id="Shared with %@ Browser for iOS">
         <source>Shared with %@ Browser for iOS</source>
+        <target>共享iOS的%@瀏覽器</target>
         <note>Shared with [Cliqz Browser | Ghostery Browser] for iOS</note>
       </trans-unit>
       <trans-unit id="Show News">
@@ -842,10 +875,12 @@
       </trans-unit>
       <trans-unit id="Site Analytics">
         <source>Site Analytics</source>
+        <target>網站分析</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Social Media">
         <source>Social Media</source>
+        <target>社交媒體</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Sorry but devices could not be connected. Please try again.">
@@ -865,6 +900,7 @@
       </trans-unit>
       <trans-unit id="Stay anonymous, reduce data usage, and save time: results appear instantly as you type in the Ghost search bar.">
         <source>Stay anonymous, reduce data usage, and save time: results appear instantly as you type in the Ghost search bar.</source>
+        <target>保存匿名，減少數據使用并節省時間：您在Ghost搜索欄中鍵入時即顯示結果。</target>
         <note>[Onboarding] QuickSearch Text</note>
       </trans-unit>
       <trans-unit id="Subscribe">
@@ -879,6 +915,7 @@
       </trans-unit>
       <trans-unit id="Support">
         <source>Support</source>
+        <target>支援</target>
         <note>[Settings] Support</note>
       </trans-unit>
       <trans-unit id="Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.">
@@ -918,10 +955,12 @@
       </trans-unit>
       <trans-unit id="This Domain">
         <source>This Domain</source>
+        <target>本域</target>
         <note>[Enhanced Adblocker] Domains Button Title</note>
       </trans-unit>
       <trans-unit id="This feature blocks advertisments on websites you visit.">
         <source>This feature blocks advertisments on websites you visit.</source>
+        <target>該功能阻止您登訪網站的廣告。</target>
         <note>[ControlCenter -&gt; Overview] Ad Blocking description</note>
       </trans-unit>
       <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
@@ -966,6 +1005,7 @@
       </trans-unit>
       <trans-unit id="Uncategorized">
         <source>Uncategorized</source>
+        <target>未分類的</target>
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Undo">
@@ -1000,6 +1040,7 @@
       </trans-unit>
       <trans-unit id="We don't have any offers for your country yet">
         <source>We don't have any offers for your country yet</source>
+        <target>我們還沒有針對您的國家的任何優惠</target>
         <note>[MyOffrz] No offers title label</note>
       </trans-unit>
       <trans-unit id="We use opensource software Sentry (http://sentry.io) for our crash reports. These reports do not contain any personal data.">
@@ -1095,82 +1136,97 @@
       </trans-unit>
       <trans-unit id="region-IT">
         <source>Italy</source>
+        <target>意大利</target>
         <note>Localized String for Italy region</note>
       </trans-unit>
       <trans-unit id="region-ES">
         <source>Spain</source>
+        <target>西班牙</target>
         <note>Localized String for Spain region</note>
       </trans-unit>
       <trans-unit id="region-UK">
         <source>United Kingdom</source>
+        <target>英國</target>
         <note>Localized String for United Kingdom region</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US" target-language="zh-TW">
+  <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en_US" target-language="zh-TW">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
         <target>Ghostery</target>
+        
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
         <target>Ghostery</target>
+        
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you scan, take and upload videos or photos.</source>
         <target>這可讓您掃描、拍攝及上傳影片或照片。</target>
+        
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
         <source>Ghostery requires Face ID to access your saved logins.</source>
         <target>Ghostery 需要臉部辨識 (Face ID) 才能存取您儲存的登入資訊。</target>
+        
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Location-based features or websites you visit may request your location.</source>
+        <target>基於位置的特色和您所登訪的網站可能要求獲得您的位址。</target>
+        
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
         <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
         <target>當您選擇在瀏覽器中錄製影片時，Ghostery 只會使用麥克風。</target>
+        
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <target>Ghostery 僅使用此存取權限將影片和圖片下載到您的裝置中。</target>
+        
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <target>Ghostery 僅使用此存取權限將影片和圖片下載到您的裝置中。</target>
+        
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Ghost Tab</source>
         <target>新的 Ghost 標簽頁</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
         <target>新的標簽頁</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleQRCode">
         <source>Scan QR-Code</source>
         <target>掃描二維碼</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="zh-TW">
+  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en_US" target-language="zh-TW">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
@@ -1282,9 +1338,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="zh-TW">
+  <file datatype="plaintext" original="Extensions/ShareTo/en.lproj/Cliqz.strings" source-language="en_US" target-language="zh-TW">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="Menu.AddFavoriteAction.Title">
@@ -1294,17 +1350,19 @@
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInCliqzAction.Title">
         <source>Open in Ghostery</source>
+        <target>在Ghostery中打開</target>
         <note>Action label on share extension to immediately open page in Ghostery.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInCliqzAction.Title">
         <source>Search in Ghostery</source>
+        <target>在Ghostery中搜索</target>
         <note>Action label on share extension to search for the selected text in Ghostery.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="zh-TW">
+  <file datatype="plaintext" original="Extensions/Today/en.lproj/Cliqz.strings" source-language="en_US" target-language="zh-TW">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
     </header>
     <body>
       <trans-unit id="TodayWidget.NewForgetTabButtonLabel">
@@ -1315,4 +1373,3 @@
     </body>
   </file>
 </xliff>
-

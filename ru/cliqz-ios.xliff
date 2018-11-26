@@ -295,7 +295,7 @@
       </trans-unit>
       <trans-unit id="Configured Settings">
         <source>Configured Settings</source>
-        <target>Нстроенные параметры</target>
+        <target>Настроенные параметры</target>
         <note>[WiFi Protection] Configured Settings</note>
       </trans-unit>
       <trans-unit id="Connect">
@@ -469,7 +469,7 @@
       </trans-unit>
       <trans-unit id="Get it from %@">
         <source>Get it from %@</source>
-        <target>Установить: %@</target>
+        <target>Получить: %@</target>
         <note>Get it from the %link%</note>
       </trans-unit>
       <trans-unit id="Get the best out of CLIQZ">
@@ -509,7 +509,7 @@
       </trans-unit>
       <trans-unit id="Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.">
         <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
-        <target>Помогите нам сделать Вашу работу в Интернете более эффективной. Ghostery собирает исключительно анонимные данные об использовании. Ни в коем случае не осуществляется сбор личных данных.</target>
+        <target>Помогите нам улучшить ваш опыт работы в Интернете. Ghostery собирает только анонимные данные об использовании. Ни в коем случае не собираются личные данные.</target>
         <note>[Settings -&gt; Send Telemetry] Footer text</note>
       </trans-unit>
       <trans-unit id="Here you'll find a new offer every week">
@@ -519,7 +519,7 @@
       </trans-unit>
       <trans-unit id="Hey, I would like to invite you to try the %@ Browser.">
         <source>Hey, I would like to invite you to try the %@ Browser.</source>
-        <target>Попробуйте %@ браузер!</target>
+        <target>Я хотел бы предложить вам попробовать браузер %@.</target>
         <note>Sharing StartTab message</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
@@ -584,7 +584,7 @@
       </trans-unit>
       <trans-unit id="Limit Mobile Data Usage">
         <source>Limit Mobile Data Usage</source>
-        <target>Ограничить мобильные данные</target>
+        <target>Ограничить мобил. данные</target>
         <note>[Settings] Limit Mobile Data Usage</note>
       </trans-unit>
       <trans-unit id="Looks like Ghostery crashed previously. Would you like to restore your tabs?">
@@ -859,7 +859,7 @@
       </trans-unit>
       <trans-unit id="Shared with %@ Browser for iOS">
         <source>Shared with %@ Browser for iOS</source>
-        <target>Отправлено с помощью %@ браузера для iOS</target>
+        <target>В общем доступе с браузером %@ для iOS</target>
         <note>Shared with [Cliqz Browser | Ghostery Browser] for iOS</note>
       </trans-unit>
       <trans-unit id="Show News">
@@ -959,7 +959,7 @@
       </trans-unit>
       <trans-unit id="This feature blocks advertisments on websites you visit.">
         <source>This feature blocks advertisments on websites you visit.</source>
-        <target>Эта функция блокирует рекламу на сайтах, которые Вы посещаете.</target>
+        <target>Эта функция блокирует рекламу на посещаемых вами сайтах.</target>
         <note>[ControlCenter -&gt; Overview] Ad Blocking description</note>
       </trans-unit>
       <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
@@ -1181,7 +1181,7 @@
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Location-based features or websites you visit may request your location.</source>
-        <target>Некоторые функции или веб-сайты, которые Вы посещаете, могут запросить Ваше местоположение.</target>
+        <target>Географически привязанные функции и посещаемые сайты могут запрашивать местоположение.</target>
         
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
@@ -1305,12 +1305,12 @@
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/other:dict/:string">
         <source>%d Trackers Blocked</source>
-        <target>Заблокированно %d трекера</target>
+        <target>Заблокировано %d трекера</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/zero:dict/:string">
         <source>%d Trackers Blocked</source>
-        <target>Заблокированно %d трекеров</target>
+        <target>Заблокировано %d трекеров</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/NSStringLocalizedFormatKey:dict/:string">

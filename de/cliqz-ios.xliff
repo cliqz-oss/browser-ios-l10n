@@ -117,7 +117,7 @@
       </trans-unit>
       <trans-unit id="All most visited websites will be shown again on the startpage.">
         <source>All most visited websites will be shown again on the startpage.</source>
-        <note>[Settings] Text of the 'Restore Most Visited Websites' alert</note><target></target>
+        <note>[Settings] Text of the 'Restore Most Visited Websites' alert</note>
       </trans-unit>
       <trans-unit id="Allow Camera Access">
         <source>Allow Camera Access</source>

@@ -333,6 +333,7 @@
       <trans-unit id="Empty TopSites hint">
         <source>Your most visited sites will show up here</source>
         <note>Hint on Freshtab when there is no topsites</note>
+        <target>Your most visited sites will show up here</target>
       </trans-unit>
       <trans-unit id="Enhanced Ad Blocking">
         <source>Enhanced Ad Blocking</source>

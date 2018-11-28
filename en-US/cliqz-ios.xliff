@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
     </header>
@@ -23,6 +22,7 @@
       </trans-unit>
       <trans-unit id="**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. \n\n**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.">
         <source>**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. \n\n**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.</source>
+        <target>**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. \n\n**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.</target>
         <note>[WiFi Protection] Notes</note>
       </trans-unit>
       <trans-unit id="1 hour">
@@ -48,6 +48,7 @@
       </trans-unit>
       <trans-unit id="About MyOffrz">
         <source>About Ghostery Rewards</source>
+        <target>About Ghostery Rewards</target>
         <note>[Settings] About MyOffrz</note>
       </trans-unit>
       <trans-unit id="Activate push notification to use this feature. Go to settings to allow push notifications then retry.">
@@ -93,6 +94,10 @@
       <trans-unit id="All Websites">
         <source>All Websites</source>
         <note>[Enhanced Adblocker] Domains Button Title</note>
+      </trans-unit>
+      <trans-unit id="All most visited websites will be shown again on the startpage.">
+        <source>All most visited websites will be shown again on the startpage.</source>
+        <note>[Settings] Text of the 'Restore Most Visited Websites' alert</note>
       </trans-unit>
       <trans-unit id="Allow Camera Access">
         <source>Allow Camera Access</source>
@@ -153,14 +158,17 @@
       </trans-unit>
       <trans-unit id="Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!">
         <source>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!</source>
+        <target>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!</target>
         <note>[Onboarding] Intro Text</note>
       </trans-unit>
       <trans-unit id="Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile! Don't worry, all your data will be imported.">
         <source>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile! Don't worry, all your data will be imported.</source>
+        <target>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile! Don't worry, all your data will be imported.</target>
         <note>[Onboarding] Intro Text Old Users</note>
       </trans-unit>
       <trans-unit id="Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.">
         <source>Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.</source>
+        <target>Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.</target>
         <note>[Onboarding] Adblocker Text</note>
       </trans-unit>
       <trans-unit id="Browsing &amp; History">
@@ -177,12 +185,14 @@
       </trans-unit>
       <trans-unit id="CLIQZ has blocked access to %1$ because it has been reported as a phishing website.Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information">
         <source>Ghostery has blocked access to %1$ because it has been reported as a phishing website.\nPhishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information.</source>
+        <target>Ghostery has blocked access to %1$ because it has been reported as a phishing website.\nPhishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information.</target>
         <note>Antiphishing alert message</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
         <note>[ControlCenter - Trackers list] Cancel action title
    Cancel
+   Cancel button in the 'Show blocked top-sites' alert
    Cancel button title in the urlbar</note>
       </trans-unit>
       <trans-unit id="Categories">
@@ -195,23 +205,23 @@
       </trans-unit>
       <trans-unit id="Choose what you want Ghostery to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.">
         <source>Choose what you want Ghostery to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.</source>
+        <target>Choose what you want Ghostery to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.</target>
         <note>[Onboarding] Adblocker Text</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
         <source>Ghostery Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
+        <target>Ghostery Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</target>
         <note>[Connect] Alert message for turning on Camera access when Scanning QR Code</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.">
         <source>Ghostery Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.</source>
+        <target>Ghostery Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.</target>
         <note>[Settings -&gt; Block Ads] Block Ads footer</note>
       </trans-unit>
       <trans-unit id="Cliqz works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.">
         <source>Ghostery works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.</source>
+        <target>Ghostery works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.</target>
         <note>[Settings -&gt; Human Web]Footer text for Fair Blocking section</note>
-      </trans-unit>
-      <trans-unit id="Ghostery would like to access your Photos">
-        <source>Ghostery would like to access your Photos</source>
-        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Close Forget Tabs">
         <source>Close Ghost Tabs</source>
@@ -316,6 +326,10 @@
         <source>Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.</source>
         <note>[Onboarding] Tab Text</note>
       </trans-unit>
+      <trans-unit id="Email">
+        <source>Email</source>
+        <note>Email</note>
+      </trans-unit>
       <trans-unit id="Empty TopSites hint">
         <source>Your most visited sites will show up here</source>
         <note>Hint on Freshtab when there is no topsites</note>
@@ -383,6 +397,7 @@
       </trans-unit>
       <trans-unit id="Get the best out of CLIQZ">
         <source>Get the best out of Ghostery</source>
+        <target>Get the best out of Ghostery</target>
         <note>[Settings] Get the best out of CLIQZ</note>
       </trans-unit>
       <trans-unit id="Ghost Search">
@@ -391,7 +406,13 @@
       </trans-unit>
       <trans-unit id="Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). ">
         <source>Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). </source>
+        <target>Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). </target>
         <note>[WiFi Protection] Description</note>
+      </trans-unit>
+      <trans-unit id="Ghostery would like to access your Photos">
+        <source>Ghostery would like to access your Photos</source>
+        <target>Ghostery would like to access your Photos</target>
+        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Global Trackers">
         <source>All Trackers</source>
@@ -405,12 +426,17 @@
         <source>Go to Settings &gt; WiFi settings</source>
         <note>[WiFi Protection] First step description</note>
       </trans-unit>
+      <trans-unit id="Have fun with your free two-week trial and take your time to explore all Lumen features!">
+        <source>Have fun with your free two-week trial and take your time to explore all Lumen features!</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Help">
         <source>Help</source>
         <note>[Settings] Help section header</note>
       </trans-unit>
       <trans-unit id="Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.">
         <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
+        <target>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.</target>
         <note>[Settings -&gt; Send Telemetry] Footer text</note>
       </trans-unit>
       <trans-unit id="Here you'll find a new offer every week">
@@ -420,14 +446,6 @@
       <trans-unit id="Hey, I would like to invite you to try the %@ Browser.">
         <source>Hey, I would like to invite you to try the %@ Browser.</source>
         <note>Sharing StartTab message</note>
-      </trans-unit>
-      <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
-        <source>Open in New Ghost Tab</source>
-        <note>The title for the Open in New Forget Tab context menu action for sites in Home Panels</note>
-      </trans-unit>
-      <trans-unit id="Hotkeys.NewForgetTab.DiscoveryTitle">
-        <source>New Ghost Tab</source>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Human Web">
         <source>Human Web</source>
@@ -443,18 +461,22 @@
       </trans-unit>
       <trans-unit id="Introducing Ghostery">
         <source>Introducing Ghostery</source>
+        <target>Introducing Ghostery</target>
         <note>[Onboarding] Intro Title</note>
       </trans-unit>
       <trans-unit id="Introducing New Ghostery">
         <source>Introducing New Ghostery</source>
+        <target>Introducing New Ghostery</target>
         <note>[Onboarding] Intro Title Old Users</note>
       </trans-unit>
       <trans-unit id="Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.">
         <source>Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.  By using this app you agree to Ghostery's Privacy Policy</source>
+        <target>Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported. By using this app you agree to Ghostery's Privacy Policy</target>
         <note>[Onboarding] Intro Text Old Users</note>
       </trans-unit>
       <trans-unit id="Keep your browsing cleaner, faster, and safer.">
         <source>Keep your browsing cleaner, faster, and safer. By using this app you agree to Ghostery's Privacy Policy</source>
+        <target>Keep your browsing cleaner, faster, and safer. By using this app you agree to Ghostery's Privacy Policy</target>
         <note>[Onboarding] Intro Text</note>
       </trans-unit>
       <trans-unit id="LEARN MORE">
@@ -473,9 +495,18 @@
         <source>Limit Mobile Data Usage</source>
         <note>[Settings] Limit Mobile Data Usage</note>
       </trans-unit>
+      <trans-unit id="Login">
+        <source>Login</source>
+        <note>Back Button Title</note>
+      </trans-unit>
       <trans-unit id="Looks like Ghostery crashed previously. Would you like to restore your tabs?">
         <source>Looks like Ghostery crashed previously. Would you like to restore your tabs?</source>
+        <target>Looks like Ghostery crashed previously. Would you like to restore your tabs?</target>
         <note>Restore Tabs Prompt Description</note>
+      </trans-unit>
+      <trans-unit id="Lumen Browser">
+        <source>Lumen Browser</source>
+        <note>Lumen Browser</note>
       </trans-unit>
       <trans-unit id="Menu.AddFavorite.Confirm">
         <source>Favorite Added</source>
@@ -503,7 +534,12 @@
       </trans-unit>
       <trans-unit id="New Tab">
         <source>New Tab</source>
+        <target>New Tab</target>
         <note>Title of New Tab on iPad</note>
+      </trans-unit>
+      <trans-unit id="Next">
+        <source>Next</source>
+        <note>Next</note>
       </trans-unit>
       <trans-unit id="No Wi-Fi Connection message">
         <source>You are not connected to a Wi-Fi network and video downloads with mobile data is restricted. \nTo change this, go to Settings &gt; Limit Mobile Data Usage.\n</source>
@@ -542,6 +578,14 @@
         <source>Online</source>
         <note>[Settings -&gt; Connect] Online status</note>
       </trans-unit>
+      <trans-unit id="Open Mail">
+        <source>Open Mail</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Open Mail App">
+        <source>Open Mail App</source>
+        <note>Next</note>
+      </trans-unit>
       <trans-unit id="Open the Photos">
         <source>Open</source>
         <note>[VidoeDownloader] Toast button text shown when youtube video is Successfully downloaded</note>
@@ -556,6 +600,7 @@
       </trans-unit>
       <trans-unit id="Pause Ghostery">
         <source>Pause Ghostery</source>
+        <target>Pause Ghostery</target>
         <note>[ControlCenter -&gt; Overview] Pause Ghostery button title</note>
       </trans-unit>
       <trans-unit id="Please select video quality">
@@ -584,6 +629,7 @@
       </trans-unit>
       <trans-unit id="Receive attractive discounts and bargains with MyOffrz.">
         <source>Receive attractive discounts and bargains with Ghostery Rewards.</source>
+        <target>Receive attractive discounts and bargains with Ghostery Rewards.</target>
         <note>[MyOffrz] MyOffrz description</note>
       </trans-unit>
       <trans-unit id="Refresh">
@@ -606,6 +652,10 @@
         <source>Report Website</source>
         <note>[Settings] Report Website</note>
       </trans-unit>
+      <trans-unit id="Resend Activation Link">
+        <source>Resend Activation Link</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Reset">
         <source>Reset</source>
         <note>[ControlCenter - Trackers list] Reset action title</note>
@@ -613,6 +663,10 @@
       <trans-unit id="Restore Default Settings">
         <source>Restore Default Settings</source>
         <note>[ControlCenter - Trackers list] Restore Default Settings trackers action title</note>
+      </trans-unit>
+      <trans-unit id="Restore Most Visited Websites">
+        <source>Restore Most Visited Websites</source>
+        <note>[Settings] Restore Most Visited Websites</note>
       </trans-unit>
       <trans-unit id="Restrict">
         <source>Restrict</source>
@@ -645,7 +699,8 @@
       </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
-        <note>[Settings] Search section title</note>
+        <note>[Settings] Complementary Search
+   [Settings] Search section title</note>
       </trans-unit>
       <trans-unit id="Search Query Suggestions">
         <source>Search Query Suggestions</source>
@@ -654,6 +709,10 @@
       <trans-unit id="Search Results for">
         <source>Search Results for</source>
         <note>[Settings] Search Results for</note>
+      </trans-unit>
+      <trans-unit id="See the Web in a whole new light with Lumen Browser!">
+        <source>See the Web in a whole new light with Lumen Browser!</source>
+        <note>Description</note>
       </trans-unit>
       <trans-unit id="Seems like we don't have any offers">
         <source>Seems like we don't have any offers</source>
@@ -684,10 +743,12 @@
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInCliqzAction.Title">
         <source>Open in Ghostery</source>
+        <target>Open in Ghostery</target>
         <note>Action label on share extension to immediately open page in Ghostery.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInCliqzAction.Title">
         <source>Search in Ghostery</source>
+        <target>Open in Ghostery</target>
         <note>Action label on share extension to search for the selected text in Ghostery.</note>
       </trans-unit>
       <trans-unit id="Shared with %@ Browser for iOS">
@@ -718,6 +779,10 @@
         <source>Sorry, we encountered some technical difficulties. Please try again</source>
         <note>[Subscriptions] Alert message when failing to subscribe to soccer notification</note>
       </trans-unit>
+      <trans-unit id="Start">
+        <source>Start</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Start Tab">
         <source>Start Tab</source>
         <note>[Onboarding] Freshtab Title</note>
@@ -740,6 +805,7 @@
       </trans-unit>
       <trans-unit id="Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.">
         <source>Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.</source>
+        <target>Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.</target>
         <note>[Onboarding] Telemetry</note>
       </trans-unit>
       <trans-unit id="Swipe">
@@ -762,6 +828,10 @@
         <source>Terms</source>
         <note>[MyOffrz] Conditions title</note>
       </trans-unit>
+      <trans-unit id="Terms and Conditions">
+        <source>Terms and Conditions</source>
+        <note>Terms and Conditions</note>
+      </trans-unit>
       <trans-unit id="The download is complete.">
         <source>The download is complete.</source>
         <note>[VidoeDownloader] Toast message shown when youtube video is Successfully downloaded</note>
@@ -776,10 +846,12 @@
       </trans-unit>
       <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
         <source>To share your location, go to the settings for the Ghostery app:\n\n1. Tap Location\n2. Enable 'While Using'</source>
+        <target>To share your location, go to the settings for the Ghostery app:\n\n1. Tap Location\n2. Enable 'While Using'</target>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="To share your location, go to the settings of your smartphone:\n1.Turn on Location Services\n2.Select the CLIQZ App\n3.Enable 'While Using'">
         <source>To share your location, go to the settings of your smartphone:\n\n1. Turn on Location Services\n2. Select the Ghostery App\n3. Enable 'While Using'</source>
+        <target>To share your location, go to the settings of your smartphone:\n\n1. Turn on Location Services\n2. Select the Ghostery App\n3. Enable 'While Using'</target>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="Trackers">
@@ -838,6 +910,10 @@
         <source>We don't have any offers for your country yet</source>
         <note>[MyOffrz] No offers title label</note>
       </trans-unit>
+      <trans-unit id="We just sent you an activation link. Please check your inbox and open the link to confirm your account.">
+        <source>We just sent you an activation link. Please check your inbox and open the link to confirm your account.</source>
+        <note>Next</note>
+      </trans-unit>
       <trans-unit id="We use opensource software Sentry (http://sentry.io) for our crash reports. These reports do not contain any personal data.">
         <source>We use opensource software Sentry (http://sentry.io) for our crash reports. These reports do not contain any personal data.</source>
         <note>[Settings -&gt; Send Crash Reports] Footer text</note>
@@ -845,6 +921,10 @@
       <trans-unit id="Websites which are known to contain explicit content are automatically opened in Forget Tabs. Visits to such websites are therefore not saved to your history.">
         <source>Websites which are known to contain explicit content are automatically opened in Ghost Tabs. Visits to such websites are therefore not saved to your history.</source>
         <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
+      </trans-unit>
+      <trans-unit id="Welcome to Lumen!">
+        <source>Welcome to Lumen!</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Well, this is embarrassing.">
         <source>Well, this is embarrassing.</source>
@@ -856,6 +936,7 @@
       </trans-unit>
       <trans-unit id="When Opening Ghostery">
         <source>When Opening Ghostery</source>
+        <target>When Opening Ghostery</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
       </trans-unit>
       <trans-unit id="WiFi Protection">
@@ -891,6 +972,10 @@
         <source>You will be notified about games, goals and important happenings of the {1}.</source>
         <note>[Subscriptions] Alert message for asking to subscribe for soccer notificaiton</note>
       </trans-unit>
+      <trans-unit id="Your account is almost ready!">
+        <source>Your account is almost ready!</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Your video is being downloaded.">
         <source>Your video is being downloaded.</source>
         <note>[VidoeDownloader] Toast message shown when youtube video download started</note>
@@ -903,29 +988,68 @@
         <source>Germany</source>
         <note>Localized String for German region</note>
       </trans-unit>
+      <trans-unit id="region-ES">
+        <source>Spain</source>
+        <note>Localized String for Spain region</note>
+      </trans-unit>
       <trans-unit id="region-FR">
         <source>France</source>
         <note>Localized String for France region</note>
       </trans-unit>
-      <trans-unit id="region-US">
-        <source>United States</source>
-        <note>Localized String for United States region</note>
+      <trans-unit id="region-GB">
+        <source>United Kingdom</source>
+        <note>Localized String for United Kingdom region</note>
       </trans-unit>
       <trans-unit id="region-IT">
         <source>Italy</source>
         <note>Localized String for Italy region</note>
       </trans-unit>
-      <trans-unit id="region-ES">
-        <source>Spain</source>
-        <note>Localized String for Spain region</note>
-      </trans-unit>
-      <trans-unit id="region-UK">
-        <source>United Kingdom</source>
-        <note>Localized String for United Kingdom region</note>
+      <trans-unit id="region-US">
+        <source>United States</source>
+        <note>Localized String for United States region</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US">
+  <file original="Client/en.lproj/Ghostery.strings" datatype="plaintext" source-language="en_US" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+    </header>
+    <body>
+      <trans-unit id="Close Forget Tabs">
+        <source>Close Forget Tabs</source>
+        <note>Setting for closing forget tabs</note><target>Close Ghost Tabs</target>
+      </trans-unit>
+      <trans-unit id="Forget Mode">
+        <source>Forget Mode</source>
+        <note>Title displayed for when there are no open tabs while in forget mode</note><target>Ghost Mode</target>
+      </trans-unit>
+      <trans-unit id="Ghost Tabs">
+        <source>Ghost Tabs</source>
+        <note>Ghost tabs toogle button in tab overview</note>
+      </trans-unit>
+      <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
+        <source>Open in New Ghost Tab</source>
+        <note>The title for the Open in New Forget Tab context menu action for sites in Home Panels</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.NewForgetTab.DiscoveryTitle">
+        <source>New Ghost Tab</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
+      <trans-unit id="Websites which are known to contain explicit content are automatically opened in Ghost Tabs. Visits to such websites are therefore not saved to your history.">
+        <source>Websites which are known to contain explicit content are automatically opened in Ghost Tabs. Visits to such websites are therefore not saved to your history.</source>
+        <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
+      </trans-unit>
+      <trans-unit id="When Leaving Forget Mode">
+        <source>When Leaving Forget Mode</source>
+        <note>Will be displayed in Settings under 'Close Forget Tabs'</note><target>When Leaving Ghost Mode</target>
+      </trans-unit>
+      <trans-unit id="You are browsing in Forget Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.">
+        <source>You are browsing in Forget Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
+        <note>Description text displayed when there are no open tabs while in forget mode</note><target>You are browsing in Ghost Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US" target-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
     </header>
@@ -942,7 +1066,6 @@
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you scan, take and upload videos or photos.</source>
-        <target>This lets you scan, take and upload videos or photos.</target>
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
@@ -952,7 +1075,6 @@
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Location-based features or websites you visit may request your location.</source>
-        <target>Location-based features or websites you visit may request your location.</target>
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
@@ -970,9 +1092,12 @@
         <target>Ghostery will only use this access to download videos and pictures to your device.</target>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
-      <trans-unit id="ShortcutItemTitleNewPrivateTab">
+      <trans-unit id="ShortcutItemTitleNewGhostTab">
         <source>New Ghost Tab</source>
-        <target>New Ghost Tab</target>
+        <note>(No Comment)</note>
+      </trans-unit>
+      <trans-unit id="ShortcutItemTitleNewPrivateTab">
+        <source>New Private Tab</source>
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
@@ -987,74 +1112,204 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US">
+  <file original="Client/en.lproj/Lumen.strings" datatype="plaintext" source-language="en_US" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+    </header>
+    <body>
+      <trans-unit id="As safe as at home or in the office – wherever you are.">
+        <source>As safe as at home or in the office – wherever you are.</source>
+        <note>[Onboarding] VPN text</note>
+      </trans-unit>
+      <trans-unit id="Available VPN Locations">
+        <source>Available VPN Locations</source>
+        <note>[VPN] vpn locations</note>
+      </trans-unit>
+      <trans-unit id="Block Ads &amp; Trackers">
+        <source>Block Ads &amp; Trackers</source>
+        <note>[Onboarding] Adblocker title</note>
+      </trans-unit>
+      <trans-unit id="CONNECT">
+        <source>CONNECT</source>
+        <note>[VPN] vpn button</note>
+      </trans-unit>
+      <trans-unit id="CONNECTING">
+        <source>CONNECTING</source>
+        <note>[VPN] vpn button</note>
+      </trans-unit>
+      <trans-unit id="Choose VPN Location">
+        <source>Choose VPN Location</source>
+        <note>[VPN] vpn choose location</note>
+      </trans-unit>
+      <trans-unit id="Close Private Tabs">
+        <source>Close Private Tabs</source>
+        <note>Setting for closing private tabs</note>
+      </trans-unit>
+      <trans-unit id="DISCONNECT">
+        <source>DISCONNECT</source>
+        <note>[VPN] vpn button</note>
+      </trans-unit>
+      <trans-unit id="DISCONNECTING">
+        <source>DISCONNECTING</source>
+        <note>[VPN] vpn button</note>
+      </trans-unit>
+      <trans-unit id="Dashboard">
+        <source>Dashboard</source>
+        <note>[Onboarding] Dashboard title</note>
+      </trans-unit>
+      <trans-unit id="Enjoy pure websites without the clutter and safe data &amp; time.">
+        <source>Enjoy pure websites without the clutter and safe data &amp; time.</source>
+        <note>[Onboarding] Adblocker text</note>
+      </trans-unit>
+      <trans-unit id="GET STARTED">
+        <source>GET STARTED</source>
+        <note>[Onboarding] Get Started button text</note>
+      </trans-unit>
+      <trans-unit id="Germany">
+        <source>Germany</source>
+        <note>VPN country name for Germany</note>
+      </trans-unit>
+      <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab">
+        <source>Open in New Private Tab</source>
+        <note>The title for the Open in New Forget Tab context menu action for sites in Home Panels</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.NewPrivateTab.DiscoveryTitle">
+        <source>New Private Tab</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
+      <trans-unit id="I agree to sharing strictly anonymous analytics data to improve Lumen's performance.">
+        <source>I agree to sharing strictly anonymous analytics data to improve Lumen's performance.</source>
+        <note>[Onboarding] Telemetry</note>
+      </trans-unit>
+      <trans-unit id="LUMEN">
+        <source>LUMEN</source>
+        <note>[Onboarding] Intro Title</note>
+      </trans-unit>
+      <trans-unit id="Lumen brings to light what happens in the shadows and protects you.">
+        <source>Lumen brings to light what happens in the shadows and protects you.</source>
+        <note>[Onboarding] Dashboard text</note>
+      </trans-unit>
+      <trans-unit id="Private Mode">
+        <source>Private Mode</source>
+        <note>Title displayed for when there are no open tabs while in private mode</note>
+      </trans-unit>
+      <trans-unit id="Private Tabs">
+        <source>Private Tabs</source>
+        <note>Private tabs toogle button in tab overview</note>
+      </trans-unit>
+      <trans-unit id="RETRY">
+        <source>RETRY</source>
+        <note>[VPN] vpn button</note>
+      </trans-unit>
+      <trans-unit id="See the Web in a whole new light!">
+        <source>See the Web in a whole new light!</source>
+        <note>[Onboarding] Intro text</note>
+      </trans-unit>
+      <trans-unit id="Tap 'connect' to browse the Internet with VPN protection.">
+        <source>Tap 'connect' to browse the Internet with VPN protection.</source>
+        <note>[VPN] vpn info label text</note>
+      </trans-unit>
+      <trans-unit id="USA">
+        <source>USA</source>
+        <note>VPN country name for USA</note>
+      </trans-unit>
+      <trans-unit id="Websites which are known to contain explicit content are automatically opened in Private Tabs. Visits to such websites are therefore not saved to your history.">
+        <source>Websites which are known to contain explicit content are automatically opened in Private Tabs. Visits to such websites are therefore not saved to your history.</source>
+        <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
+      </trans-unit>
+      <trans-unit id="When Leaving Private Mode">
+        <source>When Leaving Private Mode</source>
+        <note>Will be displayed in Settings under 'Close Private Tabs'</note>
+      </trans-unit>
+      <trans-unit id="You are browsing in Private Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.">
+        <source>You are browsing in Private Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
+        <note>Description text displayed when there are no open tabs while in private mode</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
     </header>
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%1$#@trackers@ %2$#@blocked@</source>
+        <target>%1$#@trackers@ %2$#@blocked@</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/one:dict/:string">
         <source>%d Blocked</source>
+        <target>%d Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/other:dict/:string">
         <source>%d Blocked</source>
+        <target>%d Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/zero:dict/:string">
         <source>%d Blocked</source>
+        <target>%d Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/one:dict/:string">
         <source>%d TRACKER</source>
+        <target>%d TRACKER</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/other:dict/:string">
         <source>%d TRACKERS</source>
+        <target>%d TRACKERS</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/zero:dict/:string">
         <source>%d TRACKERS</source>
+        <target>%d TRACKERS</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%#@trackers@</source>
+        <target>%#@trackers@</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/one:dict/:string">
         <source>%d Tracker Blocked</source>
+        <target>%d Tracker Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/other:dict/:string">
         <source>%d Trackers Blocked</source>
+        <target>%d Trackers Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/zero:dict/:string">
         <source>%d Trackers Blocked</source>
+        <target>%d Trackers Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%#@trackers@</source>
+        <target>%#@trackers@</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/one:dict/:string">
         <source>%d Tracker found</source>
+        <target>%d Tracker found</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/other:dict/:string">
         <source>%d Trackers found</source>
+        <target>%d Trackers found</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/zero:dict/:string">
         <source>%d Trackers found</source>
+        <target>%d Trackers found</target>
         <note/>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US">
+  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
     </header>
@@ -1065,24 +1320,26 @@
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInCliqzAction.Title">
         <source>Open in Ghostery</source>
+        <target>Open in Ghostery</target>
         <note>Action label on share extension to immediately open page in Ghostery.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInCliqzAction.Title">
         <source>Search in Ghostery</source>
+        <target>Search in Ghostery</target>
         <note>Action label on share extension to search for the selected text in Ghostery.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US">
+  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
     </header>
     <body>
       <trans-unit id="TodayWidget.NewForgetTabButtonLabel">
         <source>New Ghost Tab</source>
+        <target>New Ghost Tab</target>
         <note>New Forget Tab button label</note>
       </trans-unit>
     </body>
   </file>
 </xliff>
-

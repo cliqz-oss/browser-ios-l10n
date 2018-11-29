@@ -1099,7 +1099,7 @@
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Private Tab</source>
-        <note>(No Comment)</note>
+        <note>(No Comment)</note><target>New Private Tab</target>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>

@@ -1213,19 +1213,19 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
     <body>
       <trans-unit id="Close Forget Tabs">
         <source>Close Forget Tabs</source>
-        <note>Setting for closing forget tabs</note>
+        <note>Setting for closing forget tabs</note><target>Ghost Tabs schließen</target>
       </trans-unit>
       <trans-unit id="Forget Mode">
         <source>Forget Mode</source>
-        <note>Title displayed for when there are no open tabs while in forget mode</note>
+        <note>Title displayed for when there are no open tabs while in forget mode</note><target>Ghost Modus</target>
       </trans-unit>
       <trans-unit id="Ghost Tabs">
         <source>Ghost Tabs</source>
-        <note>Ghost tabs toogle button in tab overview</note>
+        <note>Ghost tabs toogle button in tab overview</note><target>Ghost Tabs</target>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
         <source>Open in New Ghost Tab</source>
-        <note>The title for the Open in New Forget Tab context menu action for sites in Home Panels</note>
+        <note>The title for the Open in New Forget Tab context menu action for sites in Home Panels</note><target>In neuem Ghost-Tab öffnen</target>
       </trans-unit>
       <trans-unit id="Hotkeys.NewForgetTab.DiscoveryTitle">
         <source>New Ghost Tab</source>
@@ -1233,15 +1233,15 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Websites which are known to contain explicit content are automatically opened in Ghost Tabs. Visits to such websites are therefore not saved to your history.">
         <source>Websites which are known to contain explicit content are automatically opened in Ghost Tabs. Visits to such websites are therefore not saved to your history.</source>
-        <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
+        <note>[Settings -&gt; AutoForget Tab] toogle footer</note><target>Websites, von denen bekannt ist, dass sie anstößige Inhalte enthalten, werden automatisch in Ghost Tabs geöffnet. Besuche solcher Websites werden daher in Ihrem Browserverlauf nicht gespeichert.</target>
       </trans-unit>
       <trans-unit id="When Leaving Forget Mode">
         <source>When Leaving Forget Mode</source>
-        <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
+        <note>Will be displayed in Settings under 'Close Forget Tabs'</note><target>Beim Verlassen des Ghost Modus</target>
       </trans-unit>
       <trans-unit id="You are browsing in Forget Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.">
         <source>You are browsing in Forget Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
-        <note>Description text displayed when there are no open tabs while in forget mode</note>
+        <note>Description text displayed when there are no open tabs while in forget mode</note><target>Du surfst im Ghost Modus: Websites, die du in diesem Modus besuchst, werden nicht in deinem Browserverlauf gespeichert, und lokale Daten einschließlich Cookies werden nicht gespeichert.</target>
       </trans-unit>
     </body>
   </file>

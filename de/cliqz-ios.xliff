@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="de">
     <header>
@@ -67,7 +67,7 @@
       </trans-unit>
       <trans-unit id="Activation Link Resent">
         <source>Activation Link Resent</source>
-        <note>Alert title</note>
+        <note>Alert title</note><target>Aktivierungslink wurde erneut versendet</target>
       </trans-unit>
       <trans-unit id="Ad &amp; Tracker Blocking">
         <source>Ad &amp; Tracker Blocking</source>
@@ -124,7 +124,7 @@
       </trans-unit>
       <trans-unit id="All running account information and running subscriptions will be lost and cannot be restored.">
         <source>All running account information and running subscriptions will be lost and cannot be restored.</source>
-        <note>Delete account popup</note>
+        <note>Delete account popup</note><target>Alle Kontoinformationen und laufenden Abonnements gehen dabei verloren und können nicht wiederhergestellt werden.</target>
       </trans-unit>
       <trans-unit id="Allow Camera Access">
         <source>Allow Camera Access</source>
@@ -297,7 +297,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Confirm account deletion">
         <source>Confirm account deletion</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Löschen des Kontos bestätigen</target>
       </trans-unit>
       <trans-unit id="Connect">
         <source>Connect</source>
@@ -362,15 +362,15 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Delete">
         <source>Delete</source>
-        <note>Delete action</note>
+        <note>Delete action</note><target>Löschen</target>
       </trans-unit>
       <trans-unit id="Delete Account">
         <source>Delete Account</source>
-        <note>Delete Account Settings</note>
+        <note>Delete Account Settings</note><target>Konto löschen</target>
       </trans-unit>
       <trans-unit id="Delete account?">
         <source>Delete account?</source>
-        <note>Sign Out Settings</note>
+        <note>Sign Out Settings</note><target>Konto löschen?</target>
       </trans-unit>
       <trans-unit id="Dismiss">
         <source>Dismiss</source>
@@ -387,7 +387,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="EULA">
         <source>EULA</source>
-        <note>[Settings -&gt; About] EULA</note>
+        <note>[Settings -&gt; About] EULA</note><target>Endbenutzer-Lizenzvertrag</target>
       </trans-unit>
       <trans-unit id="Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.">
         <source>Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.</source>
@@ -578,7 +578,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Lumen Account">
         <source>Lumen Account</source>
-        <note>[Settings] Account</note>
+        <note>[Settings] Account</note><target>Lumen-Konto</target>
       </trans-unit>
       <trans-unit id="Lumen Browser">
         <source>Lumen Browser</source>
@@ -705,7 +705,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Please specify valid email">
         <source>Please specify valid email</source>
-        <note>Invalid email error message</note>
+        <note>Invalid email error message</note><target>Bitte gib eine gültige E-Mail-Adresse an</target>
       </trans-unit>
       <trans-unit id="Privacy">
         <source>Privacy</source>
@@ -828,7 +828,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="See the Web in a whole new light with Lumen Browser!">
         <source>See the Web in a whole new light with Lumen Browser!</source>
-        <target>Sieh das Web in einem ganz neuen Licht mit Lumen Browser!</target>
+        <target>Sieh das Web in einem ganz neuen Licht!</target>
         <note>Description</note>
       </trans-unit>
       <trans-unit id="Seems like we don't have any offers">
@@ -891,7 +891,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Sign Out">
         <source>Sign Out</source>
-        <note>Sign Out Settings</note>
+        <note>Sign Out Settings</note><target>Ausloggen</target>
       </trans-unit>
       <trans-unit id="Site Analytics">
         <source>Site Analytics</source>
@@ -905,7 +905,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Something went wrong. Please try again later.">
         <source>Something went wrong. Please try again later.</source>
-        <note>General error message</note>
+        <note>General error message</note><target>Oh, etwas ist schiefgelaufen. Bitte versuche es erneut.</target>
       </trans-unit>
       <trans-unit id="Sorry but devices could not be connected. Please try again.">
         <source>Sorry but devices could not be connected. Please try again.</source>
@@ -1071,7 +1071,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="We are sorry that you are leaving. Please check your inbox and open the confirmation link to complete account deletion.">
         <source>We are sorry that you are leaving. Please check your inbox and open the confirmation link to complete account deletion.</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Schade, dass du gehst. Schau in dein E-Mail-Postfach und öffne den Bestätigungslink, um die Löschung deines Kontos abzuschließen.</target>
       </trans-unit>
       <trans-unit id="We don't have any offers for your country yet">
         <source>We don't have any offers for your country yet</source>
@@ -1085,7 +1085,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="We resent the activation link. Please check your inbox and your spam folder.">
         <source>We resent the activation link. Please check your inbox and your spam folder.</source>
-        <note>Activation message</note>
+        <note>Activation message</note><target>Wir haben einen weiteren Aktivierungslink geschickt. Schau bitte in deinem E-Mail-Postfach und auch im Spam-Ordner nach.</target>
       </trans-unit>
       <trans-unit id="We use opensource software Sentry (http://sentry.io) for our crash reports. These reports do not contain any personal data.">
         <source>We use opensource software Sentry (http://sentry.io) for our crash reports. These reports do not contain any personal data.</source>
@@ -1175,7 +1175,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="region-GB">
         <source>United Kingdom</source>
-        <note>Localized String for United Kingdom region</note>
+        <note>Localized String for United Kingdom region</note><target>Vereinigtes Königreich</target>
       </trans-unit>
       <trans-unit id="region-IT">
         <source>Italy</source>
@@ -1300,7 +1300,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
     <body>
       <trans-unit id="Ads Blocked">
         <source>Ads Blocked</source>
-        <note>[Lumen-&gt;Dashboard] Ads Blocked widget title</note>
+        <note>[Lumen-&gt;Dashboard] Ads Blocked widget title</note><target>Werbungen entfernt</target>
       </trans-unit>
       <trans-unit id="As safe as at home or in the office – wherever you are.">
         <source>As safe as at home or in the office – wherever you are.</source>
@@ -1314,11 +1314,11 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Battery Life Saved">
         <source>Battery Life Saved</source>
-        <note>[Lumen-&gt;Dashboard] Battery Life Saved widget title</note>
+        <note>[Lumen-&gt;Dashboard] Battery Life Saved widget title</note><target>Akkulaufzeit verlängert</target>
       </trans-unit>
       <trans-unit id="Be always carefree on the Web">
         <source>Be always carefree on the Web</source>
-        <note>[Onboarding] VPN title</note>
+        <note>[Onboarding] VPN title</note><target>Immer sorgenfrei im Web</target>
       </trans-unit>
       <trans-unit id="Block Ads &amp; Trackers">
         <source>Block Ads &amp; Trackers</source>
@@ -1343,7 +1343,8 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       <trans-unit id="Clear">
         <source>Clear</source>
         <note>[Lumen-&gt;Dashboard] Clear button
-   Lumen Clear Dashboard Data Popup Clear Button Text</note>
+   Lumen Clear Dashboard Data Popup Clear Button Text</note><target>Zurücksetzen
+</target>
       </trans-unit>
       <trans-unit id="Close Private Tabs">
         <source>Close Private Tabs</source>
@@ -1352,7 +1353,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Companies">
         <source>Companies</source>
-        <note>[Lumen-&gt;Dashboard] Companies</note>
+        <note>[Lumen-&gt;Dashboard] Companies</note><target>Firmen</target>
       </trans-unit>
       <trans-unit id="DISCONNECT">
         <source>DISCONNECT</source>
@@ -1361,33 +1362,33 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="DISCONNECTING">
         <source>DISCONNECTING</source>
-        <note>[VPN] vpn button</note>
+        <note>[VPN] vpn button</note><target>TRENNE...</target>
       </trans-unit>
       <trans-unit id="Dark Theme">
         <source>Dark Theme</source>
-        <note>[Settings] Dark Theme</note>
+        <note>[Settings] Dark Theme</note><target>Dunkles Theme</target>
       </trans-unit>
       <trans-unit id="Dashboard">
         <source>Dashboard</source>
-        <target>Volle Kontrolle</target>
+        <target>Lumen bringt es ans Licht</target>
         <note>[Onboarding] Dashboard title</note>
       </trans-unit>
       <trans-unit id="Data Collectors Detained">
         <source>Data Collectors Detained</source>
-        <note>[Lumen-&gt;Dashboard]  widget title</note>
+        <note>[Lumen-&gt;Dashboard]  widget title</note><target>Datensammler abgewehrt</target>
       </trans-unit>
       <trans-unit id="Data Volume Saved">
         <source>Data Volume Saved</source>
-        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note><target>Datenvolumen gespart</target>
       </trans-unit>
       <trans-unit id="Enjoy clutter-free browsing">
         <source>Enjoy clutter-free browsing</source>
         <note>[Lumen-&gt;Dashboard] AdsBlock widget description
-   [Lumen-&gt;Dashboard] Data Saved widget description</note>
+   [Lumen-&gt;Dashboard] Data Saved widget description</note><target>für ungestörtes Surfen</target>
       </trans-unit>
       <trans-unit id="Enjoy clutter-free websites and save data &amp; time.">
         <source>Enjoy clutter-free websites and save data &amp; time.</source>
-        <note>[Onboarding] Adblocker text</note>
+        <note>[Onboarding] Adblocker text</note><target>Erlebe Websites ungestört und spare Datenvolumen und Zeit.</target>
       </trans-unit>
       <trans-unit id="GET STARTED">
         <source>GET STARTED</source>
@@ -1411,7 +1412,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="I agree to share strictly anonymous analytics data to improve Lumen's performance.">
         <source>I agree to share strictly anonymous analytics data to improve Lumen's performance.</source>
-        <note>[Onboarding] Telemetry</note>
+        <note>[Onboarding] Telemetry</note><target>Ich stimme der Übertragung streng anonymer Analysedaten zu, um die Leistung von Lumen zu verbessern.</target>
       </trans-unit>
       <trans-unit id="LUMEN">
         <source>LUMEN</source>
@@ -1420,7 +1421,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Last 7 days">
         <source>Last 7 days</source>
-        <note>[Lumen-&gt;Dashboard] Last 7 days tab</note>
+        <note>[Lumen-&gt;Dashboard] Last 7 days tab</note><target>Letzte 7 Tage</target>
       </trans-unit>
       <trans-unit id="Lumen brings to light what happens in the shadows and protects you.">
         <source>Lumen brings to light what happens in the shadows and protects you.</source>
@@ -1429,19 +1430,19 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Number of tracker companies that tried to spy on you">
         <source>Number of tracker companies that tried to spy on you</source>
-        <note>[Lumen-&gt;Dashboard] Tracking companies widget description</note>
+        <note>[Lumen-&gt;Dashboard] Tracking companies widget description</note><target>So viele Tracking-Firmen wollten dich ausspionieren</target>
       </trans-unit>
       <trans-unit id="Okay">
         <source>Okay</source>
-        <note>Okay button for alerts</note>
+        <note>Okay button for alerts</note><target>OK</target>
       </trans-unit>
       <trans-unit id="Pause">
         <source>Pause</source>
-        <note>[Lumen-&gt;Dashboard] Pause button</note>
+        <note>[Lumen-&gt;Dashboard] Pause button</note><target>Pause</target>
       </trans-unit>
       <trans-unit id="Phishing Protection">
         <source>Phishing Protection</source>
-        <note>[Lumen-&gt;Dashboard] Phishing Protection widget title</note>
+        <note>[Lumen-&gt;Dashboard] Phishing Protection widget title</note><target>Phishing Schutz</target>
       </trans-unit>
       <trans-unit id="Private Mode">
         <source>Private Mode</source>
@@ -1465,19 +1466,19 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Start">
         <source>Start</source>
-        <note>[Lumen-&gt;Dashboard] Start button</note>
+        <note>[Lumen-&gt;Dashboard] Start button</note><target>Loslegen</target>
       </trans-unit>
       <trans-unit id="This will delete all your dashboard data and cannot be undone.">
         <source>This will delete all your dashboard data and cannot be undone.</source>
-        <note>Lumen Clear Dashboard Data Popup Text</note>
+        <note>Lumen Clear Dashboard Data Popup Text</note><target>Dies wird alle Daten im Dashboard löschen und kann nicht rückgängig gemacht werden.</target>
       </trans-unit>
       <trans-unit id="Time Saved">
         <source>Time Saved</source>
-        <note>[Lumen-&gt;Dashboard] Time Saved widget title</note>
+        <note>[Lumen-&gt;Dashboard] Time Saved widget title</note><target>Zeit gespart</target>
       </trans-unit>
       <trans-unit id="Today">
         <source>Today</source>
-        <note>[Lumen-&gt;Dashboard] Today tab</note>
+        <note>[Lumen-&gt;Dashboard] Today tab</note><target>Heute</target>
       </trans-unit>
       <trans-unit id="USA">
         <source>USA</source>
@@ -1486,15 +1487,15 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Ultimate Protection: OFF">
         <source>Ultimate Protection: OFF</source>
-        <note>[Lumen-&gt;Dashboard] Security Status OFF</note>
+        <note>[Lumen-&gt;Dashboard] Security Status OFF</note><target>Komplettschutz: AUS</target>
       </trans-unit>
       <trans-unit id="Ultimate Protection: ON">
         <source>Ultimate Protection: ON</source>
-        <note>[Lumen-&gt;Dashboard] Security Status ON</note>
+        <note>[Lumen-&gt;Dashboard] Security Status ON</note><target>Komplettschutz: EIN</target>
       </trans-unit>
       <trans-unit id="VPN">
         <source>VPN</source>
-        <note>[Lumen-&gt;Dashboard] VPN button</note>
+        <note>[Lumen-&gt;Dashboard] VPN button</note><target>VPN</target>
       </trans-unit>
       <trans-unit id="Websites which are known to contain explicit content are automatically opened in Private Tabs. Visits to such websites are therefore not saved to your history.">
         <source>Websites which are known to contain explicit content are automatically opened in Private Tabs. Visits to such websites are therefore not saved to your history.</source>
@@ -1513,23 +1514,34 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Your subscription has expired. Renew your subscription to continue to see the Dashboard.">
         <source>Your subscription has expired. Renew your subscription to continue to see the Dashboard.</source>
-        <note>[Dashboard] subscription expired alert text Dashboard</note>
+        <note>[Dashboard] subscription expired alert text Dashboard</note><target>Dein Abonnement ist abgelaufen. Erneuere es um das Dashboard weiterhin zu nutzen.</target>
       </trans-unit>
       <trans-unit id="Your subscription has expired. Renew your subscription to continue to use the VPN.">
         <source>Your subscription has expired. Renew your subscription to continue to use the VPN.</source>
-        <note>[VPN] subscription expired alert text</note>
+        <note>[VPN] subscription expired alert text</note><target>Dein Abonnement ist abgelaufen. Erneuere es um VPN weiterhin zu nutzen.</target>
       </trans-unit>
       <trans-unit id="for longer device usage">
         <source>for longer device usage</source>
-        <note>[Lumen-&gt;Dashboard] Battery Saved widget description</note>
+        <note>[Lumen-&gt;Dashboard] Battery Saved widget description</note><target>Damit du länger surfen kannst</target>
       </trans-unit>
       <trans-unit id="for things that really matter">
         <source>for things that really matter</source>
-        <note>[Lumen-&gt;Dashboard] time saved widget description</note>
+        <note>[Lumen-&gt;Dashboard] time saved widget description</note><target>für die wichtigen Dinge im Leben.</target>
       </trans-unit>
       <trans-unit id="prevents identity theft by fraudulent websites">
         <source>prevents identity theft by fraudulent websites</source>
-        <note>[Lumen-&gt;Dashboard] Phishing protection widget description</note>
+        <note>[Lumen-&gt;Dashboard] Phishing protection widget description</note><target>erhindert Identitätsdiebstahl durch betrügerische Webseiten</target>
+      </trans-unit>
+      <trans-unit id="You are safely connected to the Internet.">
+        <source>You are safely connected to the Internet.</source>
+        <note>VPN connected text
+        VPN retry text</note>
+        <target>Du bist sicher mit dem Internet verbunden</target>
+      </trans-unit>
+      <trans-unit id="Tap 'connect' to browse the Internet with VPN protection.">
+        <source>Tap 'connect' to browse the Internet with VPN protection.</source>
+        <note>VPN default text</note>
+        <target>Tippe auf 'Verbinden' translate in UI um mit VPN-Schutz im Internet zu surfen.</target>
       </trans-unit>
     </body>
   </file>
@@ -1650,4 +1662,3 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
     </body>
   </file>
 </xliff>
-

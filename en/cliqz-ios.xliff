@@ -1385,6 +1385,10 @@
         <source>Tap 'connect' to browse the Internet with VPN protection.</source>
         <note>VPN default text</note>
       </trans-unit>
+      <trans-unit id="No data wasted on ads">
+        <source>No data wasted on ads.</source>
+        <note>[Lumen-&gt;Dashboard] Data Saved widget description</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="en">

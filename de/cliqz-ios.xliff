@@ -1541,7 +1541,12 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       <trans-unit id="Tap 'connect' to browse the Internet with VPN protection.">
         <source>Tap 'connect' to browse the Internet with VPN protection.</source>
         <note>VPN default text</note>
-        <target>Tippe auf 'Verbinden' translate in UI um mit VPN-Schutz im Internet zu surfen.</target>
+        <target>Tippe auf 'Verbinden' um mit VPN-Schutz im Internet zu surfen.</target>
+
+      </trans-unit>
+      <trans-unit id="No data wasted on ads">
+        <source>Keine Daten für Werbung verschwendet.</source>
+        <note>[Lumen-&gt;Dashboard] Data Saved widget description</note>
       </trans-unit>
     </body>
   </file>

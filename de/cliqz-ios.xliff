@@ -121,6 +121,7 @@
       <trans-unit id="All most visited websites will be shown again on the startpage.">
         <source>All most visited websites will be shown again on the startpage.</source>
         <note>[Settings] Text of the 'Restore Most Visited Websites' alert</note>
+        <target>Alle meistbesuchten Seiten werden wieder auf der Startseite angezeigt.</target>
       </trans-unit>
       <trans-unit id="All running account information and running subscriptions will be lost and cannot be restored.">
         <source>All running account information and running subscriptions will be lost and cannot be restored.</source>
@@ -449,9 +450,10 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
         <note>Title of Forget Tab on iPad</note>
       </trans-unit>
       <trans-unit id="Fresh Tab">
-        <source>Fresh Tab</source>
+        <source>Start Tab</source>
         <note>[Settings] Freshtab section header
    Title for Freshtab in tab history list</note>
+        <target>Start Tab</target>
       </trans-unit>
       <trans-unit id="Get it from %@">
         <source>Get it from %@</source>
@@ -779,6 +781,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       <trans-unit id="Restore Most Visited Websites">
         <source>Restore Most Visited Websites</source>
         <note>[Settings] Restore Most Visited Websites</note>
+        <target>Meistbesuchte Seiten wiederherstellen</target>
       </trans-unit>
       <trans-unit id="Restrict">
         <source>Restrict</source>
@@ -918,7 +921,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Start">
         <source>Start</source>
-        <target>Start</target>
+        <target>Starten</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Start Tab">
@@ -1302,8 +1305,8 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
         <source>Ads Blocked</source>
         <note>[Lumen-&gt;Dashboard] Ads Blocked widget title</note><target>Werbungen entfernt</target>
       </trans-unit>
-      <trans-unit id="As safe as at home or in the office – wherever you are.">
-        <source>As safe as at home or in the office – wherever you are.</source>
+      <trans-unit id="Additional protection whenever and wherever you need it.">
+        <source>Additional protection whenever and wherever you need it.</source>
         <target>Auch in öffentlichen Netzen so sicher wie zu Hause oder im Büro.</target>
         <note>[Onboarding] VPN text</note>
       </trans-unit>
@@ -1353,7 +1356,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Companies">
         <source>Companies</source>
-        <note>[Lumen-&gt;Dashboard] Companies</note><target>Firmen</target>
+        <note>[Lumen-&gt;Dashboard] Companies</note><target>FIRMEN</target>
       </trans-unit>
       <trans-unit id="DISCONNECT">
         <source>DISCONNECT</source>
@@ -1384,7 +1387,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       <trans-unit id="Enjoy clutter-free browsing">
         <source>Enjoy clutter-free browsing</source>
         <note>[Lumen-&gt;Dashboard] AdsBlock widget description
-   [Lumen-&gt;Dashboard] Data Saved widget description</note><target>für ungestörtes Surfen</target>
+   [Lumen-&gt;Dashboard] Data Saved widget description</note><target>Für ungestörtes Surfen</target>
       </trans-unit>
       <trans-unit id="Enjoy clutter-free websites and save data &amp; time.">
         <source>Enjoy clutter-free websites and save data &amp; time.</source>
@@ -1466,7 +1469,8 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Start">
         <source>Start</source>
-        <note>[Lumen-&gt;Dashboard] Start button</note><target>Loslegen</target>
+        <note>[Lumen-&gt;Dashboard] Start button</note>
+        <target>Start</target>
       </trans-unit>
       <trans-unit id="This will delete all your dashboard data and cannot be undone.">
         <source>This will delete all your dashboard data and cannot be undone.</source>
@@ -1526,11 +1530,11 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="for things that really matter">
         <source>for things that really matter</source>
-        <note>[Lumen-&gt;Dashboard] time saved widget description</note><target>für die wichtigen Dinge im Leben.</target>
+        <note>[Lumen-&gt;Dashboard] time saved widget description</note><target>Für die wichtigen Dinge im Leben</target>
       </trans-unit>
       <trans-unit id="prevents identity theft by fraudulent websites">
         <source>prevents identity theft by fraudulent websites</source>
-        <note>[Lumen-&gt;Dashboard] Phishing protection widget description</note><target>erhindert Identitätsdiebstahl durch betrügerische Webseiten</target>
+        <note>[Lumen-&gt;Dashboard] Phishing protection widget description</note><target>Verhindert Identitätsdiebstahl durch betrügerische Webseiten</target>
       </trans-unit>
       <trans-unit id="You are safely connected to the Internet.">
         <source>You are safely connected to the Internet.</source>
@@ -1542,11 +1546,31 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
         <source>Tap 'connect' to browse the Internet with VPN protection.</source>
         <note>VPN default text</note>
         <target>Tippe auf 'Verbinden' um mit VPN-Schutz im Internet zu surfen.</target>
-
       </trans-unit>
       <trans-unit id="No data wasted on ads">
-        <source>Keine Daten für Werbung verschwendet.</source>
+        <source>No data wasted on ads</source>
         <note>[Lumen-&gt;Dashboard] Data Saved widget description</note>
+        <target>Keine Daten für Werbung verschwendet</target>
+      </trans-unit>
+      <trans-unit id="SEC">
+        <source>SEC</source>
+        <note>Seconds unit for dashboard</note>
+        <target>SEK</target>
+      </trans-unit>
+      <trans-unit id="MIN">
+        <source>MIN</source>
+        <note>Minutes unit for dashboard</note>
+        <target>MIN</target>
+      </trans-unit>
+      <trans-unit id="HRS">
+        <source>HRS</source>
+        <note>Hours unit for dashboard</note>
+        <target>STD</target>
+      </trans-unit>
+      <trans-unit id="DAY(S)">
+        <source>DAY(S)</source>
+        <note>Day(s) unit for dashboard</note>
+        <target>TAG(E)</target>
       </trans-unit>
     </body>
   </file>

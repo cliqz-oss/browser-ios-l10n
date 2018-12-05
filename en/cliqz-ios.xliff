@@ -412,6 +412,7 @@
         <source>Start Tab</source>
         <note>[Settings] Freshtab section header
    Title for Freshtab in tab history list</note>
+        <target>Start Tab</target>
       </trans-unit>
       <trans-unit id="Get it from %@">
         <source>Get it from %@</source>
@@ -1170,8 +1171,8 @@
         <source>Ads Blocked</source>
         <note>[Lumen-&gt;Dashboard] Ads Blocked widget title</note><target>Ads Blocked</target>
       </trans-unit>
-      <trans-unit id="As safe as at home or in the office – wherever you are.">
-        <source>As safe as at home or in the office – wherever you are.</source>
+      <trans-unit id="Additional protection whenever and wherever you need it.">
+        <source>Additional protection whenever and wherever you need it.</source>
         <note>[Onboarding] VPN text</note>
       </trans-unit>
       <trans-unit id="Available VPN Locations">
@@ -1388,6 +1389,22 @@
       <trans-unit id="No data wasted on ads">
         <source>No data wasted on ads.</source>
         <note>[Lumen-&gt;Dashboard] Data Saved widget description</note>
+      </trans-unit>
+      <trans-unit id="SEC">
+        <source>SEC</source>
+        <note>Seconds unit for dashboard</note>
+      </trans-unit>
+      <trans-unit id="MIN">
+        <source>MIN</source>
+        <note>Minutes unit for dashboard</note>
+      </trans-unit>
+      <trans-unit id="HRS">
+        <source>HRS</source>
+        <note>Hours unit for dashboard</note>
+      </trans-unit>
+      <trans-unit id="DAY(S)">
+        <source>DAY(S)</source>
+        <note>Day(s) unit for dashboard</note>
       </trans-unit>
     </body>
   </file>

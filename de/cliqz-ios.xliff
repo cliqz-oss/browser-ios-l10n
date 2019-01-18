@@ -380,6 +380,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Download videos on Wi-Fi Only">
         <source>Download videos on Wi-Fi Only</source>
+		<target>Videos nur über WLAN herunterladen</target>
         <note>[Settings -&gt; Limit Mobile Data Usage] toogle footer</note>
       </trans-unit>
       <trans-unit id="Download youtube video">

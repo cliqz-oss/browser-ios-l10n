@@ -1573,6 +1573,138 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
         <note>Day(s) unit for dashboard</note>
         <target>TAG(E)</target>
       </trans-unit>
+      <trans-unit id="Stay with us">
+        <source>Stay with us</source>
+        <note>Upgrade lumen view title</note>
+      </trans-unit>
+      <trans-unit id="Only %d days left in trial.">
+        <source>Only %d days left in trial.</source>
+        <note>Upgrade lumen view subtitle1</note>
+      </trans-unit>
+      <trans-unit id="Keep ultimate protection and VPN.">
+        <source>Keep ultimate protection and VPN.</source>
+        <note>Upgrade lumen view subtitle2</note>
+      </trans-unit>
+      <trans-unit id="UPGRADE">
+        <source>UPGRADE</source>
+        <note>Upgrade lumen view button text</note>
+      </trans-unit>
+      <trans-unit id="Ad-Blocker: OFF">
+        <source>Ad-Blocker: OFF</source>
+        <note>Upgrade lumen view title</note>
+      </trans-unit>
+      <trans-unit id="You are browsing without ultimate protection.">
+        <source>You are browsing without ultimate protection.</source>
+        <note>Upgrade lumen view subtitle</note>
+      </trans-unit>
+      <trans-unit id="Learn More">
+        <source>Learn More</source>
+        <note>Upgrade lumen view Learn more text</note>
+      </trans-unit>
+      <trans-unit id="Your trial is over">
+        <source>Your trial is over</source>
+        <note>Trial Expired view title</note>
+      </trans-unit>
+      <trans-unit id="You can still use Lumen, but without ultimate protection and VPN. Or go premium."> 
+        <source>You can still use Lumen, but without ultimate protection and VPN. Or go premium.</source>
+        <note>Trial Expired view subtitle</note>
+      </trans-unit>
+      <trans-unit id="No, Thanks">
+        <source>No, Thanks</source>
+        <note>Close Trial Expired button text</note>
+      </trans-unit>
+      <trans-unit id="VPN Protection.">
+        <source>VPN Protection.</source>
+        <note>[VPN] subscription expired alert title</note>
+      </trans-unit>
+      <trans-unit id="Unlock the VPN feature to get the best out of Lumen.">
+        <source>Unlock the VPN feature to get the best out of Lumen.</source>
+        <note>[VPN] subscription expired alert text</note>
+      </trans-unit>
+      <trans-unit id="SUBSCRIBE">
+        <source>SUBSCRIBE</source>
+        <note>Subscribe Button</note>
+      </trans-unit>
+      <trans-unit id="Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.">
+        <source>Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.</source>
+        <note>[Upgrade Flow] Conditions text</note>
+      </trans-unit>
+      <trans-unit id="End User License Agreement">
+        <source>End User License Agreement</source>
+        <note>[Upgrade Flow] Privacy Policy button</note>
+      </trans-unit>
+      <trans-unit id="Privacy Policy">
+        <source>Privacy Policy</source>
+        <note>[Upgrade Flow] Privacy Policy button</note>
+      </trans-unit>
+      <trans-unit id="BASIC">
+        <source>BASIC</source>
+        <note>BASIC Subscription name</note>
+      </trans-unit>
+      <trans-unit id="PLUS">
+        <source>PLUS</source>
+        <note>PLUS Subscription name</note>
+      </trans-unit>
+      <trans-unit id="PRO">
+        <source>PRO</source>
+        <note>PRO Subscription name</note>
+      </trans-unit>
+      <trans-unit id="ULTIMATE PROTECTION: AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING">
+        <source>ULTIMATE PROTECTION: AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</source>
+        <note>BASIC Subscription Description</note>
+      </trans-unit>
+      <trans-unit id="VPN · ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING">
+        <source>VPN · ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</source>
+        <note>PLUS Subscription Description</note>
+      </trans-unit>
+      <trans-unit id="VPN · ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING">
+        <source>VPN · ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</source>
+        <note>PRO Subscription Description</note>
+      </trans-unit>
+      <trans-unit id="12 MONTHS">
+        <source>12 MONTHS</source>
+        <note>BASIC Subscription duration</note>
+      </trans-unit>
+      <trans-unit id="12 MONTHS">
+        <source>12 MONTHS</source>
+        <note>PLUS Subscription duration</note>
+      </trans-unit>
+      <trans-unit id="1 MONTH">
+        <source>1 MONTH</source>
+        <note>PRO Subscription duration</note>
+      </trans-unit>
+      <trans-unit id="4€/month">
+        <source>4€/month</source>
+        <note>BASIC Subscription price</note>
+      </trans-unit>
+      <trans-unit id="8€/month">
+        <source>8€/month</source>
+        <note>PLUS Subscription price</note>
+      </trans-unit>
+      <trans-unit id="9.99€/month">
+        <source>9.99€/month</source>
+        <note>PRO Subscription price</note>
+      </trans-unit>
+      <trans-unit id="Billed annually: 47.99€">
+        <source>Billed annually: 47.99€</source>
+        <note>BASIC Subscription billing</note>
+      </trans-unit>
+      <trans-unit id="Billed annually: 95.99€">
+        <source>Billed annually: 95.99€</source>
+        <note>PLUS Subscription billing</note>
+      </trans-unit>
+      <trans-unit id="Billed monthly">
+        <source>Billed monthly</source>
+        <note>PRO Subscription billing</note>
+      </trans-unit>
+      <trans-unit id="%d more days left in trial">
+        <source>%d more days left in trial</source>
+        <note>Trial days left title"), trialRemainingDays</note>
+      </trans-unit>
+      <trans-unit id="Unlock the VPN feature to get the best out of Lumen.">
+        <source>Unlock the VPN feature to get the best out of Lumen.</source>
+        <note>Unlock the VPN feature text</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="de">

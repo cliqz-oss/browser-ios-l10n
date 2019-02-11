@@ -1626,7 +1626,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.">
         <source>Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.</source>
-        <note>[Upgrade Flow] Conditions text</note>
+        <note>[Upgrade Flow] Conditions text</note><target>Abos werden über deinen iTunes Konto abgebucht nach Bestätigung. Abos werden automatisch erneuert und dein Konto wird innerhalb von 24 Stunden vor Ablauf der aktuellen Periode zu den oben genannten Kosten belastet. Du kannst Abos jederzeit in deinen iTunes Konto-Einstellungen kündigen bis zu 24 Stunden vor Ablauf der aktuellen Periode. Ungenutzte Tage von kostenlosen Testversionen werden verfallen wenn du ein Abo abschließt.</target>
       </trans-unit>
       <trans-unit id="End User License Agreement">
         <source>End User License Agreement</source>
@@ -1638,15 +1638,15 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="BASIC">
         <source>BASIC</source>
-        <note>BASIC Subscription name</note>
+        <note>BASIC Subscription name</note><target>BASIC</target>
       </trans-unit>
       <trans-unit id="PLUS">
         <source>PLUS</source>
-        <note>PLUS Subscription name</note>
+        <note>PLUS Subscription name</note><target>PLUS INCL. VPN</target>
       </trans-unit>
       <trans-unit id="PRO">
         <source>PRO</source>
-        <note>PRO Subscription name</note>
+        <note>PRO Subscription name</note><target>PLUS INCL. VPN</target>
       </trans-unit>
       <trans-unit id="ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
         <source>ULTIMATE PROTECTION: AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</source>

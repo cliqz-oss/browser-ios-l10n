@@ -1460,7 +1460,7 @@
       </trans-unit>
       <trans-unit id="Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.">
         <source>Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.</source>
-        <note>[Upgrade Flow] Conditions text</note>
+        <note>[Upgrade Flow] Conditions text</note><target>Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew and your account will be charged for renewal within 24 hours prior to the end of the current period at the cost shown above. You can cancel anytime in your iTunes account settings until 24 hours before the end of the current period. Any unused portion of a free trial will be forfeited if you purchase a subscription.</target>
       </trans-unit>
       <trans-unit id="End User License Agreement">
         <source>End User License Agreement</source>
@@ -1472,15 +1472,15 @@
       </trans-unit>
       <trans-unit id="BASIC">
         <source>BASIC</source>
-        <note>BASIC Subscription name</note>
+        <note>BASIC Subscription name</note><target>BASIC</target>
       </trans-unit>
       <trans-unit id="PLUS">
         <source>PLUS</source>
-        <note>PLUS Subscription name</note>
+        <note>PLUS Subscription name</note><target>PLUS INCL. VPN</target>
       </trans-unit>
       <trans-unit id="PRO">
         <source>PRO</source>
-        <note>PRO Subscription name</note>
+        <note>PRO Subscription name</note><target>PLUS INCL. VPN</target>
       </trans-unit>
       <trans-unit id="ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
         <source>ULTIMATE PROTECTION: AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</source>

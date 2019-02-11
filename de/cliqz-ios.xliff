@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="de">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
@@ -1649,15 +1648,15 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
         <source>PRO</source>
         <note>PRO Subscription name</note>
       </trans-unit>
-      <trans-unit id="ULTIMATE PROTECTION: AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING">
+      <trans-unit id="ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
         <source>ULTIMATE PROTECTION: AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</source>
-        <note>BASIC Subscription Description</note>
+        <note>BASIC Subscription Description</note><target>ULTIMATE PROTECTION: AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</target>
       </trans-unit>
-      <trans-unit id="VPN · ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING">
+      <trans-unit id="VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
         <source>VPN · ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</source>
         <note>PLUS Subscription Description</note>
       </trans-unit>
-      <trans-unit id="VPN · ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING">
+      <trans-unit id="VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
         <source>VPN · ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</source>
         <note>PRO Subscription Description</note>
       </trans-unit>

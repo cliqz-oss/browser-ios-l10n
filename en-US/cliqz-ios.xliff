@@ -1422,12 +1422,12 @@
         <source>UPGRADE</source>
         <note>Upgrade lumen view button text</note>
       </trans-unit>
-      <trans-unit id="Ad-Blocker: OFF">
-        <source>Ad-Blocker: OFF</source>
+      <trans-unit id="Ultimate Protection: OFF">
+        <source>Ultimate Protection: OFF</source>
         <note>Upgrade lumen view title</note>
       </trans-unit>
-      <trans-unit id="You are browsing without ultimate protection.">
-        <source>You are browsing without ultimate protection.</source>
+      <trans-unit id="Ads are not blocked and you are not protected.">
+        <source>Ads are not blocked and you are not protected.</source>
         <note>Upgrade lumen view subtitle</note>
       </trans-unit>
       <trans-unit id="Learn More">
@@ -1534,9 +1534,13 @@
         <source>%d more days left in trial</source>
         <note>Trial days left title"), trialRemainingDays</note>
       </trans-unit>
-      <trans-unit id="Unlock the VPN feature to get the best out of Lumen.">
-        <source>Unlock the VPN feature to get the best out of Lumen.</source>
-        <note>Unlock the VPN feature text</note>
+      <trans-unit id="BEST VALUE: SAVE 20%">
+        <source>BEST VALUE: SAVE 20%</source>
+        <note>BEST VALUE: SAVE 20%</note>
+      </trans-unit>
+      <trans-unit id="INCL.">
+        <source>INCL.</source>
+        <note>Include vpn label</note>
       </trans-unit>
     </body>
   </file>

@@ -1574,55 +1574,57 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="Stay with us">
         <source>Stay with us</source>
-        <note>Upgrade lumen view title</note>
+        <note>Upgrade lumen view title</note><target>Bleib dabei.</target>
       </trans-unit>
       <trans-unit id="Only %d days left in trial.">
         <source>Only %d days left in trial.</source>
-        <note>Upgrade lumen view subtitle1</note>
+        <note>Upgrade lumen view subtitle1</note><target>Nur noch %d Tag(e) in Test-Version.</target>
       </trans-unit>
       <trans-unit id="Keep ultimate protection and VPN.">
         <source>Keep ultimate protection and VPN.</source>
-        <note>Upgrade lumen view subtitle2</note>
+        <note>Upgrade lumen view subtitle2</note><target>Behalte Komplettschutz und VPN</target>
       </trans-unit>
       <trans-unit id="UPGRADE">
         <source>UPGRADE</source>
-        <note>Upgrade lumen view button text</note>
+        <note>Upgrade lumen view button text</note><target>UPGRADE</target>
       </trans-unit>
-      <trans-unit id="Ad-Blocker: OFF">
-        <source>Ad-Blocker: OFF</source>
+      <trans-unit id="Ultimate Protection: OFF">
+        <source>Ultimate Protection: OFF</source>
         <note>Upgrade lumen view title</note>
+        <target>Komplettschutz: AUS</target>
       </trans-unit>
-      <trans-unit id="You are browsing without ultimate protection.">
-        <source>You are browsing without ultimate protection.</source>
+      <trans-unit id="Ads are not blocked and you are not protected.">
+        <source>Ads are not blocked and you are not protected..</source>
         <note>Upgrade lumen view subtitle</note>
+        <target>Werbungen werden nicht entfernt und du bist nicht geschützt.</target>
       </trans-unit>
       <trans-unit id="Learn More">
         <source>Learn More</source>
-        <note>Upgrade lumen view Learn more text</note>
+        <note>Upgrade lumen view Learn more text</note><target>Mehr Erfahren</target>
       </trans-unit>
       <trans-unit id="Your trial is over">
         <source>Your trial is over</source>
-        <note>Trial Expired view title</note>
+        <note>Trial Expired view title</note><target>Deine Test-Version ist abgelaufen</target>
       </trans-unit>
       <trans-unit id="You can still use Lumen, but without ultimate protection and VPN. Or go premium."> 
         <source>You can still use Lumen, but without ultimate protection and VPN. Or go premium.</source>
-        <note>Trial Expired view subtitle</note>
+        <note>Trial Expired view subtitle</note><target>Du kannst Lumen weiter nutzen, aber ohne Komplettschutz und VPN. Oder hol dir Premium.</target>
       </trans-unit>
       <trans-unit id="No, Thanks">
         <source>No, Thanks</source>
-        <note>Close Trial Expired button text</note>
+        <note>Close Trial Expired button text</note><target>Nein, Danke</target>
       </trans-unit>
       <trans-unit id="VPN Protection.">
         <source>VPN Protection.</source>
-        <note>[VPN] subscription expired alert title</note>
+        <note>[VPN] subscription expired alert title</note><target>VPN-Schutz</target>
       </trans-unit>
       <trans-unit id="Unlock the VPN feature to get the best out of Lumen.">
         <source>Unlock the VPN feature to get the best out of Lumen.</source>
-        <note>[VPN] subscription expired alert text</note>
+        <note>[VPN] subscription expired alert text</note><target>Schalte VPN frei um das Beste aus Lumen herauszuholen.</target>
       </trans-unit>
       <trans-unit id="SUBSCRIBE">
         <source>SUBSCRIBE</source>
-        <note>Subscribe Button</note>
+        <note>Subscribe Button</note><target>ABONNIEREN</target>
       </trans-unit>
       <trans-unit id="Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.">
         <source>Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.</source>
@@ -1630,23 +1632,26 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="End User License Agreement">
         <source>End User License Agreement</source>
-        <note>[Upgrade Flow] Privacy Policy button</note>
+        <note>[Upgrade Flow] Privacy Policy button</note><target>Endbenutzer-Lizenzvertrag</target>
       </trans-unit>
       <trans-unit id="Privacy Policy">
         <source>Privacy Policy</source>
-        <note>[Upgrade Flow] Privacy Policy button</note>
+        <note>[Upgrade Flow] Privacy Policy button</note><target>Datenschutzerklärung</target>
       </trans-unit>
       <trans-unit id="BASIC">
         <source>BASIC</source>
-        <note>BASIC Subscription name</note><target>BASIC</target>
+        <note>BASIC Subscription name</note>
+        <target>BASIC</target>
       </trans-unit>
       <trans-unit id="PLUS">
         <source>PLUS</source>
-        <note>PLUS Subscription name</note><target>PLUS INCL. VPN</target>
+        <note>PLUS Subscription name</note>
+        <target>PLUS</target>
       </trans-unit>
       <trans-unit id="PRO">
         <source>PRO</source>
-        <note>PRO Subscription name</note><target>PLUS INCL. VPN</target>
+        <note>PRO Subscription name</note>
+        <target>PLUS</target>
       </trans-unit>
       <trans-unit id="ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
         <source>ULTIMATE PROTECTION: AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</source>
@@ -1654,55 +1659,59 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
       </trans-unit>
       <trans-unit id="VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
         <source>VPN · ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</source>
-        <note>PLUS Subscription Description</note>
+        <note>PLUS Subscription Description</note><target>VPN · KOMPLETTSCHUTZ: DASHBOARD · WERBEBLOCKER · ANTI-TRACKING · ANTI-PHISHING</target>
       </trans-unit>
       <trans-unit id="VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
         <source>VPN · ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</source>
-        <note>PRO Subscription Description</note>
+        <note>PRO Subscription Description</note><target>VPN · KOMPLETTSCHUTZ: DASHBOARD · WERBEBLOCKER · ANTI-TRACKING · ANTI-PHISHING</target>
       </trans-unit>
       <trans-unit id="12 MONTHS">
         <source>12 MONTHS</source>
-        <note>BASIC Subscription duration</note>
+        <note>BASIC Subscription duration</note><target>12 MONATE</target>
       </trans-unit>
       <trans-unit id="12 MONTHS">
         <source>12 MONTHS</source>
-        <note>PLUS Subscription duration</note>
+        <note>PLUS Subscription duration</note><target>12 MONATE</target>
       </trans-unit>
       <trans-unit id="1 MONTH">
         <source>1 MONTH</source>
-        <note>PRO Subscription duration</note>
+        <note>PRO Subscription duration</note><target>1 MONAT</target>
       </trans-unit>
       <trans-unit id="4€/month">
         <source>4€/month</source>
-        <note>BASIC Subscription price</note>
+        <note>BASIC Subscription price</note><target>4€/Monat</target>
       </trans-unit>
       <trans-unit id="8€/month">
         <source>8€/month</source>
-        <note>PLUS Subscription price</note>
+        <note>PLUS Subscription price</note><target>8€/Monat</target>
       </trans-unit>
       <trans-unit id="9.99€/month">
         <source>9.99€/month</source>
-        <note>PRO Subscription price</note>
+        <note>PRO Subscription price</note><target>9.99€/Monat</target>
       </trans-unit>
       <trans-unit id="Billed annually: 47.99€">
         <source>Billed annually: 47.99€</source>
-        <note>BASIC Subscription billing</note>
+        <note>BASIC Subscription billing</note><target>Jährliche Abrechnung: 47,99€</target>
       </trans-unit>
       <trans-unit id="Billed annually: 95.99€">
         <source>Billed annually: 95.99€</source>
-        <note>PLUS Subscription billing</note>
+        <note>PLUS Subscription billing</note><target>Jährliche Abrechnung: 95,99€</target>
       </trans-unit>
       <trans-unit id="Billed monthly">
         <source>Billed monthly</source>
-        <note>PRO Subscription billing</note>
+        <note>PRO Subscription billing</note><target>Monatliche Abrechnung</target>
       </trans-unit>
       <trans-unit id="%d more days left in trial">
         <source>%d more days left in trial</source>
-        <note>Trial days left title"), trialRemainingDays</note>
+        <note>Trial days left title"), trialRemainingDays</note><target>Noch %d Tag(e) in der Test-Version.</target>
       </trans-unit>
-      <trans-unit id="Unlock the VPN feature to get the best out of Lumen.">
-        <source>Unlock the VPN feature to get the best out of Lumen.</source>
-        <note>Unlock the VPN feature text</note>
+      <trans-unit id="BEST VALUE: SAVE 20%">
+        <source>BEST VALUE: SAVE 20%</source>
+        <note>BEST VALUE: SAVE 20%</note><target>BESTES ANGEBOT: SPARE 20%</target>
+      </trans-unit>
+      <trans-unit id="INCL.">
+        <source>INCL.</source>
+        <note>Include vpn label</note><target>INKL.</target>
       </trans-unit>
     </body>
   </file>

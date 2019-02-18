@@ -1458,6 +1458,14 @@
         <source>SUBSCRIBE</source>
         <note>Subscribe Button</note>
       </trans-unit>
+      <trans-unit id="SUBSCRIBED">
+        <source>SUBSCRIBED</source>
+        <note>Subscribe Button</note>
+      </trans-unit>
+      <trans-unit id="UPGRADE">
+        <source>UPGRADE</source>
+        <note>Subscribe Button</note>
+      </trans-unit>
       <trans-unit id="Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.">
         <source>Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.</source>
         <note>[Upgrade Flow] Conditions text</note><target>Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew and your account will be charged for renewal within 24 hours prior to the end of the current period at the cost shown above. You can cancel anytime in your iTunes account settings until 24 hours before the end of the current period. Any unused portion of a free trial will be forfeited if you purchase a subscription.</target>
@@ -1506,16 +1514,16 @@
         <source>1 MONTH</source>
         <note>PRO Subscription duration</note>
       </trans-unit>
-      <trans-unit id="4€/month">
-        <source>4€/month</source>
+      <trans-unit id="47.99€/year">
+        <source>47.99€/year</source>
         <note>BASIC Subscription price</note>
-      </trans-unit>
-      <trans-unit id="8€/month">
-        <source>8€/month</source>
-        <note>PLUS Subscription price</note>
       </trans-unit>
       <trans-unit id="9.99€/month">
         <source>9.99€/month</source>
+        <note>PLUS Subscription price</note>
+      </trans-unit>
+      <trans-unit id="95.99€/year">
+        <source>95.99€/year</source>
         <note>PRO Subscription price</note>
       </trans-unit>
       <trans-unit id="Billed annually: 47.99€">

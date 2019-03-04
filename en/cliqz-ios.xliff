@@ -1491,15 +1491,15 @@
         <note>PRO Subscription name</note><target>PLUS INKL. VPN</target>
       </trans-unit>
       <trans-unit id="ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
-        <source>ULTIMATE PROTECTION: AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</source>
+        <source>ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
         <note>BASIC Subscription Description</note><target>ULTIMATE PROTECTION: AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</target>
       </trans-unit>
       <trans-unit id="VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
-        <source>VPN · ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</source>
+        <source>VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
         <note>PLUS Subscription Description</note>
       </trans-unit>
       <trans-unit id="VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
-        <source>VPN · ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</source>
+        <source>VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
         <note>PRO Subscription Description</note>
       </trans-unit>
       <trans-unit id="12 MONTHS">

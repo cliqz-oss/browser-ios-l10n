@@ -1426,9 +1426,13 @@
         <source>Ultimate Protection: OFF</source>
         <note>Upgrade lumen view title</note>
       </trans-unit>
-      <trans-unit id="Ads are not blocked and you are not protected.">
-        <source>Ads are not blocked and you are not protected.</source>
+      <trans-unit id="You are browsing without ultimate protection and ad blocker.">
+        <source>You are browsing without ultimate protection and ad blocker.</source>
         <note>Upgrade lumen view subtitle</note>
+      </trans-unit>
+      <trans-unit id="Turn On">
+        <source>Turn On</source>
+        <note>Turn on CTA</note>
       </trans-unit>
       <trans-unit id="Learn More">
         <source>Learn More</source>

@@ -1593,10 +1593,14 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
         <note>Upgrade lumen view title</note>
         <target>Komplettschutz: AUS</target>
       </trans-unit>
-      <trans-unit id="Ads are not blocked and you are not protected.">
-        <source>Ads are not blocked and you are not protected..</source>
+      <trans-unit id="You are browsing without ultimate protection and ad blocker.">
+        <source>You are browsing without ultimate protection and ad blocker.</source>
         <note>Upgrade lumen view subtitle</note>
-        <target>Werbungen werden nicht entfernt und du bist nicht geschützt.</target>
+        <target>Du bist ohne Komplettschutz und Werbeblocker unterwegs.</target>
+      </trans-unit>
+      <trans-unit id="Turn On">
+        <source>Turn On</source>
+        <note>Turn on CTA</note><target>Einschalten</target>
       </trans-unit>
       <trans-unit id="Learn More">
         <source>Learn More</source>
@@ -1670,7 +1674,7 @@ Keine Sorge, alle deine Daten werden übernommen.</target>
         <note>PLUS Subscription Description</note><target>VPN · KOMPLETTSCHUTZ: DASHBOARD · WERBEBLOCKER · ANTI-TRACKING · ANTI-PHISHING</target>
       </trans-unit>
       <trans-unit id="VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
-        <source>VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
+        <source>VPN_ULTIMATE PROTECTINCION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
         <note>PRO Subscription Description</note><target>VPN · KOMPLETTSCHUTZ: DASHBOARD · WERBEBLOCKER · ANTI-TRACKING · ANTI-PHISHING</target>
       </trans-unit>
       <trans-unit id="12 MONTHS">

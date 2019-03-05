@@ -1488,11 +1488,11 @@
       </trans-unit>
       <trans-unit id="PLUS">
         <source>PLUS</source>
-        <note>PLUS Subscription name</note><target>PLUS INCL. VPN</target>
+        <note>PLUS Subscription name</note><target>PLUS</target>
       </trans-unit>
       <trans-unit id="PRO">
         <source>PRO</source>
-        <note>PRO Subscription name</note><target>PLUS INCL. VPN</target>
+        <note>PRO Subscription name</note><target>PLUS</target>
       </trans-unit>
       <trans-unit id="ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
         <source>ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>

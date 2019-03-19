@@ -1,12 +1,12 @@
-<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file datatype="plaintext" original="Client/en.lproj/Cliqz.strings" source-language="en_US" target-language="ja">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="ja">
     <header>
-      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
-        <source> and select 'Connect' to scan the QR Code.</source>
-        <target> 「接続」を選択してQRコードをスキャンします。</target>
+        <source> and select connect to scan the QR-Code</source>
         <note>[Connect] instructions text part#2</note>
       </trans-unit>
       <trans-unit id="%d Tracker(s) %d Blocked">
@@ -24,9 +24,10 @@
         <target>%dつのトラッカーが見つかりました</target>
         <note>[ControlCenter -&gt; Overview] Detected trackers count</note>
       </trans-unit>
-      <trans-unit id="**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. \n\n**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.">
-        <source>**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. \n\n**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.</source>
-        <target>**この機能は実験的なものであるため、期待どおりに動作しない場合があります。\n\n**モバイルSafariにはPAC設定に関するパフォーマンスの問題があるため、代わりにCliqz、Ghosteryまたは別のブラウザを使用することをお勧めします。</target>
+      <trans-unit id="**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. &#10;&#10;**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.">
+        <source>**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. 
+
+**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.</source>
         <note>[WiFi Protection] Notes</note>
       </trans-unit>
       <trans-unit id="1 hour">
@@ -44,9 +45,8 @@
         <target>30分</target>
         <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
-      <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.">
-        <source>A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
-        <target>明確に定義された場合にのみ広告を表示する\&quot;フェア\&quot;モードがすぐに追加されます。</target>
+      <trans-unit id="A &quot;fair&quot; mode that shows ads in clearly defined cases only will be added soon.">
+        <source>A "fair" mode that shows ads in clearly defined cases only will be added soon.</source>
         <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
       <trans-unit id="About">
@@ -56,14 +56,8 @@
    [Settings] About section header</note>
       </trans-unit>
       <trans-unit id="About MyOffrz">
-        <source>About Ghostery Rewards</source>
-        <target>Ghostery Rewardsについて</target>
+        <source>About Lumen Rewards</source>
         <note>[Settings] About MyOffrz</note>
-      </trans-unit>
-      <trans-unit id="Activate push notification to use this feature. Go to settings to allow push notifications then retry.">
-        <source>Activate push notification to use this feature. Go to settings to allow push notifications then retry.</source>
-        <target>この機能を使用するには、プッシュ通知を有効にします。設定でプッシュ通知を有効にして再試行します。</target>
-        <note>[Subscriptions] Alert message  for asking to enable push notificaiton from the system</note>
       </trans-unit>
       <trans-unit id="Ad &amp; Tracker Blocking">
         <source>Ad &amp; Tracker Blocking</source>
@@ -76,8 +70,7 @@
         <note>[Settings -&gt; Connect] Add Connection title</note>
       </trans-unit>
       <trans-unit id="Add to Bookmarks">
-        <source>Add to Favorites</source>
-        <target>お気に入りに追加</target>
+        <source>Add to Bookmarks</source>
         <note>Label for preview action on Tab Tray Tab to add current tab to Bookmarks</note>
       </trans-unit>
       <trans-unit id="Ads">
@@ -115,6 +108,14 @@
         <target>すべてのウェブサイト</target>
         <note>[Enhanced Adblocker] Domains Button Title</note>
       </trans-unit>
+      <trans-unit id="All most visited websites will be shown again on the startpage.">
+        <source>All most visited websites will be shown again on the startpage.</source>
+        <note>[Settings] Text of the 'Restore Most Visited Websites' alert</note>
+      </trans-unit>
+      <trans-unit id="All running account information and running subscriptions will be lost and cannot be restored.">
+        <source>All running account information and running subscriptions will be lost and cannot be restored.</source>
+        <note>Delete account popup</note>
+      </trans-unit>
       <trans-unit id="Allow Camera Access">
         <source>Allow Camera Access</source>
         <target>カメラへのアクセスを許可</target>
@@ -136,8 +137,7 @@
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Automatic Forget Tab">
-        <source>Automatic Ghost Tab</source>
-        <target>自動Ghostタブ</target>
+        <source>Automatic Forget Tab</source>
         <note>[Settings] Automatic Forget Tab</note>
       </trans-unit>
       <trans-unit id="Back to safe site">
@@ -156,8 +156,7 @@
         <note>[Trackers -&gt; ControlCenter] Block Action Title</note>
       </trans-unit>
       <trans-unit id="Block Ads">
-        <source>Ad Blocking (Beta)</source>
-        <target>広告ブロッキング（ベータ）</target>
+        <source>Block Ads</source>
         <note>[Settings -&gt; Block Ads] Block Ads
    [Settings] Block Ads</note>
       </trans-unit>
@@ -187,18 +186,15 @@
         <note>[Onboarding] Block Recommended TickButton Title</note>
       </trans-unit>
       <trans-unit id="Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!">
-        <source>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!</source>
-        <target>モバイル用に最適化されたGhosteryなら、クリーン、高速、安全なブラウジングをお楽しみいただけます。</target>
+        <source>Browse cleaner, faster, and safer on-the-go with Lumen, now optimized for mobile!</source>
         <note>[Onboarding] Intro Text</note>
       </trans-unit>
       <trans-unit id="Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile! Don't worry, all your data will be imported.">
-        <source>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile! Don't worry, all your data will be imported.</source>
-        <target>モバイル用に最適化されたGhosteryなら、クリーン、高速、安全なブラウジングをお楽しみいただけます。すべてのデータがインポートされますのでご安心ください。</target>
+        <source>Browse cleaner, faster, and safer on-the-go with Lumen, now optimized for mobile! Don't worry, all your data will be imported.</source>
         <note>[Onboarding] Intro Text Old Users</note>
       </trans-unit>
       <trans-unit id="Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.">
-        <source>Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.</source>
-        <target>広告＆トラッカー・ブロッキングを使用すると、より速く、より安全かつ効果的に閲覧できます。Ghosteryコントロール・センターで設定をカスタマイズできます。</target>
+        <source>Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Lumen Control Center.</source>
         <note>[Onboarding] Adblocker Text</note>
       </trans-unit>
       <trans-unit id="Browsing &amp; History">
@@ -217,15 +213,16 @@
         <note>[MyOffrz] No offers text label for DE</note>
       </trans-unit>
       <trans-unit id="CLIQZ has blocked access to %1$ because it has been reported as a phishing website.Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information">
-        <source>Ghostery has blocked access to %1$ because it has been reported as a phishing website.\nPhishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information.</source>
-        <target>Ghosteryは、フィッシング・サイトとして報告されている%1$へのアクセスをブロックしました。\nフィッシング・サイトは、ユーザーのログイン、パスワード、またはその他の機密情報を盗み取るために信頼できる他のサイトをを装います。</target>
+        <source>CLIQZ has blocked access to %1$ because it has been reported as a phishing website.Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information</source>
         <note>Antiphishing alert message</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
         <target>キャンセル</target>
         <note>[ControlCenter - Trackers list] Cancel action title
+   [Settings] Cancel account deletion
    Cancel
+   Cancel button in the 'Show blocked top-sites' alert
    Cancel button title in the urlbar</note>
       </trans-unit>
       <trans-unit id="Categories">
@@ -239,39 +236,20 @@
         <note>Changes applied Toast</note>
       </trans-unit>
       <trans-unit id="Choose what you want Ghostery to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.">
-        <source>Choose what you want Ghostery to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.</source>
-        <target>Ghosteryを使用して、クリーン、高速、安全なブラウジングをお楽しみください。プライバシー コントロール センターでいつでも設定を変更できます。</target>
+        <source>Choose what you want Lumen to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.</source>
         <note>[Onboarding] Adblocker Text</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
-        <source>Ghostery Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
-        <target>Ghosteryブラウザはカメラにアクセスできません。アクセスを可能にするには、「設定」をタップし、カメラをオンにします。</target>
+        <source>Lumen Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
         <note>[Connect] Alert message for turning on Camera access when Scanning QR Code</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.">
-        <source>Ghostery Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.</source>
-        <target>Ghosteryブラウザは、広告ブロッカーが効率的に動作する前に、まずいくつかのデータ・パッケージをダウンロードする必要があります。このためには、アプリをWi-Fiに接続する必要があります。</target>
+        <source>Lumen Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.</source>
         <note>[Settings -&gt; Block Ads] Block Ads footer</note>
       </trans-unit>
       <trans-unit id="Cliqz works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.">
-        <source>Ghostery works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.</source>
-        <target>Ghosteryは匿名の検索クエリーと、ユーザーのコミュニティによって生成されたウェブサイト訪問データを使用しています。このデータを収集してウェブ・インデックスを構築する技術は、Human Webと呼ばれます。</target>
+        <source>Lumen works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.</source>
         <note>[Settings -&gt; Human Web]Footer text for Fair Blocking section</note>
-      </trans-unit>
-      <trans-unit id="Ghostery would like to access your Photos">
-        <source>Ghostery would like to access your Photos</source>
-        <target>Ghosteryがお客様の写真にアクセスしようとしています</target>
-        <note>See http://mzl.la/1G7uHo7</note>
-      </trans-unit>
-      <trans-unit id="Close Forget Tabs">
-        <source>Close Ghost Tabs</source>
-        <target>Ghostタブを閉じる</target>
-        <note>Setting for closing forget tabs</note>
-      </trans-unit>
-      <trans-unit id="Close Tab">
-        <source>Close Tab</source>
-        <target>タブを閉じる</target>
-        <note>Label for Close Tab</note>
       </trans-unit>
       <trans-unit id="Code copied">
         <source>Code copied</source>
@@ -297,6 +275,10 @@
         <source>Configured Settings</source>
         <target>設定</target>
         <note>[WiFi Protection] Configured Settings</note>
+      </trans-unit>
+      <trans-unit id="Confirm account deletion">
+        <source>Confirm account deletion</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Connect">
         <source>Connect</source>
@@ -340,20 +322,12 @@
         <note>Continue despite warning buttun title in antiphishing alert title</note>
       </trans-unit>
       <trans-unit id="Could not download Video.">
-        <source>Video download failed.</source>
-        <target>ビデオのダウンロードに失敗しました。</target>
+        <source>Could not download Video.</source>
         <note>[VidoeDownloader] Alert title for youtube video download faild
    [VidoeDownloader] Toast message shown when youtube video download faild</note>
       </trans-unit>
-      <trans-unit id="Could not subscribe to {1}.">
-        <source>Could not subscribe to {1}.</source>
-        <target>{1}に登録できませんでした。</target>
-        <note>[Subscriptions] Alert title for asking to enable push notificaiton from the system
-   [Subscriptions] Alert title when failing to subscribe to soccer notification</note>
-      </trans-unit>
       <trans-unit id="Currently, push notifications are only received if Cliqz is active.">
-        <source>Currently, push notifications are only received when your browser is active.</source>
-        <target>現在、プッシュ通知は、ブラウザがアクティブな場合にのみ受信されます。</target>
+        <source>Currently, push notifications are only received if Cliqz is active.</source>
         <note>[Subscriptions] Subscribing Toast</note>
       </trans-unit>
       <trans-unit id="Customer Interaction">
@@ -361,29 +335,33 @@
         <target>顧客インタラクション</target>
         <note>Tracker category in control center</note>
       </trans-unit>
+      <trans-unit id="Delete">
+        <source>Delete</source>
+        <note>Delete action</note>
+      </trans-unit>
+      <trans-unit id="Delete Account">
+        <source>Delete Account</source>
+        <note>Delete Account Settings</note>
+      </trans-unit>
+      <trans-unit id="Delete account?">
+        <source>Delete account?</source>
+        <note>Sign Out Settings</note>
+      </trans-unit>
       <trans-unit id="Dismiss">
         <source>Dismiss</source>
         <target>却下</target>
         <note>Dismiss No Wi-Fi connection alert</note>
       </trans-unit>
-      <trans-unit id="Done">
-        <source>Done</source>
-        <target>完了</target>
-        <note>Done button in the tabTray Toolbar</note>
-      </trans-unit>
       <trans-unit id="Download videos on Wi-Fi Only">
-        <source>Only download video on Wi-Fi</source>
-        <target>Wi-Fiのみを利用してビデオをダウンロード</target>
+        <source>Download videos on Wi-Fi Only</source>
         <note>[Settings -&gt; Limit Mobile Data Usage] toogle footer</note>
       </trans-unit>
       <trans-unit id="Download youtube video">
-        <source>Download Video Link</source>
-        <target>「ビデオをダウンロード」リンク</target>
+        <source>Download youtube video</source>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
       <trans-unit id="EULA">
-        <source>End-User License Agreement</source>
-        <target>エンドユーザー向けライセンス契約書</target>
+        <source>EULA</source>
         <note>[Settings -&gt; About] EULA</note>
       </trans-unit>
       <trans-unit id="Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.">
@@ -416,11 +394,6 @@
         <target>必需</target>
         <note>Tracker category in control center</note>
       </trans-unit>
-      <trans-unit id="Every new Tab comes with top sites, news and background image. Customize it to your needs.">
-        <source>Every new Tab comes with top sites, news and background image. Customize it to your needs.</source>
-        <target>すべての新しいタブにはトップ・サイト、ニュース、背景画像が表示されます。お客様のニーズに合わせてカスタマイズします。</target>
-        <note>[Onboarding] Tab Text</note>
-      </trans-unit>
       <trans-unit id="Extension">
         <source>Extension</source>
         <target>拡張機能</target>
@@ -430,11 +403,6 @@
         <source>FAQ</source>
         <target>よくある質問</target>
         <note>[Settings] FAQ</note>
-      </trans-unit>
-      <trans-unit id="FAQ &amp; Support">
-        <source>FAQ &amp; Support</source>
-        <target>よくある質問とサポート</target>
-        <note>[Settings] FAQ &amp; Support</note>
       </trans-unit>
       <trans-unit id="Fair Mode">
         <source>Fair Mode</source>
@@ -446,19 +414,8 @@
         <target>ユーザーが保存するお気に入りはここに表示されます。</target>
         <note>Status label for the empty Favorites state.</note>
       </trans-unit>
-      <trans-unit id="Forget">
-        <source>Ghost Tabs</source>
-        <target>Ghostタブ</target>
-        <note>Forget toogle button in tab overview</note>
-      </trans-unit>
-      <trans-unit id="Forget Mode">
-        <source>Ghost Mode</source>
-        <target>Ghostモード</target>
-        <note>Title displayed for when there are no open tabs while in forget mode</note>
-      </trans-unit>
       <trans-unit id="Forget Tab">
-        <source>Ghost tab</source>
-        <target>Ghostタブ</target>
+        <source>Forget Tab</source>
         <note>Title of Forget Tab on iPad</note>
       </trans-unit>
       <trans-unit id="Fresh Tab">
@@ -473,8 +430,7 @@
         <note>Get it from the %link%</note>
       </trans-unit>
       <trans-unit id="Get the best out of CLIQZ">
-        <source>Get the best out of Ghostery</source>
-        <target>Ghosteryを最大限に活用してください</target>
+        <source>Get the best out of Lumen</source>
         <note>[Settings] Get the best out of CLIQZ</note>
       </trans-unit>
       <trans-unit id="Ghost Search">
@@ -483,13 +439,15 @@
         <note>[Onboarding] QuickSearch Title</note>
       </trans-unit>
       <trans-unit id="Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). ">
-        <source>Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). </source>
-        <target>iOS用Ghosteryは、ユーザーのWiFi接続を保護できるようになりました。このWiFiネットワークに接続している限り、他のアプリケーションのトラッカーをブロックすることができます。毎回各ネットワーク（家庭、職場、学校など）ごとに設定する必要があります。 </target>
+        <source>Lumen for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). </source>
         <note>[WiFi Protection] Description</note>
       </trans-unit>
+      <trans-unit id="Ghostery would like to access your Photos">
+        <source>Lumen would like to access your Photos</source>
+        <note>See http://mzl.la/1G7uHo7</note>
+      </trans-unit>
       <trans-unit id="Global Trackers">
-        <source>All Trackers</source>
-        <target>すべてのトラッカー</target>
+        <source>Global Trackers</source>
         <note>[ControlCenter] Global Trackers panel title</note>
       </trans-unit>
       <trans-unit id="Go to ">
@@ -508,29 +466,13 @@
         <note>[Settings] Help section header</note>
       </trans-unit>
       <trans-unit id="Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.">
-        <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
-        <target>ブラウジング体験の向上にご協力ください。Ghosteryは匿名の使用データのみを収集します。いかなる場合も個人情報を収集することはありません。</target>
+        <source>Help us improve your browsing experience. Lumen collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
         <note>[Settings -&gt; Send Telemetry] Footer text</note>
-      </trans-unit>
-      <trans-unit id="Here you'll find a new offer every week">
-        <source>Every week a new offer will show up here</source>
-        <target>毎週新しいオファーがここに表示されます</target>
-        <note>[MyOffrz] No offers label</note>
       </trans-unit>
       <trans-unit id="Hey, I would like to invite you to try the %@ Browser.">
         <source>Hey, I would like to invite you to try the %@ Browser.</source>
         <target>%@ブラウザでお試しください。</target>
         <note>Sharing StartTab message</note>
-      </trans-unit>
-      <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
-        <source>Open in New Ghost Tab</source>
-        <target>新しいGhostタブで開く</target>
-        <note>The title for the Open in New Forget Tab context menu action for sites in Home Panels</note>
-      </trans-unit>
-      <trans-unit id="Hotkeys.NewForgetTab.DiscoveryTitle">
-        <source>New Ghost Tab</source>
-        <target>新しいGhostタブ</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Human Web">
         <source>Human Web</source>
@@ -548,23 +490,19 @@
         <note>[Settings -&gt; About] Imprint</note>
       </trans-unit>
       <trans-unit id="Introducing Ghostery">
-        <source>Introducing Ghostery</source>
-        <target>Ghosteryの紹介</target>
+        <source>Introducing Lumen</source>
         <note>[Onboarding] Intro Title</note>
       </trans-unit>
       <trans-unit id="Introducing New Ghostery">
-        <source>Introducing New Ghostery</source>
-        <target>新しいGhosteryの紹介</target>
+        <source>Introducing New Lumen</source>
         <note>[Onboarding] Intro Title Old Users</note>
       </trans-unit>
       <trans-unit id="Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.">
-        <source>Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.  By using this app you agree to Ghostery's Privacy Policy</source>
-        <target>よりクリーンで、より速く、より安全に閲覧できるようにします心配しないでください。すべてのデータがインポートされます。このアプリを使用すると、Ghosteryのプライバシーポリシーに同意したことになります</target>
+        <source>Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported. By using this app you agree to Lumen's Privacy Policy</source>
         <note>[Onboarding] Intro Text Old Users</note>
       </trans-unit>
       <trans-unit id="Keep your browsing cleaner, faster, and safer.">
-        <source>Keep your browsing cleaner, faster, and safer. By using this app you agree to Ghostery's Privacy Policy</source>
-        <target>よりクリーンで、より速く、より安全に閲覧できるようにします。このアプリを使用すると、Ghosteryのプライバシーポリシーに同意したことになります</target>
+        <source>Keep your browsing cleaner, faster, and safer. By using this app you agree to Lumen's Privacy Policy</source>
         <note>[Onboarding] Intro Text</note>
       </trans-unit>
       <trans-unit id="LEARN MORE">
@@ -588,9 +526,12 @@
         <note>[Settings] Limit Mobile Data Usage</note>
       </trans-unit>
       <trans-unit id="Looks like Ghostery crashed previously. Would you like to restore your tabs?">
-        <source>Looks like Ghostery crashed previously. Would you like to restore your tabs?</source>
-        <target>Ghosteryが以前にクラッシュしたそうです。タブを復元しますか？</target>
+        <source>Looks like Lumen crashed previously. Would you like to restore your tabs?</source>
         <note>Restore Tabs Prompt Description</note>
+      </trans-unit>
+      <trans-unit id="Lumen Account">
+        <source>Lumen Account</source>
+        <note>[Settings] Account</note>
       </trans-unit>
       <trans-unit id="Menu.AddFavorite.Confirm">
         <source>Favorite Added</source>
@@ -618,8 +559,7 @@
         <note>Title to expand news stream</note>
       </trans-unit>
       <trans-unit id="NEWS">
-        <source>News</source>
-        <target>ニュース</target>
+        <source>NEWS</source>
         <note>Title to expand news stream</note>
       </trans-unit>
       <trans-unit id="New Tab">
@@ -628,8 +568,7 @@
         <note>Title of New Tab on iPad</note>
       </trans-unit>
       <trans-unit id="No Wi-Fi Connection message">
-        <source>You are not connected to a Wi-Fi network and video downloads with mobile data is restricted. \nTo change this, go to Settings &gt; Limit Mobile Data Usage.\n</source>
-        <target>お客様はWi-Fiネットワークに接続されておらず、モバイル・データを含むビデオ・ダウンロードは制限されています。\Nこれを変更するには、「設定」 &gt; 「モバイル・データの使用を制限」に移動します。\n</target>
+        <source>No Wi-Fi Connection message</source>
         <note>[Connect] No Wi-Fi connection alert message</note>
       </trans-unit>
       <trans-unit id="Not Now">
@@ -637,6 +576,10 @@
         <target>後にして。</target>
         <note>Not now option for turning on Camera access
    Not now option for turning on location service</note>
+      </trans-unit>
+      <trans-unit id="OK">
+        <source>OK</source>
+        <note>[Settings] Cancel account deletion</note>
       </trans-unit>
       <trans-unit id="Off">
         <source>Off</source>
@@ -673,9 +616,12 @@
         <target>オンライン</target>
         <note>[Settings -&gt; Connect] Online status</note>
       </trans-unit>
+      <trans-unit id="Open Mail App">
+        <source>Open Mail App</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Open the Photos">
-        <source>Open</source>
-        <target>開く</target>
+        <source>Open the Photos</source>
         <note>[VidoeDownloader] Toast button text shown when youtube video is Successfully downloaded</note>
       </trans-unit>
       <trans-unit id="Overview">
@@ -689,8 +635,7 @@
         <note>[WiFi Protection] Fourth step description</note>
       </trans-unit>
       <trans-unit id="Pause Ghostery">
-        <source>Pause Ghostery</source>
-        <target>Ghosteryを一時停止</target>
+        <source>Pause Lumen</source>
         <note>[ControlCenter -&gt; Overview] Pause Ghostery button title</note>
       </trans-unit>
       <trans-unit id="Please select video quality">
@@ -709,8 +654,7 @@
         <note>[Settings -&gt; About] Privacy Policy</note>
       </trans-unit>
       <trans-unit id="Prompt description">
-        <source>Enter a new name for the connection:</source>
-        <target>新しい接続名を入力してください：</target>
+        <source>Prompt description</source>
         <note>[Settings -&gt; Connect] rename connection alert message</note>
       </trans-unit>
       <trans-unit id="Quick Search">
@@ -724,8 +668,7 @@
         <note>[Settings] Rate Us</note>
       </trans-unit>
       <trans-unit id="Receive attractive discounts and bargains with MyOffrz.">
-        <source>Receive attractive discounts and bargains with Ghostery Rewards.</source>
-        <target>Ghostery Rewardsを使用すると、魅力的な割引やバーゲンを受けることができます。</target>
+        <source>Receive attractive discounts and bargains with Lumen Rewards.</source>
         <note>[MyOffrz] MyOffrz description</note>
       </trans-unit>
       <trans-unit id="Refresh">
@@ -763,6 +706,10 @@
         <target>デフォルト設定に戻す</target>
         <note>[ControlCenter - Trackers list] Restore Default Settings trackers action title</note>
       </trans-unit>
+      <trans-unit id="Restore Most Visited Websites">
+        <source>Restore Most Visited Websites</source>
+        <note>[Settings] Restore Most Visited Websites</note>
+      </trans-unit>
       <trans-unit id="Restrict">
         <source>Restrict</source>
         <target>制限</target>
@@ -786,23 +733,17 @@
       <trans-unit id="Retry">
         <source>Retry</source>
         <target>再試行</target>
-        <note>[Connect] Retry button for Connection Failed alert
-   [Subscriptions] Retry alert button</note>
-      </trans-unit>
-      <trans-unit id="Save time and data volume: Quick Search instantly shows relevant results while typing.">
-        <source>Save time and data volume: Quick Search instantly shows relevant results while typing.</source>
-        <target>時間とデータ量を節約：即時検索は、入力中に関連する結果を即時に表示します。</target>
-        <note>[Onboarding] QuickSearch Text</note>
+        <note>[Connect] Retry button for Connection Failed alert</note>
       </trans-unit>
       <trans-unit id="Scan QR-Code">
-        <source>Scan QR Code</source>
-        <target>QRコードをスキャン</target>
+        <source>Scan QR-Code</source>
         <note>[Settings -&gt; Connect] Scan QR-Code</note>
       </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
         <target>検索</target>
-        <note>[Settings] Search section title</note>
+        <note>[Settings] Complementary Search
+   [Settings] Search section title</note>
       </trans-unit>
       <trans-unit id="Search Query Suggestions">
         <source>Search Query Suggestions</source>
@@ -834,16 +775,14 @@
         <target>使用データを送信</target>
         <note>[Settings] Send usage data</note>
       </trans-unit>
-      <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
-        <source>Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;</source>
-        <target>\&quot;HTTP PROXY\&quot;を\&quot;Auto\&quot;に設定します</target>
+      <trans-unit id="Set &quot;HTTP PROXY&quot; to &quot;Auto&quot;">
+        <source>Set "HTTP PROXY" to "Auto"</source>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
         <target>設定</target>
-        <note>[Subscriptions] Subscribe alert button
-   Settings
+        <note>Settings
    Settings option for turning on Camera access
    Settings option for turning on location service</note>
       </trans-unit>
@@ -872,6 +811,10 @@
         <target>最も多くアクセスしたサイトを表示</target>
         <note>[Settings] Show most visited websites</note>
       </trans-unit>
+      <trans-unit id="Sign Out">
+        <source>Sign Out</source>
+        <note>Sign Out Settings</note>
+      </trans-unit>
       <trans-unit id="Site Analytics">
         <source>Site Analytics</source>
         <target>サイト分析</target>
@@ -883,14 +826,8 @@
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Sorry but devices could not be connected. Please try again.">
-        <source>Sorry, but the devices could not be connected. Please try again.</source>
-        <target>申し訳ありませんが、デバイスを接続できませんでした。もう一度お試しください。</target>
+        <source>Sorry but devices could not be connected. Please try again.</source>
         <note>[Connect] Connection Failed alert message</note>
-      </trans-unit>
-      <trans-unit id="Sorry, we encountered some technical difficulties. Please try again">
-        <source>Sorry, we encountered some technical difficulties. Please try again</source>
-        <target>申し訳ありませんが、技術的な問題が発生しました。もう一度お試しください</target>
-        <note>[Subscriptions] Alert message when failing to subscribe to soccer notification</note>
       </trans-unit>
       <trans-unit id="Start Tab">
         <source>Start Tab</source>
@@ -902,24 +839,13 @@
         <target>匿名のままデータ使用量を減らし、より効率的に。：Ghost検索バーに入力するとすぐに結果が表示されます。</target>
         <note>[Onboarding] QuickSearch Text</note>
       </trans-unit>
-      <trans-unit id="Subscribe">
-        <source>Subscribe</source>
-        <target>購読</target>
-        <note>[Subscriptions] Subscribe alert button</note>
-      </trans-unit>
-      <trans-unit id="Subscribing to {1}.">
-        <source>Subscribing to {1}...</source>
-        <target>{1}に登録中…</target>
-        <note>[Subscriptions] Subscribing HUD</note>
-      </trans-unit>
       <trans-unit id="Support">
         <source>Support</source>
         <target>サポート</target>
         <note>[Settings] Support</note>
       </trans-unit>
       <trans-unit id="Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.">
-        <source>Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.</source>
-        <target>Ghosteryのパフォーマンスを向上させるために、匿名の分析データとHuman Webデータを共有して、Ghosteryをサポートします。</target>
+        <source>Support Lumen by sharing anonymous analytics and Human Web data to improve Lumen's performance.</source>
         <note>[Onboarding] Telemetry</note>
       </trans-unit>
       <trans-unit id="Swipe">
@@ -962,14 +888,17 @@
         <target>アクセスしたサイトの広告をブロックする機能です。</target>
         <note>[ControlCenter -&gt; Overview] Ad Blocking description</note>
       </trans-unit>
-      <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
-        <source>To share your location, go to the settings for the Ghostery app:\n\n1. Tap Location\n2. Enable 'While Using'</source>
-        <target>位置を共有するには、Ghosteryアプリケーションの設定に移動します:\n\n1。位置をタップします\n2。「使用中」を有効にする</target>
+      <trans-unit id="To share your location, go to the settings for the CLIQZ app:&#10;1.Tap Location&#10;2.Enable 'While Using'">
+        <source>To share your location, go to the settings for the CLIQZ app:
+1.Tap Location
+2.Enable 'While Using'</source>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
-      <trans-unit id="To share your location, go to the settings of your smartphone:\n1.Turn on Location Services\n2.Select the CLIQZ App\n3.Enable 'While Using'">
-        <source>To share your location, go to the settings of your smartphone:\n\n1. Turn on Location Services\n2. Select the Ghostery App\n3. Enable 'While Using'</source>
-        <target>位置を共有するには、スマートフォンの設定に移動します:\n\n1。位置情報サービスを有効にします\n2。Ghosteryアプリを選択します\n3。「使用中」を有効にする</target>
+      <trans-unit id="To share your location, go to the settings of your smartphone:&#10;1.Turn on Location Services&#10;2.Select the CLIQZ App&#10;3.Enable 'While Using'">
+        <source>To share your location, go to the settings of your smartphone:
+1.Turn on Location Services
+2.Select the CLIQZ App
+3.Enable 'While Using'</source>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="Trackers">
@@ -1037,6 +966,10 @@
         <target>警告：詐欺まがいウェブサイト！</target>
         <note>Antiphishing alert title</note>
       </trans-unit>
+      <trans-unit id="We are sorry that you are leaving. Please check your inbox and open the confirmation link to complete account deletion.">
+        <source>We are sorry that you are leaving. Please check your inbox and open the confirmation link to complete account deletion.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="We don't have any offers for your country yet">
         <source>We don't have any offers for your country yet</source>
         <target>選択した国へのオファーはまだありません。</target>
@@ -1047,24 +980,13 @@
         <target>当社は、クラッシュ・レポートのためにオープンソース・ソフトウェアSentry（http://sentry.io）を使用しています。これらのレポートには個人データは含まれていません。</target>
         <note>[Settings -&gt; Send Crash Reports] Footer text</note>
       </trans-unit>
-      <trans-unit id="Websites which are known to contain explicit content are automatically opened in Forget Tabs. Visits to such websites are therefore not saved to your history.">
-        <source>Websites which are known to contain explicit content are automatically opened in Ghost Tabs. Visits to such websites are therefore not saved to your history.</source>
-        <target>露骨なコンテンツを含んでいることが知られているウェブサイトは、Ghostタブで自動的に開かれます。したがって、そのようなウェブサイトへのアクセスはユーザーの履歴に保存されません。</target>
-        <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
-      </trans-unit>
       <trans-unit id="Well, this is embarrassing.">
         <source>Well, this is embarrassing.</source>
         <target>まあ、これは恥ずかしいです。</target>
         <note>Restore Tabs Prompt Title</note>
       </trans-unit>
-      <trans-unit id="When Leaving Forget Mode">
-        <source>When Leaving Ghost Mode</source>
-        <target>Ghostモードを終了するとき。</target>
-        <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
-      </trans-unit>
       <trans-unit id="When Opening Ghostery">
-        <source>When Opening Ghostery</source>
-        <target>Ghosteryを開くとき</target>
+        <source>When Opening Lumen</source>
         <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
       </trans-unit>
       <trans-unit id="WiFi Protection">
@@ -1078,19 +1000,10 @@
         <note>[WiFi Protection] Navigation Title
    [Wifi Protection] WiFi connection protection status</note>
       </trans-unit>
-      <trans-unit id="Would you like to subscribe to the {1}?">
-        <source>Would you like to subscribe to the {1}?</source>
-        <target>{1}に登録しますか？</target>
-        <note>[Subscriptions] Alert title for asking to subscribe for soccer notificaiton</note>
-      </trans-unit>
-      <trans-unit id="You are browsing in Forget Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.">
-        <source>You are browsing in Ghost Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
-        <target>Ghostモードで閲覧しています：このモードでアクセスしたウェブサイトは履歴に保存されず、クッキーを含むローカル・データは保存されません。</target>
-        <note>Description text displayed when there are no open tabs while in private mode</note>
-      </trans-unit>
-      <trans-unit id="You connected your first device!\n\nNow you are ready to send websites and YouTube videos from your computer to your mobile device.">
-        <source>You connected your first device!\n\nNow you are ready to send websites and YouTube videos from your computer to your mobile device.</source>
-        <target>最初のデバイスを接続しました！\n\nコンピュータからモバイル・デバイスにウェブサイトとYouTubeのビデオを送信することができます。</target>
+      <trans-unit id="You connected your first device!&#10;&#10;Now you are ready to send websites and YouTube videos from your computer to your mobile device.">
+        <source>You connected your first device!
+
+Now you are ready to send websites and YouTube videos from your computer to your mobile device.</source>
         <note>[Connect] Connection Successful alert message</note>
       </trans-unit>
       <trans-unit id="You have restricted this site">
@@ -1102,11 +1015,6 @@
         <source>You have trusted this site</source>
         <target>このサイトは信頼されています</target>
         <note>[ControlCenter -&gt; Overview] Blocked trackers count</note>
-      </trans-unit>
-      <trans-unit id="You will be notified about games, goals and important happenings of the {1}.">
-        <source>You will be notified about games, goals and important happenings of the {1}.</source>
-        <target>{1}のゲーム、目標、重要なイベントについてユーザーに通知します。</target>
-        <note>[Subscriptions] Alert message for asking to subscribe for soccer notificaiton</note>
       </trans-unit>
       <trans-unit id="Your video is being downloaded.">
         <source>Your video is being downloaded.</source>
@@ -1123,109 +1031,602 @@
         <target>ドイツ</target>
         <note>Localized String for German region</note>
       </trans-unit>
+      <trans-unit id="region-ES">
+        <source>Spain</source>
+        <target>スペイン</target>
+        <note>Localized String for Spain region</note>
+      </trans-unit>
       <trans-unit id="region-FR">
         <source>France</source>
         <target>フランス</target>
         <note>Localized String for France region</note>
       </trans-unit>
-      <trans-unit id="region-US">
-        <source>United States</source>
-        <target>米国</target>
-        <note>Localized String for United States region</note>
+      <trans-unit id="region-GB">
+        <source>United Kingdom</source>
+        <note>Localized String for United Kingdom region</note>
       </trans-unit>
       <trans-unit id="region-IT">
         <source>Italy</source>
         <target>イタリア</target>
         <note>Localized String for Italy region</note>
       </trans-unit>
-      <trans-unit id="region-ES">
-        <source>Spain</source>
-        <target>スペイン</target>
-        <note>Localized String for Spain region</note>
-      </trans-unit>
-      <trans-unit id="region-UK">
-        <source>United Kingdom</source>
-        <target>英国</target>
-        <note>Localized String for United Kingdom region</note>
+      <trans-unit id="region-US">
+        <source>United States</source>
+        <target>米国</target>
+        <note>Localized String for United States region</note>
       </trans-unit>
     </body>
   </file>
-  <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en_US" target-language="ja">
+  <file original="Client/en.lproj/Ghostery.strings" datatype="plaintext" source-language="en_US" target-language="ja">
     <header>
-      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
+      <trans-unit id="Close Forget Tabs">
+        <source>Close Ghost Tabs</source>
+        <note>Setting for closing forget tabs</note>
+      </trans-unit>
+      <trans-unit id="Forget Mode">
+        <source>Forget Mode</source>
+        <note>Title displayed for when there are no open tabs while in forget mode</note>
+      </trans-unit>
+      <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
+        <source>Open in New Ghost Tab</source>
+        <note>The title for the Open in New Forget Tab context menu action for sites in Home Panels</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.NewForgetTab.DiscoveryTitle">
+        <source>New Ghost Tab</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
+      <trans-unit id="Websites which are known to contain explicit content are automatically opened in Ghost Tabs. Visits to such websites are therefore not saved to your history.">
+        <source>Websites which are known to contain explicit content are automatically opened in Ghost Tabs. Visits to such websites are therefore not saved to your history.</source>
+        <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
+      </trans-unit>
+      <trans-unit id="When Leaving Forget Mode">
+        <source>When Leaving Ghost Mode</source>
+        <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
+      </trans-unit>
+      <trans-unit id="You are browsing in Forget Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.">
+        <source>You are browsing in Ghost Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
+        <note>Description text displayed when there are no open tabs while in forget mode</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US" target-language="ja">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="$(SHORTCUT_PRIVATE_TAB_TITLE)">
+        <source>$(SHORTCUT_PRIVATE_TAB_TITLE)</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="1Password Fill Browser Action">
+        <source>1Password Fill Browser Action</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="CFBundleDisplayName">
-        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target>Ghostery</target>
-        
+        <source>Lumen</source>
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName">
-        <source>$(MOZ_PRODUCT_NAME)</source>
-        <target>Ghostery</target>
-        
+        <source>Lumen</source>
+        <target>Lumen</target>
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you scan, take and upload videos or photos.</source>
         <target>これにより、ビデオや写真をスキャンしたり撮ってアップロードすることができます。</target>
-        
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
-        <source>Ghostery requires Face ID to access your saved logins.</source>
-        <target>Ghosteryでは、保存されたログイン情報にアクセスするには、顔IDが必要です。</target>
-        
+        <source>Lumen requires Face ID to access your saved logins.</source>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Location-based features or websites you visit may request your location.</source>
         <target>位置情報に関する機能やサイトは、ユーザーの位置を要求する場合があります。</target>
-        
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
-        <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
-        <target>Ghosteryは、ユーザーがブラウザの内部でビデオを録画することを選択した場合にのみ、マイクを使用します。</target>
-        
+        <source>Lumen will only use the microphone when you choose to record videos inside the browser.</source>
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
-        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
-        <target>Ghosteryはビデオや写真をデバイスにダウンロードするためにのみこのアクセスを使用します。</target>
-        
+        <source>Lumen will only use this access to download videos and pictures to your device.</source>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
-        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
-        <target>Ghosteryはビデオや写真をデバイスにダウンロードするためにのみこのアクセスを使用します。</target>
-        
+        <source>Lumen will only use this access to download videos and pictures to your device.</source>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
-        <source>New Ghost Tab</source>
-        <target>新しいGhostタブ</target>
-        
+        <source>New Private Tab</source>
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
         <target>新しいタブ</target>
-        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleQRCode">
         <source>Scan QR-Code</source>
         <target>QRコードをスキャン</target>
-        
         <note>(No Comment)</note>
       </trans-unit>
     </body>
   </file>
-  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en_US" target-language="ja">
+  <file original="Client/en.lproj/Lumen.strings" datatype="plaintext" source-language="en_US" target-language="ja">
     <header>
-      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="%d more days left in trial">
+        <source>%d more days left in trial</source>
+        <note>Trial days left title</note>
+      </trans-unit>
+      <trans-unit id="1 MONTH">
+        <source>1 MONTH</source>
+        <note>PLUS Subscription duration</note>
+      </trans-unit>
+      <trans-unit id="9.99€/month">
+        <source>9.99€/month</source>
+        <note>PLUS Subscription price</note>
+      </trans-unit>
+      <trans-unit id="12 MONTHS">
+        <source>12 MONTHS</source>
+        <note>BASIC Subscription duration
+   PRO Subscription duration</note>
+      </trans-unit>
+      <trans-unit id="47.99€/year">
+        <source>47.99€/year</source>
+        <note>BASIC Subscription price</note>
+      </trans-unit>
+      <trans-unit id="95.99€/year">
+        <source>95.99€/year</source>
+        <note>PRO Subscription price</note>
+      </trans-unit>
+      <trans-unit id="Ad Blocker">
+        <source>Ad Blocker</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+      </trans-unit>
+      <trans-unit id="Ads Blocked">
+        <source>Ads Blocked</source>
+        <note>[Lumen-&gt;Dashboard] Ads Blocked widget title</note>
+      </trans-unit>
+      <trans-unit id="Available VPN Locations">
+        <source>Available VPN Locations</source>
+        <note>[VPN] vpn locations</note>
+      </trans-unit>
+      <trans-unit id="BASIC">
+        <source>BASIC</source>
+        <note>BASIC Subscription name</note>
+      </trans-unit>
+      <trans-unit id="BEST VALUE: SAVE 20%">
+        <source>BEST VALUE: SAVE 20%</source>
+        <note>BEST VALUE: SAVE 20%</note>
+      </trans-unit>
+      <trans-unit id="Block Ads &amp; Trackers">
+        <source>Block Ads &amp; Trackers</source>
+        <note>[Onboarding] Adblocker title</note>
+      </trans-unit>
+      <trans-unit id="Blocked trackers">
+        <source>Blocked trackers</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+      </trans-unit>
+      <trans-unit id="Blocking trackers and ads saves data for your monthly data package to last longer.">
+        <source>Blocking trackers and ads saves data for your monthly data package to last longer.</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+      </trans-unit>
+      <trans-unit id="Blocking trackers and ads saves time because pages load faster. Each blocking saves 2.5% loading time on average.">
+        <source>Blocking trackers and ads saves time because pages load faster. Each blocking saves 2.5% loading time on average.</source>
+        <note>[Lumen-&gt;Dashboard] time saved widget description</note>
+      </trans-unit>
+      <trans-unit id="Blocks ads and trackers. Saves data volume and time.">
+        <source>Blocks ads and trackers. Saves data volume and time.</source>
+        <note>[Onboarding] Intro text</note>
+      </trans-unit>
+      <trans-unit id="CONNECT">
+        <source>CONNECT</source>
+        <note>[VPN] vpn button</note>
+      </trans-unit>
+      <trans-unit id="CONNECTING">
+        <source>CONNECTING</source>
+        <note>[VPN] vpn button</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <note>Cancel button title in payment failing transaction alert</note>
+      </trans-unit>
+      <trans-unit id="Choose VPN Location">
+        <source>Choose VPN Location</source>
+        <note>[VPN] vpn choose location</note>
+      </trans-unit>
+      <trans-unit id="Clear">
+        <source>Clear</source>
+        <note>Lumen Clear Dashboard Data Popup Clear Button Text</note>
+      </trans-unit>
+      <trans-unit id="Close">
+        <source>Close</source>
+        <note>Close button title on dashboard info</note>
+      </trans-unit>
+      <trans-unit id="Close Private Tabs">
+        <source>Close Private Tabs</source>
+        <note>Setting for closing private tabs</note>
+      </trans-unit>
+      <trans-unit id="Conditions">
+        <source>Conditions</source>
+        <note>[Upgrade Flow] Conditions button</note>
+      </trans-unit>
+      <trans-unit id="Corresponds to 4€/month">
+        <source>Corresponds to 4€/month</source>
+        <note>BASIC Subscription billing</note>
+      </trans-unit>
+      <trans-unit id="Corresponds to 8€/month">
+        <source>Corresponds to 8€/month</source>
+        <note>PRO Subscription billing</note>
+      </trans-unit>
+      <trans-unit id="Corresponds to 119.88€/year">
+        <source>Corresponds to 119.88€/year</source>
+        <note>PLUS Subscription billing</note>
+      </trans-unit>
+      <trans-unit id="DAY(S)">
+        <source>DAY(S)</source>
+        <note>Day(s) unit for dashboard</note>
+      </trans-unit>
+      <trans-unit id="DISCONNECT">
+        <source>DISCONNECT</source>
+        <note>[VPN] vpn button</note>
+      </trans-unit>
+      <trans-unit id="DISCONNECTING">
+        <source>DISCONNECTING</source>
+        <note>[VPN] vpn button</note>
+      </trans-unit>
+      <trans-unit id="Dark Theme">
+        <source>Dark Theme</source>
+        <note>[Settings] Dark Theme</note>
+      </trans-unit>
+      <trans-unit id="Dashboard">
+        <source>Dashboard</source>
+        <note>[Onboarding] Dashboard title</note>
+      </trans-unit>
+      <trans-unit id="Data Collectors Detained">
+        <source>Data Collectors Detained</source>
+        <note>[Lumen-&gt;Dashboard]  widget title</note>
+      </trans-unit>
+      <trans-unit id="Data Saved">
+        <source>Data Saved</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+      </trans-unit>
+      <trans-unit id="Data Volume Saved">
+        <source>Data Volume Saved</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+      </trans-unit>
+      <trans-unit id="Did you know?">
+        <source>Did you know?</source>
+        <note>[Contextual onboarding] For Adblocker
+   [Contextual onboarding] For Dashboard</note>
+      </trans-unit>
+      <trans-unit id="End User License Agreement">
+        <source>End User License Agreement</source>
+        <note>[Upgrade Flow] Privacy Policy button</note>
+      </trans-unit>
+      <trans-unit id="Enjoy clutter-free browsing">
+        <source>Enjoy clutter-free browsing</source>
+        <note>[Lumen-&gt;Dashboard] AdsBlock widget description</note>
+      </trans-unit>
+      <trans-unit id="Enjoy clutter-free websites and save data &amp; time.">
+        <source>Enjoy clutter-free websites and save data &amp; time.</source>
+        <note>[Onboarding] Adblocker text</note>
+      </trans-unit>
+      <trans-unit id="Germany">
+        <source>Germany</source>
+        <note>VPN country name for Germany</note>
+      </trans-unit>
+      <trans-unit id="HRS">
+        <source>HRS</source>
+        <note>Hours unit for dashboard</note>
+      </trans-unit>
+      <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab">
+        <source>Open in New Private Tab</source>
+        <note>The title for the Open in New Forget Tab context menu action for sites in Home Panels</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.NewPrivateTab.DiscoveryTitle">
+        <source>New Private Tab</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
+      <trans-unit id="I agree to share strictly anonymous analytics data to improve Lumen's performance.">
+        <source>I agree to share strictly anonymous analytics data to improve Lumen's performance.</source>
+        <note>[Onboarding] Telemetry</note>
+      </trans-unit>
+      <trans-unit id="INCL.">
+        <source>INCL.</source>
+        <note>Include vpn label</note>
+      </trans-unit>
+      <trans-unit id="Integrated VPN protects you on public Wi-Fi.">
+        <source>Integrated VPN protects you on public Wi-Fi.</source>
+        <note>[Onboarding] VPN text</note>
+      </trans-unit>
+      <trans-unit id="Keep ultimate protection and VPN.">
+        <source>Keep ultimate protection and VPN.</source>
+        <note>Upgrade lumen view subtitle2</note>
+      </trans-unit>
+      <trans-unit id="LEARN MORE">
+        <source>LEARN MORE</source>
+        <note>LEARN MORE action</note>
+      </trans-unit>
+      <trans-unit id="LET'S GO">
+        <source>LET'S GO</source>
+        <note>[Onboarding] Get Started button text</note>
+      </trans-unit>
+      <trans-unit id="Last 7 days">
+        <source>Last 7 days</source>
+        <note>[Lumen-&gt;Dashboard] Last 7 days tab</note>
+      </trans-unit>
+      <trans-unit id="Learn More">
+        <source>Learn More</source>
+        <note>`Learn More` alert button
+   Trial Expired view Learn more button text</note>
+      </trans-unit>
+      <trans-unit id="Lumen brings to light what happens in the shadows and protects you.">
+        <source>Lumen brings to light what happens in the shadows and protects you.</source>
+        <note>[Onboarding] Dashboard text</note>
+      </trans-unit>
+      <trans-unit id="Lumen just blocked %@ from accessing your data.Get it from ">
+        <source>Lumen just blocked %@ from accessing your data.Get it from </source>
+        <note>[Contextual onboarding] Antitracking details</note>
+      </trans-unit>
+      <trans-unit id="Lumen just blocked %d ads">
+        <source>Lumen just blocked %d ads</source>
+        <note>[Contextual onboarding] Adblocker details</note>
+      </trans-unit>
+      <trans-unit id="Lumen prevented these companies from collecting data about you.">
+        <source>Lumen prevented these companies from collecting data about you.</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+      </trans-unit>
+      <trans-unit id="Lumen removed ads by these providers.">
+        <source>Lumen removed ads by these providers.</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+      </trans-unit>
+      <trans-unit id="Lumen warns you about suspicious and counterfeit web sites trying to steal personal data.">
+        <source>Lumen warns you about suspicious and counterfeit web sites trying to steal personal data.</source>
+        <note>[Lumen-&gt;Dashboard] Phishing protection widget description</note>
+      </trans-unit>
+      <trans-unit id="MIN">
+        <source>MIN</source>
+        <note>Minutes unit for dashboard</note>
+      </trans-unit>
+      <trans-unit id="NEXT">
+        <source>NEXT</source>
+        <note>[Onboarding] Get Started button text</note>
+      </trans-unit>
+      <trans-unit id="No data wasted on ads">
+        <source>No data wasted on ads</source>
+        <note>[Lumen-&gt;Dashboard] Data Saved widget description</note>
+      </trans-unit>
+      <trans-unit id="No, Thanks">
+        <source>No, Thanks</source>
+        <note>`No, Thanks` alert button
+   Close Trial Expired button text</note>
+      </trans-unit>
+      <trans-unit id="Number of tracker companies that tried to spy on you">
+        <source>Number of tracker companies that tried to spy on you</source>
+        <note>[Lumen-&gt;Dashboard] Tracking companies widget description</note>
+      </trans-unit>
+      <trans-unit id="Oh, something went wrong. Please try again.">
+        <source>Oh, something went wrong. Please try again.</source>
+        <note>VPN retry text</note>
+      </trans-unit>
+      <trans-unit id="Okay">
+        <source>Okay</source>
+        <note>Okay button for alerts</note>
+      </trans-unit>
+      <trans-unit id="Only %d days left in trial.">
+        <source>Only %d days left in trial.</source>
+        <note>Upgrade lumen view subtitle1</note>
+      </trans-unit>
+      <trans-unit id="PLUS">
+        <source>PLUS</source>
+        <note>PLUS Subscription name</note>
+      </trans-unit>
+      <trans-unit id="PRO">
+        <source>PLUS</source>
+        <note>PRO Subscription name</note>
+      </trans-unit>
+      <trans-unit id="Phishing Protection">
+        <source>Phishing Protection</source>
+        <note>[Luemn -&gt; Dashboard] Anti-Phishing
+   [Lumen-&gt;Dashboard] Phishing Protection widget title</note>
+      </trans-unit>
+      <trans-unit id="Privacy Policy">
+        <source>Privacy Policy</source>
+        <note>[Upgrade Flow] Privacy Policy button</note>
+      </trans-unit>
+      <trans-unit id="Private Mode">
+        <source>Private Mode</source>
+        <note>Title displayed for when there are no open tabs while in private mode</note>
+      </trans-unit>
+      <trans-unit id="RETRY">
+        <source>RETRY</source>
+        <note>[VPN] vpn button</note>
+      </trans-unit>
+      <trans-unit id="Removed ad providers">
+        <source>Removed ad providers</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+      </trans-unit>
+      <trans-unit id="Reset statistics">
+        <source>Reset statistics</source>
+        <note>[Lumen-&gt;Dashboard] Reset statistics button title</note>
+      </trans-unit>
+      <trans-unit id="Restore Subscription">
+        <source>Restore Subscription</source>
+        <note>[Upgrade Flow] Restore Subscription button</note>
+      </trans-unit>
+      <trans-unit id="Retry">
+        <source>Retry</source>
+        <note>Retry button title in payment failing transaction alert</note>
+      </trans-unit>
+      <trans-unit id="SEC">
+        <source>SEC</source>
+        <note>Seconds unit for dashboard</note>
+      </trans-unit>
+      <trans-unit id="SKIP">
+        <source>SKIP</source>
+        <note>[Onboarding] Get Started button text</note>
+      </trans-unit>
+      <trans-unit id="SUBSCRIBE">
+        <source>SUBSCRIBE</source>
+        <note>Subscribe Button</note>
+      </trans-unit>
+      <trans-unit id="SUBSCRIBED">
+        <source>SUBSCRIBED</source>
+        <note>Subscribe Button</note>
+      </trans-unit>
+      <trans-unit id="Safe and Sound on the Go">
+        <source>Safe and Sound on the Go</source>
+        <note>[Onboarding] VPN title</note>
+      </trans-unit>
+      <trans-unit id="Stay with us">
+        <source>Stay with us</source>
+        <note>Upgrade lumen view title</note>
+      </trans-unit>
+      <trans-unit id="Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.">
+        <source>Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew and your account will be charged for renewal within 24 hours prior to the end of the current period at the cost shown above. You can cancel anytime in your iTunes account settings until 24 hours before the end of the current period. Any unused portion of a free trial will be forfeited if you purchase a subscription.</source>
+        <note>[Upgrade Flow] Conditions text</note>
+      </trans-unit>
+      <trans-unit id="Tap 'connect' to browse the Internet with VPN protection.">
+        <source>Tap 'connect' to browse the Internet with VPN protection.</source>
+        <note>VPN default text</note>
+      </trans-unit>
+      <trans-unit id="This will delete all your dashboard data and cannot be undone.">
+        <source>This will delete all your dashboard data and cannot be undone.</source>
+        <note>Lumen Clear Dashboard Data Popup Text</note>
+      </trans-unit>
+      <trans-unit id="Time Saved">
+        <source>Time Saved</source>
+        <note>[Lumen-&gt;Dashboard] Time Saved widget title</note>
+      </trans-unit>
+      <trans-unit id="Today">
+        <source>Today</source>
+        <note>[Lumen-&gt;Dashboard] Today tab</note>
+      </trans-unit>
+      <trans-unit id="Tracker Protection">
+        <source>Tracker Protection</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+      </trans-unit>
+      <trans-unit id="Turn On">
+        <source>Turn On</source>
+        <note>Turn on CTA</note>
+      </trans-unit>
+      <trans-unit id="ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
+        <source>ULTIMATE PROTECTION: AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</source>
+        <note>BASIC Subscription Description</note>
+      </trans-unit>
+      <trans-unit id="UPGRADE">
+        <source>UPGRADE</source>
+        <note>Subscribe Button
+   Upgrade action
+   Upgrade lumen view button text</note>
+      </trans-unit>
+      <trans-unit id="USA">
+        <source>USA</source>
+        <note>VPN country name for USA</note>
+      </trans-unit>
+      <trans-unit id="Ultimate Protection">
+        <source>Ultimate Protection</source>
+        <note>[Lumen-&gt;Dashboard]</note>
+      </trans-unit>
+      <trans-unit id="Ultimate Protection Online">
+        <source>Ultimate Protection Online</source>
+        <note>[Onboarding] Intro Title</note>
+      </trans-unit>
+      <trans-unit id="Ultimate Protection: OFF">
+        <source>Ultimate Protection: OFF</source>
+        <note>Upgrade lumen view title</note>
+      </trans-unit>
+      <trans-unit id="Ultimate protection online. Integrated VPN for protection on public Wi-Fi.">
+        <source>Ultimate protection online. Integrated VPN for protection on public Wi-Fi.</source>
+        <note>[Start Page] Welcome view description</note>
+      </trans-unit>
+      <trans-unit id="Ultimate protection: Lumen blocks ads and trackers.">
+        <source>Ultimate protection: Lumen blocks ads and trackers.</source>
+        <note>[Contextual onboarding] For Dashboard</note>
+      </trans-unit>
+      <trans-unit id="Unlock the VPN feature to get the best out of Lumen.">
+        <source>Unlock the VPN feature to get the best out of Lumen.</source>
+        <note>[VPN] subscription expired alert text
+   Unlock the VPN feature text</note>
+      </trans-unit>
+      <trans-unit id="VPN Protection.">
+        <source>VPN Protection.</source>
+        <note>[VPN] subscription expired alert title</note>
+      </trans-unit>
+      <trans-unit id="VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
+        <source>VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
+        <note>PLUS Subscription Description
+   PRO Subscription Description</note>
+      </trans-unit>
+      <trans-unit id="We are sorry, but something went wrong. The payment was not successful, please try again.">
+        <source>We are sorry, but something went wrong. The payment was not successful, please try again.</source>
+        <note>Error message when there is failing payment transaction</note>
+      </trans-unit>
+      <trans-unit id="Websites which are known to contain explicit content are automatically opened in Private Tabs. Visits to such websites are therefore not saved to your history.">
+        <source>Websites which are known to contain explicit content are automatically opened in Private Tabs. Visits to such websites are therefore not saved to your history.</source>
+        <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
+      </trans-unit>
+      <trans-unit id="Welcome to Lumen!">
+        <source>Welcome to Lumen!</source>
+        <note>[Start Page] Welcome view title</note>
+      </trans-unit>
+      <trans-unit id="Well protected!">
+        <source>Well protected!</source>
+        <note>[Contextual onboarding] For Antitracking</note>
+      </trans-unit>
+      <trans-unit id="When Leaving Private Mode">
+        <source>When Leaving Private Mode</source>
+        <note>Will be displayed in Settings under 'Close Private Tabs'</note>
+      </trans-unit>
+      <trans-unit id="You are browsing in Private Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.">
+        <source>You are browsing in Private Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
+        <note>Description text displayed when there are no open tabs while in private mode</note>
+      </trans-unit>
+      <trans-unit id="You are browsing without ultimate protection and ad blocker.">
+        <source>You are browsing without ultimate protection and ad blocker.</source>
+        <note>Upgrade lumen view subtitle</note>
+      </trans-unit>
+      <trans-unit id="You are safely connected to the Internet.">
+        <source>You are safely connected to the Internet.</source>
+        <note>VPN connected text</note>
+      </trans-unit>
+      <trans-unit id="You can still use Lumen, but without ultimate protection and VPN. Or go premium.">
+        <source>You can still use Lumen, but without ultimate protection and VPN. Or go premium.</source>
+        <note>Trial Expired view subtitle</note>
+      </trans-unit>
+      <trans-unit id="Your trial is over">
+        <source>Your trial is over</source>
+        <note>Trial Expired view title</note>
+      </trans-unit>
+      <trans-unit id="for longer device usage">
+        <source>for longer device usage</source>
+        <note>[Lumen-&gt;Dashboard] Battery Saved widget description</note>
+      </trans-unit>
+      <trans-unit id="for things that really matter">
+        <source>for things that really matter</source>
+        <note>[Lumen-&gt;Dashboard] time saved widget description</note>
+      </trans-unit>
+      <trans-unit id="prevents identity theft by fraudulent websites">
+        <source>prevents identity theft by fraudulent websites</source>
+        <note>[Lumen-&gt;Dashboard] Phishing protection widget description</note>
+      </trans-unit>
+      <trans-unit id="web sites checked">
+        <source>web sites checked</source>
+        <note>[Lumen-&gt;Dashboard] Phishing Protection widget detailed info</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="ja">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
@@ -1305,9 +1706,9 @@
       </trans-unit>
     </body>
   </file>
-  <file datatype="plaintext" original="Extensions/ShareTo/en.lproj/Cliqz.strings" source-language="en_US" target-language="ja">
+  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="ja">
     <header>
-      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id="Menu.AddFavoriteAction.Title">
@@ -1327,9 +1728,9 @@
       </trans-unit>
     </body>
   </file>
-  <file datatype="plaintext" original="Extensions/Today/en.lproj/Cliqz.strings" source-language="en_US" target-language="ja">
+  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="ja">
     <header>
-      <tool build-num="9F2000" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id="TodayWidget.NewForgetTabButtonLabel">
@@ -1340,3 +1741,4 @@
     </body>
   </file>
 </xliff>
+

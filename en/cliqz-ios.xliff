@@ -1280,7 +1280,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>PLUS Subscription name</note>
       </trans-unit>
       <trans-unit id="PRO">
-        <source>PLUS</source>
+        <source>PRO</source>
         <note>PRO Subscription name</note>
       </trans-unit>
       <trans-unit id="Phishing Protection">
@@ -1369,7 +1369,8 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Turn on CTA</note>
       </trans-unit>
       <trans-unit id="ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
-        <source>ULTIMATE PROTECTION: AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</source>
+        <source>ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
+        <target>ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</target>
         <note>BASIC Subscription Description</note>
       </trans-unit>
       <trans-unit id="UPGRADE">
@@ -1413,6 +1414,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
       <trans-unit id="VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
         <source>VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
+        <target>VPN · ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</target>
         <note>PLUS Subscription Description
    PRO Subscription Description</note>
       </trans-unit>

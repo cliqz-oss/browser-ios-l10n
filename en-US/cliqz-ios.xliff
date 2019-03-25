@@ -1496,15 +1496,13 @@
       </trans-unit>
       <trans-unit id="ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
         <source>ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
-        <note>BASIC Subscription Description</note><target>ULTIMATE PROTECTION: AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</target>
+        <note>BASIC Subscription Description</note><target>ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</target>
       </trans-unit>
       <trans-unit id="VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
         <source>VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
-        <note>PLUS Subscription Description</note>
-      </trans-unit>
-      <trans-unit id="VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
-        <source>VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
-        <note>PRO Subscription Description</note>
+        <target>VPN · ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</target>
+        <note>PLUS Subscription Description
+   PRO Subscription Description</note>
       </trans-unit>
       <trans-unit id="12 MONTHS">
         <source>12 MONTHS</source>

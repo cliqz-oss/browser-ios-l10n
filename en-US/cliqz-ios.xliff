@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="en">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
@@ -20,9 +21,10 @@
         <source>%d Tracker(s) found</source>
         <note>[ControlCenter -&gt; Overview] Detected trackers count</note>
       </trans-unit>
-      <trans-unit id="**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. \n\n**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.">
-        <source>**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. \n\n**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.</source>
-        <target>**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. \n\n**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.</target>
+      <trans-unit id="**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. &#10;&#10;**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.">
+        <source>**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. 
+
+**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.</source>
         <note>[WiFi Protection] Notes</note>
       </trans-unit>
       <trans-unit id="1 hour">
@@ -37,8 +39,8 @@
         <source>30 minutes</source>
         <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
-      <trans-unit id="A \&quot;fair\&quot; mode that shows ads in clearly defined cases only will be added soon.">
-        <source>A \"fair\" mode that shows ads in clearly defined cases only will be added soon.</source>
+      <trans-unit id="A &quot;fair&quot; mode that shows ads in clearly defined cases only will be added soon.">
+        <source>A "fair" mode that shows ads in clearly defined cases only will be added soon.</source>
         <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
       <trans-unit id="About">
@@ -48,16 +50,11 @@
       </trans-unit>
       <trans-unit id="About MyOffrz">
         <source>About Ghostery Rewards</source>
-        <target>About Ghostery Rewards</target>
         <note>[Settings] About MyOffrz</note>
       </trans-unit>
       <trans-unit id="Activate push notification to use this feature. Go to settings to allow push notifications then retry.">
         <source>Activate push notification to use this feature. Go to settings to allow push notifications then retry.</source>
         <note>[Subscriptions] Alert message  for asking to enable push notificaiton from the system</note>
-      </trans-unit>
-      <trans-unit id="Activation Link Resent">
-        <source>Activation Link Resent</source>
-        <note>Alert title</note>
       </trans-unit>
       <trans-unit id="Ad &amp; Tracker Blocking">
         <source>Ad &amp; Tracker Blocking</source>
@@ -166,17 +163,14 @@
       </trans-unit>
       <trans-unit id="Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!">
         <source>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!</source>
-        <target>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!</target>
         <note>[Onboarding] Intro Text</note>
       </trans-unit>
       <trans-unit id="Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile! Don't worry, all your data will be imported.">
         <source>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile! Don't worry, all your data will be imported.</source>
-        <target>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile! Don't worry, all your data will be imported.</target>
         <note>[Onboarding] Intro Text Old Users</note>
       </trans-unit>
       <trans-unit id="Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.">
         <source>Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.</source>
-        <target>Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.</target>
         <note>[Onboarding] Adblocker Text</note>
       </trans-unit>
       <trans-unit id="Browsing &amp; History">
@@ -192,8 +186,8 @@
         <note>[MyOffrz] No offers text label for DE</note>
       </trans-unit>
       <trans-unit id="CLIQZ has blocked access to %1$ because it has been reported as a phishing website.Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information">
-        <source>Ghostery has blocked access to %1$ because it has been reported as a phishing website.\nPhishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information.</source>
-        <target>Ghostery has blocked access to %1$ because it has been reported as a phishing website.\nPhishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information.</target>
+        <source>Ghostery has blocked access to %1$ because it has been reported as a phishing website.
+Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information.</source>
         <note>Antiphishing alert message</note>
       </trans-unit>
       <trans-unit id="Cancel">
@@ -214,22 +208,18 @@
       </trans-unit>
       <trans-unit id="Choose what you want Ghostery to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.">
         <source>Choose what you want Ghostery to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.</source>
-        <target>Choose what you want Ghostery to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.</target>
         <note>[Onboarding] Adblocker Text</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
         <source>Ghostery Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
-        <target>Ghostery Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</target>
         <note>[Connect] Alert message for turning on Camera access when Scanning QR Code</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.">
         <source>Ghostery Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.</source>
-        <target>Ghostery Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.</target>
         <note>[Settings -&gt; Block Ads] Block Ads footer</note>
       </trans-unit>
       <trans-unit id="Cliqz works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.">
         <source>Ghostery works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.</source>
-        <target>Ghostery works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.</target>
         <note>[Settings -&gt; Human Web]Footer text for Fair Blocking section</note>
       </trans-unit>
       <trans-unit id="Close Forget Tabs">
@@ -331,30 +321,29 @@
         <source>Dismiss</source>
         <note>Dismiss No Wi-Fi connection alert</note>
       </trans-unit>
+      <trans-unit id="Done">
+        <source>Done</source>
+        <note>Done button in the tabTray Toolbar</note>
+      </trans-unit>
       <trans-unit id="Download videos on Wi-Fi Only">
-        <source>Download videos on Wi-Fi Only</source>
+        <source>Only download video on Wi-Fi</source>
         <note>[Settings -&gt; Limit Mobile Data Usage] toogle footer</note>
       </trans-unit>
       <trans-unit id="Download youtube video">
-        <source>Download youtube video</source>
+        <source>Download Video Link</source>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
       <trans-unit id="EULA">
-        <source>EULA</source>
+        <source>End-User License Agreement</source>
         <note>[Settings -&gt; About] EULA</note>
       </trans-unit>
       <trans-unit id="Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.">
         <source>Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.</source>
         <note>[Onboarding] Tab Text</note>
       </trans-unit>
-      <trans-unit id="Email">
-        <source>Email</source>
-        <note>Email</note><target>Enter your email address...</target>
-      </trans-unit>
       <trans-unit id="Empty TopSites hint">
         <source>Your most visited sites will show up here</source>
         <note>Hint on Freshtab when there is no topsites</note>
-        <target>Your most visited sites will show up here</target>
       </trans-unit>
       <trans-unit id="Enhanced Ad Blocking">
         <source>Enhanced Ad Blocking</source>
@@ -412,7 +401,6 @@
         <source>Start Tab</source>
         <note>[Settings] Freshtab section header
    Title for Freshtab in tab history list</note>
-        <target>Start Tab</target>
       </trans-unit>
       <trans-unit id="Get it from %@">
         <source>Get it from %@</source>
@@ -420,7 +408,6 @@
       </trans-unit>
       <trans-unit id="Get the best out of CLIQZ">
         <source>Get the best out of Ghostery</source>
-        <target>Get the best out of Ghostery</target>
         <note>[Settings] Get the best out of CLIQZ</note>
       </trans-unit>
       <trans-unit id="Ghost Search">
@@ -429,12 +416,10 @@
       </trans-unit>
       <trans-unit id="Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). ">
         <source>Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). </source>
-        <target>Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). </target>
         <note>[WiFi Protection] Description</note>
       </trans-unit>
       <trans-unit id="Ghostery would like to access your Photos">
         <source>Ghostery would like to access your Photos</source>
-        <target>Ghostery would like to access your Photos</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Global Trackers">
@@ -449,17 +434,12 @@
         <source>Go to Settings &gt; WiFi settings</source>
         <note>[WiFi Protection] First step description</note>
       </trans-unit>
-      <trans-unit id="Have fun with your free two-week trial and take your time to explore all Lumen features!">
-        <source>Have fun with your free two-week trial and take your time to explore all Lumen features!</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="Help">
         <source>Help</source>
         <note>[Settings] Help section header</note>
       </trans-unit>
       <trans-unit id="Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.">
         <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
-        <target>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.</target>
         <note>[Settings -&gt; Send Telemetry] Footer text</note>
       </trans-unit>
       <trans-unit id="Here you'll find a new offer every week">
@@ -484,22 +464,18 @@
       </trans-unit>
       <trans-unit id="Introducing Ghostery">
         <source>Introducing Ghostery</source>
-        <target>Introducing Ghostery</target>
         <note>[Onboarding] Intro Title</note>
       </trans-unit>
       <trans-unit id="Introducing New Ghostery">
         <source>Introducing New Ghostery</source>
-        <target>Introducing New Ghostery</target>
         <note>[Onboarding] Intro Title Old Users</note>
       </trans-unit>
       <trans-unit id="Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.">
         <source>Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.  By using this app you agree to Ghostery's Privacy Policy</source>
-        <target>Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported. By using this app you agree to Ghostery's Privacy Policy</target>
         <note>[Onboarding] Intro Text Old Users</note>
       </trans-unit>
       <trans-unit id="Keep your browsing cleaner, faster, and safer.">
         <source>Keep your browsing cleaner, faster, and safer. By using this app you agree to Ghostery's Privacy Policy</source>
-        <target>Keep your browsing cleaner, faster, and safer. By using this app you agree to Ghostery's Privacy Policy</target>
         <note>[Onboarding] Intro Text</note>
       </trans-unit>
       <trans-unit id="LEARN MORE">
@@ -518,22 +494,13 @@
         <source>Limit Mobile Data Usage</source>
         <note>[Settings] Limit Mobile Data Usage</note>
       </trans-unit>
-      <trans-unit id="Login">
-        <source>Login</source>
-        <note>Back Button Title</note>
-      </trans-unit>
       <trans-unit id="Looks like Ghostery crashed previously. Would you like to restore your tabs?">
         <source>Looks like Ghostery crashed previously. Would you like to restore your tabs?</source>
-        <target>Looks like Ghostery crashed previously. Would you like to restore your tabs?</target>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="Lumen Account">
         <source>Lumen Account</source>
         <note>[Settings] Account</note>
-      </trans-unit>
-      <trans-unit id="Lumen Browser">
-        <source>Lumen Browser</source>
-        <note>Lumen Browser</note><target>Lumen</target>
       </trans-unit>
       <trans-unit id="Menu.AddFavorite.Confirm">
         <source>Favorite Added</source>
@@ -561,21 +528,22 @@
       </trans-unit>
       <trans-unit id="New Tab">
         <source>New Tab</source>
-        <target>New Tab</target>
         <note>Title of New Tab on iPad</note>
       </trans-unit>
-      <trans-unit id="Next">
-        <source>Next</source>
-        <note>Next</note>
-      </trans-unit>
       <trans-unit id="No Wi-Fi Connection message">
-        <source>You are not connected to a Wi-Fi network and video downloads with mobile data is restricted. \nTo change this, go to Settings &gt; Limit Mobile Data Usage.\n</source>
+        <source>You are not connected to a Wi-Fi network and video downloads with mobile data is restricted. 
+To change this, go to Settings &gt; Limit Mobile Data Usage.
+</source>
         <note>[Connect] No Wi-Fi connection alert message</note>
       </trans-unit>
       <trans-unit id="Not Now">
         <source>Not Now</source>
         <note>Not now option for turning on Camera access
    Not now option for turning on location service</note>
+      </trans-unit>
+      <trans-unit id="OK">
+        <source>OK</source>
+        <note>[Settings] Cancel account deletion</note>
       </trans-unit>
       <trans-unit id="Off">
         <source>Off</source>
@@ -605,13 +573,9 @@
         <source>Online</source>
         <note>[Settings -&gt; Connect] Online status</note>
       </trans-unit>
-      <trans-unit id="Open Mail">
-        <source>Open Mail</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="Open Mail App">
         <source>Open Mail App</source>
-        <note>Next</note>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Open the Photos">
         <source>Open</source>
@@ -627,16 +591,11 @@
       </trans-unit>
       <trans-unit id="Pause Ghostery">
         <source>Pause Ghostery</source>
-        <target>Pause Ghostery</target>
         <note>[ControlCenter -&gt; Overview] Pause Ghostery button title</note>
       </trans-unit>
       <trans-unit id="Please select video quality">
         <source>Please select video quality</source>
         <note>[VidoeDownloader] Youtube downloader action sheet message</note>
-      </trans-unit>
-      <trans-unit id="Please specify valid email">
-        <source>Please specify valid email</source>
-        <note>Invalid email error message</note>
       </trans-unit>
       <trans-unit id="Privacy">
         <source>Privacy</source>
@@ -660,7 +619,6 @@
       </trans-unit>
       <trans-unit id="Receive attractive discounts and bargains with MyOffrz.">
         <source>Receive attractive discounts and bargains with Ghostery Rewards.</source>
-        <target>Receive attractive discounts and bargains with Ghostery Rewards.</target>
         <note>[MyOffrz] MyOffrz description</note>
       </trans-unit>
       <trans-unit id="Refresh">
@@ -682,10 +640,6 @@
       <trans-unit id="Report Website">
         <source>Report Website</source>
         <note>[Settings] Report Website</note>
-      </trans-unit>
-      <trans-unit id="Resend Activation Link">
-        <source>Resend Activation Link</source>
-        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Reset">
         <source>Reset</source>
@@ -741,10 +695,6 @@
         <source>Search Results for</source>
         <note>[Settings] Search Results for</note>
       </trans-unit>
-      <trans-unit id="See the Web in a whole new light with Lumen Browser!">
-        <source>See the Web in a whole new light with Lumen Browser!</source>
-        <note>Description</note>
-      </trans-unit>
       <trans-unit id="Seems like we don't have any offers">
         <source>Seems like we don't have any offers</source>
         <note>[MyOffrz] No offers title label for DE</note>
@@ -761,8 +711,8 @@
         <source>Send usage data</source>
         <note>[Settings] Send usage data</note>
       </trans-unit>
-      <trans-unit id="Set \&quot;HTTP PROXY\&quot; to \&quot;Auto\&quot;">
-        <source>Set \"HTTP PROXY\" to \"Auto\"</source>
+      <trans-unit id="Set &quot;HTTP PROXY&quot; to &quot;Auto&quot;">
+        <source>Set "HTTP PROXY" to "Auto"</source>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">
@@ -774,12 +724,10 @@
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInCliqzAction.Title">
         <source>Open in Ghostery</source>
-        <target>Open in Ghostery</target>
         <note>Action label on share extension to immediately open page in Ghostery.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInCliqzAction.Title">
         <source>Search in Ghostery</source>
-        <target>Open in Ghostery</target>
         <note>Action label on share extension to search for the selected text in Ghostery.</note>
       </trans-unit>
       <trans-unit id="Shared with %@ Browser for iOS">
@@ -806,10 +754,6 @@
         <source>Social Media</source>
         <note>Tracker category in control center</note>
       </trans-unit>
-      <trans-unit id="Something went wrong. Please try again later.">
-        <source>Something went wrong. Please try again later.</source>
-        <note>General error message</note>
-      </trans-unit>
       <trans-unit id="Sorry but devices could not be connected. Please try again.">
         <source>Sorry, but the devices could not be connected. Please try again.</source>
         <note>[Connect] Connection Failed alert message</note>
@@ -817,10 +761,6 @@
       <trans-unit id="Sorry, we encountered some technical difficulties. Please try again">
         <source>Sorry, we encountered some technical difficulties. Please try again</source>
         <note>[Subscriptions] Alert message when failing to subscribe to soccer notification</note>
-      </trans-unit>
-      <trans-unit id="Start">
-        <source>Start</source>
-        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Start Tab">
         <source>Start Tab</source>
@@ -844,7 +784,6 @@
       </trans-unit>
       <trans-unit id="Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.">
         <source>Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.</source>
-        <target>Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.</target>
         <note>[Onboarding] Telemetry</note>
       </trans-unit>
       <trans-unit id="Swipe">
@@ -867,10 +806,6 @@
         <source>Terms</source>
         <note>[MyOffrz] Conditions title</note>
       </trans-unit>
-      <trans-unit id="Terms and Conditions">
-        <source>Terms and Conditions</source>
-        <note>Terms and Conditions</note>
-      </trans-unit>
       <trans-unit id="The download is complete.">
         <source>The download is complete.</source>
         <note>[VidoeDownloader] Toast message shown when youtube video is Successfully downloaded</note>
@@ -883,14 +818,19 @@
         <source>This feature blocks advertisments on websites you visit.</source>
         <note>[ControlCenter -&gt; Overview] Ad Blocking description</note>
       </trans-unit>
-      <trans-unit id="To share your location, go to the settings for the CLIQZ app:\n1.Tap Location\n2.Enable 'While Using'">
-        <source>To share your location, go to the settings for the Ghostery app:\n\n1. Tap Location\n2. Enable 'While Using'</source>
-        <target>To share your location, go to the settings for the Ghostery app:\n\n1. Tap Location\n2. Enable 'While Using'</target>
+      <trans-unit id="To share your location, go to the settings for the CLIQZ app:&#10;1.Tap Location&#10;2.Enable 'While Using'">
+        <source>To share your location, go to the settings for the Ghostery app:
+
+1. Tap Location
+2. Enable 'While Using'</source>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
-      <trans-unit id="To share your location, go to the settings of your smartphone:\n1.Turn on Location Services\n2.Select the CLIQZ App\n3.Enable 'While Using'">
-        <source>To share your location, go to the settings of your smartphone:\n\n1. Turn on Location Services\n2. Select the Ghostery App\n3. Enable 'While Using'</source>
-        <target>To share your location, go to the settings of your smartphone:\n\n1. Turn on Location Services\n2. Select the Ghostery App\n3. Enable 'While Using'</target>
+      <trans-unit id="To share your location, go to the settings of your smartphone:&#10;1.Turn on Location Services&#10;2.Select the CLIQZ App&#10;3.Enable 'While Using'">
+        <source>To share your location, go to the settings of your smartphone:
+
+1. Turn on Location Services
+2. Select the Ghostery App
+3. Enable 'While Using'</source>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="Trackers">
@@ -953,14 +893,6 @@
         <source>We don't have any offers for your country yet</source>
         <note>[MyOffrz] No offers title label</note>
       </trans-unit>
-      <trans-unit id="We just sent you an activation link. Please check your inbox and open the link to confirm your account.">
-        <source>We just sent you an activation link. Please check your inbox and open the link to confirm your account.</source>
-        <note>Next</note>
-      </trans-unit>
-      <trans-unit id="We resent the activation link. Please check your inbox and your spam folder.">
-        <source>We resent the activation link. Please check your inbox and your spam folder.</source>
-        <note>Activation message</note>
-      </trans-unit>
       <trans-unit id="We use opensource software Sentry (http://sentry.io) for our crash reports. These reports do not contain any personal data.">
         <source>We use opensource software Sentry (http://sentry.io) for our crash reports. These reports do not contain any personal data.</source>
         <note>[Settings -&gt; Send Crash Reports] Footer text</note>
@@ -968,10 +900,6 @@
       <trans-unit id="Websites which are known to contain explicit content are automatically opened in Forget Tabs. Visits to such websites are therefore not saved to your history.">
         <source>Websites which are known to contain explicit content are automatically opened in Ghost Tabs. Visits to such websites are therefore not saved to your history.</source>
         <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
-      </trans-unit>
-      <trans-unit id="Welcome to Lumen!">
-        <source>Welcome to Lumen!</source>
-        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Well, this is embarrassing.">
         <source>Well, this is embarrassing.</source>
@@ -983,7 +911,6 @@
       </trans-unit>
       <trans-unit id="When Opening Ghostery">
         <source>When Opening Ghostery</source>
-        <target>When Opening Ghostery</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
       </trans-unit>
       <trans-unit id="WiFi Protection">
@@ -1003,8 +930,10 @@
         <source>You are browsing in Ghost Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
         <note>Description text displayed when there are no open tabs while in private mode</note>
       </trans-unit>
-      <trans-unit id="You connected your first device!\n\nNow you are ready to send websites and YouTube videos from your computer to your mobile device.">
-        <source>You connected your first device!\n\nNow you are ready to send websites and YouTube videos from your computer to your mobile device.</source>
+      <trans-unit id="You connected your first device!&#10;&#10;Now you are ready to send websites and YouTube videos from your computer to your mobile device.">
+        <source>You connected your first device!
+
+Now you are ready to send websites and YouTube videos from your computer to your mobile device.</source>
         <note>[Connect] Connection Successful alert message</note>
       </trans-unit>
       <trans-unit id="You have restricted this site">
@@ -1018,10 +947,6 @@
       <trans-unit id="You will be notified about games, goals and important happenings of the {1}.">
         <source>You will be notified about games, goals and important happenings of the {1}.</source>
         <note>[Subscriptions] Alert message for asking to subscribe for soccer notificaiton</note>
-      </trans-unit>
-      <trans-unit id="Your account is almost ready!">
-        <source>Your account is almost ready!</source>
-        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Your video is being downloaded.">
         <source>Your video is being downloaded.</source>
@@ -1057,22 +982,18 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Ghostery.strings" datatype="plaintext" source-language="en_US" target-language="en">
+  <file original="Client/en.lproj/Ghostery.strings" datatype="plaintext" source-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id="Close Forget Tabs">
         <source>Close Forget Tabs</source>
-        <note>Setting for closing forget tabs</note><target>Close Ghost Tabs</target>
+        <note>Setting for closing forget tabs</note>
       </trans-unit>
       <trans-unit id="Forget Mode">
-        <source>Ghost Mode</source>
+        <source>Forget Mode</source>
         <note>Title displayed for when there are no open tabs while in forget mode</note>
-      </trans-unit>
-      <trans-unit id="Ghost Tabs">
-        <source>Ghost Tabs</source>
-        <note>Ghost tabs toogle button in tab overview</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
         <source>Open in New Ghost Tab</source>
@@ -1088,27 +1009,33 @@
       </trans-unit>
       <trans-unit id="When Leaving Forget Mode">
         <source>When Leaving Forget Mode</source>
-        <note>Will be displayed in Settings under 'Close Forget Tabs'</note><target>When Leaving Ghost Mode</target>
+        <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
       </trans-unit>
       <trans-unit id="You are browsing in Forget Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.">
         <source>You are browsing in Forget Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
-        <note>Description text displayed when there are no open tabs while in forget mode</note><target>You are browsing in Ghost Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</target>
+        <note>Description text displayed when there are no open tabs while in forget mode</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US" target-language="en">
+  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
+      <trans-unit id="$(SHORTCUT_PRIVATE_TAB_TITLE)">
+        <source>$(SHORTCUT_PRIVATE_TAB_TITLE)</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="1Password Fill Browser Action">
+        <source>1Password Fill Browser Action</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target>Ghostery</target>
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
-        <target>Ghostery</target>
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
@@ -1162,34 +1089,75 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Lumen.strings" datatype="plaintext" source-language="en_US" target-language="en">
+  <file original="Client/en.lproj/Lumen.strings" datatype="plaintext" source-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
+      <trans-unit id="%d more days left in trial">
+        <source>%d more days left in trial</source>
+        <note>Trial days left title</note>
+      </trans-unit>
+      <trans-unit id="1 MONTH">
+        <source>1 MONTH</source>
+        <note>PLUS Subscription duration</note>
+      </trans-unit>
+      <trans-unit id="9.99€/month">
+        <source>9.99€/month</source>
+        <note>PLUS Subscription price</note>
+      </trans-unit>
+      <trans-unit id="12 MONTHS">
+        <source>12 MONTHS</source>
+        <note>BASIC Subscription duration
+   PRO Subscription duration</note>
+      </trans-unit>
+      <trans-unit id="47.99€/year">
+        <source>47.99€/year</source>
+        <note>BASIC Subscription price</note>
+      </trans-unit>
+      <trans-unit id="95.99€/year">
+        <source>95.99€/year</source>
+        <note>PRO Subscription price</note>
+      </trans-unit>
+      <trans-unit id="Ad Blocker">
+        <source>Ad Blocker</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+      </trans-unit>
       <trans-unit id="Ads Blocked">
         <source>Ads Blocked</source>
-        <note>[Lumen-&gt;Dashboard] Ads Blocked widget title</note><target>Ads Blocked</target>
-      </trans-unit>
-      <trans-unit id="Additional protection whenever and wherever you need it.">
-        <source>Additional protection whenever and wherever you need it.</source>
-        <note>[Onboarding] VPN text</note>
+        <note>[Lumen-&gt;Dashboard] Ads Blocked widget title</note>
       </trans-unit>
       <trans-unit id="Available VPN Locations">
         <source>Available VPN Locations</source>
         <note>[VPN] vpn locations</note>
       </trans-unit>
-      <trans-unit id="Battery Life Saved">
-        <source>Battery Life Saved</source>
-        <note>[Lumen-&gt;Dashboard] Battery Life Saved widget title</note>
+      <trans-unit id="BASIC">
+        <source>BASIC</source>
+        <note>BASIC Subscription name</note>
       </trans-unit>
-      <trans-unit id="Be always carefree on the Web">
-        <source>Be always carefree on the Web</source>
-        <note>[Onboarding] VPN title</note>
+      <trans-unit id="BEST VALUE: SAVE 20%">
+        <source>BEST VALUE: SAVE 20%</source>
+        <note>BEST VALUE: SAVE 20%</note>
       </trans-unit>
       <trans-unit id="Block Ads &amp; Trackers">
         <source>Block Ads &amp; Trackers</source>
         <note>[Onboarding] Adblocker title</note>
+      </trans-unit>
+      <trans-unit id="Blocked trackers">
+        <source>Blocked trackers</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+      </trans-unit>
+      <trans-unit id="Blocking trackers and ads saves data for your monthly data package to last longer.">
+        <source>Blocking trackers and ads saves data for your monthly data package to last longer.</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+      </trans-unit>
+      <trans-unit id="Blocking trackers and ads saves time because pages load faster. Each blocking saves 2.5% loading time on average.">
+        <source>Blocking trackers and ads saves time because pages load faster. Each blocking saves 2.5% loading time on average.</source>
+        <note>[Lumen-&gt;Dashboard] time saved widget description</note>
+      </trans-unit>
+      <trans-unit id="Blocks ads and trackers. Saves data volume and time.">
+        <source>Blocks ads and trackers. Saves data volume and time.</source>
+        <note>[Onboarding] Intro text</note>
       </trans-unit>
       <trans-unit id="CONNECT">
         <source>CONNECT</source>
@@ -1199,22 +1167,50 @@
         <source>CONNECTING</source>
         <note>[VPN] vpn button</note>
       </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <note>Cancel button title in payment failing transaction alert</note>
+      </trans-unit>
       <trans-unit id="Choose VPN Location">
         <source>Choose VPN Location</source>
         <note>[VPN] vpn choose location</note>
       </trans-unit>
       <trans-unit id="Clear">
         <source>Clear</source>
-        <note>[Lumen-&gt;Dashboard] Clear button
-   Lumen Clear Dashboard Data Popup Clear Button Text</note>
+        <note>Lumen Clear Dashboard Data Popup Clear Button Text</note>
+      </trans-unit>
+      <trans-unit id="Close">
+        <source>Close</source>
+        <note>Cancel button title in payment failing transaction alert
+   Close button title on dashboard info</note>
       </trans-unit>
       <trans-unit id="Close Private Tabs">
         <source>Close Private Tabs</source>
         <note>Setting for closing private tabs</note>
       </trans-unit>
-      <trans-unit id="Companies">
-        <source>Companies</source>
-        <note>[Lumen-&gt;Dashboard] Companies</note>
+      <trans-unit id="Coming Soon!">
+        <source>Coming Soon!</source>
+        <note>Temporary message title instead of Subscriptions</note>
+      </trans-unit>
+      <trans-unit id="Conditions">
+        <source>Conditions</source>
+        <note>[Upgrade Flow] Conditions button</note>
+      </trans-unit>
+      <trans-unit id="Corresponds to 4€/month">
+        <source>Corresponds to 4€/month</source>
+        <note>BASIC Subscription billing</note>
+      </trans-unit>
+      <trans-unit id="Corresponds to 8€/month">
+        <source>Corresponds to 8€/month</source>
+        <note>PRO Subscription billing</note>
+      </trans-unit>
+      <trans-unit id="Corresponds to 119.88€/year">
+        <source>Corresponds to 119.88€/year</source>
+        <note>PLUS Subscription billing</note>
+      </trans-unit>
+      <trans-unit id="DAY(S)">
+        <source>DAY(S)</source>
+        <note>Day(s) unit for dashboard</note>
       </trans-unit>
       <trans-unit id="DISCONNECT">
         <source>DISCONNECT</source>
@@ -1236,26 +1232,38 @@
         <source>Data Collectors Detained</source>
         <note>[Lumen-&gt;Dashboard]  widget title</note>
       </trans-unit>
+      <trans-unit id="Data Saved">
+        <source>Data Saved</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+      </trans-unit>
       <trans-unit id="Data Volume Saved">
         <source>Data Volume Saved</source>
         <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
       </trans-unit>
+      <trans-unit id="Did you know?">
+        <source>Did you know?</source>
+        <note>[Contextual onboarding] For Adblocker
+   [Contextual onboarding] For Dashboard</note>
+      </trans-unit>
+      <trans-unit id="End User License Agreement">
+        <source>End User License Agreement</source>
+        <note>[Upgrade Flow] Privacy Policy button</note>
+      </trans-unit>
       <trans-unit id="Enjoy clutter-free browsing">
         <source>Enjoy clutter-free browsing</source>
-        <note>[Lumen-&gt;Dashboard] AdsBlock widget description
-   [Lumen-&gt;Dashboard] Data Saved widget description</note>
+        <note>[Lumen-&gt;Dashboard] AdsBlock widget description</note>
       </trans-unit>
       <trans-unit id="Enjoy clutter-free websites and save data &amp; time.">
         <source>Enjoy clutter-free websites and save data &amp; time.</source>
         <note>[Onboarding] Adblocker text</note>
       </trans-unit>
-      <trans-unit id="GET STARTED">
-        <source>GET STARTED</source>
-        <note>[Onboarding] Get Started button text</note>
-      </trans-unit>
       <trans-unit id="Germany">
         <source>Germany</source>
         <note>VPN country name for Germany</note>
+      </trans-unit>
+      <trans-unit id="HRS">
+        <source>HRS</source>
+        <note>Hours unit for dashboard</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab">
         <source>Open in New Private Tab</source>
@@ -1269,53 +1277,172 @@
         <source>I agree to share strictly anonymous analytics data to improve Lumen's performance.</source>
         <note>[Onboarding] Telemetry</note>
       </trans-unit>
-      <trans-unit id="LUMEN">
-        <source>LUMEN</source>
-        <note>[Onboarding] Intro Title</note>
+      <trans-unit id="INCL.">
+        <source>INCL.</source>
+        <note>Include vpn label</note>
+      </trans-unit>
+      <trans-unit id="Integrated VPN protects you on public Wi-Fi.">
+        <source>Integrated VPN protects you on public Wi-Fi.</source>
+        <note>[Onboarding] VPN text</note>
+      </trans-unit>
+      <trans-unit id="Keep ultimate protection and VPN.">
+        <source>Keep ultimate protection and VPN.</source>
+        <note>Upgrade lumen view subtitle2</note>
+      </trans-unit>
+      <trans-unit id="LEARN MORE">
+        <source>LEARN MORE</source>
+        <note>LEARN MORE action</note>
+      </trans-unit>
+      <trans-unit id="LET'S GO">
+        <source>LET'S GO</source>
+        <note>[Onboarding] Get Started button text</note>
       </trans-unit>
       <trans-unit id="Last 7 days">
         <source>Last 7 days</source>
         <note>[Lumen-&gt;Dashboard] Last 7 days tab</note>
       </trans-unit>
+      <trans-unit id="Learn More">
+        <source>Learn More</source>
+        <note>`Learn More` alert button
+   Trial Expired view Learn more button text</note>
+      </trans-unit>
       <trans-unit id="Lumen brings to light what happens in the shadows and protects you.">
         <source>Lumen brings to light what happens in the shadows and protects you.</source>
         <note>[Onboarding] Dashboard text</note>
+      </trans-unit>
+      <trans-unit id="Lumen just blocked %@ from accessing your data.">
+        <source>Lumen just blocked %@ from accessing your data.</source>
+        <note>[Contextual onboarding] Antitracking details</note>
+      </trans-unit>
+      <trans-unit id="Lumen just blocked %d ads">
+        <source>Lumen just blocked %d ads</source>
+        <note>[Contextual onboarding] Adblocker details</note>
+      </trans-unit>
+      <trans-unit id="Lumen prevented these companies from collecting data about you.">
+        <source>Lumen prevented these companies from collecting data about you.</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+      </trans-unit>
+      <trans-unit id="Lumen removed ads by these providers.">
+        <source>Lumen removed ads by these providers.</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+      </trans-unit>
+      <trans-unit id="Lumen warns you about suspicious and counterfeit web sites trying to steal personal data.">
+        <source>Lumen warns you about suspicious and counterfeit web sites trying to steal personal data.</source>
+        <note>[Lumen-&gt;Dashboard] Phishing protection widget description</note>
+      </trans-unit>
+      <trans-unit id="MIN">
+        <source>MIN</source>
+        <note>Minutes unit for dashboard</note>
+      </trans-unit>
+      <trans-unit id="Monthly">
+        <source>Monthly</source>
+        <note>PLUS Subscription price</note>
+      </trans-unit>
+      <trans-unit id="NEXT">
+        <source>NEXT</source>
+        <note>[Onboarding] Get Started button text</note>
+      </trans-unit>
+      <trans-unit id="No data wasted on ads">
+        <source>No data wasted on ads</source>
+        <note>[Lumen-&gt;Dashboard] Data Saved widget description</note>
+      </trans-unit>
+      <trans-unit id="No, Thanks">
+        <source>No, Thanks</source>
+        <note>`No, Thanks` alert button
+   Close Trial Expired button text</note>
       </trans-unit>
       <trans-unit id="Number of tracker companies that tried to spy on you">
         <source>Number of tracker companies that tried to spy on you</source>
         <note>[Lumen-&gt;Dashboard] Tracking companies widget description</note>
       </trans-unit>
+      <trans-unit id="Oh, something went wrong. Please try again.">
+        <source>Oh, something went wrong. Please try again.</source>
+        <note>VPN retry text</note>
+      </trans-unit>
       <trans-unit id="Okay">
         <source>Okay</source>
         <note>Okay button for alerts</note>
       </trans-unit>
-      <trans-unit id="Pause">
-        <source>Pause</source>
-        <note>[Lumen-&gt;Dashboard] Pause button</note>
+      <trans-unit id="Only %d days left in trial.">
+        <source>Only %d days left in trial.</source>
+        <note>Upgrade lumen view subtitle1</note>
+      </trans-unit>
+      <trans-unit id="PLUS">
+        <source>PLUS</source>
+        <note>PLUS Subscription name</note>
+      </trans-unit>
+      <trans-unit id="PRO">
+        <source>PRO</source>
+        <note>PRO Subscription name</note>
       </trans-unit>
       <trans-unit id="Phishing Protection">
         <source>Phishing Protection</source>
-        <note>[Lumen-&gt;Dashboard] Phishing Protection widget title</note>
+        <note>[Luemn -&gt; Dashboard] Anti-Phishing
+   [Lumen-&gt;Dashboard] Phishing Protection widget title</note>
+      </trans-unit>
+      <trans-unit id="Privacy Policy">
+        <source>Privacy Policy</source>
+        <note>[Upgrade Flow] Privacy Policy button</note>
       </trans-unit>
       <trans-unit id="Private Mode">
         <source>Private Mode</source>
         <note>Title displayed for when there are no open tabs while in private mode</note>
       </trans-unit>
-      <trans-unit id="Private Tabs">
-        <source>Private Tabs</source>
-        <note>Private tabs toogle button in tab overview</note>
-      </trans-unit>
       <trans-unit id="RETRY">
         <source>RETRY</source>
         <note>[VPN] vpn button</note>
       </trans-unit>
-      <trans-unit id="See the Web in a whole new light!">
-        <source>See the Web in a whole new light!</source>
-        <note>[Onboarding] Intro text</note>
+      <trans-unit id="Removed ad providers">
+        <source>Removed ad providers</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
       </trans-unit>
-      <trans-unit id="Start">
-        <source>Start</source>
-        <note>[Lumen-&gt;Dashboard] Start button</note>
+      <trans-unit id="Reset statistics">
+        <source>Reset statistics</source>
+        <note>[Lumen-&gt;Dashboard] Reset statistics button title</note>
+      </trans-unit>
+      <trans-unit id="Restore Subscription">
+        <source>Restore Subscription</source>
+        <note>[Upgrade Flow] Restore Subscription button</note>
+      </trans-unit>
+      <trans-unit id="Retry">
+        <source>Retry</source>
+        <note>Retry button title in payment failing transaction alert</note>
+      </trans-unit>
+      <trans-unit id="SEC">
+        <source>SEC</source>
+        <note>Seconds unit for dashboard</note>
+      </trans-unit>
+      <trans-unit id="SKIP">
+        <source>SKIP</source>
+        <note>[Onboarding] Get Started button text</note>
+      </trans-unit>
+      <trans-unit id="SUBSCRIBE">
+        <source>SUBSCRIBE</source>
+        <note>Subscribe Button</note>
+      </trans-unit>
+      <trans-unit id="SUBSCRIBED">
+        <source>SUBSCRIBED</source>
+        <note>Subscribe Button</note>
+      </trans-unit>
+      <trans-unit id="Safe and Sound on the Go">
+        <source>Safe and Sound on the Go</source>
+        <note>[Onboarding] VPN title</note>
+      </trans-unit>
+      <trans-unit id="Stay with us">
+        <source>Stay with us</source>
+        <note>Upgrade lumen view title</note>
+      </trans-unit>
+      <trans-unit id="Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.">
+        <source>Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.</source>
+        <note>[Upgrade Flow] Conditions text</note>
+      </trans-unit>
+      <trans-unit id="Subscriptions will be available soon.">
+        <source>Subscriptions will be available soon.</source>
+        <note>Temporary message instead of Subscriptions</note>
+      </trans-unit>
+      <trans-unit id="Tap 'connect' to browse the Internet with VPN protection.">
+        <source>Tap 'connect' to browse the Internet with VPN protection.</source>
+        <note>VPN default text</note>
       </trans-unit>
       <trans-unit id="This will delete all your dashboard data and cannot be undone.">
         <source>This will delete all your dashboard data and cannot be undone.</source>
@@ -1329,41 +1456,106 @@
         <source>Today</source>
         <note>[Lumen-&gt;Dashboard] Today tab</note>
       </trans-unit>
+      <trans-unit id="Tracker Protection">
+        <source>Tracker Protection</source>
+        <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
+      </trans-unit>
+      <trans-unit id="Turn On">
+        <source>Turn On</source>
+        <note>Turn on CTA</note>
+      </trans-unit>
+      <trans-unit id="ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
+        <source>ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
+        <note>BASIC Subscription Description</note>
+      </trans-unit>
+      <trans-unit id="UPGRADE">
+        <source>UPGRADE</source>
+        <note>Subscribe Button
+   Upgrade action
+   Upgrade lumen view button text</note>
+      </trans-unit>
       <trans-unit id="USA">
         <source>USA</source>
         <note>VPN country name for USA</note>
       </trans-unit>
+      <trans-unit id="Ultimate Protection">
+        <source>Ultimate Protection</source>
+        <note>[Lumen-&gt;Dashboard]</note>
+      </trans-unit>
+      <trans-unit id="Ultimate Protection Online">
+        <source>Ultimate Protection Online</source>
+        <note>[Onboarding] Intro Title</note>
+      </trans-unit>
       <trans-unit id="Ultimate Protection: OFF">
         <source>Ultimate Protection: OFF</source>
-        <note>[Lumen-&gt;Dashboard] Security Status OFF</note>
+        <note>Upgrade lumen view title</note>
       </trans-unit>
-      <trans-unit id="Ultimate Protection: ON">
-        <source>Ultimate Protection: ON</source>
-        <note>[Lumen-&gt;Dashboard] Security Status ON</note>
+      <trans-unit id="Ultimate protection online. Integrated VPN for protection on public Wi-Fi.">
+        <source>Ultimate protection online. Integrated VPN for protection on public Wi-Fi.</source>
+        <note>[Start Page] Welcome view description</note>
       </trans-unit>
-      <trans-unit id="VPN">
-        <source>VPN</source>
-        <note>[Lumen-&gt;Dashboard] VPN button</note>
+      <trans-unit id="Ultimate protection: Lumen blocks ads and trackers.">
+        <source>Ultimate protection: Lumen blocks ads and trackers.</source>
+        <note>[Contextual onboarding] For Dashboard</note>
+      </trans-unit>
+      <trans-unit id="Unlock the VPN feature to get the best out of Lumen.">
+        <source>Unlock the VPN feature to get the best out of Lumen.</source>
+        <note>[VPN] subscription expired alert text
+   Unlock the VPN feature text</note>
+      </trans-unit>
+      <trans-unit id="VPN Protection.">
+        <source>VPN Protection.</source>
+        <note>[VPN] subscription expired alert title</note>
+      </trans-unit>
+      <trans-unit id="VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
+        <source>VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
+        <note>PLUS Subscription Description
+   PRO Subscription Description</note>
+      </trans-unit>
+      <trans-unit id="We are sorry, but something went wrong. The payment was not successful, please try again.">
+        <source>We are sorry, but something went wrong. The payment was not successful, please try again.</source>
+        <note>Error message when there is failing payment transaction</note>
       </trans-unit>
       <trans-unit id="Websites which are known to contain explicit content are automatically opened in Private Tabs. Visits to such websites are therefore not saved to your history.">
         <source>Websites which are known to contain explicit content are automatically opened in Private Tabs. Visits to such websites are therefore not saved to your history.</source>
         <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
       </trans-unit>
+      <trans-unit id="Welcome to Lumen!">
+        <source>Welcome to Lumen!</source>
+        <note>[Start Page] Welcome view title</note>
+      </trans-unit>
+      <trans-unit id="Well protected!">
+        <source>Well protected!</source>
+        <note>[Contextual onboarding] For Antitracking</note>
+      </trans-unit>
       <trans-unit id="When Leaving Private Mode">
         <source>When Leaving Private Mode</source>
         <note>Will be displayed in Settings under 'Close Private Tabs'</note>
+      </trans-unit>
+      <trans-unit id="Yearly">
+        <source>Yearly</source>
+        <note>BASIC Subscription price
+   PRO Subscription price</note>
       </trans-unit>
       <trans-unit id="You are browsing in Private Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.">
         <source>You are browsing in Private Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
         <note>Description text displayed when there are no open tabs while in private mode</note>
       </trans-unit>
-      <trans-unit id="Your subscription has expired. Renew your subscription to continue to see the Dashboard.">
-        <source>Your subscription has expired. Renew your subscription to continue to see the Dashboard.</source>
-        <note>[Dashboard] subscription expired alert text Dashboard</note>
+      <trans-unit id="You are browsing without ultimate protection and ad blocker.">
+        <source>You are browsing without ultimate protection and ad blocker.</source>
+        <note>Upgrade lumen view subtitle</note>
       </trans-unit>
-      <trans-unit id="Your subscription has expired. Renew your subscription to continue to use the VPN.">
-        <source>Your subscription has expired. Renew your subscription to continue to use the VPN.</source>
-        <note>[VPN] subscription expired alert text</note>
+      <trans-unit id="You are safely connected to the Internet.">
+        <source>You are safely connected to the Internet.</source>
+        <note>VPN connected text</note>
+      </trans-unit>
+      <trans-unit id="You can still use Lumen, but without ultimate protection and VPN. Or go premium.">
+        <source>You can still use Lumen, but without ultimate protection and VPN. Or go premium.</source>
+        <note>Trial Expired view subtitle</note>
+      </trans-unit>
+      <trans-unit id="Your trial is over">
+        <source>Your trial is over</source>
+        <note>Trial Expired view title</note>
       </trans-unit>
       <trans-unit id="for longer device usage">
         <source>for longer device usage</source>
@@ -1377,268 +1569,82 @@
         <source>prevents identity theft by fraudulent websites</source>
         <note>[Lumen-&gt;Dashboard] Phishing protection widget description</note>
       </trans-unit>
-      <trans-unit id="You are safely connected to the Internet.">
-        <source>You are safely connected to the Internet.</source>
-        <note>VPN connected text
-        VPN retry text</note>
-      </trans-unit>
-      <trans-unit id="Tap 'connect' to browse the Internet with VPN protection.">
-        <source>Tap 'connect' to browse the Internet with VPN protection.</source>
-        <note>VPN default text</note>
-      </trans-unit>
-      <trans-unit id="No data wasted on ads">
-        <source>No data wasted on ads.</source>
-        <note>[Lumen-&gt;Dashboard] Data Saved widget description</note>
-      </trans-unit>
-      <trans-unit id="SEC">
-        <source>SEC</source>
-        <note>Seconds unit for dashboard</note>
-      </trans-unit>
-      <trans-unit id="MIN">
-        <source>MIN</source>
-        <note>Minutes unit for dashboard</note>
-      </trans-unit>
-      <trans-unit id="HRS">
-        <source>HRS</source>
-        <note>Hours unit for dashboard</note>
-      </trans-unit>
-      <trans-unit id="DAY(S)">
-        <source>DAY(S)</source>
-        <note>Day(s) unit for dashboard</note>
-      </trans-unit>
-      <trans-unit id="Stay with us">
-        <source>Stay with us</source>
-        <note>Upgrade lumen view title</note>
-      </trans-unit>
-      <trans-unit id="Only %d days left in trial.">
-        <source>Only %d days left in trial.</source>
-        <note>Upgrade lumen view subtitle1</note>
-      </trans-unit>
-      <trans-unit id="Keep ultimate protection and VPN.">
-        <source>Keep ultimate protection and VPN.</source>
-        <note>Upgrade lumen view subtitle2</note>
-      </trans-unit>
-      <trans-unit id="UPGRADE">
-        <source>UPGRADE</source>
-        <note>Upgrade lumen view button text</note>
-      </trans-unit>
-      <trans-unit id="Ultimate Protection: OFF">
-        <source>Ultimate Protection: OFF</source>
-        <note>Upgrade lumen view title</note>
-      </trans-unit>
-      <trans-unit id="You are browsing without ultimate protection and ad blocker..">
-        <source>You are browsing without ultimate protection and ad blocker.</source>
-        <note>Upgrade lumen view subtitle</note>
-      </trans-unit>
-      <trans-unit id="Turn On">
-        <source>Turn On</source>
-        <note>Turn on CTA</note>
-      </trans-unit>
-      <trans-unit id="Learn More">
-        <source>Learn More</source>
-        <note>Upgrade lumen view Learn more text</note>
-      </trans-unit>
-      <trans-unit id="Your trial is over">
-        <source>Your trial is over</source>
-        <note>Trial Expired view title</note>
-      </trans-unit>
-      <trans-unit id="You can still use Lumen, but without ultimate protection and VPN. Or go premium."> 
-        <source>You can still use Lumen, but without ultimate protection and VPN. Or go premium.</source>
-        <note>Trial Expired view subtitle</note>
-      </trans-unit>
-      <trans-unit id="No, Thanks">
-        <source>No, Thanks</source>
-        <note>Close Trial Expired button text</note>
-      </trans-unit>
-      <trans-unit id="VPN Protection.">
-        <source>VPN Protection.</source>
-        <note>[VPN] subscription expired alert title</note>
-      </trans-unit>
-      <trans-unit id="Unlock the VPN feature to get the best out of Lumen.">
-        <source>Unlock the VPN feature to get the best out of Lumen.</source>
-        <note>[VPN] subscription expired alert text</note>
-      </trans-unit>
-      <trans-unit id="SUBSCRIBE">
-        <source>SUBSCRIBE</source>
-        <note>Subscribe Button</note>
-      </trans-unit>
-      <trans-unit id="SUBSCRIBED">
-        <source>SUBSCRIBED</source>
-        <note>Subscribe Button</note>
-      </trans-unit>
-      <trans-unit id="UPGRADE">
-        <source>UPGRADE</source>
-        <note>Subscribe Button</note>
-      </trans-unit>
-      <trans-unit id="Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.">
-        <source>Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.</source>
-        <note>[Upgrade Flow] Conditions text</note><target>Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew and your account will be charged for renewal within 24 hours prior to the end of the current period at the cost shown above. You can cancel anytime in your iTunes account settings until 24 hours before the end of the current period. Any unused portion of a free trial will be forfeited if you purchase a subscription.</target>
-      </trans-unit>
-      <trans-unit id="End User License Agreement">
-        <source>End User License Agreement</source>
-        <note>[Upgrade Flow] Privacy Policy button</note>
-      </trans-unit>
-      <trans-unit id="Privacy Policy">
-        <source>Privacy Policy</source>
-        <note>[Upgrade Flow] Privacy Policy button</note>
-      </trans-unit>
-      <trans-unit id="BASIC">
-        <source>BASIC</source>
-        <note>BASIC Subscription name</note><target>BASIC</target>
-      </trans-unit>
-      <trans-unit id="PLUS">
-        <source>PLUS</source>
-        <note>PLUS Subscription name</note><target>PLUS</target>
-      </trans-unit>
-      <trans-unit id="PRO">
-        <source>PRO</source>
-        <note>PRO Subscription name</note><target>PLUS</target>
-      </trans-unit>
-      <trans-unit id="ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
-        <source>ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
-        <note>BASIC Subscription Description</note><target>ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</target>
-      </trans-unit>
-      <trans-unit id="VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
-        <source>VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
-        <target>VPN · ULTIMATE PROTECTION: DASHBOARD · AD-BLOCKER · ANTI-TRACKING · ANTI-PHISHING</target>
-        <note>PLUS Subscription Description
-   PRO Subscription Description</note>
-      </trans-unit>
-      <trans-unit id="12 MONTHS">
-        <source>12 MONTHS</source>
-        <note>BASIC Subscription duration</note>
-      </trans-unit>
-      <trans-unit id="12 MONTHS">
-        <source>12 MONTHS</source>
-        <note>PLUS Subscription duration</note>
-      </trans-unit>
-      <trans-unit id="1 MONTH">
-        <source>1 MONTH</source>
-        <note>PRO Subscription duration</note>
-      </trans-unit>
-      <trans-unit id="47.99€/year">
-        <source>47.99€/year</source>
-        <note>BASIC Subscription price</note>
-      </trans-unit>
-      <trans-unit id="9.99€/month">
-        <source>9.99€/month</source>
-        <note>PLUS Subscription price</note>
-      </trans-unit>
-      <trans-unit id="95.99€/year">
-        <source>95.99€/year</source>
-        <note>PRO Subscription price</note>
-      </trans-unit>
-      <trans-unit id="Billed annually: 47.99€">
-        <source>Billed annually: 47.99€</source>
-        <note>BASIC Subscription billing</note>
-      </trans-unit>
-      <trans-unit id="Billed annually: 95.99€">
-        <source>Billed annually: 95.99€</source>
-        <note>PLUS Subscription billing</note>
-      </trans-unit>
-      <trans-unit id="Billed monthly">
-        <source>Billed monthly</source>
-        <note>PRO Subscription billing</note>
-      </trans-unit>
-      <trans-unit id="%d more days left in trial">
-        <source>%d more days left in trial</source>
-        <note>Trial days left title"), trialRemainingDays</note>
-      </trans-unit>
-      <trans-unit id="BEST VALUE: SAVE 20%">
-        <source>BEST VALUE: SAVE 20%</source>
-        <note>BEST VALUE: SAVE 20%</note>
-      </trans-unit>
-      <trans-unit id="INCL.">
-        <source>INCL.</source>
-        <note>Include vpn label</note>
+      <trans-unit id="web sites checked">
+        <source>web sites checked</source>
+        <note>[Lumen-&gt;Dashboard] Phishing Protection widget detailed info</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="en">
+  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%1$#@trackers@ %2$#@blocked@</source>
-        <target>%1$#@trackers@ %2$#@blocked@</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/one:dict/:string">
         <source>%d Blocked</source>
-        <target>%d Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/other:dict/:string">
         <source>%d Blocked</source>
-        <target>%d Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/zero:dict/:string">
         <source>%d Blocked</source>
-        <target>%d Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/one:dict/:string">
         <source>%d TRACKER</source>
-        <target>%d TRACKER</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/other:dict/:string">
         <source>%d TRACKERS</source>
-        <target>%d TRACKERS</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/zero:dict/:string">
         <source>%d TRACKERS</source>
-        <target>%d TRACKERS</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%#@trackers@</source>
-        <target>%#@trackers@</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/one:dict/:string">
         <source>%d Tracker Blocked</source>
-        <target>%d Tracker Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/other:dict/:string">
         <source>%d Trackers Blocked</source>
-        <target>%d Trackers Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/zero:dict/:string">
         <source>%d Trackers Blocked</source>
-        <target>%d Trackers Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%#@trackers@</source>
-        <target>%#@trackers@</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/one:dict/:string">
         <source>%d Tracker found</source>
-        <target>%d Tracker found</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/other:dict/:string">
         <source>%d Trackers found</source>
-        <target>%d Trackers found</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/zero:dict/:string">
         <source>%d Trackers found</source>
-        <target>%d Trackers found</target>
         <note/>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="en">
+  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id="Menu.AddFavoriteAction.Title">
@@ -1647,26 +1653,24 @@
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInCliqzAction.Title">
         <source>Open in Ghostery</source>
-        <target>Open in Ghostery</target>
         <note>Action label on share extension to immediately open page in Ghostery.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInCliqzAction.Title">
         <source>Search in Ghostery</source>
-        <target>Search in Ghostery</target>
         <note>Action label on share extension to search for the selected text in Ghostery.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="en">
+  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id="TodayWidget.NewForgetTabButtonLabel">
         <source>New Ghost Tab</source>
-        <target>New Ghost Tab</target>
         <note>New Forget Tab button label</note>
       </trans-unit>
     </body>
   </file>
 </xliff>
+

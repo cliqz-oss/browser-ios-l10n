@@ -1,11 +1,12 @@
-<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file datatype="plaintext" original="Client/en.lproj/Cliqz.strings" source-language="en_US" target-language="de">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="de">
     <header>
-      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
-        <source> and select connect to scan the QR-Code</source>
+        <source> and select 'Connect' to scan the QR Code.</source>
         <note>[Connect] instructions text part#2</note>
       </trans-unit>
       <trans-unit id="%d Tracker(s) %d Blocked">
@@ -45,7 +46,7 @@
         <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
       <trans-unit id="A &quot;fair&quot; mode that shows ads in clearly defined cases only will be added soon.">
-        <source>A &quot;fair&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
+        <source>A "fair" mode that shows ads in clearly defined cases only will be added soon.</source>
         <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
       <trans-unit id="About">
@@ -55,8 +56,12 @@
    [Settings] About section header</note>
       </trans-unit>
       <trans-unit id="About MyOffrz">
-        <source>About Lumen Rewards</source>
+        <source>About Ghostery Rewards</source>
         <note>[Settings] About MyOffrz</note>
+      </trans-unit>
+      <trans-unit id="Activate push notification to use this feature. Go to settings to allow push notifications then retry.">
+        <source>Activate push notification to use this feature. Go to settings to allow push notifications then retry.</source>
+        <note>[Subscriptions] Alert message  for asking to enable push notificaiton from the system</note>
       </trans-unit>
       <trans-unit id="Ad &amp; Tracker Blocking">
         <source>Ad &amp; Tracker Blocking</source>
@@ -69,8 +74,7 @@
         <note>[Settings -&gt; Connect] Add Connection title</note>
       </trans-unit>
       <trans-unit id="Add to Bookmarks">
-        <source>Add to Bookmarks</source>
-        <target>Zu Favoriten hinzufügen</target>
+        <source>Add to Favorites</source>
         <note>Label for preview action on Tab Tray Tab to add current tab to Bookmarks</note>
       </trans-unit>
       <trans-unit id="Ads">
@@ -139,7 +143,7 @@
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Automatic Forget Tab">
-        <source>Automatic Forget Tab</source>
+        <source>Automatic Ghost Tab</source>
         <note>[Settings] Automatic Forget Tab</note>
       </trans-unit>
       <trans-unit id="Back to safe site">
@@ -158,7 +162,7 @@
         <note>[Trackers -&gt; ControlCenter] Block Action Title</note>
       </trans-unit>
       <trans-unit id="Block Ads">
-        <source>Block Ads</source>
+        <source>Ad Blocking (Beta)</source>
         <note>[Settings -&gt; Block Ads] Block Ads
    [Settings] Block Ads</note>
       </trans-unit>
@@ -188,15 +192,15 @@
         <note>[Onboarding] Block Recommended TickButton Title</note>
       </trans-unit>
       <trans-unit id="Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!">
-        <source>Browse cleaner, faster, and safer on-the-go with Lumen, now optimized for mobile!</source>
+        <source>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!</source>
         <note>[Onboarding] Intro Text</note>
       </trans-unit>
       <trans-unit id="Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile! Don't worry, all your data will be imported.">
-        <source>Browse cleaner, faster, and safer on-the-go with Lumen, now optimized for mobile! Don't worry, all your data will be imported.</source>
+        <source>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile! Don't worry, all your data will be imported.</source>
         <note>[Onboarding] Intro Text Old Users</note>
       </trans-unit>
       <trans-unit id="Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.">
-        <source>Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Lumen Control Center.</source>
+        <source>Browse faster, safer and efficiently with Ad &amp; Tracker Blocking. You can customize your settings in the Ghostery Control Center.</source>
         <note>[Onboarding] Adblocker Text</note>
       </trans-unit>
       <trans-unit id="Browsing &amp; History">
@@ -215,9 +219,8 @@
         <note>[MyOffrz] No offers text label for DE</note>
       </trans-unit>
       <trans-unit id="CLIQZ has blocked access to %1$ because it has been reported as a phishing website.Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information">
-        <source>CLIQZ has blocked access to %1$ because it has been reported as a phishing website.Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information</source>
-        <target>Lumen hat den Zugang zu %1$ gesperrt, weil sie als Phishing-Website gemeldet wurde.
-Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dich zu verleiten, Anmeldedaten, Passwörter oder andere wichtige Informationen preiszugeben.</target>
+        <source>Ghostery has blocked access to %1$ because it has been reported as a phishing website.
+Phishing websites disguise as other sites you may trust in order to trick you into disclosing your login, password or other sensitive information.</source>
         <note>Antiphishing alert message</note>
       </trans-unit>
       <trans-unit id="Cancel">
@@ -240,20 +243,28 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <note>Changes applied Toast</note>
       </trans-unit>
       <trans-unit id="Choose what you want Ghostery to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.">
-        <source>Choose what you want Lumen to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.</source>
+        <source>Choose what you want Ghostery to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.</source>
         <note>[Onboarding] Adblocker Text</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.">
-        <source>Lumen Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
+        <source>Ghostery Browser does not have access to your camera. To enable access, tap ‘Settings’ and turn on camera.</source>
         <note>[Connect] Alert message for turning on Camera access when Scanning QR Code</note>
       </trans-unit>
       <trans-unit id="Cliqz Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.">
-        <source>Lumen Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.</source>
+        <source>Ghostery Browser has to download some data packages first, before the ad-blocker works efficiently. For this, the app must be connected to Wi-Fi.</source>
         <note>[Settings -&gt; Block Ads] Block Ads footer</note>
       </trans-unit>
       <trans-unit id="Cliqz works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.">
-        <source>Lumen works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.</source>
+        <source>Ghostery works with anonymized data of search queries and website visits that have been generated by our community of users. The technology that collects this data to build the web index is called Human Web.</source>
         <note>[Settings -&gt; Human Web]Footer text for Fair Blocking section</note>
+      </trans-unit>
+      <trans-unit id="Close Forget Tabs">
+        <source>Close Ghost Tabs</source>
+        <note>Setting for closing forget tabs</note>
+      </trans-unit>
+      <trans-unit id="Close Tab">
+        <source>Close Tab</source>
+        <note>Label for Close Tab</note>
       </trans-unit>
       <trans-unit id="Code copied">
         <source>Code copied</source>
@@ -327,13 +338,17 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <note>Continue despite warning buttun title in antiphishing alert title</note>
       </trans-unit>
       <trans-unit id="Could not download Video.">
-        <source>Could not download Video.</source>
-        <target>Video kann nicht geladen werden.</target>
+        <source>Video download failed.</source>
         <note>[VidoeDownloader] Alert title for youtube video download faild
    [VidoeDownloader] Toast message shown when youtube video download faild</note>
       </trans-unit>
+      <trans-unit id="Could not subscribe to {1}.">
+        <source>Could not subscribe to {1}.</source>
+        <note>[Subscriptions] Alert title for asking to enable push notificaiton from the system
+   [Subscriptions] Alert title when failing to subscribe to soccer notification</note>
+      </trans-unit>
       <trans-unit id="Currently, push notifications are only received if Cliqz is active.">
-        <source>Currently, push notifications are only received if Cliqz is active.</source>
+        <source>Currently, push notifications are only received when your browser is active.</source>
         <note>[Subscriptions] Subscribing Toast</note>
       </trans-unit>
       <trans-unit id="Customer Interaction">
@@ -361,19 +376,20 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <target>Verwerfen</target>
         <note>Dismiss No Wi-Fi connection alert</note>
       </trans-unit>
+      <trans-unit id="Done">
+        <source>Done</source>
+        <note>Done button in the tabTray Toolbar</note>
+      </trans-unit>
       <trans-unit id="Download videos on Wi-Fi Only">
-        <source>Download videos on Wi-Fi Only</source>
-        <target>Videos nur über WLAN herunterladen</target>
+        <source>Only download video on Wi-Fi</source>
         <note>[Settings -&gt; Limit Mobile Data Usage] toogle footer</note>
       </trans-unit>
       <trans-unit id="Download youtube video">
-        <source>Download youtube video</source>
-        <target>Video offline ansehen</target>
+        <source>Download Video Link</source>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
       <trans-unit id="EULA">
-        <source>EULA</source>
-        <target>Endbenutzer-Lizenzvertrag</target>
+        <source>End-User License Agreement</source>
         <note>[Settings -&gt; About] EULA</note>
       </trans-unit>
       <trans-unit id="Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.">
@@ -406,6 +422,10 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <target>Essenziell</target>
         <note>Tracker category in control center</note>
       </trans-unit>
+      <trans-unit id="Every new Tab comes with top sites, news and background image. Customize it to your needs.">
+        <source>Every new Tab comes with top sites, news and background image. Customize it to your needs.</source>
+        <note>[Onboarding] Tab Text</note>
+      </trans-unit>
       <trans-unit id="Extension">
         <source>Extension</source>
         <target>Erweiterung</target>
@@ -415,6 +435,10 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <source>FAQ</source>
         <target>FAQ</target>
         <note>[Settings] FAQ</note>
+      </trans-unit>
+      <trans-unit id="FAQ &amp; Support">
+        <source>FAQ &amp; Support</source>
+        <note>[Settings] FAQ &amp; Support</note>
       </trans-unit>
       <trans-unit id="Fair Mode">
         <source>Fair Mode</source>
@@ -426,9 +450,16 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <target>Gespeicherte Favoriten erscheinen hier.</target>
         <note>Status label for the empty Favorites state.</note>
       </trans-unit>
+      <trans-unit id="Forget">
+        <source>Ghost Tabs</source>
+        <note>Forget toogle button in tab overview</note>
+      </trans-unit>
+      <trans-unit id="Forget Mode">
+        <source>Ghost Mode</source>
+        <note>Title displayed for when there are no open tabs while in forget mode</note>
+      </trans-unit>
       <trans-unit id="Forget Tab">
-        <source>Forget Tab</source>
-        <target>Privater Tab</target>
+        <source>Ghost tab</source>
         <note>Title of Forget Tab on iPad</note>
       </trans-unit>
       <trans-unit id="Fresh Tab">
@@ -443,7 +474,7 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <note>Get it from the %link%</note>
       </trans-unit>
       <trans-unit id="Get the best out of CLIQZ">
-        <source>Get the best out of Lumen</source>
+        <source>Get the best out of Ghostery</source>
         <note>[Settings] Get the best out of CLIQZ</note>
       </trans-unit>
       <trans-unit id="Ghost Search">
@@ -452,16 +483,15 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <note>[Onboarding] QuickSearch Title</note>
       </trans-unit>
       <trans-unit id="Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). ">
-        <source>Lumen for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). </source>
+        <source>Ghostery for iOS now lets you protect your WiFi connection. It can block trackers in OTHER applications as long as you are connected to this WiFi network. It must be set up each time for each different network (home, work, school, etc). </source>
         <note>[WiFi Protection] Description</note>
       </trans-unit>
       <trans-unit id="Ghostery would like to access your Photos">
-        <source>Lumen would like to access your Photos</source>
-        <target>Lumen möchte auf deine Fotos zugreifen</target>
+        <source>Ghostery would like to access your Photos</source>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Global Trackers">
-        <source>Global Trackers</source>
+        <source>All Trackers</source>
         <note>[ControlCenter] Global Trackers panel title</note>
       </trans-unit>
       <trans-unit id="Go to ">
@@ -480,9 +510,12 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <note>[Settings] Help section header</note>
       </trans-unit>
       <trans-unit id="Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.">
-        <source>Help us improve your browsing experience. Lumen collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
-        <target>Hilf uns, dein Browsing-Erlebnis zu verbessern. Lumen sammelt ausschließlich anonyme Nutzungsdaten. In keinem Fall werden persönliche Daten gesammelt.</target>
+        <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
         <note>[Settings -&gt; Send Telemetry] Footer text</note>
+      </trans-unit>
+      <trans-unit id="Here you'll find a new offer every week">
+        <source>Every week a new offer will show up here</source>
+        <note>[MyOffrz] No offers label</note>
       </trans-unit>
       <trans-unit id="Hey, I would like to invite you to try the %@ Browser.">
         <source>Hey, I would like to invite you to try the %@ Browser.</source>
@@ -505,19 +538,19 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <note>[Settings -&gt; About] Imprint</note>
       </trans-unit>
       <trans-unit id="Introducing Ghostery">
-        <source>Introducing Lumen</source>
+        <source>Introducing Ghostery</source>
         <note>[Onboarding] Intro Title</note>
       </trans-unit>
       <trans-unit id="Introducing New Ghostery">
-        <source>Introducing New Lumen</source>
+        <source>Introducing New Ghostery</source>
         <note>[Onboarding] Intro Title Old Users</note>
       </trans-unit>
       <trans-unit id="Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.">
-        <source>Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported. By using this app you agree to Lumen's Privacy Policy</source>
+        <source>Keep your browsing cleaner, faster and safer. Don't worry, all your data will be imported.  By using this app you agree to Ghostery's Privacy Policy</source>
         <note>[Onboarding] Intro Text Old Users</note>
       </trans-unit>
       <trans-unit id="Keep your browsing cleaner, faster, and safer.">
-        <source>Keep your browsing cleaner, faster, and safer. By using this app you agree to Lumen's Privacy Policy</source>
+        <source>Keep your browsing cleaner, faster, and safer. By using this app you agree to Ghostery's Privacy Policy</source>
         <note>[Onboarding] Intro Text</note>
       </trans-unit>
       <trans-unit id="LEARN MORE">
@@ -541,8 +574,7 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <note>[Settings] Limit Mobile Data Usage</note>
       </trans-unit>
       <trans-unit id="Looks like Ghostery crashed previously. Would you like to restore your tabs?">
-        <source>Looks like Lumen crashed previously. Would you like to restore your tabs?</source>
-        <target>Lumen scheint vorher abgestürzt zu sein. Möchten du deine Tabs wiederherstellen?</target>
+        <source>Looks like Ghostery crashed previously. Would you like to restore your tabs?</source>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="Lumen Account">
@@ -576,7 +608,7 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <note>Title to expand news stream</note>
       </trans-unit>
       <trans-unit id="NEWS">
-        <source>NEWS</source>
+        <source>News</source>
         <note>Title to expand news stream</note>
       </trans-unit>
       <trans-unit id="New Tab">
@@ -585,7 +617,9 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <note>Title of New Tab on iPad</note>
       </trans-unit>
       <trans-unit id="No Wi-Fi Connection message">
-        <source>No Wi-Fi Connection message</source>
+        <source>You are not connected to a Wi-Fi network and video downloads with mobile data is restricted. 
+To change this, go to Settings &gt; Limit Mobile Data Usage.
+</source>
         <note>[Connect] No Wi-Fi connection alert message</note>
       </trans-unit>
       <trans-unit id="Not Now">
@@ -640,8 +674,7 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Open the Photos">
-        <source>Open the Photos</source>
-        <target>Fotos öffnen</target>
+        <source>Open</source>
         <note>[VidoeDownloader] Toast button text shown when youtube video is Successfully downloaded</note>
       </trans-unit>
       <trans-unit id="Overview">
@@ -655,7 +688,7 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <note>[WiFi Protection] Fourth step description</note>
       </trans-unit>
       <trans-unit id="Pause Ghostery">
-        <source>Pause Lumen</source>
+        <source>Pause Ghostery</source>
         <note>[ControlCenter -&gt; Overview] Pause Ghostery button title</note>
       </trans-unit>
       <trans-unit id="Please select video quality">
@@ -674,7 +707,7 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <note>[Settings -&gt; About] Privacy Policy</note>
       </trans-unit>
       <trans-unit id="Prompt description">
-        <source>Prompt description</source>
+        <source>Enter a new name for the connection:</source>
         <note>[Settings -&gt; Connect] rename connection alert message</note>
       </trans-unit>
       <trans-unit id="Quick Search">
@@ -688,7 +721,7 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <note>[Settings] Rate Us</note>
       </trans-unit>
       <trans-unit id="Receive attractive discounts and bargains with MyOffrz.">
-        <source>Receive attractive discounts and bargains with Lumen Rewards.</source>
+        <source>Receive attractive discounts and bargains with Ghostery Rewards.</source>
         <note>[MyOffrz] MyOffrz description</note>
       </trans-unit>
       <trans-unit id="Refresh">
@@ -754,10 +787,15 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
       <trans-unit id="Retry">
         <source>Retry</source>
         <target>Erneut versuchen</target>
-        <note>[Connect] Retry button for Connection Failed alert</note>
+        <note>[Connect] Retry button for Connection Failed alert
+   [Subscriptions] Retry alert button</note>
+      </trans-unit>
+      <trans-unit id="Save time and data volume: Quick Search instantly shows relevant results while typing.">
+        <source>Save time and data volume: Quick Search instantly shows relevant results while typing.</source>
+        <note>[Onboarding] QuickSearch Text</note>
       </trans-unit>
       <trans-unit id="Scan QR-Code">
-        <source>Scan QR-Code</source>
+        <source>Scan QR Code</source>
         <note>[Settings -&gt; Connect] Scan QR-Code</note>
       </trans-unit>
       <trans-unit id="Search">
@@ -797,13 +835,14 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <note>[Settings] Send usage data</note>
       </trans-unit>
       <trans-unit id="Set &quot;HTTP PROXY&quot; to &quot;Auto&quot;">
-        <source>Set &quot;HTTP PROXY&quot; to &quot;Auto&quot;</source>
+        <source>Set "HTTP PROXY" to "Auto"</source>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
         <target>Einstellungen</target>
-        <note>Settings
+        <note>[Subscriptions] Subscribe alert button
+   Settings
    Settings option for turning on Camera access
    Settings option for turning on location service</note>
       </trans-unit>
@@ -848,8 +887,12 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <note>Tracker category in control center</note>
       </trans-unit>
       <trans-unit id="Sorry but devices could not be connected. Please try again.">
-        <source>Sorry but devices could not be connected. Please try again.</source>
+        <source>Sorry, but the devices could not be connected. Please try again.</source>
         <note>[Connect] Connection Failed alert message</note>
+      </trans-unit>
+      <trans-unit id="Sorry, we encountered some technical difficulties. Please try again">
+        <source>Sorry, we encountered some technical difficulties. Please try again</source>
+        <note>[Subscriptions] Alert message when failing to subscribe to soccer notification</note>
       </trans-unit>
       <trans-unit id="Start Tab">
         <source>Start Tab</source>
@@ -861,13 +904,21 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <target>Bleib anonym und spare Zeit und Datenvolumen: Ergebnisse erscheinen in Echtzeit noch während der Eingabe in die Ghostery-Suchleiste.</target>
         <note>[Onboarding] QuickSearch Text</note>
       </trans-unit>
+      <trans-unit id="Subscribe">
+        <source>Subscribe</source>
+        <note>[Subscriptions] Subscribe alert button</note>
+      </trans-unit>
+      <trans-unit id="Subscribing to {1}.">
+        <source>Subscribing to {1}...</source>
+        <note>[Subscriptions] Subscribing HUD</note>
+      </trans-unit>
       <trans-unit id="Support">
         <source>Support</source>
         <target>Support</target>
         <note>[Settings] Support</note>
       </trans-unit>
       <trans-unit id="Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.">
-        <source>Support Lumen by sharing anonymous analytics and Human Web data to improve Lumen's performance.</source>
+        <source>Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.</source>
         <note>[Onboarding] Telemetry</note>
       </trans-unit>
       <trans-unit id="Swipe">
@@ -911,16 +962,18 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <note>[ControlCenter -&gt; Overview] Ad Blocking description</note>
       </trans-unit>
       <trans-unit id="To share your location, go to the settings for the CLIQZ app:&#10;1.Tap Location&#10;2.Enable 'While Using'">
-        <source>To share your location, go to the settings for the CLIQZ app:
-1.Tap Location
-2.Enable 'While Using'</source>
+        <source>To share your location, go to the settings for the Ghostery app:
+
+1. Tap Location
+2. Enable 'While Using'</source>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="To share your location, go to the settings of your smartphone:&#10;1.Turn on Location Services&#10;2.Select the CLIQZ App&#10;3.Enable 'While Using'">
         <source>To share your location, go to the settings of your smartphone:
-1.Turn on Location Services
-2.Select the CLIQZ App
-3.Enable 'While Using'</source>
+
+1. Turn on Location Services
+2. Select the Ghostery App
+3. Enable 'While Using'</source>
         <note>Alert message for turning on location service when clicking share location on local card</note>
       </trans-unit>
       <trans-unit id="Trackers">
@@ -1003,14 +1056,21 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <target>Wir benutzen die Open-Source-Software Sentry (http://sentry.io) für unsere Absturzberichte. Diese Berichte enthalten keine personenbezogenen Daten.</target>
         <note>[Settings -&gt; Send Crash Reports] Footer text</note>
       </trans-unit>
+      <trans-unit id="Websites which are known to contain explicit content are automatically opened in Forget Tabs. Visits to such websites are therefore not saved to your history.">
+        <source>Websites which are known to contain explicit content are automatically opened in Ghost Tabs. Visits to such websites are therefore not saved to your history.</source>
+        <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
+      </trans-unit>
       <trans-unit id="Well, this is embarrassing.">
         <source>Well, this is embarrassing.</source>
         <target>Oh, das ist peinlich.</target>
         <note>Restore Tabs Prompt Title</note>
       </trans-unit>
+      <trans-unit id="When Leaving Forget Mode">
+        <source>When Leaving Ghost Mode</source>
+        <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
+      </trans-unit>
       <trans-unit id="When Opening Ghostery">
-        <source>When Opening Lumen</source>
-        <target>Beim Öffnen von Lumen</target>
+        <source>When Opening Ghostery</source>
         <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
       </trans-unit>
       <trans-unit id="WiFi Protection">
@@ -1023,6 +1083,14 @@ Phishing-Websites geben sich als andere, vertrauenswürdige Websites aus, um dic
         <target>WiFi-Verbindungsschutz</target>
         <note>[WiFi Protection] Navigation Title
    [Wifi Protection] WiFi connection protection status</note>
+      </trans-unit>
+      <trans-unit id="Would you like to subscribe to the {1}?">
+        <source>Would you like to subscribe to the {1}?</source>
+        <note>[Subscriptions] Alert title for asking to subscribe for soccer notificaiton</note>
+      </trans-unit>
+      <trans-unit id="You are browsing in Forget Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.">
+        <source>You are browsing in Ghost Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
+        <note>Description text displayed when there are no open tabs while in private mode</note>
       </trans-unit>
       <trans-unit id="You connected your first device!&#10;&#10;Now you are ready to send websites and YouTube videos from your computer to your mobile device.">
         <source>You connected your first device!
@@ -1039,6 +1107,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>You have trusted this site</source>
         <target>Du hast diese Website vertrauenswürdig gefunden</target>
         <note>[ControlCenter -&gt; Overview] Blocked trackers count</note>
+      </trans-unit>
+      <trans-unit id="You will be notified about games, goals and important happenings of the {1}.">
+        <source>You will be notified about games, goals and important happenings of the {1}.</source>
+        <note>[Subscriptions] Alert message for asking to subscribe for soccer notificaiton</note>
       </trans-unit>
       <trans-unit id="Your video is being downloaded.">
         <source>Your video is being downloaded.</source>
@@ -1082,14 +1154,13 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file datatype="plaintext" original="Client/en.lproj/Ghostery.strings" source-language="en_US" target-language="de">
+  <file original="Client/en.lproj/Ghostery.strings" datatype="plaintext" source-language="en_US" target-language="de">
     <header>
-      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id="Close Forget Tabs">
-        <source>Close Ghost Tabs</source>
-        <target>Private Tabs schließen</target>
+        <source>Close Forget Tabs</source>
         <note>Setting for closing forget tabs</note>
       </trans-unit>
       <trans-unit id="Forget Mode">
@@ -1113,20 +1184,18 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
       </trans-unit>
       <trans-unit id="When Leaving Forget Mode">
-        <source>When Leaving Ghost Mode</source>
-        <target>Beim Verlassen des privaten Modus </target>
+        <source>When Leaving Forget Mode</source>
         <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
       </trans-unit>
       <trans-unit id="You are browsing in Forget Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.">
-        <source>You are browsing in Ghost Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
-        <target>Du surfst im privaten Modus: Websites, die du in diesem Modus besuchst, werden nicht in deinem Browserverlauf gespeichert, und lokale Daten einschließlich Cookies werden nicht gespeichert.</target>
+        <source>You are browsing in Forget Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
         <note>Description text displayed when there are no open tabs while in forget mode</note>
       </trans-unit>
     </body>
   </file>
-  <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en_US" target-language="de">
+  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US" target-language="de">
     <header>
-      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id="$(SHORTCUT_PRIVATE_TAB_TITLE)">
@@ -1138,74 +1207,65 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note/>
       </trans-unit>
       <trans-unit id="CFBundleDisplayName">
-        <source>Lumen</source>
-        <target>Lumen</target>
+        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName">
-        <source>Lumen</source>
-        <target>Lumen</target>
+        <source>$(MOZ_PRODUCT_NAME)</source>
+        <target>$(MOZ_PRODUCT_NAME)</target>
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you scan, take and upload videos or photos.</source>
         <target>So kannst du scannen, Fotos oder Videos machen und hochladen.</target>
-        
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
-        <source>Lumen requires Face ID to access your saved logins.</source>
-        <target>Lumen benötigt Face ID, um auf deine gespeicherten Logins zuzugreifen.</target>
-        
+        <source>Ghostery requires Face ID to access your saved logins.</source>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Location-based features or websites you visit may request your location.</source>
         <target>Webseiten oder Funktionen, die deinen Standort benötigen können Zugriff auf deinen Standort anfordern.</target>
-        
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
-        <source>Lumen will only use the microphone when you choose to record videos inside the browser.</source>
-        <target>Lumen nutzt das Mikro nur, wenn du Videos im Browser aufnimmst.</target>
-        
+        <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
-        <source>Lumen will only use this access to download videos and pictures to your device.</source>
-        <target>Lumen wird diesen Zugang nur benutzen, um Videos und Fotos auf dein Gerät zu laden.</target>
-        
+        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
-        <source>Lumen will only use this access to download videos and pictures to your device.</source>
-        <target>Lumen wird diesen Zugang nur benutzen, um Videos und Fotos auf dein Gerät zu laden.</target>
-        
+        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <note>Privacy - Photo Library Usage Description</note>
+      </trans-unit>
+      <trans-unit id="ShortcutItemTitleNewGhostTab">
+        <source>New Ghost Tab</source>
+        <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Private Tab</source>
         <target>Neuer Private Tab</target>
-        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
         <target>Neuer Tab</target>
-        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleQRCode">
         <source>Scan QR-Code</source>
         <target>QR-Code scannen</target>
-        
         <note>(No Comment)</note>
       </trans-unit>
     </body>
   </file>
-  <file datatype="plaintext" original="Client/en.lproj/Lumen.strings" source-language="en_US" target-language="de">
+  <file original="Client/en.lproj/Lumen.strings" datatype="plaintext" source-language="en_US" target-language="de">
     <header>
-      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id="%d more days left in trial">
@@ -1319,12 +1379,17 @@ Made in Germany</target>
       <trans-unit id="Close">
         <source>Close</source>
         <target>Fertig</target>
-        <note>Close button title on dashboard info</note>
+        <note>Cancel button title in payment failing transaction alert
+   Close button title on dashboard info</note>
       </trans-unit>
       <trans-unit id="Close Private Tabs">
         <source>Close Private Tabs</source>
         <target>Private Tabs schließen</target>
         <note>Setting for closing private tabs</note>
+      </trans-unit>
+      <trans-unit id="Coming Soon!">
+        <source>Coming Soon!</source>
+        <note>Temporary message title instead of Subscriptions</note>
       </trans-unit>
       <trans-unit id="Conditions">
         <source>Conditions</source>
@@ -1473,9 +1538,8 @@ Made in Germany</target>
         <target>Jederzeit nachvollziehbar: weniger Akku- und Datenverbrauch, wirksamer Schutz vor nerviger Werbung und Datensammlern.</target>
         <note>[Onboarding] Dashboard text</note>
       </trans-unit>
-      <trans-unit id="Lumen just blocked %@ from accessing your data.Get it from ">
-        <source>Lumen just blocked %@ from accessing your data.Get it from </source>
-        <target>Lumen hat gerade %@ abgehalten auf deine Daten zuzugreifen.</target>
+      <trans-unit id="Lumen just blocked %@ from accessing your data.">
+        <source>Lumen just blocked %@ from accessing your data.</source>
         <note>[Contextual onboarding] Antitracking details</note>
       </trans-unit>
       <trans-unit id="Lumen just blocked %d ads">
@@ -1502,6 +1566,10 @@ Made in Germany</target>
         <source>MIN</source>
         <target>MIN</target>
         <note>Minutes unit for dashboard</note>
+      </trans-unit>
+      <trans-unit id="Monthly">
+        <source>Monthly</source>
+        <note>PLUS Subscription price</note>
       </trans-unit>
       <trans-unit id="NEXT">
         <source>NEXT</source>
@@ -1621,9 +1689,12 @@ Made in Germany</target>
         <note>Upgrade lumen view title</note>
       </trans-unit>
       <trans-unit id="Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.">
-        <source>Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew and your account will be charged for renewal within 24 hours prior to the end of the current period at the cost shown above. You can cancel anytime in your iTunes account settings until 24 hours before the end of the current period. Any unused portion of a free trial will be forfeited if you purchase a subscription.</source>
-        <target>Abos werden über deinen iTunes Konto abgebucht nach Bestätigung. Abos werden automatisch erneuert und dein Konto wird innerhalb von 24 Stunden vor Ablauf der aktuellen Periode zu den oben genannten Kosten belastet. Du kannst Abos jederzeit in deinen iTunes Konto-Einstellungen kündigen bis zu 24 Stunden vor Ablauf der aktuellen Periode. Ungenutzte Tage von kostenlosen Testversionen werden verfallen wenn du ein Abo abschließt.</target>
+        <source>Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.</source>
         <note>[Upgrade Flow] Conditions text</note>
+      </trans-unit>
+      <trans-unit id="Subscriptions will be available soon.">
+        <source>Subscriptions will be available soon.</source>
+        <note>Temporary message instead of Subscriptions</note>
       </trans-unit>
       <trans-unit id="Tap 'connect' to browse the Internet with VPN protection.">
         <source>Tap 'connect' to browse the Internet with VPN protection.</source>
@@ -1739,6 +1810,11 @@ Made in Germany</target>
         <target>Beim Verlassen des Private Modus</target>
         <note>Will be displayed in Settings under 'Close Private Tabs'</note>
       </trans-unit>
+      <trans-unit id="Yearly">
+        <source>Yearly</source>
+        <note>BASIC Subscription price
+   PRO Subscription price</note>
+      </trans-unit>
       <trans-unit id="You are browsing in Private Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.">
         <source>You are browsing in Private Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
         <target>Du surfst im Private Modus: Websites, die du in diesem Modus besuchst, werden nicht in deinem Browserverlauf gespeichert, und lokale Daten einschließlich Cookies werden nicht gespeichert.</target>
@@ -1786,9 +1862,9 @@ Made in Germany</target>
       </trans-unit>
     </body>
   </file>
-  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en_US" target-language="de">
+  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="de">
     <header>
-      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
@@ -1868,9 +1944,9 @@ Made in Germany</target>
       </trans-unit>
     </body>
   </file>
-  <file datatype="plaintext" original="Extensions/ShareTo/en.lproj/Cliqz.strings" source-language="en_US" target-language="de">
+  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="de">
     <header>
-      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id="Menu.AddFavoriteAction.Title">
@@ -1890,9 +1966,9 @@ Made in Germany</target>
       </trans-unit>
     </body>
   </file>
-  <file datatype="plaintext" original="Extensions/Today/en.lproj/Cliqz.strings" source-language="en_US" target-language="de">
+  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="de">
     <header>
-      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id="TodayWidget.NewForgetTabButtonLabel">
@@ -1903,3 +1979,4 @@ Made in Germany</target>
     </body>
   </file>
 </xliff>
+

@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="de">
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file datatype="plaintext" original="Client/en.lproj/Cliqz.strings" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
     </header>
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
@@ -46,7 +45,7 @@
         <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
       <trans-unit id="A &quot;fair&quot; mode that shows ads in clearly defined cases only will be added soon.">
-        <source>A "fair" mode that shows ads in clearly defined cases only will be added soon.</source>
+        <source>A &quot;fair&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
         <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
       <trans-unit id="About">
@@ -339,6 +338,7 @@ Phishing websites disguise as other sites you may trust in order to trick you in
       </trans-unit>
       <trans-unit id="Could not download Video.">
         <source>Video download failed.</source>
+        <target>Videodownload ist fehlgeschlagen</target>
         <note>[VidoeDownloader] Alert title for youtube video download faild
    [VidoeDownloader] Toast message shown when youtube video download faild</note>
       </trans-unit>
@@ -378,18 +378,22 @@ Phishing websites disguise as other sites you may trust in order to trick you in
       </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
+        <target>Fertig</target>
         <note>Done button in the tabTray Toolbar</note>
       </trans-unit>
       <trans-unit id="Download videos on Wi-Fi Only">
         <source>Only download video on Wi-Fi</source>
+        <target>Video nur im WLAN herunterladen</target>
         <note>[Settings -&gt; Limit Mobile Data Usage] toogle footer</note>
       </trans-unit>
       <trans-unit id="Download youtube video">
         <source>Download Video Link</source>
+        <target>Video herunterladen</target>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
       <trans-unit id="EULA">
         <source>End-User License Agreement</source>
+        <target>Endbenutzer-Lizenzvertrag</target>
         <note>[Settings -&gt; About] EULA</note>
       </trans-unit>
       <trans-unit id="Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.">
@@ -438,6 +442,7 @@ Phishing websites disguise as other sites you may trust in order to trick you in
       </trans-unit>
       <trans-unit id="FAQ &amp; Support">
         <source>FAQ &amp; Support</source>
+        <target>FAQ &amp; Support</target>
         <note>[Settings] FAQ &amp; Support</note>
       </trans-unit>
       <trans-unit id="Fair Mode">
@@ -620,6 +625,9 @@ Phishing websites disguise as other sites you may trust in order to trick you in
         <source>You are not connected to a Wi-Fi network and video downloads with mobile data is restricted. 
 To change this, go to Settings &gt; Limit Mobile Data Usage.
 </source>
+        <target>Videodownloads funktionieren nur im WLAN.
+Ändern in Einstellungen &gt; Mobile Daten begrenzen.
+</target>
         <note>[Connect] No Wi-Fi connection alert message</note>
       </trans-unit>
       <trans-unit id="Not Now">
@@ -675,6 +683,7 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
       </trans-unit>
       <trans-unit id="Open the Photos">
         <source>Open</source>
+        <target>Öffnen</target>
         <note>[VidoeDownloader] Toast button text shown when youtube video is Successfully downloaded</note>
       </trans-unit>
       <trans-unit id="Overview">
@@ -835,7 +844,7 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
         <note>[Settings] Send usage data</note>
       </trans-unit>
       <trans-unit id="Set &quot;HTTP PROXY&quot; to &quot;Auto&quot;">
-        <source>Set "HTTP PROXY" to "Auto"</source>
+        <source>Set &quot;HTTP PROXY&quot; to &quot;Auto&quot;</source>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">
@@ -1152,9 +1161,9 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Ghostery.strings" datatype="plaintext" source-language="en_US" target-language="de">
+  <file datatype="plaintext" original="Client/en.lproj/Ghostery.strings" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
     </header>
     <body>
       <trans-unit id="Close Forget Tabs">
@@ -1195,9 +1204,9 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US" target-language="de">
+  <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
     </header>
     <body>
       <trans-unit id="$(SHORTCUT_PRIVATE_TAB_TITLE)">
@@ -1221,27 +1230,33 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you scan, take and upload videos or photos.</source>
         <target>So kannst du scannen, Fotos oder Videos machen und hochladen.</target>
+        
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
         <source>Ghostery requires Face ID to access your saved logins.</source>
+        
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Location-based features or websites you visit may request your location.</source>
         <target>Webseiten oder Funktionen, die deinen Standort benötigen können Zugriff auf deinen Standort anfordern.</target>
+        
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
         <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
+        
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
+        
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
+        
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewGhostTab">
@@ -1251,23 +1266,26 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Private Tab</source>
         <target>Neuer Private Tab</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
         <target>Neuer Tab</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleQRCode">
         <source>Scan QR-Code</source>
         <target>QR-Code scannen</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Lumen.strings" datatype="plaintext" source-language="en_US" target-language="de">
+  <file datatype="plaintext" original="Client/en.lproj/Lumen.strings" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
     </header>
     <body>
       <trans-unit id="%d more days left in trial">
@@ -1323,7 +1341,6 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
       <trans-unit id="BEST VALUE: SAVE 20%">
         <source>BEST VALUE: SAVE 20%</source>
-        <target>BESTES ANGEBOT: SPARE 20%</target>
         <note>BEST VALUE: SAVE 20%</note>
       </trans-unit>
       <trans-unit id="Block Ads &amp; Trackers">
@@ -1391,6 +1408,7 @@ Made in Germany</target>
       </trans-unit>
       <trans-unit id="Coming Soon!">
         <source>Coming Soon!</source>
+        <target>Kommt bald!</target>
         <note>Temporary message title instead of Subscriptions</note>
       </trans-unit>
       <trans-unit id="Conditions">
@@ -1546,6 +1564,7 @@ Made in Germany</target>
       </trans-unit>
       <trans-unit id="Lumen just blocked %@ from accessing your data.">
         <source>Lumen just blocked %@ from accessing your data.</source>
+        <target>Lumen hat gerade %@ abgehalten auf deine Daten zuzugreifen.</target>
         <note>[Contextual onboarding] Antitracking details</note>
       </trans-unit>
       <trans-unit id="Lumen just blocked %d ads">
@@ -1575,6 +1594,7 @@ Made in Germany</target>
       </trans-unit>
       <trans-unit id="Monthly">
         <source>Monthly</source>
+        <target>Monatlich</target>
         <note>PLUS Subscription price</note>
       </trans-unit>
       <trans-unit id="NEXT">
@@ -1636,6 +1656,7 @@ Made in Germany</target>
       </trans-unit>
       <trans-unit id="Private">
         <source>Private</source>
+        <target>Privat</target>
         <note>Private mode toggle button</note>
       </trans-unit>
       <trans-unit id="Private Mode">
@@ -1695,14 +1716,17 @@ Made in Germany</target>
       </trans-unit>
       <trans-unit id="ShareExtension.LoadLumenInBackgroundActionDone.Title">
         <source>Loading in Lumen</source>
+        <target>Lädt in Lumen</target>
         <note>Share extension label shown after user has performed 'Load in Background' action.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInLumenAction.Title">
         <source>Open in Lumen</source>
+        <target>Öffne in Lumen</target>
         <note>Action label on share extension to immediately open page in Ghostery.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInLumenAction.Title">
         <source>Search in Lumen</source>
+        <target>Suche in Lumen</target>
         <note>Action label on share extension to search for the selected text in Ghostery.</note>
       </trans-unit>
       <trans-unit id="Stay with us">
@@ -1712,10 +1736,12 @@ Made in Germany</target>
       </trans-unit>
       <trans-unit id="Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.">
         <source>Subscriptions will be applied to your iTunes account on confirmation. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period‌. You can cancel anytime in your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription.</source>
+        <target>Abos werden über deinen iTunes Konto abgebucht nach Bestätigung. Abos werden automatisch erneuert und dein Konto wird innerhalb von 24 Stunden vor Ablauf der aktuellen Periode zu den oben genannten Kosten belastet. Du kannst Abos jederzeit in deinen iTunes Konto-Einstellungen kündigen bis zu 24 Stunden vor Ablauf der aktuellen Periode. Ungenutzte Tage von kostenlosen Testversionen werden verfallen wenn du ein Abo abschließt.</target>
         <note>[Upgrade Flow] Conditions text</note>
       </trans-unit>
       <trans-unit id="Subscriptions will be available soon.">
         <source>Subscriptions will be available soon.</source>
+        <target>Abos sind bald verfügbar.</target>
         <note>Temporary message instead of Subscriptions</note>
       </trans-unit>
       <trans-unit id="Tap 'connect' to browse the Internet with VPN protection.">
@@ -1834,6 +1860,7 @@ Made in Germany</target>
       </trans-unit>
       <trans-unit id="Yearly">
         <source>Yearly</source>
+        <target>Jährlich</target>
         <note>BASIC Subscription price
    PRO Subscription price</note>
       </trans-unit>
@@ -1884,9 +1911,9 @@ Made in Germany</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="de">
+  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
     </header>
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
@@ -1966,9 +1993,9 @@ Made in Germany</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="de">
+  <file datatype="plaintext" original="Extensions/ShareTo/en.lproj/Cliqz.strings" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
     </header>
     <body>
       <trans-unit id="Ad &amp; Tracker Blocking">
@@ -2062,9 +2089,9 @@ Made in Germany</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="de">
+  <file datatype="plaintext" original="Extensions/Today/en.lproj/Cliqz.strings" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
     </header>
     <body>
       <trans-unit id="TodayWidget.NewForgetTabButtonLabel">
@@ -2075,4 +2102,3 @@ Made in Germany</target>
     </body>
   </file>
 </xliff>
-

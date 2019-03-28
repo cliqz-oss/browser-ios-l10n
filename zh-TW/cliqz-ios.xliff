@@ -837,14 +837,12 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
    Settings option for turning on Camera access
    Settings option for turning on location service</note>
       </trans-unit>
-      <trans-unit id="ShareExtension.OpenInCliqzAction.Title">
+      <trans-unit id="ShareExtension.OpenInGhosteryAction.Title">
         <source>Open in Ghostery</source>
-        <target>在Ghostery中打開</target>
         <note>Action label on share extension to immediately open page in Ghostery.</note>
       </trans-unit>
-      <trans-unit id="ShareExtension.SeachInCliqzAction.Title">
+      <trans-unit id="ShareExtension.SeachInGhosteryAction.Title">
         <source>Search in Ghostery</source>
-        <target>在Ghostery中搜索</target>
         <note>Action label on share extension to search for the selected text in Ghostery.</note>
       </trans-unit>
       <trans-unit id="Shared with %@ Browser for iOS">
@@ -1163,6 +1161,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>New Ghost Tab</source>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
+      <trans-unit id="ShareExtension.LoadGhosteryInBackgroundActionDone.Title">
+        <source>Loading in Ghostery</source>
+        <note>Share extension label shown after user has performed 'Load in Background' action.</note>
+      </trans-unit>
       <trans-unit id="Websites which are known to contain explicit content are automatically opened in Ghost Tabs. Visits to such websites are therefore not saved to your history.">
         <source>Websites which are known to contain explicit content are automatically opened in Ghost Tabs. Visits to such websites are therefore not saved to your history.</source>
         <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
@@ -1414,6 +1416,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>Enjoy clutter-free websites and save data &amp; time.</source>
         <note>[Onboarding] Adblocker text</note>
       </trans-unit>
+      <trans-unit id="Forget Tabs">
+        <source>Forget Tabs</source>
+        <note>Forget mode toggle button</note>
+      </trans-unit>
       <trans-unit id="Germany">
         <source>Germany</source>
         <note>VPN country name for Germany</note>
@@ -1541,6 +1547,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>Privacy Policy</source>
         <note>[Upgrade Flow] Privacy Policy button</note>
       </trans-unit>
+      <trans-unit id="Private">
+        <source>Private</source>
+        <note>Private mode toggle button</note>
+      </trans-unit>
       <trans-unit id="Private Mode">
         <source>Private Mode</source>
         <note>Title displayed for when there are no open tabs while in private mode</note>
@@ -1584,6 +1594,18 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="Safe and Sound on the Go">
         <source>Safe and Sound on the Go</source>
         <note>[Onboarding] VPN title</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.LoadLumenInBackgroundActionDone.Title">
+        <source>Loading in Lumen</source>
+        <note>Share extension label shown after user has performed 'Load in Background' action.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.OpenInLumenAction.Title">
+        <source>Open in Lumen</source>
+        <note>Action label on share extension to immediately open page in Ghostery.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.SeachInLumenAction.Title">
+        <source>Search in Lumen</source>
+        <note>Action label on share extension to search for the selected text in Ghostery.</note>
       </trans-unit>
       <trans-unit id="Stay with us">
         <source>Stay with us</source>
@@ -1819,20 +1841,94 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
+      <trans-unit id="Ad &amp; Tracker Blocking">
+        <source>Ad &amp; Tracker Blocking</source>
+        <note>[Onboarding] Adblocker Title</note>
+      </trans-unit>
+      <trans-unit id="Ads, site analytics and adult advertising trackers">
+        <source>Ads, site analytics and adult advertising trackers</source>
+        <note>[Onboarding] Block Recommended TickButton SubTitle</note>
+      </trans-unit>
+      <trans-unit id="Block Everything">
+        <source>Block Everything</source>
+        <note>[Onboarding] Block Everything TickButton Title</note>
+      </trans-unit>
+      <trans-unit id="Block Nothing">
+        <source>Block Nothing</source>
+        <note>[Onboarding] Block Nothing TickButton Title</note>
+      </trans-unit>
+      <trans-unit id="Block Recommended">
+        <source>Block Recommended</source>
+        <note>[Onboarding] Block Recommended TickButton Title</note>
+      </trans-unit>
+      <trans-unit id="Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!">
+        <source>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile!</source>
+        <note>[Onboarding] Intro Text</note>
+      </trans-unit>
+      <trans-unit id="Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile! Don't worry, all your data will be imported.">
+        <source>Browse cleaner, faster, and safer on-the-go with Ghostery, now optimized for mobile! Don't worry, all your data will be imported.</source>
+        <note>[Onboarding] Intro Text Old Users</note>
+      </trans-unit>
+      <trans-unit id="Choose what you want Ghostery to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.">
+        <source>Choose what you want Ghostery to block for cleaner, faster, and safer browsing. You can change and customize these settings at any time in the Privacy Control Center.</source>
+        <note>[Onboarding] Adblocker Text</note>
+      </trans-unit>
+      <trans-unit id="Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.">
+        <source>Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.</source>
+        <note>[Onboarding] Tab Text</note>
+      </trans-unit>
+      <trans-unit id="Fresh Tab">
+        <source>Fresh Tab</source>
+        <note>Title for Freshtab in tab history list</note>
+      </trans-unit>
+      <trans-unit id="Ghost Search">
+        <source>Ghost Search</source>
+        <note>[Onboarding] QuickSearch Title</note>
+      </trans-unit>
+      <trans-unit id="Introducing Ghostery">
+        <source>Introducing Ghostery</source>
+        <note>[Onboarding] Intro Title</note>
+      </trans-unit>
+      <trans-unit id="Introducing New Ghostery">
+        <source>Introducing New Ghostery</source>
+        <note>[Onboarding] Intro Title Old Users</note>
+      </trans-unit>
+      <trans-unit id="Menu.AddFavorite.Confirm">
+        <source>Favorite Added</source>
+        <note>Toast displayed to the user after a bookmark has been added.</note>
+      </trans-unit>
       <trans-unit id="Menu.AddFavoriteAction.Title">
         <source>Add to Favorites</source>
         <target>添加到收藏夾</target>
         <note>Label for the button, displayed in the menu, used to create a favorite for the current website.</note>
       </trans-unit>
-      <trans-unit id="ShareExtension.OpenInCliqzAction.Title">
+      <trans-unit id="Menu.RemoveBookmarkAction.Title">
+        <source>Remove Favorite</source>
+        <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
+      </trans-unit>
+      <trans-unit id="Menu.RemoveFavorite.Confirm">
+        <source>Favorite Removed</source>
+        <note>Toast displayed to the user after a bookmark has been removed.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.OpenInGhosteryAction.Title">
         <source>Open in Ghostery</source>
-        <target>在Ghostery中打開</target>
         <note>Action label on share extension to immediately open page in Ghostery.</note>
       </trans-unit>
-      <trans-unit id="ShareExtension.SeachInCliqzAction.Title">
+      <trans-unit id="ShareExtension.SeachInGhosteryAction.Title">
         <source>Search in Ghostery</source>
-        <target>在Ghostery中搜索</target>
         <note>Action label on share extension to search for the selected text in Ghostery.</note>
+      </trans-unit>
+      <trans-unit id="Start Tab">
+        <source>Start Tab</source>
+        <note>[Onboarding] Freshtab Title</note>
+      </trans-unit>
+      <trans-unit id="Stay anonymous, reduce data usage, and save time: results appear instantly as you type in the Ghost search bar.">
+        <source>Stay anonymous, reduce data usage, and save time: results appear instantly as you type in the Ghost search bar.</source>
+        <note>[Onboarding] QuickSearch Text</note>
+      </trans-unit>
+      <trans-unit id="Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.">
+        <source>Support Ghostery by sharing anonymous analytics and Human Web data to improve Ghostery's performance.</source>
+        <note>[Onboarding] Telemetry</note>
       </trans-unit>
     </body>
   </file>

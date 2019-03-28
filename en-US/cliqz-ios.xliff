@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en">
+  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="en_US">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -982,7 +982,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Ghostery.strings" datatype="plaintext" source-language="en">
+  <file original="Client/en.lproj/Ghostery.strings" datatype="plaintext" source-language="en_US" target-language="en_US">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -1017,7 +1017,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en">
+  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US" target-language="en_US">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -1045,7 +1045,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
         <source>Ghostery requires Face ID to access your saved logins.</source>
-        <target>Ghostery requires Face ID to access your saved logins.</target>
+        <target>Lumen requires Face ID to access your saved logins.</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
@@ -1055,17 +1055,17 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
         <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
-        <target>Ghostery will only use the microphone when you choose to record videos inside the browser.</target>
+        <target>Lumen will only use the microphone when you choose to record videos inside the browser.</target>
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
-        <target>Ghostery will only use this access to download videos and pictures to your device.</target>
+        <target>Lumen will only use this access to download videos and pictures to your device.</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
-        <target>Ghostery will only use this access to download videos and pictures to your device.</target>
+        <target>Lumen will only use this access to download videos and pictures to your device.</target>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewGhostTab">
@@ -1089,7 +1089,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Lumen.strings" datatype="plaintext" source-language="en">
+  <file original="Client/en.lproj/Lumen.strings" datatype="plaintext" source-language="en_US" target-language="en_US">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -1575,7 +1575,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en">
+  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="en_US">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -1642,7 +1642,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en">
+  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="en_US">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -1661,7 +1661,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en">
+  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="en_US">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>

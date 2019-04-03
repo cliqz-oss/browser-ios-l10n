@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="en_US">
+  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -316,6 +316,10 @@ Phishing websites disguise as other sites you may trust in order to trick you in
       <trans-unit id="Delete account?">
         <source>Delete account?</source>
         <note>Sign Out Settings</note>
+      </trans-unit>
+      <trans-unit id="Device Id">
+        <source>Device Id</source>
+        <note>Device Id</note>
       </trans-unit>
       <trans-unit id="Dismiss">
         <source>Dismiss</source>
@@ -982,7 +986,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Ghostery.strings" datatype="plaintext" source-language="en_US" target-language="en_US">
+  <file original="Client/en.lproj/Ghostery.strings" datatype="plaintext" source-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -1021,7 +1025,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US" target-language="en_US">
+  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -1095,7 +1099,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Lumen.strings" datatype="plaintext" source-language="en_US" target-language="en_US">
+  <file original="Client/en.lproj/Lumen.strings" datatype="plaintext" source-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -1180,6 +1184,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="Choose VPN Location">
         <source>Choose VPN Location</source>
         <note>[VPN] vpn choose location</note>
+      </trans-unit>
+      <trans-unit id="Choose your virtual location. Protection from hackers is on for any location while the VPN is active.">
+        <source>Choose your virtual location. Protection from hackers is on for any location while the VPN is active.</source>
+        <note>VPN locations selection header</note>
       </trans-unit>
       <trans-unit id="Clear">
         <source>Clear</source>
@@ -1365,10 +1373,6 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>Number of tracker companies that tried to spy on you</source>
         <note>[Lumen-&gt;Dashboard] Tracking companies widget description</note>
       </trans-unit>
-      <trans-unit id="Oh, something went wrong. Please try again.">
-        <source>Oh, something went wrong. Please try again.</source>
-        <note>VPN retry text</note>
-      </trans-unit>
       <trans-unit id="Okay">
         <source>Okay</source>
         <note>Okay button for alerts</note>
@@ -1401,6 +1405,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="Private Mode">
         <source>Private Mode</source>
         <note>Title displayed for when there are no open tabs while in private mode</note>
+      </trans-unit>
+      <trans-unit id="Protection from hackers">
+        <source>Protection from hackers</source>
+        <note>[VPN] Protection from hackers</note>
       </trans-unit>
       <trans-unit id="RETRY">
         <source>RETRY</source>
@@ -1466,10 +1474,6 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>Subscriptions will be available soon.</source>
         <note>Temporary message instead of Subscriptions</note>
       </trans-unit>
-      <trans-unit id="Tap 'connect' to browse the Internet with VPN protection.">
-        <source>Tap 'connect' to browse the Internet with VPN protection.</source>
-        <note>VPN default text</note>
-      </trans-unit>
       <trans-unit id="This will delete all your dashboard data and cannot be undone.">
         <source>This will delete all your dashboard data and cannot be undone.</source>
         <note>Lumen Clear Dashboard Data Popup Text</note>
@@ -1533,10 +1537,18 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>VPN Protection.</source>
         <note>[VPN] subscription expired alert title</note>
       </trans-unit>
+      <trans-unit id="VPN is short for Virtual Private Network">
+        <source>VPN is short for Virtual Private Network</source>
+        <note>VPN definition</note>
+      </trans-unit>
       <trans-unit id="VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
         <source>VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
         <note>PLUS Subscription Description
    PRO Subscription Description</note>
+      </trans-unit>
+      <trans-unit id="Video streaming from other countries">
+        <source>Video streaming from other countries</source>
+        <note>[VPN] Video streaming from other countries</note>
       </trans-unit>
       <trans-unit id="We are sorry, but something went wrong. The payment was not successful, please try again.">
         <source>We are sorry, but something went wrong. The payment was not successful, please try again.</source>
@@ -1571,10 +1583,6 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>You are browsing without ultimate protection and ad blocker.</source>
         <note>Upgrade lumen view subtitle</note>
       </trans-unit>
-      <trans-unit id="You are safely connected to the Internet.">
-        <source>You are safely connected to the Internet.</source>
-        <note>VPN connected text</note>
-      </trans-unit>
       <trans-unit id="You can still use Lumen, but without ultimate protection and VPN. Or go premium.">
         <source>You can still use Lumen, but without ultimate protection and VPN. Or go premium.</source>
         <note>Trial Expired view subtitle</note>
@@ -1601,7 +1609,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="en_US">
+  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -1668,7 +1676,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="en_US">
+  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -1763,7 +1771,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="en_US">
+  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>

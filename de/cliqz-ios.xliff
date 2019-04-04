@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="de">
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file datatype="plaintext" original="Client/en.lproj/Cliqz.strings" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
     </header>
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
@@ -46,7 +45,7 @@
         <note>[ControlCenter - Overview] Pause Ghostery for thirty minutes title</note>
       </trans-unit>
       <trans-unit id="A &quot;fair&quot; mode that shows ads in clearly defined cases only will be added soon.">
-        <source>A "fair" mode that shows ads in clearly defined cases only will be added soon.</source>
+        <source>A &quot;fair&quot; mode that shows ads in clearly defined cases only will be added soon.</source>
         <note>[Settings -&gt; Block Ads] Fair Mode footer</note>
       </trans-unit>
       <trans-unit id="About">
@@ -75,6 +74,7 @@
       </trans-unit>
       <trans-unit id="Add to Bookmarks">
         <source>Add to Favorites</source>
+        <target>Zu Favoriten hinzufügen</target>
         <note>Label for preview action on Tab Tray Tab to add current tab to Bookmarks</note>
       </trans-unit>
       <trans-unit id="Ads">
@@ -374,6 +374,7 @@ Phishing websites disguise as other sites you may trust in order to trick you in
       </trans-unit>
       <trans-unit id="Device Id">
         <source>Device Id</source>
+        <target>Geräte ID</target>
         <note>Device Id</note>
       </trans-unit>
       <trans-unit id="Dismiss">
@@ -409,6 +410,7 @@ Phishing websites disguise as other sites you may trust in order to trick you in
       <trans-unit id="Empty TopSites hint">
         <source>Your most visited sites will show up here</source>
         <target>Hier werden deine meistbesuchten Seiten erscheinen</target>
+        
         <note>Hint on Freshtab when there is no topsites</note>
       </trans-unit>
       <trans-unit id="Enhanced Ad Blocking">
@@ -475,6 +477,7 @@ Phishing websites disguise as other sites you may trust in order to trick you in
       <trans-unit id="Fresh Tab">
         <source>Start Tab</source>
         <target>Start Tab</target>
+        
         <note>[Settings] Freshtab section header
    Title for Freshtab in tab history list</note>
       </trans-unit>
@@ -585,6 +588,7 @@ Phishing websites disguise as other sites you may trust in order to trick you in
       </trans-unit>
       <trans-unit id="Looks like Ghostery crashed previously. Would you like to restore your tabs?">
         <source>Looks like Ghostery crashed previously. Would you like to restore your tabs?</source>
+        <target>Scheint, als wäre Lumen abgestürzt. Sollen Tabs wiederhergestellt werden?</target>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="Lumen Account">
@@ -624,6 +628,7 @@ Phishing websites disguise as other sites you may trust in order to trick you in
       <trans-unit id="New Tab">
         <source>New Tab</source>
         <target>Neuer Tab</target>
+        
         <note>Title of New Tab on iPad</note>
       </trans-unit>
       <trans-unit id="No Wi-Fi Connection message">
@@ -849,7 +854,7 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
         <note>[Settings] Send usage data</note>
       </trans-unit>
       <trans-unit id="Set &quot;HTTP PROXY&quot; to &quot;Auto&quot;">
-        <source>Set "HTTP PROXY" to "Auto"</source>
+        <source>Set &quot;HTTP PROXY&quot; to &quot;Auto&quot;</source>
         <note>[WiFi Protection] Third step description</note>
       </trans-unit>
       <trans-unit id="Settings">
@@ -1083,6 +1088,7 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
       </trans-unit>
       <trans-unit id="When Opening Ghostery">
         <source>When Opening Ghostery</source>
+        <target>Beim Öffnen von Lumen</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
       </trans-unit>
       <trans-unit id="WiFi Protection">
@@ -1166,9 +1172,9 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Ghostery.strings" datatype="plaintext" source-language="en_US" target-language="de">
+  <file datatype="plaintext" original="Client/en.lproj/Ghostery.strings" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
     </header>
     <body>
       <trans-unit id="Close Forget Tabs">
@@ -1209,9 +1215,9 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US" target-language="de">
+  <file datatype="plaintext" original="Client/en.lproj/InfoPlist.strings" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
     </header>
     <body>
       <trans-unit id="$(SHORTCUT_PRIVATE_TAB_TITLE)">
@@ -1225,16 +1231,19 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
         <target>Lumen</target>
+        
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
         <target>Lumen</target>
+        
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you scan, take and upload videos or photos.</source>
         <target>So kannst du scannen, Fotos oder Videos machen und hochladen.</target>
+        
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
@@ -1244,6 +1253,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Location-based features or websites you visit may request your location.</source>
         <target>Webseiten oder Funktionen, die deinen Standort benötigen können Zugriff auf deinen Standort anfordern.</target>
+        
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
@@ -1265,28 +1275,31 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Private Tab</source>
         <target>Neuer Private Tab</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
         <target>Neuer Tab</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleQRCode">
         <source>Scan QR-Code</source>
         <target>QR-Code scannen</target>
+        
         <note>(No Comment)</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Lumen.strings" datatype="plaintext" source-language="en_US" target-language="de">
+  <file datatype="plaintext" original="Client/en.lproj/Lumen.strings" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
     </header>
     <body>
       <trans-unit id="%d more days left in trial">
         <source>%d more days left in trial</source>
-        <target>Noch %d Tag(e) in der Test-Version.</target>
+        <target>Noch %d Tag(e) in der Testversion</target>
         <note>Trial days left title</note>
       </trans-unit>
       <trans-unit id="1 MONTH">
@@ -1361,8 +1374,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
       <trans-unit id="Blocks ads and trackers. Saves data volume and time.">
         <source>Blocks ads and trackers. Saves data volume and time.</source>
-        <target>Komplettschutz im Web
-Made in Germany</target>
+        <target>Made in Germany</target>
         <note>[Onboarding] Intro text</note>
       </trans-unit>
       <trans-unit id="CONNECT">
@@ -1387,6 +1399,7 @@ Made in Germany</target>
       </trans-unit>
       <trans-unit id="Choose your virtual location. Protection from hackers is on for any location while the VPN is active.">
         <source>Choose your virtual location. Protection from hackers is on for any location while the VPN is active.</source>
+        <target>Wähle deinen virtuellen Standort. Schutz vor Hackern ist an jedem Standort gewährleistet solange VPN aktiv ist.</target>
         <note>VPN locations selection header</note>
       </trans-unit>
       <trans-unit id="Clear">
@@ -1528,7 +1541,7 @@ Made in Germany</target>
       </trans-unit>
       <trans-unit id="Integrated VPN protects you on public Wi-Fi.">
         <source>Integrated VPN protects you on public Wi-Fi.</source>
-        <target>In öffentlichen Wifi-Netzen so sicher wie zu Hause.</target>
+        <target>Verschleiert deinen Standort</target>
         <note>[Onboarding] VPN text</note>
       </trans-unit>
       <trans-unit id="Keep ultimate protection and VPN.">
@@ -1625,7 +1638,7 @@ Made in Germany</target>
       </trans-unit>
       <trans-unit id="Only %d days left in trial.">
         <source>Only %d days left in trial.</source>
-        <target>Nur noch %d Tag(e) in Test-Version.</target>
+        <target>Nur noch %d Tag(e) in Testversion.</target>
         <note>Upgrade lumen view subtitle1</note>
       </trans-unit>
       <trans-unit id="PLUS">
@@ -1661,6 +1674,7 @@ Made in Germany</target>
       </trans-unit>
       <trans-unit id="Protection from hackers">
         <source>Protection from hackers</source>
+        <target>Schutz vor Hackern</target>
         <note>[VPN] Protection from hackers</note>
       </trans-unit>
       <trans-unit id="RETRY">
@@ -1710,7 +1724,7 @@ Made in Germany</target>
       </trans-unit>
       <trans-unit id="Safe and Sound on the Go">
         <source>Safe and Sound on the Go</source>
-        <target>Sicher unterwegs mit VPN</target>
+        <target>Schutz vor Hackern mit VPN</target>
         <note>[Onboarding] VPN title</note>
       </trans-unit>
       <trans-unit id="ShareExtension.LoadLumenInBackgroundActionDone.Title">
@@ -1770,7 +1784,8 @@ Made in Germany</target>
       </trans-unit>
       <trans-unit id="ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
         <source>ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
-        <target>KOMPLETTSCHUTZ: DASHBOARD · BLOCKIERT WERBUNG &amp; DATENSAMMLER · PHISHING-SCHUTZ</target>
+        <target>KOMPLETTSCHUTZ IM WEB</target>
+        
         <note>BASIC Subscription Description</note>
       </trans-unit>
       <trans-unit id="UPGRADE">
@@ -1802,7 +1817,8 @@ Made in Germany</target>
       </trans-unit>
       <trans-unit id="Ultimate protection online. Integrated VPN for protection on public Wi-Fi.">
         <source>Ultimate protection online. Integrated VPN for protection on public Wi-Fi.</source>
-        <target>Komplettschutz im Web. Sicher unterwegs mit VPN.</target>
+        <target>Komplettschutz im Web.
+Sicher unterwegs mit VPN.</target>
         <note>[Start Page] Welcome view description</note>
       </trans-unit>
       <trans-unit id="Ultimate protection: Lumen blocks ads and trackers.">
@@ -1823,16 +1839,20 @@ Made in Germany</target>
       </trans-unit>
       <trans-unit id="VPN is short for Virtual Private Network">
         <source>VPN is short for Virtual Private Network</source>
+        <target>VPN steht für Virtuelles Privates Netzwerk</target>
         <note>VPN definition</note>
       </trans-unit>
       <trans-unit id="VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
         <source>VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
-        <target>VPN · KOMPLETTSCHUTZ: DASHBOARD · WERBEBLOCKER · ANTI-TRACKING · ANTI-PHISHING</target>
+        <target>KOMPLETTSCHUTZ IM WEB +
+SCHUTZ VOR HACKERN MIT VPN</target>
+        
         <note>PLUS Subscription Description
    PRO Subscription Description</note>
       </trans-unit>
       <trans-unit id="Video streaming from other countries">
         <source>Video streaming from other countries</source>
+        <target>Verschleiert Standort</target>
         <note>[VPN] Video streaming from other countries</note>
       </trans-unit>
       <trans-unit id="We are sorry, but something went wrong. The payment was not successful, please try again.">
@@ -1883,7 +1903,7 @@ Made in Germany</target>
       </trans-unit>
       <trans-unit id="Your trial is over">
         <source>Your trial is over</source>
-        <target>Deine Test-Version ist abgelaufen</target>
+        <target>Deine Testversion ist abgelaufen</target>
         <note>Trial Expired view title</note>
       </trans-unit>
       <trans-unit id="for longer device usage">
@@ -1908,91 +1928,106 @@ Made in Germany</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="de">
+  <file datatype="plaintext" original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
     </header>
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%1$#@trackers@ %2$#@blocked@</source>
         <target>%1$#@trackers@ %2$#@blocked@</target>
+        
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/one:dict/:string">
         <source>%d Blocked</source>
         <target>%d Blockiert</target>
+        
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/other:dict/:string">
         <source>%d Blocked</source>
         <target>%d Blockiert</target>
+        
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/zero:dict/:string">
         <source>%d Blocked</source>
         <target>%d Blockiert</target>
+        
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/one:dict/:string">
         <source>%d TRACKER</source>
         <target>%d TRACKER</target>
+        
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/other:dict/:string">
         <source>%d TRACKERS</source>
         <target>%d TRACKER</target>
+        
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/zero:dict/:string">
         <source>%d TRACKERS</source>
         <target>%d TRACKER</target>
+        
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%#@trackers@</source>
         <target>%#@trackers@</target>
+        
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/one:dict/:string">
         <source>%d Tracker Blocked</source>
         <target>%d Tracker blockiert</target>
+        
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/other:dict/:string">
         <source>%d Trackers Blocked</source>
         <target>%d Tracker blockiert</target>
+        
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/zero:dict/:string">
         <source>%d Trackers Blocked</source>
         <target>%d Tracker blockiert</target>
+        
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%#@trackers@</source>
         <target>%#@trackers@</target>
+        
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/one:dict/:string">
         <source>%d Tracker found</source>
         <target>%d Tracker gefunden</target>
+        
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/other:dict/:string">
         <source>%d Trackers found</source>
         <target>%d Tracker gefunden</target>
+        
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/zero:dict/:string">
         <source>%d Trackers found</source>
         <target>%d Tracker gefunden</target>
+        
         <note/>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="de">
+  <file datatype="plaintext" original="Extensions/ShareTo/en.lproj/Cliqz.strings" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
     </header>
     <body>
       <trans-unit id="Ad &amp; Tracker Blocking">
@@ -2086,17 +2121,17 @@ Made in Germany</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="de">
+  <file datatype="plaintext" original="Extensions/Today/en.lproj/Cliqz.strings" source-language="en_US" target-language="de">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool build-num="10B61" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1"/>
     </header>
     <body>
       <trans-unit id="TodayWidget.NewForgetTabButtonLabel">
         <source>New Ghost Tab</source>
         <target>Neuer Ghost Tab</target>
+        
         <note>New Forget Tab button label</note>
       </trans-unit>
     </body>
   </file>
 </xliff>
-

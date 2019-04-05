@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US">
+  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -330,7 +330,6 @@
       </trans-unit>
       <trans-unit id="Empty TopSites hint">
         <source>Your most visited sites will show up here</source>
-        <target>Your most visited sites will show up here</target>
         <note>Hint on Freshtab when there is no topsites</note>
       </trans-unit>
       <trans-unit id="Enhanced Ad Blocking">
@@ -371,7 +370,6 @@
       </trans-unit>
       <trans-unit id="Fresh Tab">
         <source>Start Tab</source>
-        <target>Start Tab</target>
         <note>[Settings] Freshtab section header
    Title for Freshtab in tab history list</note>
       </trans-unit>
@@ -489,7 +487,6 @@
       </trans-unit>
       <trans-unit id="New Tab">
         <source>New Tab</source>
-        <target>New Tab</target>
         <note>Title of New Tab on iPad</note>
       </trans-unit>
       <trans-unit id="No Wi-Fi Connection message">
@@ -924,7 +921,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Ghostery.strings" datatype="plaintext" source-language="en_US">
+  <file original="Client/en.lproj/Ghostery.strings" datatype="plaintext" source-language="en_US" target-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -963,7 +960,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US">
+  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US" target-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -982,7 +979,6 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>Lumen</source>
-        <target>Lumen</target>
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
@@ -992,6 +988,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
         <source>Lumen requires Face ID to access your saved logins.</source>
+        <target>Lumen requires Face ID to access your saved logins.</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
@@ -1001,14 +998,17 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
         <source>Lumen will only use the microphone when you choose to record videos inside the browser.</source>
+        <target>Lumen will only use the microphone when you choose to record videos inside the browser.</target>
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
         <source>Lumen will only use this access to download videos and pictures to your device.</source>
+        <target>Lumen will only use this access to download videos and pictures to your device.</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
         <source>Lumen will only use this access to download videos and pictures to your device.</source>
+        <target>Lumen will only use this access to download videos and pictures to your device.</target>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
@@ -1028,7 +1028,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Lumen.strings" datatype="plaintext" source-language="en_US">
+  <file original="Client/en.lproj/Lumen.strings" datatype="plaintext" source-language="en_US" target-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -1514,89 +1514,74 @@ Integrated VPN for protection on public Wi-Fi.</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US">
+  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%1$#@trackers@ %2$#@blocked@</source>
-        <target>%1$#@trackers@ %2$#@blocked@</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/one:dict/:string">
         <source>%d Blocked</source>
-        <target>%d Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/other:dict/:string">
         <source>%d Blocked</source>
-        <target>%d Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/blocked:dict/zero:dict/:string">
         <source>%d Blocked</source>
-        <target>%d Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/one:dict/:string">
         <source>%d TRACKER</source>
-        <target>%d TRACKER</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/other:dict/:string">
         <source>%d TRACKERS</source>
-        <target>%d TRACKERS</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/trackers:dict/zero:dict/:string">
         <source>%d TRACKERS</source>
-        <target>%d TRACKERS</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%#@trackers@</source>
-        <target>%#@trackers@</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/one:dict/:string">
         <source>%d Tracker Blocked</source>
-        <target>%d Tracker Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/other:dict/:string">
         <source>%d Trackers Blocked</source>
-        <target>%d Trackers Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) Blocked:dict/trackers:dict/zero:dict/:string">
         <source>%d Trackers Blocked</source>
-        <target>%d Trackers Blocked</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/NSStringLocalizedFormatKey:dict/:string">
         <source>%#@trackers@</source>
-        <target>%#@trackers@</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/one:dict/:string">
         <source>%d Tracker found</source>
-        <target>%d Tracker found</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/other:dict/:string">
         <source>%d Trackers found</source>
-        <target>%d Trackers found</target>
         <note/>
       </trans-unit>
       <trans-unit id="/%d Tracker(s) found:dict/trackers:dict/zero:dict/:string">
         <source>%d Trackers found</source>
-        <target>%d Trackers found</target>
         <note/>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US">
+  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
@@ -1691,14 +1676,13 @@ Integrated VPN for protection on public Wi-Fi.</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US">
+  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
     </header>
     <body>
       <trans-unit id="TodayWidget.NewForgetTabButtonLabel">
         <source>New Ghost Tab</source>
-        <target>New Ghost Tab</target>
         <note>New Forget Tab button label</note>
       </trans-unit>
     </body>

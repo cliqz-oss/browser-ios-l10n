@@ -1741,7 +1741,7 @@ SCHUTZ VOR HACKERN MIT VPN</target>
       </trans-unit>
       <trans-unit id="UPGRADE">
         <source>UPGRADE</source>
-        <target>UPGRADE</target>
+        <target>ABONNIEREN</target>
         <note>Subscribe Button
    Upgrade action
    Upgrade lumen view button text</note>

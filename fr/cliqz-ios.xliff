@@ -365,6 +365,10 @@ Phishing websites disguise as other sites you may trust in order to trick you in
         <source>Delete account?</source>
         <note>Sign Out Settings</note>
       </trans-unit>
+      <trans-unit id="Device Id">
+        <source>Device Id</source>
+        <note>Device Id</note>
+      </trans-unit>
       <trans-unit id="Dismiss">
         <source>Dismiss</source>
         <target>Masquer</target>
@@ -503,10 +507,6 @@ Phishing websites disguise as other sites you may trust in order to trick you in
         <target>Aide</target>
         <note>[Settings] Help section header</note>
       </trans-unit>
-      <trans-unit id="Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.">
-        <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
-        <note>[Settings -&gt; Send Telemetry] Footer text</note>
-      </trans-unit>
       <trans-unit id="Here you'll find a new offer every week">
         <source>Every week a new offer will show up here</source>
         <note>[MyOffrz] No offers label</note>
@@ -566,10 +566,6 @@ Phishing websites disguise as other sites you may trust in order to trick you in
         <source>Limit Mobile Data Usage</source>
         <target>Limiter la consommation des données mobiles</target>
         <note>[Settings] Limit Mobile Data Usage</note>
-      </trans-unit>
-      <trans-unit id="Looks like Ghostery crashed previously. Would you like to restore your tabs?">
-        <source>Looks like Ghostery crashed previously. Would you like to restore your tabs?</source>
-        <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="Lumen Account">
         <source>Lumen Account</source>
@@ -1153,6 +1149,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>Forget Mode</source>
         <note>Title displayed for when there are no open tabs while in forget mode</note>
       </trans-unit>
+      <trans-unit id="Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.">
+        <source>Help us improve your browsing experience. Ghostery collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
+        <note>Restore Tabs Prompt Description</note>
+      </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
         <source>Open in New Ghost Tab</source>
         <note>The title for the Open in New Forget Tab context menu action for sites in Home Panels</note>
@@ -1160,6 +1160,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="Hotkeys.NewForgetTab.DiscoveryTitle">
         <source>New Ghost Tab</source>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
+      <trans-unit id="Looks like Ghostery crashed previously. Would you like to restore your tabs?">
+        <source>Looks like Ghostery crashed previously. Would you like to restore your tabs?</source>
+        <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="ShareExtension.LoadGhosteryInBackgroundActionDone.Title">
         <source>Loading in Ghostery</source>
@@ -1228,10 +1232,6 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
-      <trans-unit id="ShortcutItemTitleNewGhostTab">
-        <source>New Ghost Tab</source>
-        <note>(No Comment)</note>
-      </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Private Tab</source>
         <note>(No Comment)</note>
@@ -1257,26 +1257,21 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>%d more days left in trial</source>
         <note>Trial days left title</note>
       </trans-unit>
-      <trans-unit id="1 MONTH">
-        <source>1 MONTH</source>
-        <note>PLUS Subscription duration</note>
-      </trans-unit>
-      <trans-unit id="9.99€/month">
-        <source>9.99€/month</source>
-        <note>PLUS Subscription price</note>
-      </trans-unit>
-      <trans-unit id="12 MONTHS">
-        <source>12 MONTHS</source>
-        <note>BASIC Subscription duration
-   PRO Subscription duration</note>
-      </trans-unit>
-      <trans-unit id="47.99€/year">
-        <source>47.99€/year</source>
+      <trans-unit id="1,99 €/MONTH">
+        <source>1,99 €/MONTH</source>
         <note>BASIC Subscription price</note>
       </trans-unit>
-      <trans-unit id="95.99€/year">
-        <source>95.99€/year</source>
-        <note>PRO Subscription price</note>
+      <trans-unit id="4,99 €/MONAT">
+        <source>4,99 €/MONAT</source>
+        <note>VPN Subscription price</note>
+      </trans-unit>
+      <trans-unit id="4,99 €/MONTH">
+        <source>4,99 €/MONTH</source>
+        <note>Basic + VPN Subscription price</note>
+      </trans-unit>
+      <trans-unit id="Active for all apps on this iPhone">
+        <source>Active for all apps on this iPhone</source>
+        <note>VPN map label when it is ON</note>
       </trans-unit>
       <trans-unit id="Ad Blocker">
         <source>Ad Blocker</source>
@@ -1294,9 +1289,14 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>BASIC</source>
         <note>BASIC Subscription name</note>
       </trans-unit>
-      <trans-unit id="BEST VALUE: SAVE 20%">
-        <source>BEST VALUE: SAVE 20%</source>
-        <note>BEST VALUE: SAVE 20%</note>
+      <trans-unit id="BASIC + VPN">
+        <source>BASIC + VPN</source>
+        <note>Basic + VPN Subscription name</note>
+      </trans-unit>
+      <trans-unit id="BEST OFFER&#10;LIMITED TIME ONLY">
+        <source>BEST OFFER
+LIMITED TIME ONLY</source>
+        <note>BEST OFFER\nLIMITED TIME ONLY</note>
       </trans-unit>
       <trans-unit id="Block Ads &amp; Trackers">
         <source>Block Ads &amp; Trackers</source>
@@ -1334,6 +1334,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>Choose VPN Location</source>
         <note>[VPN] vpn choose location</note>
       </trans-unit>
+      <trans-unit id="Choose your virtual location. Protection from hackers is on for any location while the VPN is active.">
+        <source>Choose your virtual location. Protection from hackers is on for any location while the VPN is active.</source>
+        <note>VPN locations selection header</note>
+      </trans-unit>
       <trans-unit id="Clear">
         <source>Clear</source>
         <note>Lumen Clear Dashboard Data Popup Clear Button Text</note>
@@ -1354,18 +1358,6 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="Conditions">
         <source>Conditions</source>
         <note>[Upgrade Flow] Conditions button</note>
-      </trans-unit>
-      <trans-unit id="Corresponds to 4€/month">
-        <source>Corresponds to 4€/month</source>
-        <note>BASIC Subscription billing</note>
-      </trans-unit>
-      <trans-unit id="Corresponds to 8€/month">
-        <source>Corresponds to 8€/month</source>
-        <note>PRO Subscription billing</note>
-      </trans-unit>
-      <trans-unit id="Corresponds to 119.88€/year">
-        <source>Corresponds to 119.88€/year</source>
-        <note>PLUS Subscription billing</note>
       </trans-unit>
       <trans-unit id="DAY(S)">
         <source>DAY(S)</source>
@@ -1428,6 +1420,14 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>HRS</source>
         <note>Hours unit for dashboard</note>
       </trans-unit>
+      <trans-unit id="Help us improve your browsing experience. Lumen collects strictly anonymous usage data. At no occasion is any personal data collected.">
+        <source>Help us improve your browsing experience. Lumen collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
+        <note>Restore Tabs Prompt Description</note>
+      </trans-unit>
+      <trans-unit id="Hide your location">
+        <source>Hide your location</source>
+        <note>[VPN] Hide your location</note>
+      </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab">
         <source>Open in New Private Tab</source>
         <note>The title for the Open in New Forget Tab context menu action for sites in Home Panels</note>
@@ -1439,14 +1439,6 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="I agree to share strictly anonymous analytics data to improve Lumen's performance.">
         <source>I agree to share strictly anonymous analytics data to improve Lumen's performance.</source>
         <note>[Onboarding] Telemetry</note>
-      </trans-unit>
-      <trans-unit id="INCL.">
-        <source>INCL.</source>
-        <note>Include vpn label</note>
-      </trans-unit>
-      <trans-unit id="Integrated VPN protects you on public Wi-Fi.">
-        <source>Integrated VPN protects you on public Wi-Fi.</source>
-        <note>[Onboarding] VPN text</note>
       </trans-unit>
       <trans-unit id="Keep ultimate protection and VPN.">
         <source>Keep ultimate protection and VPN.</source>
@@ -1468,6 +1460,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>Learn More</source>
         <note>`Learn More` alert button
    Trial Expired view Learn more button text</note>
+      </trans-unit>
+      <trans-unit id="Looks like Lumen crashed previously. Would you like to restore your tabs?">
+        <source>Looks like Lumen crashed previously. Would you like to restore your tabs?</source>
+        <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="Lumen brings to light what happens in the shadows and protects you.">
         <source>Lumen brings to light what happens in the shadows and protects you.</source>
@@ -1497,10 +1493,6 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>MIN</source>
         <note>Minutes unit for dashboard</note>
       </trans-unit>
-      <trans-unit id="Monthly">
-        <source>Monthly</source>
-        <note>PLUS Subscription price</note>
-      </trans-unit>
       <trans-unit id="NEXT">
         <source>NEXT</source>
         <note>[Onboarding] Get Started button text</note>
@@ -1518,10 +1510,6 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>Number of tracker companies that tried to spy on you</source>
         <note>[Lumen-&gt;Dashboard] Tracking companies widget description</note>
       </trans-unit>
-      <trans-unit id="Oh, something went wrong. Please try again.">
-        <source>Oh, something went wrong. Please try again.</source>
-        <note>VPN retry text</note>
-      </trans-unit>
       <trans-unit id="Okay">
         <source>Okay</source>
         <note>Okay button for alerts</note>
@@ -1530,13 +1518,9 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>Only %d days left in trial.</source>
         <note>Upgrade lumen view subtitle1</note>
       </trans-unit>
-      <trans-unit id="PLUS">
-        <source>PLUS</source>
-        <note>PLUS Subscription name</note>
-      </trans-unit>
-      <trans-unit id="PRO">
-        <source>PRO</source>
-        <note>PRO Subscription name</note>
+      <trans-unit id="PROTECTION FROM HACKERS WITH VPN">
+        <source>PROTECTION FROM HACKERS WITH VPN</source>
+        <note>VPN Subscription Description</note>
       </trans-unit>
       <trans-unit id="Phishing Protection">
         <source>Phishing Protection</source>
@@ -1554,6 +1538,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="Private Mode">
         <source>Private Mode</source>
         <note>Title displayed for when there are no open tabs while in private mode</note>
+      </trans-unit>
+      <trans-unit id="Protection from hackers">
+        <source>Protection from hackers</source>
+        <note>[VPN] Protection from hackers</note>
       </trans-unit>
       <trans-unit id="RETRY">
         <source>RETRY</source>
@@ -1619,10 +1607,6 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>Subscriptions will be available soon.</source>
         <note>Temporary message instead of Subscriptions</note>
       </trans-unit>
-      <trans-unit id="Tap 'connect' to browse the Internet with VPN protection.">
-        <source>Tap 'connect' to browse the Internet with VPN protection.</source>
-        <note>VPN default text</note>
-      </trans-unit>
       <trans-unit id="This will delete all your dashboard data and cannot be undone.">
         <source>This will delete all your dashboard data and cannot be undone.</source>
         <note>Lumen Clear Dashboard Data Popup Text</note>
@@ -1643,9 +1627,14 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>Turn On</source>
         <note>Turn on CTA</note>
       </trans-unit>
-      <trans-unit id="ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
-        <source>ULTIMATE PROTECTION: AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
+      <trans-unit id="ULTIMATE PROTECTION ONLINE">
+        <source>ULTIMATE PROTECTION ONLINE</source>
         <note>BASIC Subscription Description</note>
+      </trans-unit>
+      <trans-unit id="ULTIMATE PROTECTION ONLINE +&#10;PROTECTION FROM HACKERS WITH VPN">
+        <source>ULTIMATE PROTECTION ONLINE +
+PROTECTION FROM HACKERS WITH VPN</source>
+        <note>Basic + VPN Subscription Description</note>
       </trans-unit>
       <trans-unit id="UPGRADE">
         <source>UPGRADE</source>
@@ -1669,8 +1658,9 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>Ultimate Protection: OFF</source>
         <note>Upgrade lumen view title</note>
       </trans-unit>
-      <trans-unit id="Ultimate protection online. Integrated VPN for protection on public Wi-Fi.">
-        <source>Ultimate protection online. Integrated VPN for protection on public Wi-Fi.</source>
+      <trans-unit id="Ultimate protection online.&#10;Integrated VPN for protection on public Wi-Fi.">
+        <source>Ultimate protection online.
+Integrated VPN for protection on public Wi-Fi.</source>
         <note>[Start Page] Welcome view description</note>
       </trans-unit>
       <trans-unit id="Ultimate protection: Lumen blocks ads and trackers.">
@@ -1682,18 +1672,25 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>[VPN] subscription expired alert text
    Unlock the VPN feature text</note>
       </trans-unit>
+      <trans-unit id="VPN">
+        <source>VPN</source>
+        <note>VPN Subscription name</note>
+      </trans-unit>
       <trans-unit id="VPN Protection.">
         <source>VPN Protection.</source>
         <note>[VPN] subscription expired alert title</note>
       </trans-unit>
-      <trans-unit id="VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING">
-        <source>VPN_ULTIMATE PROTECTION: DASHBOARD_AD-BLOCKER_ANTI-TRACKING_ANTI-PHISHING</source>
-        <note>PLUS Subscription Description
-   PRO Subscription Description</note>
+      <trans-unit id="VPN is short for Virtual Private Network">
+        <source>VPN is short for Virtual Private Network</source>
+        <note>VPN definition</note>
       </trans-unit>
       <trans-unit id="We are sorry, but something went wrong. The payment was not successful, please try again.">
         <source>We are sorry, but something went wrong. The payment was not successful, please try again.</source>
         <note>Error message when there is failing payment transaction</note>
+      </trans-unit>
+      <trans-unit id="Websites checked">
+        <source>Websites checked</source>
+        <note>[Lumen-&gt;Dashboard] Phishing Protection widget title</note>
       </trans-unit>
       <trans-unit id="Websites which are known to contain explicit content are automatically opened in Private Tabs. Visits to such websites are therefore not saved to your history.">
         <source>Websites which are known to contain explicit content are automatically opened in Private Tabs. Visits to such websites are therefore not saved to your history.</source>
@@ -1711,11 +1708,6 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>When Leaving Private Mode</source>
         <note>Will be displayed in Settings under 'Close Private Tabs'</note>
       </trans-unit>
-      <trans-unit id="Yearly">
-        <source>Yearly</source>
-        <note>BASIC Subscription price
-   PRO Subscription price</note>
-      </trans-unit>
       <trans-unit id="You are browsing in Private Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.">
         <source>You are browsing in Private Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
         <note>Description text displayed when there are no open tabs while in private mode</note>
@@ -1723,10 +1715,6 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="You are browsing without ultimate protection and ad blocker.">
         <source>You are browsing without ultimate protection and ad blocker.</source>
         <note>Upgrade lumen view subtitle</note>
-      </trans-unit>
-      <trans-unit id="You are safely connected to the Internet.">
-        <source>You are safely connected to the Internet.</source>
-        <note>VPN connected text</note>
       </trans-unit>
       <trans-unit id="You can still use Lumen, but without ultimate protection and VPN. Or go premium.">
         <source>You can still use Lumen, but without ultimate protection and VPN. Or go premium.</source>

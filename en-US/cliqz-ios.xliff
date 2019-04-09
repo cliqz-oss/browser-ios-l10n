@@ -1052,8 +1052,8 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
-        <source>Ghostery requires Face ID to access your saved logins.</source>
-        <target>Ghostery requires Face ID to access your saved logins.</target>
+        <source>Lumen requires Face ID to access your saved logins.</source>
+        <target>Lumen requires Face ID to access your saved logins.</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
@@ -1062,18 +1062,18 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
-        <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
-        <target>Ghostery will only use the microphone when you choose to record videos inside the browser.</target>
+        <source>Lumen will only use the microphone when you choose to record videos inside the browser.</source>
+        <target>Lumen will only use the microphone when you choose to record videos inside the browser.</target>
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
-        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
-        <target>Ghostery will only use this access to download videos and pictures to your device.</target>
+        <source>Lumen will only use this access to download videos and pictures to your device.</source>
+        <target>Lumen will only use this access to download videos and pictures to your device.</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
-        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
-        <target>Ghostery will only use this access to download videos and pictures to your device.</target>
+        <source>Lumen will only use this access to download videos and pictures to your device.</source>
+        <target>Lumen will only use this access to download videos and pictures to your device.</target>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
@@ -1476,7 +1476,7 @@ LIMITED TIME ONLY</source>
         <source>ULTIMATE PROTECTION ONLINE</source>
         <note>BASIC Subscription Description</note>
       </trans-unit>
-      <trans-unit id="ULTIMATE PROTECTION ONLINE +&#10;PROTECTION FROM HACKERS WITH VPN">
+      <trans-unit id="ULTIMATE PROTECTION ONLINE PROTECTION FROM HACKERS WITH VPN">
         <source>ULTIMATE PROTECTION ONLINE +
 PROTECTION FROM HACKERS WITH VPN</source>
         <note>Basic + VPN Subscription Description</note>

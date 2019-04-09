@@ -1325,7 +1325,8 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="BEST OFFER LIMITED TIME ONLY">
         <source>BEST OFFER
 LIMITED TIME ONLY</source>
-        <target>BESTES ANGEBOTNUR FÜR KURZE ZEIT</target>
+        <target>BESTES ANGEBOTNUR 
+        NUR FÜR KURZE ZEIT</target>
         <note>BEST OFFER\nLIMITED TIME ONLY</note>
       </trans-unit>
       <trans-unit id="Block Ads &amp; Trackers">
@@ -1747,7 +1748,8 @@ LIMITED TIME ONLY</source>
       <trans-unit id="ULTIMATE PROTECTION ONLINE PROTECTION FROM HACKERS WITH VPN">
         <source>ULTIMATE PROTECTION ONLINE +
 PROTECTION FROM HACKERS WITH VPN</source>
-        <target>KOMPLETTSCHUTZ IM WEB +SCHUTZ VOR HACKERN MIT VPN</target>
+        <target>KOMPLETTSCHUTZ IM WEB +
+SCHUTZ VOR HACKERN MIT VPN</target>
         <note>Basic + VPN Subscription Description</note>
       </trans-unit>
       <trans-unit id="UPGRADE">

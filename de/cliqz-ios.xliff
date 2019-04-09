@@ -1322,9 +1322,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <target>BASIC + VPN</target>
         <note>Basic + VPN Subscription name</note>
       </trans-unit>
-      <trans-unit id="BEST OFFER&#10;LIMITED TIME ONLY">
+      <trans-unit id="BEST OFFER LIMITED TIME ONLY">
         <source>BEST OFFER
 LIMITED TIME ONLY</source>
+        <target>BESTES ANGEBOTNUR FÜR KURZE ZEIT</target>
         <note>BEST OFFER\nLIMITED TIME ONLY</note>
       </trans-unit>
       <trans-unit id="Block Ads &amp; Trackers">
@@ -1746,6 +1747,7 @@ LIMITED TIME ONLY</source>
       <trans-unit id="ULTIMATE PROTECTION ONLINE PROTECTION FROM HACKERS WITH VPN">
         <source>ULTIMATE PROTECTION ONLINE +
 PROTECTION FROM HACKERS WITH VPN</source>
+        <target>KOMPLETTSCHUTZ IM WEB +SCHUTZ VOR HACKERN MIT VPN</target>
         <note>Basic + VPN Subscription Description</note>
       </trans-unit>
       <trans-unit id="UPGRADE">
@@ -1813,6 +1815,7 @@ Integrated VPN for protection on public Wi-Fi.</source>
       </trans-unit>
       <trans-unit id="Websites checked">
         <source>Websites checked</source>
+        <target>Webseiten überprüft</target>
         <note>[Lumen-&gt;Dashboard] Phishing Protection widget title</note>
       </trans-unit>
       <trans-unit id="Websites which are known to contain explicit content are automatically opened in Private Tabs. Visits to such websites are therefore not saved to your history.">

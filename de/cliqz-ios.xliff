@@ -1230,7 +1230,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
-        <source>Lumen requires Face ID to access your saved logins.</source>
+        <source>Ghostery requires Face ID to access your saved logins.</source>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
@@ -1239,16 +1239,20 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
-        <source>Lumen will only use the microphone when you choose to record videos inside the browser.</source>
+        <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
-        <source>Lumen will only use this access to download videos and pictures to your device.</source>
+        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
-        <source>Lumen will only use this access to download videos and pictures to your device.</source>
+        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <note>Privacy - Photo Library Usage Description</note>
+      </trans-unit>
+      <trans-unit id="ShortcutItemTitleNewGhostTab">
+        <source>New Ghost Tab</source>
+        <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Private Tab</source>
@@ -1307,6 +1311,11 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <target>Werbungen entfernt</target>
         <note>[Lumen-&gt;Dashboard] Ads Blocked widget title</note>
       </trans-unit>
+      <trans-unit id="Austria">
+        <source>Austria</source>
+        <target>Österreich</target>
+        <note>VPN country name for Austria</note>
+      </trans-unit>
       <trans-unit id="Available VPN Locations">
         <source>Available VPN Locations</source>
         <target>Verfügbare VPN-Standorte</target>
@@ -1325,8 +1334,8 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="BEST OFFER LIMITED TIME ONLY">
         <source>BEST OFFER
 LIMITED TIME ONLY</source>
-        <target>BESTES ANGEBOTNUR 
-        NUR FÜR KURZE ZEIT</target>
+        <target>BESTES ANGEBOT 
+NUR FÜR KURZE ZEIT</target>
         <note>BEST OFFER\nLIMITED TIME ONLY</note>
       </trans-unit>
       <trans-unit id="Block Ads &amp; Trackers">
@@ -1354,6 +1363,16 @@ LIMITED TIME ONLY</source>
         <target>Made in Germany</target>
         <note>[Onboarding] Intro text</note>
       </trans-unit>
+      <trans-unit id="Bosnia">
+        <source>Bosnia</source>
+        <target>Bosnien</target>
+        <note>VPN country name for Bosnia</note>
+      </trans-unit>
+      <trans-unit id="Bulgaria">
+        <source>Bulgaria</source>
+        <target>Bulgarien</target>
+        <note>VPN country name for Bulgaria</note>
+      </trans-unit>
       <trans-unit id="CONNECT">
         <source>CONNECT</source>
         <target>VERBINDEN</target>
@@ -1363,6 +1382,11 @@ LIMITED TIME ONLY</source>
         <source>CONNECTING</source>
         <target>VERBINDE</target>
         <note>[VPN] vpn button</note>
+      </trans-unit>
+      <trans-unit id="Canada">
+        <source>Canada</source>
+        <target>Kanada</target>
+        <note>VPNcountry name for Canada</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
@@ -1405,6 +1429,11 @@ LIMITED TIME ONLY</source>
         <source>Conditions</source>
         <target>Konditionen</target>
         <note>[Upgrade Flow] Conditions button</note>
+      </trans-unit>
+      <trans-unit id="Croatia">
+        <source>Croatia</source>
+        <target>Kroatien</target>
+        <note>VPN country name for Croatia</note>
       </trans-unit>
       <trans-unit id="DAY(S)">
         <source>DAY(S)</source>
@@ -1472,10 +1501,20 @@ LIMITED TIME ONLY</source>
         <target>Private Tabs</target>
         <note>Forget mode toggle button</note>
       </trans-unit>
+      <trans-unit id="France">
+        <source>France</source>
+        <target>Frankreich</target>
+        <note>VPN country name for France</note>
+      </trans-unit>
       <trans-unit id="Germany">
         <source>Germany</source>
         <target>Deutschland </target>
         <note>VPN country name for Germany</note>
+      </trans-unit>
+      <trans-unit id="Greece">
+        <source>Greece</source>
+        <target>Griechenland</target>
+        <note>VPN country name for Greece</note>
       </trans-unit>
       <trans-unit id="HRS">
         <source>HRS</source>
@@ -1494,18 +1533,33 @@ LIMITED TIME ONLY</source>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab">
         <source>Open in New Private Tab</source>
-        <target>In neuem Private-Tab öffnen</target>
+        <target>In neuem Privaten Tab öffnen</target>
         <note>The title for the Open in New Forget Tab context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NewPrivateTab.DiscoveryTitle">
         <source>New Private Tab</source>
-        <target>Neuer Private Tab</target>
+        <target>Neuer Privater Tab</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
+      <trans-unit id="Hungary">
+        <source>Hungary</source>
+        <target>Ungarn</target>
+        <note>VPN country name for Hungary</note>
       </trans-unit>
       <trans-unit id="I agree to share strictly anonymous analytics data to improve Lumen's performance.">
         <source>I agree to share strictly anonymous analytics data to improve Lumen's performance.</source>
         <target>Ich stimme der Übertragung streng anonymer Analysedaten zu, um die Leistung von Lumen zu verbessern.</target>
         <note>[Onboarding] Telemetry</note>
+      </trans-unit>
+      <trans-unit id="India">
+        <source>India</source>
+        <target>Indien</target>
+        <note>VPN country name for India</note>
+      </trans-unit>
+      <trans-unit id="Italy">
+        <source>Italy</source>
+        <target>Italien</target>
+        <note>VPN country name for Italy</note>
       </trans-unit>
       <trans-unit id="Keep ultimate protection and VPN.">
         <source>Keep ultimate protection and VPN.</source>
@@ -1578,6 +1632,11 @@ LIMITED TIME ONLY</source>
         <target>WEITER</target>
         <note>[Onboarding] Get Started button text</note>
       </trans-unit>
+      <trans-unit id="Netherlands">
+        <source>Netherlands</source>
+        <target>Niederlande</target>
+        <note>VPN country name for Netherlands</note>
+      </trans-unit>
       <trans-unit id="No data wasted on ads">
         <source>No data wasted on ads</source>
         <target>Keine Daten für Werbung verschwendet</target>
@@ -1615,6 +1674,16 @@ LIMITED TIME ONLY</source>
         <note>[Luemn -&gt; Dashboard] Anti-Phishing
    [Lumen-&gt;Dashboard] Phishing Protection widget title</note>
       </trans-unit>
+      <trans-unit id="Poland">
+        <source>Poland</source>
+        <target>Polen</target>
+        <note>VPN country name for Poland</note>
+      </trans-unit>
+      <trans-unit id="Portugal">
+        <source>Portugal</source>
+        <target>Portugal</target>
+        <note>VPN country name for Portugal</note>
+      </trans-unit>
       <trans-unit id="Privacy Policy">
         <source>Privacy Policy</source>
         <target>Datenschutzerklärung</target>
@@ -1627,7 +1696,7 @@ LIMITED TIME ONLY</source>
       </trans-unit>
       <trans-unit id="Private Mode">
         <source>Private Mode</source>
-        <target>Private Modus</target>
+        <target>Privater Modus</target>
         <note>Title displayed for when there are no open tabs while in private mode</note>
       </trans-unit>
       <trans-unit id="Protection from hackers">
@@ -1660,6 +1729,11 @@ LIMITED TIME ONLY</source>
         <target>Wiederholen</target>
         <note>Retry button title in payment failing transaction alert</note>
       </trans-unit>
+      <trans-unit id="Romania">
+        <source>Romania</source>
+        <target>Rumänien</target>
+        <note>VPN country name for Romania</note>
+      </trans-unit>
       <trans-unit id="SEC">
         <source>SEC</source>
         <target>SEK</target>
@@ -1685,6 +1759,11 @@ LIMITED TIME ONLY</source>
         <target>Schutz vor Hackern mit VPN</target>
         <note>[Onboarding] VPN title</note>
       </trans-unit>
+      <trans-unit id="Serbia">
+        <source>Serbia</source>
+        <target>Serbien</target>
+        <note>VPN country name for Serbia</note>
+      </trans-unit>
       <trans-unit id="ShareExtension.LoadLumenInBackgroundActionDone.Title">
         <source>Loading in Lumen</source>
         <target>Lädt in Lumen</target>
@@ -1699,6 +1778,11 @@ LIMITED TIME ONLY</source>
         <source>Search in Lumen</source>
         <target>Suche in Lumen</target>
         <note>Action label on share extension to search for the selected text in Ghostery.</note>
+      </trans-unit>
+      <trans-unit id="Spain">
+        <source>Spain</source>
+        <target>Spanien</target>
+        <note>VPN country name for Spain</note>
       </trans-unit>
       <trans-unit id="Stay with us">
         <source>Stay with us</source>
@@ -1735,10 +1819,20 @@ LIMITED TIME ONLY</source>
         <target>Schutz vor Datensammlern</target>
         <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
       </trans-unit>
+      <trans-unit id="Turkey">
+        <source>Turkey</source>
+        <target>Türkei</target>
+        <note>VPN country name for Turkey</note>
+      </trans-unit>
       <trans-unit id="Turn On">
         <source>Turn On</source>
         <target>Einschalten</target>
         <note>Turn on CTA</note>
+      </trans-unit>
+      <trans-unit id="UK">
+        <source>UK</source>
+        <target>Vereinigtes Königreich</target>
+        <note>VPN country name for UK</note>
       </trans-unit>
       <trans-unit id="ULTIMATE PROTECTION ONLINE">
         <source>ULTIMATE PROTECTION ONLINE</source>
@@ -1763,6 +1857,11 @@ SCHUTZ VOR HACKERN MIT VPN</target>
         <source>USA</source>
         <target>USA</target>
         <note>VPN country name for USA</note>
+      </trans-unit>
+      <trans-unit id="Ukraine">
+        <source>Ukraine</source>
+        <target>Ukraine</target>
+        <note>VPN country name for Ukraine</note>
       </trans-unit>
       <trans-unit id="Ultimate Protection">
         <source>Ultimate Protection</source>
@@ -1822,7 +1921,7 @@ Integrated VPN for protection on public Wi-Fi.</source>
       </trans-unit>
       <trans-unit id="Websites which are known to contain explicit content are automatically opened in Private Tabs. Visits to such websites are therefore not saved to your history.">
         <source>Websites which are known to contain explicit content are automatically opened in Private Tabs. Visits to such websites are therefore not saved to your history.</source>
-        <target>Websites, von denen bekannt ist, dass sie anstößige Inhalte enthalten, werden automatisch in Private Tabs geöffnet. Besuche solcher Websites werden daher in Ihrem Browserverlauf nicht gespeichert.</target>
+        <target>Websites, von denen bekannt ist, dass sie anstößige Inhalte enthalten, werden automatisch in Privaten Tabs geöffnet. Besuche solcher Websites werden daher in Ihrem Browserverlauf nicht gespeichert.</target>
         <note>[Settings -&gt; AutoForget Tab] toogle footer</note>
       </trans-unit>
       <trans-unit id="Welcome to Lumen!">
@@ -1837,12 +1936,12 @@ Integrated VPN for protection on public Wi-Fi.</source>
       </trans-unit>
       <trans-unit id="When Leaving Private Mode">
         <source>When Leaving Private Mode</source>
-        <target>Beim Verlassen des Private Modus</target>
+        <target>Beim Verlassen des Privaten Modus</target>
         <note>Will be displayed in Settings under 'Close Private Tabs'</note>
       </trans-unit>
       <trans-unit id="You are browsing in Private Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.">
         <source>You are browsing in Private Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
-        <target>Du surfst im Private Modus: Websites, die du in diesem Modus besuchst, werden nicht in deinem Browserverlauf gespeichert, und lokale Daten einschließlich Cookies werden nicht gespeichert.</target>
+        <target>Du surfst im Privaten Modus: Websites, die du in diesem Modus besuchst, werden nicht in deinem Browserverlauf gespeichert, und lokale Daten einschließlich Cookies werden nicht gespeichert.</target>
         <note>Description text displayed when there are no open tabs while in private mode</note>
       </trans-unit>
       <trans-unit id="You are browsing without ultimate protection and ad blocker.">

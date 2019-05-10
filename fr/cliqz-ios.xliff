@@ -1212,7 +1212,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
-        <source>Lumen requires Face ID to access your saved logins.</source>
+        <source>Ghostery requires Face ID to access your saved logins.</source>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
@@ -1221,16 +1221,20 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
-        <source>Lumen will only use the microphone when you choose to record videos inside the browser.</source>
+        <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
-        <source>Lumen will only use this access to download videos and pictures to your device.</source>
+        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
-        <source>Lumen will only use this access to download videos and pictures to your device.</source>
+        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <note>Privacy - Photo Library Usage Description</note>
+      </trans-unit>
+      <trans-unit id="ShortcutItemTitleNewGhostTab">
+        <source>New Ghost Tab</source>
+        <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Private Tab</source>
@@ -1281,6 +1285,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>Ads Blocked</source>
         <note>[Lumen-&gt;Dashboard] Ads Blocked widget title</note>
       </trans-unit>
+      <trans-unit id="Austria">
+        <source>Austria</source>
+        <note>VPN country name for Austria</note>
+      </trans-unit>
       <trans-unit id="Available VPN Locations">
         <source>Available VPN Locations</source>
         <note>[VPN] vpn locations</note>
@@ -1293,7 +1301,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>BASIC + VPN</source>
         <note>Basic + VPN Subscription name</note>
       </trans-unit>
-      <trans-unit id="BEST OFFER&#10;LIMITED TIME ONLY">
+      <trans-unit id="BEST OFFER LIMITED TIME ONLY">
         <source>BEST OFFER
 LIMITED TIME ONLY</source>
         <note>BEST OFFER\nLIMITED TIME ONLY</note>
@@ -1318,6 +1326,14 @@ LIMITED TIME ONLY</source>
         <source>Blocks ads and trackers. Saves data volume and time.</source>
         <note>[Onboarding] Intro text</note>
       </trans-unit>
+      <trans-unit id="Bosnia">
+        <source>Bosnia</source>
+        <note>VPN country name for Bosnia</note>
+      </trans-unit>
+      <trans-unit id="Bulgaria">
+        <source>Bulgaria</source>
+        <note>VPN country name for Bulgaria</note>
+      </trans-unit>
       <trans-unit id="CONNECT">
         <source>CONNECT</source>
         <note>[VPN] vpn button</note>
@@ -1325,6 +1341,10 @@ LIMITED TIME ONLY</source>
       <trans-unit id="CONNECTING">
         <source>CONNECTING</source>
         <note>[VPN] vpn button</note>
+      </trans-unit>
+      <trans-unit id="Canada">
+        <source>Canada</source>
+        <note>VPNcountry name for Canada</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
@@ -1358,6 +1378,10 @@ LIMITED TIME ONLY</source>
       <trans-unit id="Conditions">
         <source>Conditions</source>
         <note>[Upgrade Flow] Conditions button</note>
+      </trans-unit>
+      <trans-unit id="Croatia">
+        <source>Croatia</source>
+        <note>VPN country name for Croatia</note>
       </trans-unit>
       <trans-unit id="DAY(S)">
         <source>DAY(S)</source>
@@ -1412,9 +1436,17 @@ LIMITED TIME ONLY</source>
         <source>Forget Tabs</source>
         <note>Forget mode toggle button</note>
       </trans-unit>
+      <trans-unit id="France">
+        <source>France</source>
+        <note>VPN country name for France</note>
+      </trans-unit>
       <trans-unit id="Germany">
         <source>Germany</source>
         <note>VPN country name for Germany</note>
+      </trans-unit>
+      <trans-unit id="Greece">
+        <source>Greece</source>
+        <note>VPN country name for Greece</note>
       </trans-unit>
       <trans-unit id="HRS">
         <source>HRS</source>
@@ -1436,9 +1468,21 @@ LIMITED TIME ONLY</source>
         <source>New Private Tab</source>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
+      <trans-unit id="Hungary">
+        <source>Hungary</source>
+        <note>VPN country name for Hungary</note>
+      </trans-unit>
       <trans-unit id="I agree to share strictly anonymous analytics data to improve Lumen's performance.">
         <source>I agree to share strictly anonymous analytics data to improve Lumen's performance.</source>
         <note>[Onboarding] Telemetry</note>
+      </trans-unit>
+      <trans-unit id="India">
+        <source>India</source>
+        <note>VPN country name for India</note>
+      </trans-unit>
+      <trans-unit id="Italy">
+        <source>Italy</source>
+        <note>VPN country name for Italy</note>
       </trans-unit>
       <trans-unit id="Keep ultimate protection and VPN.">
         <source>Keep ultimate protection and VPN.</source>
@@ -1497,6 +1541,10 @@ LIMITED TIME ONLY</source>
         <source>NEXT</source>
         <note>[Onboarding] Get Started button text</note>
       </trans-unit>
+      <trans-unit id="Netherlands">
+        <source>Netherlands</source>
+        <note>VPN country name for Netherlands</note>
+      </trans-unit>
       <trans-unit id="No data wasted on ads">
         <source>No data wasted on ads</source>
         <note>[Lumen-&gt;Dashboard] Data Saved widget description</note>
@@ -1526,6 +1574,14 @@ LIMITED TIME ONLY</source>
         <source>Phishing Protection</source>
         <note>[Luemn -&gt; Dashboard] Anti-Phishing
    [Lumen-&gt;Dashboard] Phishing Protection widget title</note>
+      </trans-unit>
+      <trans-unit id="Poland">
+        <source>Poland</source>
+        <note>VPN country name for Poland</note>
+      </trans-unit>
+      <trans-unit id="Portugal">
+        <source>Portugal</source>
+        <note>VPN country name for Portugal</note>
       </trans-unit>
       <trans-unit id="Privacy Policy">
         <source>Privacy Policy</source>
@@ -1563,6 +1619,10 @@ LIMITED TIME ONLY</source>
         <source>Retry</source>
         <note>Retry button title in payment failing transaction alert</note>
       </trans-unit>
+      <trans-unit id="Romania">
+        <source>Romania</source>
+        <note>VPN country name for Romania</note>
+      </trans-unit>
       <trans-unit id="SEC">
         <source>SEC</source>
         <note>Seconds unit for dashboard</note>
@@ -1583,6 +1643,10 @@ LIMITED TIME ONLY</source>
         <source>Safe and Sound on the Go</source>
         <note>[Onboarding] VPN title</note>
       </trans-unit>
+      <trans-unit id="Serbia">
+        <source>Serbia</source>
+        <note>VPN country name for Serbia</note>
+      </trans-unit>
       <trans-unit id="ShareExtension.LoadLumenInBackgroundActionDone.Title">
         <source>Loading in Lumen</source>
         <note>Share extension label shown after user has performed 'Load in Background' action.</note>
@@ -1594,6 +1658,10 @@ LIMITED TIME ONLY</source>
       <trans-unit id="ShareExtension.SeachInLumenAction.Title">
         <source>Search in Lumen</source>
         <note>Action label on share extension to search for the selected text in Ghostery.</note>
+      </trans-unit>
+      <trans-unit id="Spain">
+        <source>Spain</source>
+        <note>VPN country name for Spain</note>
       </trans-unit>
       <trans-unit id="Stay with us">
         <source>Stay with us</source>
@@ -1623,9 +1691,17 @@ LIMITED TIME ONLY</source>
         <source>Tracker Protection</source>
         <note>[Lumen-&gt;Dashboard] Data Volume Saved widget title</note>
       </trans-unit>
+      <trans-unit id="Turkey">
+        <source>Turkey</source>
+        <note>VPN country name for Turkey</note>
+      </trans-unit>
       <trans-unit id="Turn On">
         <source>Turn On</source>
         <note>Turn on CTA</note>
+      </trans-unit>
+      <trans-unit id="UK">
+        <source>UK</source>
+        <note>VPN country name for UK</note>
       </trans-unit>
       <trans-unit id="ULTIMATE PROTECTION ONLINE">
         <source>ULTIMATE PROTECTION ONLINE</source>
@@ -1645,6 +1721,10 @@ PROTECTION FROM HACKERS WITH VPN</source>
       <trans-unit id="USA">
         <source>USA</source>
         <note>VPN country name for USA</note>
+      </trans-unit>
+      <trans-unit id="Ukraine">
+        <source>Ukraine</source>
+        <note>VPN country name for Ukraine</note>
       </trans-unit>
       <trans-unit id="Ultimate Protection">
         <source>Ultimate Protection</source>

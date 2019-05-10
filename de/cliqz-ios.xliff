@@ -1281,6 +1281,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <target>Noch %d Tag(e) in der Testversion</target>
         <note>Trial days left title</note>
       </trans-unit>
+      <trans-unit id="(coming soon)">
+        <source>(coming soon)</source>
+        <note>[VPN] coming soon label beside country name</note><target>(bald verfügbar)</target>
+      </trans-unit>
       <trans-unit id="1,99 €/MONTH">
         <source>1,99 €/MONTH</source>
         <target>1,99 €/MONAT</target>

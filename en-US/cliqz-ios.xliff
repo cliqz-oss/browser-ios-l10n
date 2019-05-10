@@ -1106,6 +1106,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>%d more days left in trial</source>
         <note>Trial days left title</note>
       </trans-unit>
+      <trans-unit id="(coming soon)">
+        <source>(coming soon)</source>
+        <note>[VPN] coming soon label beside country name</note>
+      </trans-unit>
       <trans-unit id="1,99 €/MONTH">
         <source>1,99 €/MONTH</source>
         <note>BASIC Subscription price</note>

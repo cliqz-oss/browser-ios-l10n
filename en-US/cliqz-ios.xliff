@@ -1052,8 +1052,8 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
-        <source>Ghostery requires Face ID to access your saved logins.</source>
-        <target>Ghostery requires Face ID to access your saved logins.</target>
+        <source>Lumen requires Face ID to access your saved logins.</source>
+        <target>Lumen requires Face ID to access your saved logins.</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
@@ -1062,23 +1062,19 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
-        <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
-        <target>Ghostery will only use the microphone when you choose to record videos inside the browser.</target>
+        <source>Lumen will only use the microphone when you choose to record videos inside the browser.</source>
+        <target>Lumen will only use the microphone when you choose to record videos inside the browser.</target>
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
-        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
-        <target>Ghostery will only use this access to download videos and pictures to your device.</target>
+        <source>Lumen will only use this access to download videos and pictures to your device.</source>
+        <target>Lumen will only use this access to download videos and pictures to your device.</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
-        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
-        <target>Ghostery will only use this access to download videos and pictures to your device.</target>
+        <source>Lumen will only use this access to download videos and pictures to your device.</source>
+        <target>Lumen will only use this access to download videos and pictures to your device.</target>
         <note>Privacy - Photo Library Usage Description</note>
-      </trans-unit>
-      <trans-unit id="ShortcutItemTitleNewGhostTab">
-        <source>New Ghost Tab</source>
-        <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Private Tab</source>
@@ -1106,21 +1102,9 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <source>%d more days left in trial</source>
         <note>Trial days left title</note>
       </trans-unit>
-      <trans-unit id="(coming soon)">
-        <source>(coming soon)</source>
-        <note>[VPN] coming soon label beside country name</note>
-      </trans-unit>
-      <trans-unit id="1,99 €/MONTH">
-        <source>1,99 €/MONTH</source>
-        <note>BASIC Subscription price</note>
-      </trans-unit>
-      <trans-unit id="4,99 €/MONAT">
-        <source>4,99 €/MONAT</source>
-        <note>VPN Subscription price</note>
-      </trans-unit>
-      <trans-unit id="4,99 €/MONTH">
-        <source>4,99 €/MONTH</source>
-        <note>Basic + VPN Subscription price</note>
+      <trans-unit id="/MONTH">
+        <source>/MONTH</source>
+        <note>Subscription price period</note>
       </trans-unit>
       <trans-unit id="Active for all apps on this iPhone">
         <source>Active for all apps on this iPhone</source>
@@ -1133,6 +1117,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="Ads Blocked">
         <source>Ads Blocked</source>
         <note>[Lumen-&gt;Dashboard] Ads Blocked widget title</note>
+      </trans-unit>
+      <trans-unit id="Apply">
+        <source>Apply</source>
+        <note>[Upgrade flow] Apply promo code button title in in appling promo code alert</note>
       </trans-unit>
       <trans-unit id="Austria">
         <source>Austria</source>
@@ -1197,7 +1185,8 @@ LIMITED TIME ONLY</source>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
-        <note>Cancel button title in payment failing transaction alert</note>
+        <note>[Upgrade flow] Cancel button title in appling promo code alert
+   Cancel button title in payment failing transaction alert</note>
       </trans-unit>
       <trans-unit id="Choose VPN Location">
         <source>Choose VPN Location</source>
@@ -1213,7 +1202,8 @@ LIMITED TIME ONLY</source>
       </trans-unit>
       <trans-unit id="Close">
         <source>Close</source>
-        <note>Cancel button title in payment failing transaction alert
+        <note>[Upgrade flow] Close button title on invalid promo  code alert
+   Cancel button title in payment failing transaction alert
    Close button title on dashboard info</note>
       </trans-unit>
       <trans-unit id="Close Private Tabs">
@@ -1281,6 +1271,18 @@ LIMITED TIME ONLY</source>
         <source>Enjoy clutter-free websites and save data &amp; time.</source>
         <note>[Onboarding] Adblocker text</note>
       </trans-unit>
+      <trans-unit id="Enter your promo code">
+        <source>Enter your promo code</source>
+        <note>[Upgrade flow] Promo code alert view title</note>
+      </trans-unit>
+      <trans-unit id="For 1 month, then">
+        <source>For 1 month, then</source>
+        <note>Lumen free month price subtitle</note>
+      </trans-unit>
+      <trans-unit id="For 2 months, then">
+        <source>For 2 months, then</source>
+        <note>Lumen free month price subtitle</note>
+      </trans-unit>
       <trans-unit id="Forget Tabs">
         <source>Forget Tabs</source>
         <note>Forget mode toggle button</note>
@@ -1288,6 +1290,16 @@ LIMITED TIME ONLY</source>
       <trans-unit id="France">
         <source>France</source>
         <note>VPN country name for France</note>
+      </trans-unit>
+      <trans-unit id="GET 1 MONTH FOR FREE">
+        <source>GET 1 MONTH 
+FOR FREE</source>
+        <note>GET 1 MONTH FOR FREE</note>
+      </trans-unit>
+      <trans-unit id="GET 2 MONTHS AT 50% OFF">
+        <source>GET 2 MONTHS 
+AT 50% OFF</source>
+        <note>GET 2 MONTHS AT 50% OFF</note>
       </trans-unit>
       <trans-unit id="Germany">
         <source>Germany</source>
@@ -1354,6 +1366,10 @@ LIMITED TIME ONLY</source>
         <note>`Learn More` alert button
    Trial Expired view Learn more button text</note>
       </trans-unit>
+      <trans-unit id="Limited time offer: 50% off for Lumen protection + VPN. Code: LUMEN2019">
+        <source>Limited time offer: 50% off for Lumen protection + VPN. Code: LUMEN2019</source>
+        <note>Local Notification message</note>
+      </trans-unit>
       <trans-unit id="Looks like Lumen crashed previously. Would you like to restore your tabs?">
         <source>Looks like Lumen crashed previously. Would you like to restore your tabs?</source>
         <note>Restore Tabs Prompt Description</note>
@@ -1419,6 +1435,10 @@ LIMITED TIME ONLY</source>
         <source>PROTECTION FROM HACKERS WITH VPN</source>
         <note>VPN Subscription Description</note>
       </trans-unit>
+      <trans-unit id="Payment of %@ will be charged to your Apple ID account each month for 2 months. The subscription automatically renews for %@ per month after 2 months. Subscriptions will be applied to your iTunes account on confirmation. Your account will be charged for renewal within 24 hours prior to the end of the current period at the cost mentioned before. You can cancel anytime in your iTunes account settings until 24 hours before the end of the current period. Any unused portion of a free trial will be forfeited if you purchase a subscription.">
+        <source>Payment of %1$@ will be charged to your Apple ID account each month for 2 months. The subscription automatically renews for %2$@ per month after 2 months. Subscriptions will be applied to your iTunes account on confirmation. Your account will be charged for renewal within 24 hours prior to the end of the current period at the cost mentioned before. You can cancel anytime in your iTunes account settings until 24 hours before the end of the current period. Any unused portion of a free trial will be forfeited if you purchase a subscription.</source>
+        <note>Lumen conditions for 2 months 50% promo</note>
+      </trans-unit>
       <trans-unit id="Phishing Protection">
         <source>Phishing Protection</source>
         <note>[Luemn -&gt; Dashboard] Anti-Phishing
@@ -1443,6 +1463,10 @@ LIMITED TIME ONLY</source>
       <trans-unit id="Private Mode">
         <source>Private Mode</source>
         <note>Title displayed for when there are no open tabs while in private mode</note>
+      </trans-unit>
+      <trans-unit id="Promo Code">
+        <source>Promo Code</source>
+        <note>[Upgrade Flow] Promo Code Button title</note>
       </trans-unit>
       <trans-unit id="Protection from hackers">
         <source>Protection from hackers</source>
@@ -1508,6 +1532,14 @@ LIMITED TIME ONLY</source>
         <source>Search in Lumen</source>
         <note>Action label on share extension to search for the selected text in Ghostery.</note>
       </trans-unit>
+      <trans-unit id="Sorry, it seems you have used a code before">
+        <source>Sorry, it seems you have used a code before</source>
+        <note>[Upgrade flow] Invalid Promo code alert view title</note>
+      </trans-unit>
+      <trans-unit id="Sorry, this code does not seem to work">
+        <source>Sorry, this code does not seem to work</source>
+        <note>[Upgrade flow] Invalid Promo code alert view title</note>
+      </trans-unit>
       <trans-unit id="Spain">
         <source>Spain</source>
         <note>VPN country name for Spain</note>
@@ -1523,6 +1555,10 @@ LIMITED TIME ONLY</source>
       <trans-unit id="Subscriptions will be available soon.">
         <source>Subscriptions will be available soon.</source>
         <note>Temporary message instead of Subscriptions</note>
+      </trans-unit>
+      <trans-unit id="This code is valid">
+        <source>This code is valid</source>
+        <note>[Upgrade flow] PromoCode validity text on Promo subsicription view.</note>
       </trans-unit>
       <trans-unit id="This will delete all your dashboard data and cannot be undone.">
         <source>This will delete all your dashboard data and cannot be undone.</source>
@@ -1648,6 +1684,10 @@ Integrated VPN for protection on public Wi-Fi.</source>
       <trans-unit id="You can still use Lumen, but without ultimate protection and VPN. Or go premium.">
         <source>You can still use Lumen, but without ultimate protection and VPN. Or go premium.</source>
         <note>Trial Expired view subtitle</note>
+      </trans-unit>
+      <trans-unit id="Your Apple ID account will not be charged in the first month. The subscription automatically renews for %@ per month after 1 month. Subscriptions will be applied to your iTunes account on confirmation. Your account will be charged for renewal within 24 hours prior to the end of the current period at the cost mentioned before. You can cancel anytime in your iTunes account settings until 24 hours before the end of the current period. Any unused portion of a free trial will be forfeited if you purchase a subscription.">
+        <source>Your Apple ID account will not be charged in the first month. The subscription automatically renews for %@ per month after 1 month. Subscriptions will be applied to your iTunes account on confirmation. Your account will be charged for renewal within 24 hours prior to the end of the current period at the cost mentioned before. You can cancel anytime in your iTunes account settings until 24 hours before the end of the current period. Any unused portion of a free trial will be forfeited if you purchase a subscription.</source>
+        <note>Lumen conditions for 1 month for free</note>
       </trans-unit>
       <trans-unit id="Your trial is over">
         <source>Your trial is over</source>

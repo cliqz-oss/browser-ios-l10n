@@ -896,7 +896,7 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
       </trans-unit>
       <trans-unit id="Stay anonymous, reduce data usage, and save time: results appear instantly as you type in the Ghost search bar.">
         <source>Stay anonymous, reduce data usage, and save time: results appear instantly as you type in the Ghost search bar.</source>
-        <target>Bleib anonym und spare Zeit und Datenvolumen: Ergebnisse erscheinen in Echtzeit noch während der Eingabe in die Ghostery-Suchleiste.</target>
+        <target>Bleib anonym und spare Zeit und Datenvolumen: Ergebnisse erscheinen in Echtzeit noch während der Eingabe in die Lumen-Suchleiste.</target>
         <note>[Onboarding] QuickSearch Text</note>
       </trans-unit>
       <trans-unit id="Subscribe">
@@ -1279,6 +1279,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
       <trans-unit id="/MONTH">
         <source>/MONTH</source>
+        <target>/ MONAT</target>
         <note>Subscription price period</note>
       </trans-unit>
       <trans-unit id="Active for all apps on this iPhone">
@@ -1298,6 +1299,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
       <trans-unit id="Apply">
         <source>Apply</source>
+        <target>Anwenden</target>
         <note>[Upgrade flow] Apply promo code button title in in appling promo code alert</note>
       </trans-unit>
       <trans-unit id="Austria">
@@ -1401,7 +1403,7 @@ NUR FÜR KURZE ZEIT</target>
       </trans-unit>
       <trans-unit id="Close">
         <source>Close</source>
-        <target>Fertig</target>
+        <target>Schließen</target>
         <note>[Upgrade flow] Close button title on invalid promo  code alert
    Cancel button title in payment failing transaction alert
    Close button title on dashboard info</note>
@@ -1489,14 +1491,17 @@ NUR FÜR KURZE ZEIT</target>
       </trans-unit>
       <trans-unit id="Enter your promo code">
         <source>Enter your promo code</source>
+        <target>Promo Code eingeben</target>
         <note>[Upgrade flow] Promo code alert view title</note>
       </trans-unit>
       <trans-unit id="For 1 month, then">
         <source>For 1 month, then</source>
+        <target>Für 1 Monat, dann</target>
         <note>Lumen free month price subtitle</note>
       </trans-unit>
       <trans-unit id="For 2 months, then">
         <source>For 2 months, then</source>
+        <target>Für 2 Monate, dann</target>
         <note>Lumen free month price subtitle</note>
       </trans-unit>
       <trans-unit id="Forget Tabs">
@@ -1512,11 +1517,15 @@ NUR FÜR KURZE ZEIT</target>
       <trans-unit id="GET 1 MONTH FOR FREE">
         <source>GET 1 MONTH 
 FOR FREE</source>
+         <target>HOL DIR 1 MONAT 
+KOSTENLOS</target>   
         <note>GET 1 MONTH FOR FREE</note>
       </trans-unit>
       <trans-unit id="GET 2 MONTHS AT 50% OFF">
         <source>GET 2 MONTHS 
 AT 50% OFF</source>
+        <target>HOL DIR 2 MONATE 
+50% REDUZIERT</target>
         <note>GET 2 MONTHS AT 50% OFF</note>
       </trans-unit>
       <trans-unit id="Germany">
@@ -1602,6 +1611,7 @@ AT 50% OFF</source>
       </trans-unit>
       <trans-unit id="Limited time offer: 50% off for Lumen protection + VPN. Code: LUMEN2019">
         <source>Limited time offer: 50% off for Lumen protection + VPN. Code: LUMEN2019</source>
+        <target>Zeitlich begrenzt: 50% Rabatt auf Lumen Komplettschutz + VPN. Code: LUMEN2019</target>
         <note>Local Notification message</note>
       </trans-unit>
       <trans-unit id="Looks like Lumen crashed previously. Would you like to restore your tabs?">
@@ -1687,6 +1697,7 @@ AT 50% OFF</source>
       </trans-unit>
       <trans-unit id="Payment of %@ will be charged to your Apple ID account each month for 2 months. The subscription automatically renews for %@ per month after 2 months. Subscriptions will be applied to your iTunes account on confirmation. Your account will be charged for renewal within 24 hours prior to the end of the current period at the cost mentioned before. You can cancel anytime in your iTunes account settings until 24 hours before the end of the current period. Any unused portion of a free trial will be forfeited if you purchase a subscription.">
         <source>Payment of %1$@ will be charged to your Apple ID account each month for 2 months. The subscription automatically renews for %2$@ per month after 2 months. Subscriptions will be applied to your iTunes account on confirmation. Your account will be charged for renewal within 24 hours prior to the end of the current period at the cost mentioned before. You can cancel anytime in your iTunes account settings until 24 hours before the end of the current period. Any unused portion of a free trial will be forfeited if you purchase a subscription.</source>
+        <target>Dein Apple ID Konto wird für 2 Monate mit %1$@ belastet. Nach 2 Monaten wird das Abo automatisch erneuert für %2$@ pro Monat. Abos werden über deinen iTunes Konto abgebucht nach Bestätigung. Dein Konto wird innerhalb von 24 Stunden vor Ablauf der aktuellen Periode belastet zu den zuvor genannten Kosten belastet. Du kannst Abos jederzeit in deinen iTunes Konto-Einstellungen kündigen bis zu 24 Stunden vor Ablauf der aktuellen Periode. Ungenutzte Tage von kostenlosen Testversionen werden verfallen wenn du ein Abo abschließt.</target>
         <note>Lumen conditions for 2 months 50% promo</note>
       </trans-unit>
       <trans-unit id="Phishing Protection">
@@ -1722,6 +1733,7 @@ AT 50% OFF</source>
       </trans-unit>
       <trans-unit id="Promo Code">
         <source>Promo Code</source>
+        <target>Promo Code</target>
         <note>[Upgrade Flow] Promo Code Button title</note>
       </trans-unit>
       <trans-unit id="Protection from hackers">
@@ -1806,10 +1818,13 @@ AT 50% OFF</source>
       </trans-unit>
       <trans-unit id="Sorry, it seems you have used a code before">
         <source>Sorry, it seems you have used a code before</source>
+        <target>Sorry, es scheint du hast schonmal einen Code benutzt</target>
         <note>[Upgrade flow] Invalid Promo code alert view title</note>
       </trans-unit>
       <trans-unit id="Sorry, this code does not seem to work">
         <source>Sorry, this code does not seem to work</source>
+        <target>Sorry, dieser Code scheint nicht zu funktionieren</target>
+      </trans-unit>
         <note>[Upgrade flow] Invalid Promo code alert view title</note>
       </trans-unit>
       <trans-unit id="Spain">
@@ -1834,6 +1849,7 @@ AT 50% OFF</source>
       </trans-unit>
       <trans-unit id="This code is valid">
         <source>This code is valid</source>
+        <target>Dieser Code ist gültig</target>
         <note>[Upgrade flow] PromoCode validity text on Promo subsicription view.</note>
       </trans-unit>
       <trans-unit id="This will delete all your dashboard data and cannot be undone.">
@@ -1993,6 +2009,7 @@ Integrated VPN for protection on public Wi-Fi.</source>
       </trans-unit>
       <trans-unit id="Your Apple ID account will not be charged in the first month. The subscription automatically renews for %@ per month after 1 month. Subscriptions will be applied to your iTunes account on confirmation. Your account will be charged for renewal within 24 hours prior to the end of the current period at the cost mentioned before. You can cancel anytime in your iTunes account settings until 24 hours before the end of the current period. Any unused portion of a free trial will be forfeited if you purchase a subscription.">
         <source>Your Apple ID account will not be charged in the first month. The subscription automatically renews for %@ per month after 1 month. Subscriptions will be applied to your iTunes account on confirmation. Your account will be charged for renewal within 24 hours prior to the end of the current period at the cost mentioned before. You can cancel anytime in your iTunes account settings until 24 hours before the end of the current period. Any unused portion of a free trial will be forfeited if you purchase a subscription.</source>
+        <target>Dein Apple ID Konto wird im ersten Monat nicht belastet. Nach 1 Monat wird das Abo automatisch erneuert für %@ pro Monat. Abos werden über deinen iTunes Konto abgebucht nach Bestätigung. Dein Konto wird innerhalb von 24 Stunden vor Ablauf der aktuellen Periode belastet zu den zuvor genannten Kosten belastet. Du kannst Abos jederzeit in deinen iTunes Konto-Einstellungen kündigen bis zu 24 Stunden vor Ablauf der aktuellen Periode. Ungenutzte Tage von kostenlosen Testversionen werden verfallen wenn du ein Abo abschließt.</target>
         <note>Lumen conditions for 1 month for free</note>
       </trans-unit>
       <trans-unit id="Your trial is over">

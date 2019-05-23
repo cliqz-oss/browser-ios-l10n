@@ -1513,6 +1513,7 @@ AT 50% OFF</source>
       </trans-unit>
       <trans-unit id="Safe and Sound on the Go">
         <source>Safe and Sound on the Go</source>
+        <target>Protection from hackers with VPN</target>
         <note>[Onboarding] VPN title</note>
       </trans-unit>
       <trans-unit id="Serbia">

@@ -1102,6 +1102,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
       <trans-unit id="/MONTH">
         <source>/MONTH</source>
+        <target>/ MONTH</target>
         <note>Subscription price period</note>
       </trans-unit>
       <trans-unit id="Active for all apps on this iPhone">
@@ -1512,6 +1513,7 @@ AT 50% OFF</source>
       </trans-unit>
       <trans-unit id="Safe and Sound on the Go">
         <source>Safe and Sound on the Go</source>
+        <target>Protection from hackers with VPN</target>
         <note>[Onboarding] VPN title</note>
       </trans-unit>
       <trans-unit id="Serbia">

@@ -1052,8 +1052,8 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
-        <source>Lumen requires Face ID to access your saved logins.</source>
-        <target>Lumen requires Face ID to access your saved logins.</target>
+        <source>Ghostery requires Face ID to access your saved logins.</source>
+        <target>Ghostery requires Face ID to access your saved logins.</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
@@ -1062,18 +1062,18 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
-        <source>Lumen will only use the microphone when you choose to record videos inside the browser.</source>
-        <target>Lumen will only use the microphone when you choose to record videos inside the browser.</target>
+        <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
+        <target>Ghostery will only use the microphone when you choose to record videos inside the browser.</target>
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
-        <source>Lumen will only use this access to download videos and pictures to your device.</source>
-        <target>Lumen will only use this access to download videos and pictures to your device.</target>
+        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
+        <target>Ghostery will only use this access to download videos and pictures to your device.</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
-        <source>Lumen will only use this access to download videos and pictures to your device.</source>
-        <target>Lumen will only use this access to download videos and pictures to your device.</target>
+        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
+        <target>Ghostery will only use this access to download videos and pictures to your device.</target>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
@@ -1103,8 +1103,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Trial days left title</note>
       </trans-unit>
       <trans-unit id="/MONTH">
-        <source>/MONTH</source>
-        <target>/ MONTH</target>
+        <source>/ MONTH</source>
         <note>Subscription price period</note>
       </trans-unit>
       <trans-unit id="Active for all apps on this iPhone">
@@ -1205,7 +1204,8 @@ LIMITED TIME ONLY</source>
         <source>Close</source>
         <note>[Upgrade flow] Close button title on invalid promo  code alert
    Cancel button title in payment failing transaction alert
-   Close button title on dashboard info</note>
+   Close button title on dashboard info
+   Closing subscription screen</note>
       </trans-unit>
       <trans-unit id="Close Private Tabs">
         <source>Close Private Tabs</source>
@@ -1214,10 +1214,6 @@ LIMITED TIME ONLY</source>
       <trans-unit id="Coming Soon!">
         <source>Coming Soon!</source>
         <note>Temporary message title instead of Subscriptions</note>
-      </trans-unit>
-      <trans-unit id="Conditions">
-        <source>Conditions</source>
-        <note>[Upgrade Flow] Conditions button</note>
       </trans-unit>
       <trans-unit id="Croatia">
         <source>Croatia</source>
@@ -1514,8 +1510,7 @@ AT 50% OFF</source>
         <note>Subscribe Button</note>
       </trans-unit>
       <trans-unit id="Safe and Sound on the Go">
-        <source>Safe and Sound on the Go</source>
-        <target>Protection from hackers with VPN</target>
+        <source>Protection from hackers with VPN</source>
         <note>[Onboarding] VPN title</note>
       </trans-unit>
       <trans-unit id="Serbia">
@@ -1533,6 +1528,10 @@ AT 50% OFF</source>
       <trans-unit id="ShareExtension.SeachInLumenAction.Title">
         <source>Search in Lumen</source>
         <note>Action label on share extension to search for the selected text in Ghostery.</note>
+      </trans-unit>
+      <trans-unit id="Sorry, Lumen cannot connect to the Internet.">
+        <source>Sorry, Lumen cannot connect to the Internet.</source>
+        <note>Error when can't get list of available subscriptions</note>
       </trans-unit>
       <trans-unit id="Sorry, it seems you have used a code before">
         <source>Sorry, it seems you have used a code before</source>

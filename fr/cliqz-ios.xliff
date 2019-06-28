@@ -365,6 +365,10 @@ Phishing websites disguise as other sites you may trust in order to trick you in
         <source>Delete account?</source>
         <note>Sign Out Settings</note>
       </trans-unit>
+      <trans-unit id="Developer Flag">
+        <source>Developer Flag</source>
+        <note>Developer Flag</note>
+      </trans-unit>
       <trans-unit id="Device Id">
         <source>Device Id</source>
         <note>Device Id</note>
@@ -436,7 +440,7 @@ Phishing websites disguise as other sites you may trust in order to trick you in
       </trans-unit>
       <trans-unit id="FAQ &amp; Support">
         <source>FAQ &amp; Support</source>
-        <note>[Settings] FAQ &amp; Support</note>
+        <note>[Settings] FAQ</note>
       </trans-unit>
       <trans-unit id="Fair Mode">
         <source>Fair Mode</source>
@@ -507,6 +511,10 @@ Phishing websites disguise as other sites you may trust in order to trick you in
         <target>Aide</target>
         <note>[Settings] Help section header</note>
       </trans-unit>
+      <trans-unit id="Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any personal data collected.">
+        <source>Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
+        <note>Restore Tabs Prompt Description</note>
+      </trans-unit>
       <trans-unit id="Here you'll find a new offer every week">
         <source>Every week a new offer will show up here</source>
         <note>[MyOffrz] No offers label</note>
@@ -515,6 +523,14 @@ Phishing websites disguise as other sites you may trust in order to trick you in
         <source>Hey, I would like to invite you to try the %@ Browser.</source>
         <target>Salut! J'aimerais te faire découvrir le navigateur %@.</target>
         <note>Sharing StartTab message</note>
+      </trans-unit>
+      <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
+        <source>Open in New Private Tab</source>
+        <note>The title for the Open in New Forget Tab context menu action for sites in Home Panels</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.NewForgetTab.DiscoveryTitle">
+        <source>New Private Tab</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Human Web">
         <source>Human Web</source>
@@ -832,13 +848,19 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
    Settings option for turning on Camera access
    Settings option for turning on location service</note>
       </trans-unit>
+      <trans-unit id="ShareExtension.LoadGhosteryInBackgroundActionDone.Title">
+        <source>Loading in Cliqz</source>
+        <note>Share extension label shown after user has performed 'Load in Background' action.</note>
+      </trans-unit>
       <trans-unit id="ShareExtension.OpenInGhosteryAction.Title">
-        <source>Open in Ghostery</source>
-        <note>Action label on share extension to immediately open page in Ghostery.</note>
+        <source>Open in Cliqz</source>
+        <note>Action label on share extension to immediately open page in Cliqz.
+   Action label on share extension to immediately open page in Ghostery.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInGhosteryAction.Title">
-        <source>Search in Ghostery</source>
-        <note>Action label on share extension to search for the selected text in Ghostery.</note>
+        <source>Search in Cliqz</source>
+        <note>Action label on share extension to search for the selected text in Cliqz.
+   Action label on share extension to search for the selected text in Ghostery.</note>
       </trans-unit>
       <trans-unit id="Shared with %@ Browser for iOS">
         <source>Shared with %@ Browser for iOS</source>
@@ -1052,6 +1074,10 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
         <source>When Leaving Ghost Mode</source>
         <note>Will be displayed in Settings under 'Close Forget Tabs'</note>
       </trans-unit>
+      <trans-unit id="When Opening Cliqz">
+        <source>When Opening Cliqz</source>
+        <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
+      </trans-unit>
       <trans-unit id="When Opening Ghostery">
         <source>When Opening Ghostery</source>
         <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
@@ -1212,7 +1238,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
-        <source>Lumen requires Face ID to access your saved logins.</source>
+        <source>Ghostery requires Face ID to access your saved logins.</source>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
@@ -1221,15 +1247,15 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
-        <source>Lumen will only use the microphone when you choose to record videos inside the browser.</source>
+        <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
-        <source>Lumen will only use this access to download videos and pictures to your device.</source>
+        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
-        <source>Lumen will only use this access to download videos and pictures to your device.</source>
+        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
@@ -1258,7 +1284,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Trial days left title</note>
       </trans-unit>
       <trans-unit id="/MONTH">
-        <source>/MONTH</source>
+        <source>/ MONTH</source>
         <note>Subscription price period</note>
       </trans-unit>
       <trans-unit id="Active for all apps on this iPhone">
@@ -1359,7 +1385,8 @@ LIMITED TIME ONLY</source>
         <source>Close</source>
         <note>[Upgrade flow] Close button title on invalid promo  code alert
    Cancel button title in payment failing transaction alert
-   Close button title on dashboard info</note>
+   Close button title on dashboard info
+   Closing subscription screen</note>
       </trans-unit>
       <trans-unit id="Close Private Tabs">
         <source>Close Private Tabs</source>
@@ -1368,10 +1395,6 @@ LIMITED TIME ONLY</source>
       <trans-unit id="Coming Soon!">
         <source>Coming Soon!</source>
         <note>Temporary message title instead of Subscriptions</note>
-      </trans-unit>
-      <trans-unit id="Conditions">
-        <source>Conditions</source>
-        <note>[Upgrade Flow] Conditions button</note>
       </trans-unit>
       <trans-unit id="Croatia">
         <source>Croatia</source>
@@ -1668,7 +1691,7 @@ AT 50% OFF</source>
         <note>Subscribe Button</note>
       </trans-unit>
       <trans-unit id="Safe and Sound on the Go">
-        <source>Safe and Sound on the Go</source>
+        <source>Protection from hackers with VPN</source>
         <note>[Onboarding] VPN title</note>
       </trans-unit>
       <trans-unit id="Serbia">
@@ -2001,6 +2024,14 @@ Integrated VPN for protection on public Wi-Fi.</source>
         <source>Ghost Search</source>
         <note>[Onboarding] QuickSearch Title</note>
       </trans-unit>
+      <trans-unit id="HomePanel.ContextMenu.OpenInNewForgetTab">
+        <source>Open in New Private Tab</source>
+        <note>The title for the Open in New Forget Tab context menu action for sites in Home Panels</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.NewForgetTab.DiscoveryTitle">
+        <source>New Private Tab</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
       <trans-unit id="Introducing Ghostery">
         <source>Introducing Ghostery</source>
         <note>[Onboarding] Intro Title</note>
@@ -2026,13 +2057,19 @@ Integrated VPN for protection on public Wi-Fi.</source>
         <source>Favorite Removed</source>
         <note>Toast displayed to the user after a bookmark has been removed.</note>
       </trans-unit>
+      <trans-unit id="ShareExtension.LoadGhosteryInBackgroundActionDone.Title">
+        <source>Loading in Cliqz</source>
+        <note>Share extension label shown after user has performed 'Load in Background' action.</note>
+      </trans-unit>
       <trans-unit id="ShareExtension.OpenInGhosteryAction.Title">
-        <source>Open in Ghostery</source>
-        <note>Action label on share extension to immediately open page in Ghostery.</note>
+        <source>Open in Cliqz</source>
+        <note>Action label on share extension to immediately open page in Cliqz.
+   Action label on share extension to immediately open page in Ghostery.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInGhosteryAction.Title">
-        <source>Search in Ghostery</source>
-        <note>Action label on share extension to search for the selected text in Ghostery.</note>
+        <source>Search in Cliqz</source>
+        <note>Action label on share extension to search for the selected text in Cliqz.
+   Action label on share extension to search for the selected text in Ghostery.</note>
       </trans-unit>
       <trans-unit id="Start Tab">
         <source>Start Tab</source>

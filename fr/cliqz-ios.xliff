@@ -477,7 +477,7 @@ Phishing websites disguise as other sites you may trust in order to trick you in
       </trans-unit>
       <trans-unit id="Get the best out of CLIQZ">
         <source>Get the best out of Ghostery</source>
-        <note>[Settings] Get the best out of CLIQZ</note>
+        <note>[Settings] Get the best out of CLIQZ</note><target>Obtenir le meilleur de Cliqz</target>
       </trans-unit>
       <trans-unit id="Ghost Search">
         <source>Ghost Search</source>
@@ -513,7 +513,7 @@ Phishing websites disguise as other sites you may trust in order to trick you in
       </trans-unit>
       <trans-unit id="Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any personal data collected.">
         <source>Help us improve your browsing experience. Cliqz collects strictly anonymous usage data. At no occasion is any personal data collected.</source>
-        <note>Restore Tabs Prompt Description</note>
+        <note>Restore Tabs Prompt Description</note><target>Aidez-nous à améliorer votre experience de navigation. Cliqz collecte des données d'utilisation de façon entièrement anonyme. Aucune donnée à charactère personnel sera collectée.</target>
       </trans-unit>
       <trans-unit id="Here you'll find a new offer every week">
         <source>Every week a new offer will show up here</source>
@@ -850,12 +850,12 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
       </trans-unit>
       <trans-unit id="ShareExtension.LoadGhosteryInBackgroundActionDone.Title">
         <source>Loading in Cliqz</source>
-        <note>Share extension label shown after user has performed 'Load in Background' action.</note>
+        <note>Share extension label shown after user has performed 'Load in Background' action.</note><target>Chargement dans Cliqz</target>
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInGhosteryAction.Title">
         <source>Open in Cliqz</source>
         <note>Action label on share extension to immediately open page in Cliqz.
-   Action label on share extension to immediately open page in Ghostery.</note>
+   Action label on share extension to immediately open page in Ghostery.</note><target>Ouvrir dans Cliqz</target>
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInGhosteryAction.Title">
         <source>Search in Cliqz</source>
@@ -1076,7 +1076,7 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
       </trans-unit>
       <trans-unit id="When Opening Cliqz">
         <source>When Opening Cliqz</source>
-        <note>Description displayed under the ”Offer to Open Copied Link” option.</note>
+        <note>Description displayed under the ”Offer to Open Copied Link” option.</note><target>En ouvrant Cliqz</target>
       </trans-unit>
       <trans-unit id="When Opening Ghostery">
         <source>When Opening Ghostery</source>
@@ -2059,12 +2059,12 @@ Integrated VPN for protection on public Wi-Fi.</source>
       </trans-unit>
       <trans-unit id="ShareExtension.LoadGhosteryInBackgroundActionDone.Title">
         <source>Loading in Cliqz</source>
-        <note>Share extension label shown after user has performed 'Load in Background' action.</note>
+        <note>Share extension label shown after user has performed 'Load in Background' action.</note><target>Chargement dans Cliqz</target>
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInGhosteryAction.Title">
         <source>Open in Cliqz</source>
         <note>Action label on share extension to immediately open page in Cliqz.
-   Action label on share extension to immediately open page in Ghostery.</note>
+   Action label on share extension to immediately open page in Ghostery.</note><target>Ouvrir dans Cliqz</target>
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInGhosteryAction.Title">
         <source>Search in Cliqz</source>

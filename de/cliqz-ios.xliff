@@ -702,6 +702,7 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
       </trans-unit>
       <trans-unit id="Pause Ghostery">
         <source>Pause Ghostery</source>
+        <target>Pausieren</target>
         <note>[ControlCenter -&gt; Overview] Pause Ghostery button title</note>
       </trans-unit>
       <trans-unit id="Please select video quality">

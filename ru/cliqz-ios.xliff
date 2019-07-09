@@ -690,8 +690,13 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
         <target>Вставить скопированный URL в текстовое поле</target>
         <note>[WiFi Protection] Fourth step description</note>
       </trans-unit>
+      <trans-unit id="Pause">
+        <source>Pause</source>
+        <note>[ControlCenter -&gt; Overview] Pause Ad blocking button title
+   [ControlCenter -&gt; Overview] Pause Ghostery button title</note>
+      </trans-unit>
       <trans-unit id="Pause Ghostery">
-        <source>Pause Ghostery</source>
+        <source>Pause</source>
         <note>[ControlCenter -&gt; Overview] Pause Ghostery button title</note>
       </trans-unit>
       <trans-unit id="Please select video quality">

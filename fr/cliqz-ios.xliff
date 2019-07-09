@@ -477,7 +477,8 @@ Phishing websites disguise as other sites you may trust in order to trick you in
       </trans-unit>
       <trans-unit id="Get the best out of CLIQZ">
         <source>Get the best out of Ghostery</source>
-        <note>[Settings] Get the best out of CLIQZ</note><target>Obtenir le meilleur de Cliqz</target>
+        <target>Obtenir le meilleur de Cliqz</target>
+        <note>[Settings] Get the best out of CLIQZ</note>
       </trans-unit>
       <trans-unit id="Ghost Search">
         <source>Ghost Search</source>

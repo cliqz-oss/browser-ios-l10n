@@ -1309,7 +1309,8 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Trial days left title</note>
       </trans-unit>
       <trans-unit id="/MONTH">
-        <source>/ MONTH</source>
+        <source>/MONTH</source>
+        <target>/MONAT</target>
         <note>Subscription price period</note>
       </trans-unit>
       <trans-unit id="Active for all apps on this iPhone">

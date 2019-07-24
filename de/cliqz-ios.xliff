@@ -416,6 +416,11 @@ Phishing websites disguise as other sites you may trust in order to trick you in
           <target>Suchanfrage wird gesendet an:</target>
           <note>In other search engines searching alert message</note>
       </trans-unit>
+      <trans-unit id="Continue">
+          <source>Continue</source>
+          <target>Weiter</target>
+          <note>In other search engines searching alert continue button title</note>
+      </trans-unit>
       <trans-unit id="Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.">
         <source>Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.</source>
         <target>Passe jeden neuen Start Tab an deine Wünsche an, indem du einzelne Elemente wie die meistbesuchten Websites, die neuesten Nachrichten und die Tracking-Statistiken ein- oder ausblendest.</target>

@@ -345,6 +345,18 @@ Phishing websites disguise as other sites you may trust in order to trick you in
         <source>End-User License Agreement</source>
         <note>[Settings -&gt; About] EULA</note>
       </trans-unit>
+      <trans-unit id="Search anonymously">
+          <source>Search anonymously</source>
+          <note>The text shown in the URL bar on about:home</note>
+      </trans-unit>
+      <trans-unit id="You are leaving the anonymous search">
+          <source>You are leaving the anonymous search</source>
+          <note>In other search engines searching alert title</note>
+      </trans-unit>
+      <trans-unit id="Your query will be sent to">
+          <source>Your query will be sent to</source>
+          <note>In other search engines searching alert message</note>
+      </trans-unit>
       <trans-unit id="Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.">
         <source>Each new Start Tab is customizable and can display top sites, the latest news, and other tracking insights to come.</source>
         <note>[Onboarding] Tab Text</note>

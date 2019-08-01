@@ -1834,7 +1834,8 @@ AT 50% OFF</source>
         <note>Subscribe Button</note>
       </trans-unit>
       <trans-unit id="Safe and Sound on the Go">
-        <source>Protection from hackers with VPN</source>
+        <source>Safe and Sound on the Go</source>
+        <target>Schutz vor Hackern mit VPN</target>
         <note>[Onboarding] VPN title</note>
       </trans-unit>
       <trans-unit id="Serbia">

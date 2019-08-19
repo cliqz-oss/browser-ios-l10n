@@ -1232,6 +1232,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
       <trans-unit id="Looks like Ghostery crashed previously. Would you like to restore your tabs?">
         <source>Looks like Ghostery crashed previously. Would you like to restore your tabs?</source>
+        <target>Scheint, als wäre Ghostery abgestürzt. Sollen Tabs wiederhergestellt werden?</target>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="ShareExtension.LoadGhosteryInBackgroundActionDone.Title">

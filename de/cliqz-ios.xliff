@@ -25,7 +25,7 @@
         <note>[ControlCenter -&gt; Overview] Detected trackers count</note>
       </trans-unit>
       <trans-unit id="**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. &#10;&#10;**Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.">
-        <source>**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances. 
+        <source>**This feature is EXPERIMENTAL, as such, it may not work as expected in some instances.
 
 **Mobile Safari has performance issues with the PAC config, so it is recommended you use Cliqz, Ghostery or another Browser instead.</source>
         <note>[WiFi Protection] Notes</note>
@@ -650,7 +650,7 @@ Phishing websites disguise as other sites you may trust in order to trick you in
         <note>Title of New Tab on iPad</note>
       </trans-unit>
       <trans-unit id="No Wi-Fi Connection message">
-        <source>You are not connected to a Wi-Fi network and video downloads with mobile data is restricted. 
+        <source>You are not connected to a Wi-Fi network and video downloads with mobile data is restricted.
 To change this, go to Settings &gt; Limit Mobile Data Usage.
 </source>
         <note>[Connect] No Wi-Fi connection alert message</note>
@@ -1299,6 +1299,11 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <target>Neuer Private Tab</target>
         <note>(No Comment)</note>
       </trans-unit>
+      <trans-unit id="ShortcutItemTitleNewForgetTab">
+        <source>New Private Tab</source>
+        <target>Neuer Private Tab</target>
+        <note>(No Comment)</note>
+      </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
         <target>Neuer Tab</target>
@@ -1369,7 +1374,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="BEST OFFER LIMITED TIME ONLY">
         <source>BEST OFFER
 LIMITED TIME ONLY</source>
-        <target>BESTES ANGEBOT 
+        <target>BESTES ANGEBOT
 NUR FÜR KURZE ZEIT</target>
         <note>BEST OFFER\nLIMITED TIME ONLY</note>
       </trans-unit>
@@ -1555,16 +1560,16 @@ NUR FÜR KURZE ZEIT</target>
         <note>VPN country name for France</note>
       </trans-unit>
       <trans-unit id="GET 1 MONTH FOR FREE">
-        <source>GET 1 MONTH 
+        <source>GET 1 MONTH
 FOR FREE</source>
-        <target>HOL DIR 1 MONAT 
+        <target>HOL DIR 1 MONAT
 KOSTENLOS</target>
         <note>GET 1 MONTH FOR FREE</note>
       </trans-unit>
       <trans-unit id="GET 2 MONTHS AT 50% OFF">
-        <source>GET 2 MONTHS 
+        <source>GET 2 MONTHS
 AT 50% OFF</source>
-        <target>HOL DIR 2 MONATE 
+        <target>HOL DIR 2 MONATE
 50% REDUZIERT</target>
         <note>GET 2 MONTHS AT 50% OFF</note>
       </trans-unit>

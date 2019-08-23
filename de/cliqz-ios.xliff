@@ -1262,6 +1262,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
     <body>
       <trans-unit id="$(SHORTCUT_PRIVATE_TAB_TITLE)">
         <source>$(SHORTCUT_PRIVATE_TAB_TITLE)</source>
+        <target>Neuer Private Tab</target>
         <note/>
       </trans-unit>
       <trans-unit id="1Password Fill Browser Action">

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="it">
+  <file original="Client/en.lproj/Cliqz.strings" source-language="en_US" target-language="it" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.3" build-num="10G8"/>
     </header>
     <body>
       <trans-unit id=" and select connect to scan the QR-Code">
@@ -54,6 +54,10 @@
         <target>Informazioni</target>
         <note>[Settings] About
    [Settings] About section header</note>
+      </trans-unit>
+      <trans-unit id="About Ghostery Rewards">
+        <source>About Ghostery Rewards</source>
+        <note>[Settings] About Ghostery Rewards</note>
       </trans-unit>
       <trans-unit id="About MyOffrz">
         <source>About Ghostery Rewards</source>
@@ -328,6 +332,10 @@ Phishing websites disguise as other sites you may trust in order to trick you in
         <source>Connection successful</source>
         <target>Connessione riuscita</target>
         <note>[Connect] Connection successful alert title</note>
+      </trans-unit>
+      <trans-unit id="Continue">
+        <source>Continue</source>
+        <note>In other search engines searching alert continue button title</note>
       </trans-unit>
       <trans-unit id="Continue despite warning">
         <source>Continue despite warning</source>
@@ -728,8 +736,12 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
         <target>Valutaci</target>
         <note>[Settings] Rate Us</note>
       </trans-unit>
-      <trans-unit id="Receive attractive discounts and bargains with MyOffrz.">
+      <trans-unit id="Receive attractive discounts and bargains with Ghostery Rewards.">
         <source>Receive attractive discounts and bargains with Ghostery Rewards.</source>
+        <note>[MyOffrz] Ghostery Rewards description</note>
+      </trans-unit>
+      <trans-unit id="Receive attractive discounts and bargains with MyOffrz.">
+        <source>Receive attractive discounts and bargains with MyOffrz.</source>
         <note>[MyOffrz] MyOffrz description</note>
       </trans-unit>
       <trans-unit id="Refresh">
@@ -820,6 +832,10 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
         <source>Search Results for</source>
         <target>Risultati della Ricerca per</target>
         <note>[Settings] Search Results for</note>
+      </trans-unit>
+      <trans-unit id="Search anonymously">
+        <source>Search anonymously</source>
+        <note>The text shown in the URL bar on about:home</note>
       </trans-unit>
       <trans-unit id="Seems like we don't have any offers">
         <source>Seems like we don't have any offers</source>
@@ -1105,6 +1121,10 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
         <source>You are browsing in Ghost Mode: Websites you visit in the mode will not be saved in your history, and local data, including cookies, will not be stored.</source>
         <note>Description text displayed when there are no open tabs while in private mode</note>
       </trans-unit>
+      <trans-unit id="You are leaving the anonymous search">
+        <source>You are leaving the anonymous search</source>
+        <note>In other search engines searching alert title</note>
+      </trans-unit>
       <trans-unit id="You connected your first device!&#10;&#10;Now you are ready to send websites and YouTube videos from your computer to your mobile device.">
         <source>You connected your first device!
 
@@ -1124,6 +1144,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
       <trans-unit id="You will be notified about games, goals and important happenings of the {1}.">
         <source>You will be notified about games, goals and important happenings of the {1}.</source>
         <note>[Subscriptions] Alert message for asking to subscribe for soccer notificaiton</note>
+      </trans-unit>
+      <trans-unit id="Your query will be sent to">
+        <source>Your query will be sent to</source>
+        <note>In other search engines searching alert message</note>
       </trans-unit>
       <trans-unit id="Your video is being downloaded.">
         <source>Your video is being downloaded.</source>
@@ -1166,9 +1190,9 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Ghostery.strings" datatype="plaintext" source-language="en_US" target-language="it">
+  <file original="Client/en.lproj/Ghostery.strings" source-language="en_US" target-language="it" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.3" build-num="10G8"/>
     </header>
     <body>
       <trans-unit id="Close Forget Tabs">
@@ -1213,9 +1237,9 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en_US" target-language="it">
+  <file original="Client/en.lproj/InfoPlist.strings" source-language="en_US" target-language="it" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.3" build-num="10G8"/>
     </header>
     <body>
       <trans-unit id="$(SHORTCUT_PRIVATE_TAB_TITLE)">
@@ -1227,8 +1251,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note/>
       </trans-unit>
       <trans-unit id="CFBundleDisplayName">
-        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+        <source>New Cliqz</source>
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName">
@@ -1242,7 +1265,7 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription">
-        <source>Ghostery requires Face ID to access your saved logins.</source>
+        <source>Cliqz requires Face ID to access your saved logins.</source>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
@@ -1251,15 +1274,15 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
-        <source>Ghostery will only use the microphone when you choose to record videos inside the browser.</source>
+        <source>Cliqz will only use the microphone when you choose to record videos inside the browser.</source>
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
-        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
+        <source>Cliqz will only use this access to download videos and pictures to your device.</source>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
-        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
+        <source>Cliqz will only use this access to download videos and pictures to your device.</source>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
@@ -1278,9 +1301,9 @@ Now you are ready to send websites and YouTube videos from your computer to your
       </trans-unit>
     </body>
   </file>
-  <file original="Client/en.lproj/Lumen.strings" datatype="plaintext" source-language="en_US" target-language="it">
+  <file original="Client/en.lproj/Lumen.strings" source-language="en_US" target-language="it" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.3" build-num="10G8"/>
     </header>
     <body>
       <trans-unit id="%d more days left in trial">
@@ -1696,7 +1719,7 @@ AT 50% OFF</source>
         <note>Subscribe Button</note>
       </trans-unit>
       <trans-unit id="Safe and Sound on the Go">
-        <source>Protection from hackers with VPN</source>
+        <source>Safe and Sound on the Go</source>
         <note>[Onboarding] VPN title</note>
       </trans-unit>
       <trans-unit id="Serbia">
@@ -1898,9 +1921,9 @@ Integrated VPN for protection on public Wi-Fi.</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" datatype="plaintext" source-language="en_US" target-language="it">
+  <file original="Cliqz/Resources/en.lproj/Cliqz.stringsdict" source-language="en_US" target-language="it" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.3" build-num="10G8"/>
     </header>
     <body>
       <trans-unit id="/%d Tracker(s) %d Blocked:dict/NSStringLocalizedFormatKey:dict/:string">
@@ -1980,9 +2003,9 @@ Integrated VPN for protection on public Wi-Fi.</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="it">
+  <file original="Extensions/ShareTo/en.lproj/Cliqz.strings" source-language="en_US" target-language="it" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.3" build-num="10G8"/>
     </header>
     <body>
       <trans-unit id="Ad &amp; Tracker Blocking">
@@ -2090,9 +2113,9 @@ Integrated VPN for protection on public Wi-Fi.</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/Today/en.lproj/Cliqz.strings" datatype="plaintext" source-language="en_US" target-language="it">
+  <file original="Extensions/Today/en.lproj/Cliqz.strings" source-language="en_US" target-language="it" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.3" build-num="10G8"/>
     </header>
     <body>
       <trans-unit id="TodayWidget.NewForgetTabButtonLabel">

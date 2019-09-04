@@ -650,8 +650,14 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
         <source>Rate Us</source>
         <note>[Settings] Rate Us</note>
       </trans-unit>
-      <trans-unit id="Receive attractive discounts and bargains with MyOffrz.">
+      <trans-unit id="Receive attractive discounts and bargains with Ghostery Rewards.">
         <source>Receive attractive discounts and bargains with Ghostery Rewards.</source>
+        <target>Receive attractive discounts and bargains with Ghostery Rewards.</target>
+        <note>[MyOffrz] Ghostery Rewards description</note>
+      </trans-unit>
+      <trans-unit id="Receive attractive discounts and bargains with MyOffrz.">
+        <source>Receive attractive discounts and bargains with MyOffrz.</source>
+        <target>Receive attractive discounts and bargains with MyOffrz.</target>
         <note>[MyOffrz] MyOffrz description</note>
       </trans-unit>
       <trans-unit id="Refresh">

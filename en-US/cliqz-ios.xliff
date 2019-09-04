@@ -381,6 +381,11 @@ Phishing websites disguise as other sites you may trust in order to trick you in
         <source>Enhanced Adblocking is turned off for this domain.</source>
         <note>[Enhanced Adblocker] Domain Label Title</note>
       </trans-unit>
+      <trans-unit id="ErrorPages.CertWarning.Description.Cliqz">
+        <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Ghostery has not connected to this website.</source>
+        <target>The owner of %@ has configured their website improperly. To protect your information from being stolen, Ghostery has not connected to this website.</target>
+        <note>Warning text on the certificate error page</note>
+      </trans-unit>
       <trans-unit id="Essential">
         <source>Essential</source>
         <note>Tracker category in control center</note>

@@ -446,6 +446,11 @@ Phishing websites disguise as other sites you may trust in order to trick you in
         <target>Erweitertes Anti-Tracking ist auf allen Websites abgeschaltet.</target>
         <note>[Enhanced Adblocker] Domain Label Title</note>
       </trans-unit>
+      <trans-unit id="ErrorPages.CertWarning.Description.Cliqz">
+        <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Ghostery has not connected to this website.</source>
+        <target>Der Betreiber von %@ hat die Webseite falsch konfiguriert. Um zu verhindern dass Ihre Information gestohlen wird, hat Ghostery den Ladevorgang unterbrochen.</target>
+        <note>Warning text on the certificate error page</note>
+      </trans-unit>
       <trans-unit id="Essential">
         <source>Essential</source>
         <target>Essenziell</target>

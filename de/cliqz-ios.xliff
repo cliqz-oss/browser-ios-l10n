@@ -55,10 +55,6 @@
         <note>[Settings] About
    [Settings] About section header</note>
       </trans-unit>
-      <trans-unit id="About Ghostery Rewards">
-        <source>About Ghostery Rewards</source>
-        <note>[Settings] About Ghostery Rewards</note>
-      </trans-unit>
       <trans-unit id="About MyOffrz">
         <source>About Ghostery Rewards</source>
         <note>[Settings] About MyOffrz</note>
@@ -762,12 +758,8 @@ To change this, go to Settings &gt; Limit Mobile Data Usage.
         <target>Bewerte uns</target>
         <note>[Settings] Rate Us</note>
       </trans-unit>
-      <trans-unit id="Receive attractive discounts and bargains with Ghostery Rewards.">
-        <source>Receive attractive discounts and bargains with Ghostery Rewards.</source>
-        <note>[MyOffrz] Ghostery Rewards description</note>
-      </trans-unit>
       <trans-unit id="Receive attractive discounts and bargains with MyOffrz.">
-        <source>Receive attractive discounts and bargains with MyOffrz.</source>
+        <source>Receive attractive discounts and bargains with Ghostery Rewards.</source>
         <note>[MyOffrz] MyOffrz description</note>
       </trans-unit>
       <trans-unit id="Refresh">
@@ -1300,7 +1292,10 @@ Now you are ready to send websites and YouTube videos from your computer to your
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
-      <trans-unit id="ShortcutItemTitleNewForgetTab">
+        <source>Ghostery will only use this access to download videos and pictures to your device.</source>
+        <note>Privacy - Photo Library Usage Description</note>
+      </trans-unit>
+      <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Private Tab</source>
         <target>Neuer Private Tab</target>
         <note>(No Comment)</note>
